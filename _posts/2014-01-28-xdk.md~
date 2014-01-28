@@ -1,0 +1,22 @@
+---
+date: 2014-01-28 16:50:17+00:00
+layout: post
+title: 用Intel XDK使用web技术开发应用
+categories: App
+tags: Web app
+---
+
+逛makeuseof时看到的xdk，本来只知道国内的AppCan。看到是Intel出品，感觉支持上会给力点，就下来体验下。
+
+Intel XDK前身是appmobi，Intel收购了这家公司。但现在用的人还是很少，毕竟native app要好使多了。Intel XDK开发的手机应用叫Hybrid app，说是类似于native app，可以调用硬件。其实这是需要在平台上写好运行环境的，因此是不是跨全平台还得看Intel的支持。
+
+开发使用HTML+CSS+JavaScript，移动开发加上Jquery Mobile界面效果就有点像手机应用了。基本上了解网页前端开发的用这个应该还是很顺手的，运行效率肯定不高。
+
+Intel不错的是提供了Appview的软件，可在ios，android上测试软件。关键是ios不用开发者帐号就可以体验自己的应用了。
+
+[官方文档]: http://software.intel.com/en-us/html5/xdkdocs
+
+![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/screenshots/xdk1.png)
+
+![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/screenshots/xdk2.png)
+
