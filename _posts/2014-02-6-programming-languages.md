@@ -1,7 +1,7 @@
 ---
 date: 2014-02-6 21:22:17+00:00
 layout: post
-title:［译］值得学习的编程语言
+title: 值得学习的十二种编程语言［译文］
 categories: 译文
 tags: 经验    
 ---
