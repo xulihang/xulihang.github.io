@@ -12,7 +12,6 @@ tags: 经验
 
 锻炼英语能力，同时了解众多编程语言的特点。
 
----------------------------------------
 
 #前奏
 
@@ -22,7 +21,6 @@ tags: 经验
 
 在这篇博文中，我会评论约十种我发现在这几年对我而言最有趣/有用的语言。我认为每一位转眼的软件工程师应该都至少对它们知道点。
 
----------------------------------------
 
 #C
 
@@ -32,17 +30,16 @@ tags: 经验
 
 最好的开始学习C语言的方法在过去的20年没有改变——只要买一本“The C Programming Language” by K&R。
 
----------------------------------------
 
 #Lisp
 
->    Lisp is worth learning for the profound enlightenment
->    experience you will have when you finally get it; that experience will
->    make you a better programmer for the rest of your days, even if you
->    never actually use Lisp itself a lot.
+    Lisp is worth learning for the profound enlightenment
+    experience you will have when you finally get it; that experience will
+    make you a better programmer for the rest of your days, even if you
+    never actually use Lisp itself a lot.
 
 
->    ——<strong>Eric S. Raymond</strong> - How to Become a Hacker
+   ——<strong>Eric S. Raymond</strong> - How to Become a Hacker
 
 现今最古老的语言之，创造于1958年并且在今天仍然有重要意义。重要在它独特的代码是数据方法（data approach），高级的代码工具产生(generation)工具（宏）和以增量（）和交互的方式开发的能力。
 
@@ -54,7 +51,6 @@ tags: 经验
 如果你更喜欢Scheme，可以看看经典的“Structure and Interpretation of Computer Programs”。“Lisp Problems”对有抱负的Lisp程序员来说是一本不错的练习书。
 
 
----------------------------------------
 
 
 #Java
@@ -64,7 +60,6 @@ tags: 经验
 我已经教授过一些介绍JAVA编程的课程（在保加利亚），但我推荐“Core Java”这本书，基于我的教授经验。
 
 
----------------------------------------
 
 
 #Haskell
@@ -73,7 +68,6 @@ tags: 经验
 
 有许多在线的不错的免费Haskell学习资源。比如[“Learn you a Haskell for great good”](http://learnyouahaskell.com/) 和[“Real world Haskell”](http://book.realworldhaskell.org/read/)
 
----------------------------------------
 
 #Perl
 
@@ -83,7 +77,6 @@ Perl CPAN也许是最大的为一种语言汇集的第三方库的集合。
 
 翻翻“Learning Perl”或就去浏览超赞的perldoc来马上开始Perl编写。
 
----------------------------------------
 
 #Clojure
 
@@ -91,7 +84,6 @@ Clojure是一种Lisp方言，有着对并行（parallel）和并发（concurrent
 
 我推荐看免费的Clojure屏幕录像课程：[blip.tv](http://clojure.blip.tv/)
 
----------------------------------------
 
 #Prolog
 
@@ -99,7 +91,6 @@ Clojure是一种Lisp方言，有着对并行（parallel）和并发（concurrent
 
 推荐： “Learn Prolog Now”，一本问题集合 “Prolog problems”。
 
----------------------------------------
 
 #Ruby
 
@@ -115,8 +106,6 @@ Clojure是一种Lisp方言，有着对并行（parallel）和并发（concurrent
 一本好书：“Dive into Python 3”。
 
 
----------------------------------------
-
 <h1>C#</h1>
 
 .NET平台的标志语言。于Java在很多方面相似。C#不像Java那样有创新，介绍如泛型和属性这样的概念给主流程序员。它的特点是在Java之上在属性，灵活的命名空间和有限的type inference方面有改进。
@@ -125,7 +114,6 @@ Clojure是一种Lisp方言，有着对并行（parallel）和并发（concurrent
 
 我最喜欢的C#书是“C# in Depth”。
 
----------------------------------------
 
 #Scala
 
@@ -133,14 +121,11 @@ Clojure是一种Lisp方言，有着对并行（parallel）和并发（concurrent
 
 推荐：[“Programming in Scala”](http://www.artima.com/pins1ed/)
 
----------------------------------------
 
 #JavaScript
 
 我们不能结束这次关于值得注意的编程语言的混乱之旅且不提Web之王，促使Web2.0革命的JavaScript。尽管它有一个可怕的名字（JavaScript于Java不相干）。任何web开发者都可以做得不错，在学了一些Javascript之后。
 
-
----------------------------------------
 
 #尾声
 
