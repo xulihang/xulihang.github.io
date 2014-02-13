@@ -2,7 +2,7 @@
 date: 2014-02-4 21:37:17+00:00
 layout: post
 title: 过年在农村
-categories: 分享
+categories: 生活随笔
 tags: 感悟   
 ---
 
