@@ -8,28 +8,17 @@ comments: yes
 
 #博客：
 
-[我的百度空间](http://hi.baidu.com/xulihanghai)
+[我的百度空间](http://hi.baidu.com/xulihanghai)  [ lovelucy](http://www.lovelucy.info)   [ soimort](http://www.soimort.org)
 
-[lovelucy](http://www.lovelucy.info)
+[ yonsm](http://yonsm.net)  [ 小兵](http://www.xnbing.com/)  [ 小锋](http://www.likespc.cn)
 
-[soimort](http://www.soimort.org)
-
-[yonsm](http://yonsm.net)
-
-[小兵](http://www.xnbing.com/)
-
-[小锋](http://www.likespc.cn)
-
-[think](http://batsov.com)
+[ think](http://batsov.com)
 
 #学习网站：
 
-[codecademy](http://www.codecademy.com)
+[codecademy](http://www.codecademy.com)  [ Fabrice Bellard's website](http://bellard.org/)  [ iteye](http://www.iteye.com/)
 
-[Fabrice Bellard's website](http://bellard.org/)
+[CSDN](http://blog.csdn.net/)  [ Linuxeden](http://www.linuxeden.com/)
 
-[iteye](http://www.iteye.com/)
-
-[CSDN](http://blog.csdn.net/)
-
-[Linuxeden](http://www.linuxeden.com/)
+#新兴网站：
+[简书](http://jianshu.io/)  [ 36氪](http://www.36kr.com/)
