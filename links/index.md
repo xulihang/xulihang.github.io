@@ -12,7 +12,9 @@ comments: yes
 
 [ yonsm](http://yonsm.net)  [ 小兵](http://www.xnbing.com/)  [ 小锋](http://www.likespc.cn)
 
-[ think](http://batsov.com)
+[ think](http://batsov.com) [ Matrix67](http://www.matrix67.com) [ 刘未鹏](http://mindhacks.cn/)
+
+[ youxu](http://blog.youxu.info/) [ 牛博网](http://www.niubowang.com/)
 
 #学习网站：
 
