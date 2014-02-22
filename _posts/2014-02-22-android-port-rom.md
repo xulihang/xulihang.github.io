@@ -62,6 +62,7 @@ format("ext4", "EMMC", "/dev/block/mmcblk0p4", "0", "/system");
 mount("ext4", "EMMC", "/dev/block/mmcblk0p4", "/system");
 
 My device's rom's:
+
 format("ext4", "EMMC", "/dev/block/mmcblk0p5", "0", "/system");
 mount("ext4", "EMMC", "/dev/block/mmcblk0p5", "/system");
 
@@ -80,7 +81,7 @@ assert(package_extract_file("uboot.img", "/tmp/uboot.img"),
 
 ##1.Replace
 
-Replace these:
+Replace these (I think you can know these files' functions by their names. ):
 
 Directories:
 
@@ -97,9 +98,9 @@ Add the files your device rom has while the target rom doesn't using Beycond Com
 
 #Modify /system/build.prop
 
-You can change the device's name ,the rom version and so on.
+You can change the device's name , the rom version and so on.
 
-In my case ,I found I must change ril.telephony.mode=1 to ril.telephony.mode=2,or the radio doesn't work.
+In my case , I found I must change 'ril.telephony.mode=1' to 'ril.telephony.mode=2', or the radio doesn't work.
 
 
 #Port boot.img
@@ -111,9 +112,9 @@ It is a key step and maybe is the most difficult step. Sometimes you just unpack
 Zip LEWA and flash it. If you port well, then it should boot.
 
 
-Some advice:
+#Some advice:
 
-Beycond Compare is a excellent tool in windows.Use it properly and found the differences.There must be some diffences that cause your rom not bootable. My guide is not universal,but you are flexible and smart.
+Beycond Compare is a excellent tool in windows. Use it properly and found the differences. There must be some diffences that cause your rom not bootable. My guide is not universal,but you are flexible and smart.
 
        
 
