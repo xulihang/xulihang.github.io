@@ -100,7 +100,7 @@ Add the files your device rom has while the target rom doesn't using Beycond Com
 
 You can change the device's name , the rom version and so on.
 
-In my case , I found I must change 'ril.telephony.mode=1' to 'ril.telephony.mode=2', or the radio doesn't work.
+In my case , I found I must change `ril.telephony.mode=1` to `ril.telephony.mode=2`, or the radio doesn't work.
 
 
 #Port boot.img
