@@ -8,7 +8,7 @@ tags: 经验 分享 移植
 
 这本来是我用中文写的教程，现在用英语来写。中文版见[我的百度空间](http://hi.baidu.com/xulihanghai/item/ae2edd3f4bc0babc623aff63)
 
-This guide is writte nin Chinese at first ,and now,I try to write it in English.[Here is Chinese Version](http://hi.baidu.com/xulihanghai/item/ae2edd3f4bc0babc623aff63)
+This guide is written in Chinese at first , and now, I try to write it in English. [Here is the Chinese Version](http://hi.baidu.com/xulihanghai/item/ae2edd3f4bc0babc623aff63)
 
 Thanks to Suifeng(随风)'s guide, I can port LEWA, MIUI and other MT6589 Chips' ROMs to my ZTE U956. I just add some specific changes to his guide. 
 
