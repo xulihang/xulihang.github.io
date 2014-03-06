@@ -24,3 +24,6 @@ comments: yes
 
 #新兴网站：
 [简书](http://jianshu.io/)  [ 36氪](http://www.36kr.com/)
+
+#教程：
+[廖雪峰的Python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
