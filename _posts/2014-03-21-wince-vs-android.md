@@ -68,6 +68,8 @@ Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌�
 
 [wince6.0 实时性分析](http://hi.baidu.com/611bob/item/bbcd31998c6dd83e336eebf3)
 
+[R.I.P, WINDOWS CE](http://hezongjian.com/blog/?p=10748)
+
 相关公司：
 
 中联软件、上海方联信息科技、浩瀚技术、东软、摩托罗拉、惠普。
