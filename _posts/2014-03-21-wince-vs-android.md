@@ -15,13 +15,13 @@ phone 8采用了NT内核。而智能手机市场已被Android和iOS这样的后�
 
 * WinCE支持架构广，ARM，X86，MIPS等。
 
-* WinCE免费，像魅族M8当初采用wince就是这个原因。但WM系统貌似是要收费的。
-
 * WinCE占用系统资源小，省电。
 
 * WinCE与桌面Windows的API大致相同，开发移植方便。学习，开发成本低。因为大多数企业采用Windows系统，开发者熟悉Windows的开发。
 
 * 沿用桌面Windows的用户体验，有出色的文件管理功能。
+
+* 历史悠久，厂家开发经验丰富。
 
 #Windows的劣势
 
@@ -29,9 +29,13 @@ phone 8采用了NT内核。而智能手机市场已被Android和iOS这样的后�
 
 * 若设备研发成本高，厂家少，价格高。许多手持PDA都增加了很多功能，大多在硬件层面实现。
 
+* 对比免费的Android没有价格优势。WinCE便宜，像魅族M8当初采用wince就是这个原因。但WM系统貌似收费要高的。
+
+* 没有Android那样在技术上与时俱进。
+
 #两者皆有的优势
 
-* 系统开源，WinCE开放100%源代码，Android自称开源系统，定制性强。
+* 系统开源，WinCE开放100%内核源代码，Android自称开源系统（Linux内核），定制性强。
 
 * 有不错的开发文档支持。
 
@@ -39,10 +43,9 @@ phone 8采用了NT内核。而智能手机市场已被Android和iOS这样的后�
 
 * 驱动开发
 
-
 ……
 
-Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌入式设备，或许不应太过纠结。现在微软的移动系统是Windows Phone。
+Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌入式设备，或许不应太过纠结，可比的是WindowsCE和嵌入式Linux。现在微软的移动系统是Windows Phone。
 
 
 ![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/appendicitis/pda1.jpg)
