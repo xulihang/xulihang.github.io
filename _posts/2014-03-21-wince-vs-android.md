@@ -17,6 +17,8 @@ phone 8采用了NT内核。而智能手机市场已被Android和iOS这样的后�
 
 * WinCE占用系统资源小，省电。
 
+* WinCE是硬实时操作系统，而Android基于Linux，最多是软实时。
+
 * WinCE与桌面Windows的API大致相同，开发移植方便。学习，开发成本低。因为大多数企业采用Windows系统，开发者熟悉Windows的开发。
 
 * 沿用桌面Windows的用户体验，有出色的文件管理功能。
@@ -61,6 +63,10 @@ Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌�
 [Wince、Android谁会是PDA主流操作系统](http://www.iotworld.com.cn/html/News/201310/e9a05fda02f1a4bb.shtml)
 
 [Android 之后，是否依旧坚持WINCE？](http://bbs.csdn.net/topics/380080930?page=1#post-394857909)
+
+[Windows CE vs Embedded Linux](http://stackoverflow.com/questions/326516/windows-ce-vs-embedded-linux)
+
+[wince6.0 实时性分析](http://hi.baidu.com/611bob/item/bbcd31998c6dd83e336eebf3)
 
 相关公司：
 
