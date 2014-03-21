@@ -54,7 +54,16 @@ Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌�
 
 ![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/appendicitis/pda2.jpg)
 
+可参考网页：
 
+[嵌入式中linux+android与wince的区别](http://www.2cto.com/os/201108/101071.html)
 
+[Wince、Android谁会是PDA主流操作系统](http://www.iotworld.com.cn/html/News/201310/e9a05fda02f1a4bb.shtml)
+
+[Android 之后，是否依旧坚持WINCE？](http://bbs.csdn.net/topics/380080930?page=1#post-394857909)
+
+相关公司：
+
+浩瀚技术、摩托罗拉、惠普。
 
 
