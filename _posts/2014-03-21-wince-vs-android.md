@@ -47,7 +47,7 @@ phone 8采用了NT内核。而智能手机市场已被Android和iOS这样的后�
 
 Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌入式设备，或许不应太过纠结，可比的是WindowsCE和嵌入式Linux。现在微软的移动系统是Windows Phone。
 
-另外对比也要考虑很多因素，视具体目的会有不同。要考虑使用年限，生成成本，销售，开发难度等一系列问题。
+另外对比也要考虑很多因素，视具体目的会有不同。要考虑使用年限，生产成本，销售，开发难度等一系列问题。
 
 
 ![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/appendicitis/pda1.jpg)
