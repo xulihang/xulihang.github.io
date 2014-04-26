@@ -16,6 +16,10 @@ comments: yes
 
 [ youxu](http://blog.youxu.info/) [ 牛博网](http://www.niubowang.com/) [ 阮一峰](http://www.ruanyifeng.com/)
 
+##英文博客：
+
+[Joel谈软件](http://www.joelonsoftware.com/)
+
 #学习网站：
 
 [codecademy](http://www.codecademy.com)  [ Fabrice Bellard's website](http://bellard.org/)  [ iteye](http://www.iteye.com/)
