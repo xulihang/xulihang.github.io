@@ -14,7 +14,7 @@ comments: yes
 
 [ think](http://batsov.com) [ Matrix67](http://www.matrix67.com) [ 刘未鹏](http://mindhacks.cn/)
 
-[ youxu](http://blog.youxu.info/) [ 牛博网](http://www.niubowang.com/)
+[ youxu](http://blog.youxu.info/) [ 牛博网](http://www.niubowang.com/) [ 阮一峰](http://www.ruanyifeng.com/)
 
 #学习网站：
 
@@ -27,3 +27,6 @@ comments: yes
 
 #教程：
 [廖雪峰的Python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
+
+#教育网
+[清华在线学习](http://learn.tsinghua.edu.cn)  [ 听雨](http://www.jnrain.com/)
