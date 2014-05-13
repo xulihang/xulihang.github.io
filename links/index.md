@@ -16,6 +16,11 @@ comments: yes
 
 [ youxu](http://blog.youxu.info/) [ 牛博网](http://www.niubowang.com/) [ 阮一峰](http://www.ruanyifeng.com/)
 
+[风格范儿](http://www.stylefanr.org/)
+
+##东大学生的:
+[ Wesker(疯子)](http://sherlockwesker.postach.io/) [ LibreHat](https://www.librehat.com/)
+
 ##英文博客：
 
 [Joel谈软件](http://www.joelonsoftware.com/) [ Andrew Wulf](http://thecodist.com/) [ readwrite](http://readwrite.com/)
@@ -33,4 +38,7 @@ comments: yes
 [廖雪峰的Python教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 
 #教育网
-[清华在线学习](http://learn.tsinghua.edu.cn)  [ 听雨](http://www.jnrain.com/)
+[清华在线学习](http://learn.tsinghua.edu.cn)  [ 听雨](http://www.jnrain.com/) [ 北大语言学](http://ccl.pku.edu.cn/doubtfire/)
+
+#How-to
+[wikiHow](http://www.wikihow.com/) [ About.com’s Video Tutorials](http://video.about.com/) [ eHow](http://www.ehow.com/)
