@@ -21,6 +21,9 @@ comments: yes
 ##东大学生的:
 [ Wesker(疯子)](http://sherlockwesker.postach.io/) [ LibreHat](https://www.librehat.com/)
 
+##西安交大学生的:
+[ imcc](http://imcc.blogbus.com/) [imcc(new)](http://www.chenlq.net/) [ ironblood](http://ironblood.net/)
+
 ##英文博客：
 
 [Joel谈软件](http://www.joelonsoftware.com/) [ Andrew Wulf](http://thecodist.com/) [ readwrite](http://readwrite.com/)
