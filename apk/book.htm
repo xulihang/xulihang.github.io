@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title> 记录  </title>
+  <style type="text/css">
+
+  body {
+  background-image: url(http://www.jnrain.com/wForum/skin/more/lvbgcolor.gif);
+  }
+  p {
+    width:95%;
+	border:1px solid #a9d46d;
+  }
+  #btn {
+  text-align:center;
+  width:150px;
+  background-color:#a9d46d;
+  }
+  #btn:hover {
+  text-align:center;
+  width:150px;
+  background-color:#00b4ae;
+  }
+
+  </style>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+	          page=0;
+            $("#btn").click(function(){
+			            page=page+1;
+                  $.getJSON("https://bottle-bookjnrain.rhcloud.com/getalljson/"+page,function(data){
+                         $.each(data,function(i,item){
+                             $("#info").append("<p>"+"书名:"+item.title+"<br />"+"价格:"+item.price+"<br />"+"出版社:"+item.publisher+"<br />"+"</p>");
+                         });
+                   });
+           });
+ });
+  </script>
+ </head>
+ 
+ <body>
+     <div id="info"></div>
+     <div id="btn">点击载入书名信息</div>
+     
+ </body>
+</html>
