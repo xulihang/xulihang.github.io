@@ -1,7 +1,7 @@
 ---
 date: 2014-02-22 13:30:17+00:00
 layout: post
-title: '[GUIDE]How to port roms simply' 
+title: '[GUIDE]How to port roms simply'
 categories: Android
 tags: 经验 分享 移植     
 ---
@@ -106,6 +106,10 @@ In my case , I found I must change `ril.telephony.mode=1` to `ril.telephony.mode
 #Port boot.img
 
 It is a key step and maybe is the most difficult step. Sometimes you just unpack the two boot.img and replace the target rom's kernel with your device rom's kernel. But sometimes you need to do something with ramdisk. Then, it's recommended that you should do these in linux.
+
+<p style="color:red;"> 2014-07-24 update: The guide in lewaos's bbs says that you need to extract your device rom's ramdisk, edit the `init.rc` and add  `:/system/framework/lewa-framework.jar` to the end of `BOOTCLASSPATH`. You can know what you should add for porting other roms by comparing the init.rc file. I recommend you do the operation using android-kitchen in linux.</p>
+
+<p style="color:red;"> [The guide's link](http://bbs.lewaos.com/thread-202615-1-1.html) </p>
 
 #Final
 
