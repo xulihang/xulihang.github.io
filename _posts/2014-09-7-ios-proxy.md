@@ -26,9 +26,9 @@ tags: 越狱 ios
 
 好了，现在就可以享受优质的校园网络生活了。
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/ios/sougou1.png)
+![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/ios/sougou1.PNG)
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/ios/sougou2.png)
+![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/ios/sougou2.PNG)
 
 
 
