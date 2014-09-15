@@ -51,8 +51,11 @@ C:\adb push framework-res.apk /system/framework-res.apk
 
 相关链接：
 [反编译+回编译教程，DIY美化你的手机【反编译framework-res.apk为例】](http://bbs.dospy.com/thread-14553818-1-435-1.html)
+
 [安卓反编译framework-res.apk修改配置文件解决最低自动屏幕亮度太亮  ](http://blog.163.com/kukwkukw@126/blog/static/97095900201421392258869/)
+
 [教你如何手动修改安卓手机的最低亮度值，很实用，很简单！](http://wenwen.sogou.com/z/q532285925.htm)
+
 
 
 
