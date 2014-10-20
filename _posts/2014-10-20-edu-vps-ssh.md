@@ -14,6 +14,6 @@ tags: digitalocean vps 教育网
 
 目前还只用于ssh代理科学上网，以后再想想做什么吧。
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/vps/digitalocean.jpg)
+![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/vps/digitalocean.JPG)
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/vps/vpsme.jpg)
+![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/vps/vpsme.JPG)
