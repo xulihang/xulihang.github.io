@@ -76,7 +76,7 @@ apt-get install iptables #如果已经安装可以跳过
 ##开启iptables转发
 
 ```
-iptables -t nat -A POSTROUTING -s 192.168.217.0/24 -o eth0 -j MASQUERADE
+iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth0 -j MASQUERADE
 iptables-save > /etc/iptables.pptp
 ```
 
