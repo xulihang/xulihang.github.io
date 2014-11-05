@@ -24,4 +24,4 @@ tags: windows激活 装机 win7
 
 一切的一切，都为了看到这个：
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/win7_activated.PNG)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/win7_activated.PNG)
