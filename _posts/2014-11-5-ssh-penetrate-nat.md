@@ -43,7 +43,11 @@ ssh -N -f -L 2222:127.0.0.1:2222 root@vps的IP
 这样做就是万一VPS重启了，连接就丢失了，不过一般没什么问题。还有用VPS搭VPN，然后校内和校外的电脑都连上，也可以实现校外访问校内网。
 
 
-参考链接：[http://www.douban.com/note/363490887/](http://www.douban.com/note/363490887/)
+相关链接：
+
+[SSH的内网穿透](http://www.douban.com/note/363490887/)
+
+[SSH隧道与端口转发及内网穿透](http://blog.creke.net/722.html)
 
 
 
