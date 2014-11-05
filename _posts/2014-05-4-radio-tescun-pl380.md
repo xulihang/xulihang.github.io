@@ -8,11 +8,11 @@ tags: 无线 广播
 
 最近对无线广播情有独钟，可惜手机只有FM功能，频率有限，信号也不是很好。我们学校的校园广播都是87Mhz以下的。于是便想买一台专业的收音机。记得以前家里有一台德生 R-909。
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/radio/r909.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/radio/r909.jpg)
   
 对收音机不是很了解，主要看它的频率范围。想听听外国的广播，专门搜索可听bbs、voa的收音机。收到的是德劲和德生的几款。我看中了PL380。网上看看评论也还不错，ETM和ATS功能挺方便，二次变频ms很强大。虽然要248RMB，还是入手了，想高端一点。
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/radio/pl380.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/radio/pl380.jpg)
 
 在某猫的德生旗舰店买的，第三天就送到了。黑色主机+USB线+电源+三枚充电电池+天线，感觉挺周到。
   
@@ -26,4 +26,4 @@ AM方面。长波，中波测的不多。短波能搜到五六十个，但噪音
 
 先就这样吧，晚上听收音机睡觉。
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/radio/pl380_2.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/radio/pl380_2.jpg)

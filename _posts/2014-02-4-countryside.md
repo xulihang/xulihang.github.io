@@ -17,5 +17,5 @@ tags: 感悟
 在农村看到老房子很是感念。随着新农村建设的深入，这样的灰墙乌瓦和木结构的农村房屋就难再见了。
 
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/countryside.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/countryside.jpg)
 

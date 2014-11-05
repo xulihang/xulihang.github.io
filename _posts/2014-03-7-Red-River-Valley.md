@@ -6,7 +6,7 @@ categories: 生活随笔
 tags: 感悟 影评
 ---
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/honghegu.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/honghegu.jpg)
 
 怎么给十八年前的老电影写观后感？今天的近代史课老师给我们看了《红河谷》，我这个当代青年受到感触，不由想写下这次观影感受。
 

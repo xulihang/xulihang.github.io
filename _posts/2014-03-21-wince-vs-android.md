@@ -52,9 +52,9 @@ Android主要还是针对手机和平板的系统，WindowsCE则关注广大嵌�
 另外对比也要考虑很多因素，视具体目的会有不同。要考虑使用年限，生产成本，销售，开发难度等一系列问题。
 
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/appendicitis/pda1.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/pda1.jpg)
 
-![](https://raw2.github.com/xulihang/xulihang.github.io/master/album/appendicitis/pda2.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/pda2.jpg)
 
 可参考网页：
 
