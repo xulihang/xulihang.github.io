@@ -1,0 +1,20 @@
+﻿@font-face {
+  font-family: 'Galdeano';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Galdeano Regular'), local('Galdeano-Regular'), url(http://xulihang.wicp.net/media/Galdeano.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cuprum';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cuprum'), local('Cuprum-Regular'), url(http://xulihang.wicp.net/media/Cuprum.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(http://xulihang.wicp.net/media/Electrolize.woff) format('woff');
+}
