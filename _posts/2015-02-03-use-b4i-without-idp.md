@@ -8,7 +8,7 @@ tags: hack
 
 一直用b4a进行Android的开发，语言与界面简洁，开发高效。现在出了b4i，支持开发iOS的应用。
 
-可惜没有试用版。支持下Erel，买了b4i正式版。但苹果99美元/年的开发者帐号实在不想购买，毕竟没有上app stroe的需求。但b4i偏偏要求开发者帐号。
+可惜没有试用版。支持下Erel，买了b4i正式版。但苹果99美元/年的开发者帐号实在不想购买，毕竟没有上架app store的需求。但b4i偏偏要求开发者帐号。
 
 用b4i直接编译调试程序，需要按照苹果最新的要求，提供从官网处理下载得到的证书(.cer)和mobileprovision文件。这两个文件没有idp，我没有办法提供。也不懂仿冒的技术。于是只好曲线救国，换个方式使用b4i了。Attention! It is illegal!!
 
@@ -20,4 +20,6 @@ tags: hack
 
 2、需要把macserver里的libs文件夹放到project文件夹里，里面有需要的库和运行文件。
 
-3、因为相关运行文件是arm架构的，不能用ios simulator来调试。simulator用的都是原生的x86的文件，不是模拟运行。
+3、因为相关运行文件是arm架构的，不能用ios simulator来调试。simulator用的都是原生的x86的文件，不是模拟运行。只能实机运行。
+
+4、b4i-bridge不能用，但可用xcode调试。
