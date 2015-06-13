@@ -6,7 +6,6 @@ categories: linux
 tags: linux loongson 龙芯
 ---
 
-##代理上网
 
 我们江南大学提供校园网Drcom认证计流量的上网方式和运营商合作提供的拨号上网方式。
 
@@ -14,7 +13,7 @@ tags: linux loongson 龙芯
 
 龙芯本开启热点之后，在运行代理即可使用。代理用的[小虾](http://xiaoxia.org/)的python脚本。其它goagent什么的代理都可以，我用搜狗代理就是省流量加教育网加速。
 
-为了自动化操作，我用curl实现了drcom的认证。修改/etc/rc.local，在开机是就设置好静态ip，开启热点，Drcom认证然后运行代理。
+为了自动化操作，我用curl实现了drcom的认证。修改/etc/rc.local，在开机时就设置好静态ip，开启热点，Drcom认证然后运行代理。
 
 以下是通过Drcom网页进行认证的代码，貌似各大高校都是通用的：
 
