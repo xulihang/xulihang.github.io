@@ -92,8 +92,6 @@ def login():
     }
     
 
-    page=resp.read()
-    vs=getVIEW(page)
     req = urllib2.Request("http://jwxt.jiangnan.edu.cn/jndx/xscjcx.aspx?xh="+userid+"&xm="+realname+"&gnmkdm=N121605",urllib.urlencode({"__VIEWSTATE":vs,'btn_zcj':'历年成绩',"__EVENTTARGET":"","__EVENTARGUMENT":"","hidLanguage":"","ddlXN":"","ddlXQ":"","ddl_kcxz":""}),head) 
     resp = urllib2.urlopen(req)
 	
