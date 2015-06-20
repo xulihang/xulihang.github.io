@@ -38,7 +38,7 @@ def login():
     resp = urllib2.urlopen(req)
 {% endhighlight %}
 
-需要提交的有叫做__VIEWSTATE的数据，它会变化，所以我先获得了登录页面的内容，把__VIEWSTATE提取出来。返回的内容还是登录界面的内容，但登录成功的信息已经保存到cookie里了。
+需要提交的有叫做`__VIEWSTATE`的数据，它会变化，所以我先获得了登录页面的内容，把`__VIEWSTATE`提取出来。返回的内容还是登录界面的内容，但登录成功的信息已经保存到cookie里了。
 
 ##获得成绩
 
@@ -46,7 +46,7 @@ def login():
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/cjcx/getscore.JPG)
 
-可以看到，需要post的参数很多，即使参数是空白的，也都需要发送。header照搬了httpfox下抓到的header。
+可以看到，需要post的参数很多，即使参数是空白的，也都需要发送。head照搬了httpfox下抓到的head。
 
 {% highlight python linenos %}
 def login():
@@ -54,7 +54,28 @@ def login():
     Cookie=""
     for i in cookie:
         Cookie = i.name+"="+i.value
-
+		
+    head = {
+    'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'Accept-Encoding':'gzip, deflate',
+    'Accept-Language':'zh-CN,zh;q=0.8',
+    'Cache-Control':'no-cache',
+    'Connection':'keep-alive',
+    'Content-Type':'application/x-www-form-urlencoded',
+    'Host':'jwxt.jiangnan.edu.cn',
+    'Cookie':Cookie,
+    'Origin':'http://202.195.144.163',
+    'Pragma':'no-cache',
+    'Referer':'http://jwxt.jiangnan.edu.cn/jndx/default6.aspx',
+    'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36'
+    }
+    getdata = urllib.urlencode({'xh':userid,'xm':realname,'gnmkdm': 'N121605'})
+    req = urllib2.Request("http://jwxt.jiangnan.edu.cn/jndx/xscjcx.aspx?xh="+userid+"&xm="+realname+"&gnmkdm=N121605",getdata,head)
+    req.add_header("Referer","http://jwxt.jiangnan.edu.cn/jndx/default_ysdx.aspx")
+    resp = urllib2.urlopen(req)
+    page=resp.read()
+    vs=getVIEW(page)
+	
     head = {
     'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Encoding':'gzip, deflate',
