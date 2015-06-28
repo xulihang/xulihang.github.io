@@ -16,13 +16,13 @@ tags: nook 电子书 Android
 
 2、打开TWL4030_Keypad.kl，找到以下内容：
 
-`key 407   RIGHT_NEXTPAGE
+```key 407   RIGHT_NEXTPAGE
 
 key 412 BACK WAKE_DROPPED
 
 key 139 MENU WAKE_DROPPED
 
-key 158   RIGHT_PREVPAGE`
+key 158   RIGHT_PREVPAGE```
 
 行云版rom已经把左边的上一页按键定义为返回键，下一页按键定义为菜单键。因为n键home键的功能改掉了，用上一页按键代替。把BACK改成HOME。
 
