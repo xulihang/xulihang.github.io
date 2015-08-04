@@ -8,7 +8,7 @@ comments: yes
 
 #博客：
 
-[我的百度空间](http://hi.baidu.com/xulihanghai)  [ lovelucy](http://www.lovelucy.info)   [ soimort](http://www.soimort.org)
+[我的英文博客](http://en.xulihang.me) [我的软件分享网站](http://www.xulihang.me)   [ soimort](http://www.soimort.org)
 
 [ yonsm](http://yonsm.net)  [ 小兵](http://www.xnbing.com/)  [ 小锋](http://www.likespc.cn)
 
@@ -16,7 +16,7 @@ comments: yes
 
 [ youxu](http://blog.youxu.info/) [ 牛博网](http://www.niubowang.com/) [ 阮一峰](http://www.ruanyifeng.com/)
 
-[风格范儿](http://www.stylefanr.org/)
+[风格范儿](http://www.stylefanr.org/)  [ lovelucy](http://www.lovelucy.info)
 
 ##东大学生的:
 [ Wesker(疯子)](http://sherlockwesker.postach.io/) [ LibreHat](https://www.librehat.com/)
