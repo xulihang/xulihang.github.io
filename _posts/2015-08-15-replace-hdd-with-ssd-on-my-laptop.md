@@ -22,4 +22,4 @@ tags: DIY
 
 具体的读写速度我没有测，换上后明显可以感到速度变快不少。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/ssd/1.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/ssd/1.png)
