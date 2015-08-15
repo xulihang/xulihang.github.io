@@ -16,10 +16,10 @@ tags: DIY
 
 于是了解有关的SSD品牌。看了一下，影驰的战将240pro应该还可以，mlc，240GB不算小，450元也比较便宜。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/2.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/ssd/2.jpg)
 
 因为我还要用光驱，主板没有其它接口加装SSD，就把机械硬盘（日立，500GB，5400rpm，sata II）卸了下来，给它买个硬盘盒当移动硬盘。发现可以用接在USB口上的移动硬盘启动系统。
 
 具体的读写速度我没有测，换上后明显可以感到速度变快不少。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/1.jpg)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/ssd/1.jpg)
