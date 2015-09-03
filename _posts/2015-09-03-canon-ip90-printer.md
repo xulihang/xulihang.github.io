@@ -30,7 +30,7 @@ Windows对打印机的支持当然是最好的。连上打印机后，Windows10�
 
 有台打印机后的确方便了很多，想看什么可以打出来。买的喷墨打印机也支持彩喷，可以打印相片，彩绘本什么的，还是很实用的。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/1.PNG)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/1.png)
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/2.jpg)
 
