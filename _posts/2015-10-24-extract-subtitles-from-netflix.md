@@ -27,3 +27,24 @@ tags: 大创
 这里在放上一段提取到的字幕文件的url：`http://108.175.47.162/?o=AQG-6PAGiKFL6gvV3dwTkXP_OsXnubrxuN1-oL9TI5ll08LNQrZEnV9wYGOWRIuQ0WjArxXeuL2Qv-gcGNXaO1xuMbUS5bVOYjgNMhlP0OU0EVCpaMaKbC4Ij66xK4dgYg&v=3&e=1445706614&t=pihXKkZxMeRMabM-roZFmxK9mSg`
 
 好了，因为是重启的会员，没有新会员一个月的免费优惠了，我还是好好看看netflix上的视频，让9.99美元的订阅费有点价值吧。。
+
+更新：
+
+##把xml的字幕文件转为srt格式
+
+纯文本处理这样的一行内容：`<p begin="1547600000t" end="1567600000t" region="bottomCenter" style="s1" xml:id="subtitle0">In the year of 1722,</p>`
+
+里面包含了开始时间，结束时间和字幕内容，其中的时间数据除以1+e10就是秒了。
+
+因为比较简单，我也不贴我丑陋的代码了。最后输出结果如下：
+
+```
+1
+00:02:34,000-->00:02:36,000
+In the year of 1722,
+
+2
+00:02:36,000-->00:02:39,000
+the Kangxi Emperor of the Qing Dynasty passed away.
+```
+
