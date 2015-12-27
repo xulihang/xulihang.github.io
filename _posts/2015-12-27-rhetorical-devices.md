@@ -74,7 +74,7 @@ Good breeding consists of concealing how much we think of ourselves and how litt
 
 5、oxymoron 矛盾修饰法
 
-例：living death, vitorious defeat
+例：living death, victorious defeat
 
 6、epigram 警句
 
@@ -132,7 +132,7 @@ saying the opposite
 
 2、assonance 辅音不同，元音相同
 
-例：a deep grean stream.
+例：a deep green stream.
 
 3、onomatopoeia 拟声词
 
