@@ -1,7 +1,7 @@
 ---
 date: 2016-02-16 10:28:50+00:00
 layout: post
-title: 美国行-游学伯克利
+title: '美国行-游学伯克利'
 categories: 随笔
 tags: 出国
 ---
