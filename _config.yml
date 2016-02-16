@@ -1,6 +1,6 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /:title/
-url: xulihang.wicp.net
+url: blog.xulihang.me
 name: xulihang's blog
 author: xulihang
 qq: 110
