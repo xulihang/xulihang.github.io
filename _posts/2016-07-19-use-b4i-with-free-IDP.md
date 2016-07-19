@@ -30,4 +30,6 @@ tags: iOS
 
 <p style="color:red;"> 更新:</p>
 
-<p style="color:red;"> 后来发现，第4步的B4i.p12是会添加到系统钥匙串里的，我用了b4i生成的文件所以导致了后来提示没有所需的signing identity的错误。b4i自带的Priviate Sign Key工具是用来到苹果官网生成证书的。这里我们用xcode自动生成的证书，就不用Priviate Sign Key了。所以只要再导出iPhone Developer开发者证书为p12文件放倒key里就行了。然后，provision profile如果不是如com.xx.*的话，b4i-bridge可能无法通过编译，因为identify bundle配不上，b4i-bridge的bundle是你的应用的bundle名加上.bridge。我们可以专门为安装bridge配一个provision profile，用xcode再建一个项目，bundle名是将来在b4里开发的应用的bundle名加上.bridge。比如com.xulihang.test1.bridge。b4i不支持使用多个provision profile，要进行手工替换操作。</p>
+<p style="color:red;"> 后来发现，第4步的B4i.p12是会添加到系统钥匙串里的，我用了b4i生成的文件所以导致了后来提示没有所需的signing identity的错误。b4i自带的Priviate Sign Key工具是用来到苹果官网生成证书的。这里我们用xcode自动生成的证书，就不用Priviate Sign Key了。所以只要再导出iPhone Developer开发者证书为p12文件放倒key里就行了。</p>
+
+<p style="color:red;"> 然后，provision profile如果不是如com.xx.*的话，b4i-bridge可能无法通过编译，因为identify bundle配不上，b4i-bridge的bundle是你的应用的bundle名加上.bridge。我们可以专门为安装bridge配一个provision profile，用xcode再建一个项目，bundle名是将来在b4i里开发的应用的bundle名加上.bridge。比如com.xulihang.test1.bridge。b4i不支持使用多个provision profile，要进行手工替换操作。</p>
