@@ -69,7 +69,18 @@ if __name__ == '__main__':
 
 这里参考自：[bottle + lighttpd + fastcgi](http://notionbox.de/detail/3/)。
 
-因为我实际测试时发现mac自带的python2会提示import _dummy_thread的错误，发现dummy_thread时python3专用的，所以又用brew安装了python3。应用默认使用python3。
+因为我实际测试时发现mac自带的python2会提示import _dummy_thread的错误，发现dummy_thread是python3专用的，因为flup1.03只支持python3，所以又用brew安装了python3。应用默认使用python3。
+
+如果要用python2的话就不要用flup，把
+```
+from flup.server.fcgi import WSGIServer
+WSGIServer(app).run()
+```
+换成
+
+```
+run(host='localhost', port=8080, debug=True)
+```
 
 安装所需模块(使用python3用的easy_install)：
 
