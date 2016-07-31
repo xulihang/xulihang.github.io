@@ -16,7 +16,7 @@ comments: no
 
 ----
 
-###捐助
+### 捐助
 
 如果你觉得我的网站不错，可以支持一下我：
 
@@ -38,12 +38,12 @@ Paypal:
 
 ----
 
-###联系方式：
+### 联系方式：
 
 {% if site.qq %}
 ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
 {% endif %}
-网站：[http://xulihang.wicp.net](http://xulihang.wicp.net)
+网站：[http://blog.xulihang.me](http://blog.xulihang.me)
 
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
