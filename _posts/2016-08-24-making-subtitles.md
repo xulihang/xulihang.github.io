@@ -1,0 +1,47 @@
+---
+date: 2016-08-24 09:16:50+08:00
+layout: post
+title: 制作双语字幕的一般流程
+categories: CAT
+tags: 字幕
+---
+ 
+最近看王华树的《计算机辅助翻译实践》，内有字幕翻译一章，便也想亲身实践一下。
+
+我选择了我听了无数遍的乔布斯1997年8月在Macworld上的演讲，这个视频还没有人做字幕。具体流程如下：
+
+1、听写英文
+
+首先要把原文听写下来。我试着找音频转换文字的软件，没找到可以用的。Youtube已经有了自动识别英文生成字幕的功能，准确度尙有所欠缺。还是自己听写吧。
+
+听写时遇到一些含糊不清的，实在听不清楚，我干脆就过掉不写了。对整个视频影响不大。
+
+然后我听写时是把文本打在文本文件里的，一行为一个时间轴单位，方便直接导入字幕处理软件。比如这样：
+
+```
+And I, like a lot of other people, 
+are pulling together to help Apple get healthy again
+and I am extraordinarily confident that that is going to happen.
+```
+
+2、制作英文字幕，做时间轴
+
+英文听写下来，就导入字幕制作软件里做时间轴。我选用了人人影视的字幕软件Time Machine，可以边放视频，边确定时间。
+
+做好之后，把srt字幕导入播放器里和视频一起播放，检验校对。
+
+3、翻译
+
+有了原文字幕，就可以做中文字幕了。我使用了OmegaT这一计算机辅助翻译软件，可以直接处理srt字幕文件，能把时间轴信息忽略，直接显示原文。
+
+如果说大段的文章用CAT软件，因为以句子为单位翻译，容易上下文联系不紧密的话，字幕翻译则正合适。
+
+因为我希望显示的字幕和视频里的语音相吻合，所以采用了类似同传口译的翻译方法，讲到哪，翻到哪。如果后面用指代提到了前面的内容，可能不易理解，把指代都要讲清楚。
+
+4、最后的双语字幕制作
+
+最后把中英文字幕合并。我想给字幕增加格式，因为srt格式比较简单，而我对字幕的特效代码也不了解，选择使用专业的aegisub软件。不过同样要了解特效代码。用软件的话批量处理起来方便。
+
+用格式工厂可以输出带字幕的视频，以下是我做的最终成品。
+
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=5970802&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
