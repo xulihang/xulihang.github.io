@@ -8,9 +8,19 @@ tags:
  
 ## 功能理论学派
 
-Reiss提出了文本类型（text type）的理论。文本可以分为传递信息型（informative），表达型（expressive），指导型（operative）和多媒体（audiomedial）的类型。不同的文本类型要采取不同的翻译方法和工具。
+Reiss提出了文本类型（text type）的理论。文本可以分为传递信息型（informative），表达型（expressive），指导型（operative）和多媒体（audiomedial）的类型。不同的文本类型要采取不同的翻译方法和工具。但受到文本的类型不能完全区分的批评。
 
-Vermeer提出了目的论（skopos theory），翻译由翻译的目的决定。比如格列佛游记，本来是政治讽喻的小说，改编成儿童文学，就会有很大的变化。
+Holz-Manttari提出了翻译行为（Translation theory）说，她认为翻译是有许多参与者的一个行为。参与者包括发起人，委托者，原文提供者，译者，译文读者等。突出了与读者的交际功能。
+
+Nord提出了文本分析的方法，影响文本分析的有文内因素和文外因素，如图所示：
+
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/translation/nord.JPG)
+
+关于文外的读者，举个例子比如原作中的女子的描写符合西方人的审美，翻译后就变成樱桃小嘴，适合中国人的审美。文内的内容，比如文章是有关穆斯林宗教的，翻译可能会有亵渎，所以很敏感，翻译的人少。
+
+Nord把翻译分为文献翻译(Documentary)和工具型(Instrumental)翻译，文献翻译相当于Reiss的表达型文本的翻译，讲究直译，异化。工具型翻译讲究提供信息。
+
+Vermeer提出了目的论（skopos theory），翻译由翻译的目的决定。比如格列佛游记，本来是政治讽喻的小说，改编成儿童文学，就会有很大的变化。因为很多时候译者是受到委托人请求翻译的。Vermeer的功能是译入语的功能，和Reiss的是源语的功能。
 
 ## 译者的隐身
 

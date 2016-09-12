@@ -58,6 +58,8 @@ Grice的合作原则要求说话适量，讲质量，有关联，有礼貌。
 
 不同的群体说不一样的语言，十里不同天，语言也是一样。所处区域，社会地位，性别，年龄不同，所说的语言也都不同。
 
+韩礼德的语篇分析（discourse analysis）：
+
 概念：语体（Register），适合某个场合的语言
 
 语体包括语场（field of discourse），语旨（tenor of discourse），和语式（mode of discourse）。
