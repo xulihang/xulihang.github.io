@@ -10,7 +10,7 @@ beian:
 51la: 16741573
 weibo: 2794687610
 github: xulihang
-pygments: true
+pygments: 
 safe: true
 paginate: 20
 about: "在Github上的Blog。"
