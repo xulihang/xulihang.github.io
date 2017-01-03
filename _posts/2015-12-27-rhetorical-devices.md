@@ -8,7 +8,7 @@ tags: 英语 修辞
  
 高英考试要考修辞方法(rhetorical devices or figures of speech)，在博客上整理一下吧。
 
-##一、关系型的修辞
+## 一、关系型的修辞
 
 1、simile 明喻
 
@@ -50,7 +50,7 @@ the hun泛指匈奴一样的野蛮人。
 
 die->pass away
 
-##二、表强调或低调陈述的修辞
+## 二、表强调或低调陈述的修辞
 
 1、hyperbole 夸张
 
@@ -124,7 +124,19 @@ saying the opposite
 
 16、anticlimax 反高潮，突降
 
-##三、与声音有关的修辞
+17、asyndeton 连接词省略
+
+18、polysyndeton 连词叠用
+
+19、epistrophe 结句反覆
+
+例：... and that government of the people, by the people, for the people, shall not perish from the earth. — Abraham Lincoln in the Gettysburg Address
+
+20、anaphora  首语重复
+
+例：It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, — Charles Dickens, A Tale of Two Cities
+
+## 三、与声音有关的修辞
 
 1、alliteration 头韵
 
@@ -134,11 +146,15 @@ saying the opposite
 
 例：a deep green stream.
 
-3、onomatopoeia 拟声词
+3、consonance 辅音相同
+
+例：coming home, hot foot
+
+4、onomatopoeia 拟声词
 
 例：jingle bell
 
-##四、文字游戏
+## 四、文字游戏
 
 1、transferred epithet 移就
 
@@ -150,7 +166,11 @@ saying the opposite
 
 3、zeugma 轭式搭配
 
-例：喝酒->吃酒
+例：吃了饭和酒
+
+4、chiasmus 交错法
+
+例： And so, my fellow Americans, ask not what your country can do for you; ask what you can do for your country.（肯尼迪就职演讲）
 
 
 
