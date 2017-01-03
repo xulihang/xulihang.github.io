@@ -168,7 +168,11 @@ saying the opposite
 
 例：吃了饭和酒
 
-4、chiasmus 交错法
+4、syllepsis 一语双叙
+
+例：He lost the game and his temper.
+
+5、chiasmus 交错法
 
 例： And so, my fellow Americans, ask not what your country can do for you; ask what you can do for your country.（肯尼迪就职演讲）
 
