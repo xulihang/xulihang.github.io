@@ -1,5 +1,5 @@
 ---
-date: 2017-06-27 18:27:50+08:00
+date: 2017-07-15 18:27:50+08:00
 layout: post
 title: 在Azure上建立Bottle Python应用
 categories: 技术随笔
