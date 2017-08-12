@@ -8,7 +8,7 @@ tags:
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/happylinux.png)
 
-最近整理联想天鹤640P老电脑的随机光盘，安装了幸福之家v3.23生活版并录制视频传到了b站上。
+最近整理联想天鹤640P老电脑的随机光盘，安装了幸福之家v3.23生活版并录制视频传到了[b站](https://www.bilibili.com/video/av13241747/)上。
 
 在网上也看到了联想幸福Linux，以前看这篇文章[那些曾经的Linux发行版（三）：Happy Linux](http://www.linuxfans.org/archives/3222)了解过，当时没有镜像觉得挺可惜的。这次发现原来有镜像提供下载，是幸福Linux1.0版，于是打算装虚拟机上体验。
 
