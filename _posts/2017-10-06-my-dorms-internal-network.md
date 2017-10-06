@@ -16,7 +16,7 @@ tags: 北大
 
 1、nmap，主要用来检测网络设备运行的端口、操作系统。比如以下对北大一个网关的扫描。
 
-'''
+```
 pi@raspberrypi:~ $ sudo nmap -O 162.105.254.18
 
 Starting Nmap 6.47 ( http://nmap.org ) at 2017-10-06 22:24 CST
@@ -39,13 +39,13 @@ Network Distance: 5 hops
 
 OS detection performed. Please report any incorrect results at http://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 98.28 seconds
-'''
+```
 
 2、nslookup，检测dns服务是否正常。我用nslookup发现有些域名可以正常解析，但就是ping不同，浏览器打不开网页。
 
 3、traceroute（windows上对应tracert），用来检测发出数据包的主机到目标主机之间所经过的网关数量的工具。下面是我测试的一些结果。可以看到在访问中科大开源镜像时出现三个星号，请求失败。162开头的是北大的网关，192开头的应该是内网的网关，可以知道寝室的网络应该是经过多重路由的。
 
-'''
+```
 pi@raspberrypi:~ $ traceroute weibo.com
 traceroute to weibo.com (121.194.0.221), 30 hops max, 60 byte packets
  1  192.168.200.254 (192.168.200.254)  0.607 ms  0.604 ms  0.600 ms
@@ -94,7 +94,7 @@ traceroute to mirrors.ustc.edu.cn (202.38.95.110), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
-'''
+```
 
 4、wireshark，抓包工具。这次没有用到。
 
