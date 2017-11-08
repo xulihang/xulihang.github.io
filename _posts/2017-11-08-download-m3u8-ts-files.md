@@ -18,6 +18,7 @@ python使用os.system不是很好控制wget，于是转用python wget模块。�
 具体代码其实很简单：
 
 ```
+#!/usr/bin/env python
 import wget
 count=0
 while count<5:
@@ -36,6 +37,7 @@ while count<5:
 重命名：
 
 ```
+#!/usr/bin/env python
 import os
 filelist=os.listdir("./")
 for file in filelist:
