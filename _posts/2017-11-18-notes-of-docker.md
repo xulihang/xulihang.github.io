@@ -13,7 +13,9 @@ docker镜像省去了复杂的配置，可以让我们专注于使用，也可�
 在实际使用过程中，我逐渐了解了docker的使用。
 
 1、 建立docker镜像（docker build）。可以自己写Dockerfile来生成镜像文件，这个比debian的debootstrap好使很多。
+
 2、 基于镜像运行一个新的容器（docker run）。容器是可修改的，而镜像是只读的。
+
 3、 docker的其它操作一般都是基于已经有的容器。两条命令我觉得挺重要：
 
 进入容器运行shell进行操作
