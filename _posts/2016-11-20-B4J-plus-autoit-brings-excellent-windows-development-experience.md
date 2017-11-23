@@ -3,7 +3,7 @@ date: 2016-11-20 17:09:50+08:00
 layout: post
 title: B4J加上Autoit的功能带来极好的Windows编程体验
 categories: 技术随笔
-tags: B4J
+tags: B4J B4X
 ---
  
 我学的第一门编程语言是什么？答：Autoit。

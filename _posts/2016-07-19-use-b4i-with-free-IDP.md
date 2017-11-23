@@ -3,7 +3,7 @@ date: 2016-07-19 17:38:50+08:00
 layout: post
 title: B4i使用免费开发者调试账号
 categories: 移动开发
-tags: iOS
+tags: iOS B4X
 ---
  
 嗯，最近配了一台黑苹果台式机，打算放在家里当作服务器，可以运行b4i的Buildserver。这样以后到学校，我可以直接在笔记本的windows系统上完成开发，而基本不用进OS X。

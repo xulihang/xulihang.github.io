@@ -3,7 +3,7 @@ date: 2016-11-25 21:45:50+08:00
 layout: post
 title: 给雪人CAT开发了款外挂
 categories: 技术随笔
-tags: B4J CAT
+tags: B4J CAT B4X
 ---
  
 上一篇博文里已经讲到我选择了B4J加AutoitX库编写Windows程序。现在，我讲一下我给雪人CAT写外挂的事儿。
