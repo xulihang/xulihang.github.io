@@ -1,5 +1,5 @@
 ---
-date: 2017-11-23 20:40:50+08:00
+date: 2017-11-23 22:00:50+08:00
 layout: post
 title: B4X笔记———使用WebSocket
 categories: 技术随笔
@@ -13,7 +13,7 @@ tags: b4x
 
 b4x论坛上相关的帖子主要有以下两个：
 
-[`[WebApp] Web Apps Overview`](https://www.b4x.com/android/forum/threads/webapp-web-apps-overview.39811/)
+[[WebApp] Web Apps Overview](https://www.b4x.com/android/forum/threads/webapp-web-apps-overview.39811/)
 
 [jWebSocketClient library](https://www.b4x.com/android/forum/threads/jwebsocketclient-library.40985/#content)
 
