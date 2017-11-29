@@ -11,15 +11,15 @@ tags: B4X
 ffmpeg的文档太长了，我参考了这篇[中文博客](http://blog.csdn.net/u012587637/article/details/51670975)，以下是参考内容。
 
 >方法二：FFmpeg concat 分离器
-
+>
 >这种方法成功率很高，也是最好的，但是需要 FFmpeg 1.1 以上版本。先创建一个文本文件filelist.txt：
-
+>
 >file 'input1.mkv'
-
+>
 >file 'input2.mkv'
-
+>
 >file 'input3.mkv'
-
+>
 >然后：
 
 >ffmpeg -f concat -i filelist.txt -c copy output.mkv
