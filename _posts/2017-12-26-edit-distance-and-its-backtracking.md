@@ -33,6 +33,8 @@ tags: CAT
 
 这里x是sitting的长度，为7，y是kitten的长度，为6。cost是公式中后面的+1，如果对应的是公式中的第三条（lev(x-1,y-1)）且末尾字母相同则+0.
 
+* lev(x, y)（sitting和kitten）算下去：
+
 lev(x-1, y): 对应sittin和kitten，编辑距离是2 cost=1
 lev(x, y-1): 对应sitting和kitte，编辑距离是4 cost=1
 lev(x-1, y-1): 对应sittin和kitte，编辑距离是3 cost=1
@@ -41,7 +43,7 @@ lev(x-1, y-1): 对应sittin和kitte，编辑距离是3 cost=1
 
 取最小值lev(x-1, y)+1=3，因此编辑距离是3。以上的编辑距离是我自己算的，实际计算还要进一步计算。
 
-比如lev(x-1, y)（sittin和kitten）算下去：
+* lev(x-1, y)（sittin和kitten）算下去：
 
 lev(x-2, y)：对应sitti和kitten 编辑距离是3 cost=1
 lev(x-1, y-1)：对应sittin和kitte 编辑距离是3 cost=1
@@ -49,7 +51,7 @@ lev(x-2, y-1)：对应sitti和kitte 编辑距离是2 （末位字母相同）cos
 
 对应第三条公式，末位相同，不需操作
 
-lev(x-2, y-1)（sitti和kitte）算下去：
+* lev(x-2, y-1)（sitti和kitte）算下去：
 
 lev(x-3, y-1)：对应sitt和kitte 编辑距离是2 cost=1
 lev(x-2, y-2)：对应sitti和kitt 编辑距离是2 cost=1
@@ -57,7 +59,7 @@ lev(x-3, y-2)：对应sitt和kitt 编辑距离是1 cost=1
 
 对应第三条公式，末位不同，进行替换
 
-lev(x-3, y-2)（sitt和kitt）算下去
+* lev(x-3, y-2)（sitt和kitt）算下去
 
 lev(x-4, y-2)：对应sit和kitt 编辑距离是2 cost=1
 lev(x-3, y-3)：对应sitt和kit 编辑距离是2 cost=1
@@ -65,7 +67,7 @@ lev(x-4, y-3)：对应sit和kit 编辑距离是1 （末位字母相同）cost=0
 
 对应第三条公式，末位相同，不需操作
 
-lev(x-4, y-3)（sit和kit）算下去：
+* lev(x-4, y-3)（sit和kit）算下去：
 
 lev(x-5, y-3)：对应si和kit 编辑距离是2  cost=1
 lev(x-4, y-4)：对应sit和ki 编辑距离是2  cost=1
@@ -73,7 +75,7 @@ lev(x-5, y-4)：对应si和ki 编辑距离是1 （末位字母相同）
 
 对应第三条公式，末位相同，不需操作
 
-lev(x-5, y-4)（si和ki）算下去：
+* lev(x-5, y-4)（si和ki）算下去：
 
 lev(x-6, y-4)：对应s和ki 编辑距离是2 cost=1
 lev(x-5, y-5)：对应si和k 编辑距离是2 cost=1
@@ -81,7 +83,7 @@ lev(x-6, y-5)：对应s和k 编辑距离是1 cost=1
 
 对应第三条公式，末位相同，不需操作
 
-lev(x-6, y-5)（s和k) 算下去：
+* lev(x-6, y-5)（s和k) 算下去：
 
 lev(x-7, y-5)，x-7=0，停止运算，返回y-5=1
 lev(x-6, y-6)：y-6=0，停止运算，返回x-6=1
@@ -96,7 +98,7 @@ lev(x-7, y-6)：两者都为0，停止运算，返回0。
 
 最后得到这样一个矩阵
 
-
+<p>
 <table class="wikitable">
 <tbody><tr>
 <td></td>
@@ -189,15 +191,25 @@ lev(x-7, y-6)：两者都为0，停止运算，返回0。
 <td><span title="insert 'g'" style="border-bottom:1px dotted">3</span></td>
 </tr>
 </tbody></table>
-
+</p>
 
 其中的a(i,j)的值对应公式，是a(i-1,j)+1, a(i,j-1), a(i-1,j-1)+temp三者中的最小值。根据生成的矩阵，我们可以回溯出进行了哪些操作。
 
 和翻译记忆结合来说明的话，其中替换和删除操作的部分就是要翻的原文中多出来的，而增加的部分是翻译记忆原文中多出来的。
 
-（完）
+以下是我用B4J写的一个显示文本差异的小程序。
 
+![](http://wx3.sinaimg.cn/mw690/a6938c7aly1fmtcrnuslvj20f40bfdg7.jpg)
 
+一些参考的网站：
+
+[编辑距离及其回溯路径](http://blog.csdn.net/alansede/article/details/48103169)
+
+[编辑距离算法(LD)详解](http://blog.csdn.net/majinfei/article/details/16979049)
+
+[机器学习中的相似性度量](http://www.sigvc.org/bbs/forum.php?mod=viewthread&tid=981)
+
+[Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
 
 
 
