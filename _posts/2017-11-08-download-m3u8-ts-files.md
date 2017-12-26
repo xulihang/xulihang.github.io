@@ -21,16 +21,17 @@ python使用os.system不是很好控制wget，于是转用python wget模块。�
 #!/usr/bin/env python
 import wget
 count=0
-while count<5:
+while count<5: #count的值表示总共要下多少ts文件，要查阅m3u8文件
     try:
         result=wget.download("https://stream.scic.ec.europa.eu/vod/_definst_/smil:11066_12470_5a01687c2dbff.smil/media_w442363958_b466000_"+str(count)+".ts?tracks=or&clientip=218.247.220.230&smvplayersession=80c4681f-acac-4906-5611-52d0af6818f0")
-        if result.find("ts")!=-1:
-            count=count+1
+        count=count+1
     except:
         continue
         
     
 ```
+
+更新：下载最好还是要有一个队列。我现在改用B4J来进行批量下载，使用最新增加的wait for语句，并且记录下下载失败的文件。
 
 下载下来的TS文件需要合并，网上有ts merger这个软件。其实ts文件直接用windows copy命令就可以合并了。不过事先要处理一下文件名，让它按播放顺序排列。主要是要把0.ts这样的补全为0000.ts这样的名字。我这次下载的ts文件总共有2946个。
 
