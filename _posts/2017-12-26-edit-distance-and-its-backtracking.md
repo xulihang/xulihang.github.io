@@ -208,7 +208,7 @@ lev(x-7, y-6)：两者都为0，停止运算，返回0。
 </tbody></table>
 </p>
 
-其中的a(i,j)的值对应公式，是a(i-1,j)+1, a(i,j-1), a(i-1,j-1)+temp三者中的最小值。根据生成的矩阵，我们可以回溯出进行了哪些操作。
+其中的a(i,j)的值对应公式，是a(i-1,j)+1, a(i,j-1), a(i-1,j-1)+temp三者中的最小值。根据生成的矩阵，我们可以回溯出进行了哪些操作。回溯从右下角开始，比较上方，左方和斜上方的数字。如果数值相同，优先级是斜上、左和上。上表示添加，下则表示删除，斜上则表示替换或相同。另外如果左上，上边，都没有值，只能比较左边的值了。
 
 和翻译记忆结合来说明的话，其中替换和删除操作的部分就是要翻的原文中多出来的，而增加的部分是翻译记忆原文中多出来的。
 
@@ -225,6 +225,8 @@ lev(x-7, y-6)：两者都为0，停止运算，返回0。
 [机器学习中的相似性度量](http://www.sigvc.org/bbs/forum.php?mod=viewthread&tid=981)
 
 [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+
+[What is an intuitive explanation of the edit-distance algorithm using dynamic programming?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-edit-distance-algorithm-using-dynamic-programming)
 
 
 
