@@ -12,7 +12,7 @@ tags: CAT
 
 计算机辅助翻译软件中用到的翻译记忆就提供了句对齐的双语语料，但目前的CAT软件中只有国产的雪人CAT应用了EBMT技术。雪人CAT界面简洁、功能强大，一直是我的主要CAT软件。最近想参考雪人CAT的功能再自己实现一款CAT软件。
 
-而翻译记忆和EBMT的一个基础就是比较文本的相似度并算出具体差异。这是一般使用的是编辑距离算法。
+而翻译记忆和EBMT的一个基础就是比较文本的相似度并算出具体差异。这时一般使用的是编辑距离算法。
 
 # 什么是编辑距离
 
@@ -27,26 +27,31 @@ tags: CAT
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/editdistance/formula.png)
 
-这是使用了一个递归的方法。维基里讲的不清楚，我在quora上看了一些例子后明白了很多。递归的方法就是把算两个文本的编辑距离这一问题分解成了很多的小问题。
+这是使用了一个递归的方法。维基里讲的不清楚，我在quora上看了一些例子后明白了很多。递归的方法就是把算两个文本的编辑距离这一问题分解成了很多的小问题。公式中的lev(i-1,j)是删除操作，lev(i,j-1)是增加操作，而lev(i-1,j-1)说明两个文本相同或需要进行替换。
 
-比如说算sitting和kitten的编辑距离，第一步，根据公式，要进行以下三个部分的计算，并取最小值：
+具体的例子，比如说算sitting和kitten的编辑距离，第一步，根据公式，要进行以下三个部分的计算，并取最小值：
 
 这里x是sitting的长度，为7，y是kitten的长度，为6。cost是公式中后面的+1，如果对应的是公式中的第三条（lev(x-1,y-1)）且末尾字母相同则+0.
 
 * lev(x, y)（sitting和kitten）算下去：
 
 lev(x-1, y): 对应sittin和kitten，编辑距离是2 cost=1
+
 lev(x, y-1): 对应sitting和kitte，编辑距离是4 cost=1
+
 lev(x-1, y-1): 对应sittin和kitte，编辑距离是3 cost=1
+
 
 对应第一条公式，删除g
 
-取最小值lev(x-1, y)+1=3，因此编辑距离是3。以上的编辑距离是我自己算的，实际计算还要进一步计算。
+取最小值lev(x-1, y)+1=3，因此编辑距离是3。以上的编辑距离是我自己算的，实际计算还要进一步计算。下面是完整的过程。
 
 * lev(x-1, y)（sittin和kitten）算下去：
 
 lev(x-2, y)：对应sitti和kitten 编辑距离是3 cost=1
+
 lev(x-1, y-1)：对应sittin和kitte 编辑距离是3 cost=1
+
 lev(x-2, y-1)：对应sitti和kitte 编辑距离是2 （末位字母相同）cost=0
 
 对应第三条公式，末位相同，不需操作
@@ -54,7 +59,9 @@ lev(x-2, y-1)：对应sitti和kitte 编辑距离是2 （末位字母相同）cos
 * lev(x-2, y-1)（sitti和kitte）算下去：
 
 lev(x-3, y-1)：对应sitt和kitte 编辑距离是2 cost=1
+
 lev(x-2, y-2)：对应sitti和kitt 编辑距离是2 cost=1
+
 lev(x-3, y-2)：对应sitt和kitt 编辑距离是1 cost=1
 
 对应第三条公式，末位不同，进行替换
@@ -62,7 +69,9 @@ lev(x-3, y-2)：对应sitt和kitt 编辑距离是1 cost=1
 * lev(x-3, y-2)（sitt和kitt）算下去
 
 lev(x-4, y-2)：对应sit和kitt 编辑距离是2 cost=1
+
 lev(x-3, y-3)：对应sitt和kit 编辑距离是2 cost=1
+
 lev(x-4, y-3)：对应sit和kit 编辑距离是1 （末位字母相同）cost=0
 
 对应第三条公式，末位相同，不需操作
@@ -70,7 +79,9 @@ lev(x-4, y-3)：对应sit和kit 编辑距离是1 （末位字母相同）cost=0
 * lev(x-4, y-3)（sit和kit）算下去：
 
 lev(x-5, y-3)：对应si和kit 编辑距离是2  cost=1
+
 lev(x-4, y-4)：对应sit和ki 编辑距离是2  cost=1
+
 lev(x-5, y-4)：对应si和ki 编辑距离是1 （末位字母相同）
 
 对应第三条公式，末位相同，不需操作
@@ -78,7 +89,9 @@ lev(x-5, y-4)：对应si和ki 编辑距离是1 （末位字母相同）
 * lev(x-5, y-4)（si和ki）算下去：
 
 lev(x-6, y-4)：对应s和ki 编辑距离是2 cost=1
+
 lev(x-5, y-5)：对应si和k 编辑距离是2 cost=1
+
 lev(x-6, y-5)：对应s和k 编辑距离是1 cost=1
 
 对应第三条公式，末位相同，不需操作
@@ -86,7 +99,9 @@ lev(x-6, y-5)：对应s和k 编辑距离是1 cost=1
 * lev(x-6, y-5)（s和k) 算下去：
 
 lev(x-7, y-5)，x-7=0，停止运算，返回y-5=1
+
 lev(x-6, y-6)：y-6=0，停止运算，返回x-6=1
+
 lev(x-7, y-6)：两者都为0，停止运算，返回0。
 
 对应第三条公式，末位不同，需要替换
