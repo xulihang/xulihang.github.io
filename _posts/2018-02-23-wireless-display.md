@@ -23,3 +23,7 @@ dlna大多数设备都支持，airplay是苹果设备使用的，miracast大多�
 测试iphone5c、x62和moto g都能用。yota和海信a2pro因为双屏貌似用不了。我还测试了windows phone，htc8x的硬件并不支持投屏，应该只有少数wp设备支持。
 
 另外现在的电视盒子、智能电视也都支持无线投屏了。不过大多要额外装软件，我给烽火hg680装了个乐播投屏，手机上再装对应的客户端就可以用了。
+
+# 3月2日更新
+
+我在软微实际和教室的投影仪连接了一下，海信a2pro用airpincast使用dlna镜像太卡，moto g 二代配置太差，延迟严重。iphone5c的airplay和windows电脑的miracast则比较流畅，基本同步。
