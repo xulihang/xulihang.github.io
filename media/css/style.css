@@ -10,6 +10,9 @@
 * --------------------------------- */
 
 @import url(http://blog.xulihang.me/media/css/fonts.css);
+@media screen and (min-width:300px) and(max-width: 500px){
+    .post{ width: 450px; }
+}
 body{font-size:14px;word-spacing:1px;
 	margin-left:auto;
 margin-right:auto;
