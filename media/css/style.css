@@ -11,7 +11,7 @@
 
 @import url(http://blog.xulihang.me/media/css/fonts.css);
 @media screen and (max-device-width: 600px) {
-    .post{ width: 450px; }
+    .post{ width: 50%; }
 }
 body{font-size:14px;word-spacing:1px;
 	margin-left:auto;
