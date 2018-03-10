@@ -27,3 +27,17 @@ dlna大多数设备都支持，airplay是苹果设备使用的，miracast大多�
 # 3月2日更新
 
 我在软微实际和教室的投影仪连接了一下，海信a2pro用airpincast使用dlna镜像太卡，moto g 二代配置太差，延迟严重。iphone5c的airplay和windows电脑的miracast则比较流畅，基本同步。
+
+# 3月10日更新
+
+关于让windows设备成为miracast的接收端（miracast server or receiever or sink），以前可以用airserver，支持mac和pc，支持airplay和miracast，就是要花钱。
+
+现在win10的周年更新版已经自带这一功能了，点开始菜单，打开连接这个软件就可以了。
+
+测试android可以投射屏幕，并输送音频。用另一台windows连接还可以设置为扩展屏幕，也可以在支持投射的视频播放软件里把视频投到server上播放。
+
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/connect_windows.jpg)
+
+
+
+
