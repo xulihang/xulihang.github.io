@@ -132,9 +132,10 @@ background: #83BF73;
 }
 
 @media screen and (max-device-width: 600px){
-    .post{ width: 50%; } 
+    #container{ width: auto; } 
+    .post{ width: auto; } 
     nav { 
-      width:50%;
+      width:auto;
       text-align:left;
       margin-left:0;
       float:none;
