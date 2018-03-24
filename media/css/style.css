@@ -145,4 +145,5 @@ background: #83BF73;
       display:inline;
       padding:0;
     }
+    img { max-width: 100%;}
 }
