@@ -6,11 +6,13 @@ categories: 随笔
 tags: 
 ---
 
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/simplepage.jpg)
+
 北京经过了上个星期在一个星期内的四季变化，终于又回到了春天的轨道。在安静的夜里看书上网显得格外自在。
 
 今天看了下潘文国的中文危机的超星视频，里面提到了他对于文言文的倡导和他翻译《赫兹列散文》的目的。
 
-我便去找他翻译的这本散文集。发现网上有人贴了英文原文的地址：http://www.blupete.com/Literature/Essays/Hazlitt/FeelingImmortality.htm。这是一个外国律师自己办的收集散文的网站。我一看这界面真的很简单，基本上就是文字。虽然还嵌上了google ads和paypal等东西。
+我便去找他翻译的这本散文集。发现网上有人贴了英文原文的地址：[http://www.blupete.com/Literature/Essays/Hazlitt/FeelingImmortality.htm](http://www.blupete.com/Literature/Essays/Hazlitt/FeelingImmortality.htm)。这是一个外国律师自己办的收集散文的网站。我一看这界面真的很简单，基本上就是文字。虽然还嵌上了google ads和paypal等东西。
 
 发现这类文学性强的东西还是适合用简单原始的网页来呈现啊。
 
