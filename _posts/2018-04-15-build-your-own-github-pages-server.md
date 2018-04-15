@@ -74,7 +74,7 @@ index-file.names            = ( "index.php", "index.html", "index.lighttpd.html"
 url.access-deny             = ( "~", ".inc" )
 static-file.exclude-extensions = ( ".php", ".pl", ".fcgi" )
 url.rewrite-if-not-file = (
-  "zh_CN/(.*)" => "zh_CN/$1.html"
+  "zh_CN/(.+)" => "zh_CN/$1.html"
 )
 
 compress.cache-dir          = "/home/git/var"
@@ -94,7 +94,7 @@ include_shell "/usr/share/lighttpd/include-conf-enabled.pl"
 /usr/sbin/lighttpd -f ~/lighttpd.conf
 ```
 
-这里我给lighttpd开启了mod_rewrite功能，主要是因为omegat的链接有的是/documentation这样的，需要补上.html。我用正则表达式试了好久，最后发现应该使用url.rewrite-if-not-file。相比于用b4j写jetty的服务器程序，lighttpd给我的自定义空间要小了点。
+这里我给lighttpd开启了mod_rewrite功能，主要是因为omegat的链接有的是/documentation这样的，需要补上.html。我用正则表达式试了好久，最后发现应该使用url.rewrite-if-not-file。另外用的是(.+)而不是(.*)以支持/zh_CN这样的路径。相比于用b4j写jetty的服务器程序，lighttpd给我的自定义空间要小了点。
 
 ## 5、配置git hooks
 
