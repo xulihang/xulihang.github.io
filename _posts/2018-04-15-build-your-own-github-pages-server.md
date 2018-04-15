@@ -12,7 +12,7 @@ tags: Web
 
 下面是具体步骤：
 
-1、安装jekyll
+## 1、安装jekyll
 
 debian linux下用以下方法安装：
 
@@ -22,13 +22,13 @@ debian linux下用以下方法安装：
 
 注意不要用apt装jekyll，会报错。
 
-2、clone远程omegat的网页仓库
+## 2、clone远程omegat的网页仓库
 
 `$ git clone https://github.com/omegat-org/omegat-website`
 
 之后进入仓库，运行`JEKYLL_ENV=production bundle exec jekyll build`就可以生成页面了。
 
-3、建立本地git仓库
+## 3、建立本地git仓库
 
 首先建立一个供其它用户使用git的账户
 
@@ -44,7 +44,7 @@ debian linux下用以下方法安装：
 
 这里我预期用户需要上传仓库的内容不是omegat网站的全部内容，而是zh_CN文件夹部分。
 
-4、配置lighttpd
+## 4、配置lighttpd
 
 jekyll生成的是静态页面，可以用lighttpd来提供服务。
 
@@ -96,7 +96,7 @@ include_shell "/usr/share/lighttpd/include-conf-enabled.pl"
 
 这里我给lighttpd开启了mod_rewrite功能，主要是因为omegat的链接有的是/documentation这样的，需要补上.html。我用正则表达式试了好久，最后发现应该使用url.rewrite-if-not-file。相比于用b4j写jetty的服务器程序，lighttpd给我的自定义空间要小了点。
 
-5、配置git hooks
+## 5、配置git hooks
 
 在git仓库的hooks文件夹里有很多示例的脚本，把它们文件名后面的.sample去掉就可以启动。另外，文件名会影响这些脚本在什么时候运行。比如这里我们需要的是post-update，在提交保存后进行操作。
 
