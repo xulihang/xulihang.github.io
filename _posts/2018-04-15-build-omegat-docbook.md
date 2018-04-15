@@ -49,7 +49,7 @@ windows下收集所需软件包是件费劲的事情，我还是直接用linux�
     </target>
 ```
 
-主要是大写的PDF要改为小写，因为此前生成的.fo文件实在小写的pdf里。真是让人吐槽omegat的代码。
+主要是大写的PDF要改为小写，因为此前生成的.fo文件是在小写的pdf里。真是让人吐槽omegat的代码。
 
 另外可以看到build.xml里使用了Arial Unicode MS这一字体来显示汉字，我们需要复制windows系统下的ARIALUNI.TTF到/usr/share/fonts里。
 
