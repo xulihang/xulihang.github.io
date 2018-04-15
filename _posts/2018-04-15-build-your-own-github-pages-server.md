@@ -122,7 +122,7 @@ exit 0
 
 因为服务器上的git仓库都是git objects，所以需要在本地clone一次。我还给git账户用ssh-keygen配置了公钥，免去输入密码的步骤。
 
-最后参考[廖雪峰的教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)，需要禁止git以ssh登录。修改/etc/passwd里git用户对应/bin/bash为/usr/bin/git-shell。
+最后参考[廖雪峰的教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000)，需要禁止git以ssh登录。修改/etc/passwd里git用户对应/bin/bash为/usr/bin/git-shell。但是我测试发现lighttpd的启动会有问题，就没有修改了。
 
 
 再具体讲一下操作流程：
