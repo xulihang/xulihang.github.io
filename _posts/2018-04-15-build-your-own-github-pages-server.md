@@ -132,7 +132,9 @@ exit 0
 3. 将_site文件夹的内容替换lighttpd的www/html文件夹。
 4. 重启lighttpd，结果生效。
 
+## 4.16更新
 
+其实OmegaT的网站开发者是有用jenkins这个持续集成（continuous integration）的工具，和git hooks的实现类似，不过更加方便。另外omegat的网站是放在github pages上的。才发现github pages有遮去路径中的html的功能。
 
 
 
