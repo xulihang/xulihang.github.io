@@ -17,7 +17,7 @@ Eink显示效果优化主要从硬件和软件两方面入手。关于Eink的原
 
 局刷（partial refresh）：屏幕内容变化的不多的话，可以只刷新部分内容。特别适合看书的时候用，如果局刷多了有残影（ghost）就再全刷一次。
 
-瞬刷（fast refresh mode）：这个也叫a2模式，只显示黑白内容，图像只需传输1bit的内容，速度很快。
+瞬刷（fast refresh mode）：这个也叫[a2模式](https://forum.xda-developers.com/showthread.php?p=22800284#post22800284)，只显示黑白内容，图像只需传输1bit的内容，速度很快。
 
 再之后，我用的yotaphone，配备骁龙800处理器，刷新效果更加完善。
 
