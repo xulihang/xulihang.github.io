@@ -9,9 +9,9 @@ comments: yes
 
 ## 开源
 
-*[opensource.com](https://opensource.com) 
-*[tuxmachines](http://www.tuxmachines.org) 新闻
+* [opensource.com](https://opensource.com) 
+* [tuxmachines](http://www.tuxmachines.org) 新闻
 
 ## 翻译与本地化
 
-*[slator](https://slator.com/) 新闻
+* [slator](https://slator.com/) 新闻
