@@ -14,7 +14,7 @@ latex中主要使用graphicx包插入图片，通过`\usepackage{graphicx}`代�
 
 完整的命令是这样的：`\includegraphics*[key val list]{file}`，可以再设置参数，具体可以在CTAN上查阅graphicx的文档：[graphicx – Enhanced support for graphics](https://www.ctan.org/pkg/graphicx)。graphicx的功能不只插入图片，文档里对应的标题是*Including Graphics Files*。
 
-如果我们要引用指定文件夹的图片，就要用到`\graphicspath{dir-list}`，比如`\graphicspath{\{images/\}}`。注意路径是一个文件夹组的列表，需要用花括号括起来。
+如果我们要引用指定文件夹的图片，就要用到`\graphicspath{dir-list}`，比如`\graphicspath{{images/}}`。注意路径是一个文件夹组的列表，需要用花括号括起来。
 
 我们这样插入的图片是插在行内的，也没有什么其它的设置，比如居中、设置图表题注。这时我们要用到figure环境。完整例子如下:
 
