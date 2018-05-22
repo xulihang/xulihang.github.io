@@ -29,3 +29,5 @@ tags: latex
 ```
 Zanettin, F. (2000). Diy corpora: the www and the translator. Retrieved March 9, 2017, from https://www.researchgate.net/publication/243771074_DIY_Corpora_the_WWW_and_the_Translator 
 ```
+
+以上内容主要参考了[Problems with website formatting in apacite's reference page](https://tex.stackexchange.com/questions/170226/problems-with-website-formatting-in-apacites-reference-page)，另外还有一篇[How can I use BibTeX to cite a web page?](https://tex.stackexchange.com/questions/3587/how-can-i-use-bibtex-to-cite-a-web-page)中提到了wikipedia提供的bibtex引用方法，但是和apa格式不符合。
