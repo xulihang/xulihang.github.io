@@ -23,7 +23,7 @@ latex中主要使用graphicx包插入图片，通过`\usepackage{graphicx}`代�
   \centering %居中
   \includegraphics[width=4in]{image002.png} %设置宽度，一般a4纸是8inch。这里的单位也可以用cm等其它latex支持的。
   \caption{Translation Competence} %caption是图片的标题
-  \label{img2} %此处的label相当于一个图片的专属标志，目的是方便上下文的引用。可以用\ref{img2}来引用，注意在引文中只是显示了一个第几张图片这个数字，还要自己在正文中补充其它内容。
+  \label{img2} %此处的label相当于一个图片的专属标志，目的是方便上下文的引用。可以用\ref{img2}来进行交叉引用，注意在引文中只是显示了一个第几张图片这个数字，还要自己在正文中补充其它内容。
 \end{figure}
 ```
 
