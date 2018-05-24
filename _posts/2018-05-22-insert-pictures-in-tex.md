@@ -19,7 +19,7 @@ latex中主要使用graphicx包插入图片，通过`\usepackage{graphicx}`代�
 我们这样插入的图片是插在行内的，也没有什么其它的设置，比如居中、设置图表题注。这时我们要用到figure环境。完整例子如下:
 
 ```
-\begin{figure}[htbp] %设置浮动属性，一般需要float宏包。不设的话，图片可能会出现在页面的顶部，而不是在文字后面。
+\begin{figure}[htbp] %设置浮动属性，不设的话，图片可能会出现在页面的顶部，而不是在文字后面。
   \centering %居中
   \includegraphics[width=4in]{image002.png} %设置宽度，一般a4纸是8inch。这里的单位也可以用cm等其它latex支持的。
   \caption{Translation Competence} %caption是图片的标题
@@ -36,6 +36,10 @@ p Page of ﬂoats
 h Here, if possible 
 H Here, deﬁnitel
 ```
+
+
+但是在插入大量图片时，这样的设置效果还是不好。我们需要图片紧跟在插入的文字之后。这时我们需要使用float宏包（`\usepackage{float}`）。然后[htbp]改成[H]。
+
 
 好了，一般的图片插入应该没有问题了。
 
