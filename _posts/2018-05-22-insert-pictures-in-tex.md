@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: latex
 ---
 
-latex中主要使用graphicx包插入图片，通过`\usepackage{graphicx}`代码使用。不过我测试时发现有的latex的class文件里有说使用这个包，tex文件里就不需要再申明了。默认支持常见图片格式的插入，jpg、png都是支持的，不需要转成eps或pdf。
+latex中主要使用graphicx包插入图片，通过`\usepackage{graphicx}`代码使用。不过我测试时发现有的latex的class文件里有说使用这个包，tex文件里就不需要再申明了。pdflatex默认支持常见图片格式的插入，jpg、png都是支持的，不需要转成eps或pdf。
 
 可以直接通过以下代码插入图片：
 

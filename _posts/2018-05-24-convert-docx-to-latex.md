@@ -20,7 +20,9 @@ tags: latex
 
 再比如这个endnote插入的参考文献的域代码：
 
-`\textsuperscript{{[}\protect\hyperlink{_ENREF_37}{37}{]}}`
+```latex
+\textsuperscript{{[}\protect\hyperlink{_ENREF_37}{37}{]}}
+```
 
 
 正则匹配：`\\textsuperscript\{\{\[\}\\protect\\hyperlink\{_ENREF_.*?\}\{(.*?)\}\{\]\}\}`
