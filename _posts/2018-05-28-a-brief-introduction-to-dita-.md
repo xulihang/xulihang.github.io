@@ -43,8 +43,17 @@ DITA有一系列预定义好的元素（Element），它也支持拓展，可以
 
 ## DITA CMS是什么
 
-DITA CMS是DITA文件的在线管理系统，一般提供在线的所见即所得的dita编辑、在线文件与历史版本管理、在线发布等功能，还有任务流程管理等，支持多人网络协作。
+DITA CMS是DITA文件的在线管理系统，一般提供在线的所见即所得的dita编辑、在线文件与历史版本管理、在线发布（基于开源的DITA-OT）等功能，还有任务流程管理等，支持多人网络协作。
 
+## DITA的编辑器
+
+可以用免费的xml编辑器，或者专业的文档工具：oxygen、Arbortext等。
+
+## DITA的新发展——lwdita
+
+现在又有了新的轻量化标准，分别是使用了更少标签的xdita，使用html来写作的hdita和使用markdwon的mdita。
+
+我很看好mdita。很多程序文档可能使用markdown写的，但markdown没有很好的发布机制，不能输出多种格式。有了mdita后，我们就可以利用dita对于多种格式输出的支持了。
 
 ## 我对于DITA的看法
 
