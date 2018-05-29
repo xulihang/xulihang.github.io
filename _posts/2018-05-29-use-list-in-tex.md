@@ -58,7 +58,9 @@ tex中用多级列表比较麻烦，需要嵌套。
 \begin{enumerate}
 \item a
 \item b
-  \iitem b.1
+  \begin{enumerate}
+    \item b.1
+  \end{enumerate}
 \item c
 \end{enumerate}
 ```
