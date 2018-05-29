@@ -38,7 +38,6 @@ DITA有一系列预定义好的元素（Element），它也支持拓展，可以
 ### DITA的特色
 
 * 内容重用（reuse）。
-
 * 同源开发（singlesourcing）。可以从同一份dita项目生成不同格式的成品，如html、pdf和chm等。另外，可以生成针对特定用户的版本。另外也支持多语种本地化。
 
 ## DITA CMS是什么
