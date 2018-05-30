@@ -1,7 +1,7 @@
 ---
 date: 2018-05-29 10:08:50+08:00
 layout: post
-title: TeX中列表的使用
+title: LaTeX中列表的使用
 categories: 技术随笔
 tags: latex
 ---

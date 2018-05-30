@@ -1,7 +1,7 @@
 ---
 date: 2018-05-22 12:42:50+08:00
 layout: post
-title: TeX在参考文献中引用网页
+title: LaTeX在参考文献中引用网页
 categories: 技术随笔
 tags: latex
 ---

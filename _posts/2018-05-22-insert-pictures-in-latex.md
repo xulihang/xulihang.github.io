@@ -1,7 +1,7 @@
 ---
 date: 2018-05-22 17:37:50+08:00
 layout: post
-title: 在TeX中插入图片
+title: 在LaTeX中插入图片
 categories: 技术随笔
 tags: latex
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2018-05-22 10:24:50+08:00
 layout: post
-title: 在TeX中显示中文
+title: 在LaTeX中显示中文
 categories: 技术随笔
 tags: latex
 ---
