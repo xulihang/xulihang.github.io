@@ -88,37 +88,35 @@ Adequacy的评分也分为四级：None、Little、Most和Everything。
 
 Typology Errors更加详细，需要数译文出现的错误。具体见以下表格：
 
-```
-High-level	Granular levels
-Accuracy	Addition
-	Omission
-	Mistranslation
-	Over-translation
-	Under-translation
-	Untranslated
-	Improper exact TM match
-Fluency	Punctuation
-	Spelling
-	Grammar
-	Grammatical register
-	Inconsistency
-	Link/cross-reference
-	Character encoding
-Terminology	Inconsistent with termbase
-	Inconsistent use of terminology
-Style	Awkward
-	Company style
-	Inconsistent style
-	Third-party style
-	Unidiomatic
-Locale convention	Address format
-	Date format
-	Currency format
-	Measurement format
-	Shortcut key
-	Telephone format
-
-```
+High-level         |  Granular levels
+-------------------|---------------------------------
+Accuracy           |  Addition
+                   |  Omission
+                   |  Mistranslation
+                   |  Over-translation
+                   |  Under-translation
+                   |  Untranslated
+                   |  Improper exact TM match
+Fluency            |  Punctuation
+                   |  Spelling
+                   |  Grammar
+                   |  Grammatical register
+                   |  Inconsistency
+                   |  Link/cross-reference
+                   |  Character encoding
+Terminology        |  Inconsistent with termbase
+                   |  Inconsistent use of terminology
+Style              |  Awkward
+                   |  Company style
+                   |  Inconsistent style
+                   |  Third-party style
+                   |  Unidiomatic
+Locale convention  |  Address format
+                   |  Date format
+                   |  Currency format
+                   |  Measurement format
+                   |  Shortcut key
+                   |  Telephone format
 
 DQF需要上传翻译记忆文件，tmx或者tab分割的文件都行。生成tmx比较麻烦，我导入后还报错，我就选择的tab分割文本。但是omegat的原文片段可以包含换行，tab等信息，需要进一步处理。这个问题我反馈给了[omegat](https://sourceforge.net/p/omegat/bugs/913/)，说片段是可以包含多行内容的。
 
