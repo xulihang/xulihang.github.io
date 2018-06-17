@@ -34,6 +34,8 @@ server.start()
 比如句法分析：
 
 ```
+>>> from nltk.parse import CoreNLPParser
+>>> a=CoreNLPParser()
 >>> print(list(a.raw_parse("I like you."))[0])
 (ROOT (S (NP (PRP I)) (VP (VBP like) (NP (PRP you))) (. .)))
 ```
