@@ -62,7 +62,7 @@ tags: CAT NLP
 
 概率的乘法公式：
 
-$$ P(A,B) = P(B) x P(A \mid B) = P(A) x P(B \mid A) $$ ，如果事件独立，那么 $$ P(A,B) = P(A) x P(B) $$
+$$ P(A,B) = P(B) \times P(A \mid B) = P(A) \times P(B \mid A) $$ ，如果事件独立，那么 $$ P(A,B) = P(A) \times P(B) $$
 
 如果是在某个条件下发生的事件独立，就叫条件独立。
 
