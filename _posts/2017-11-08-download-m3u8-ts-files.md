@@ -55,7 +55,7 @@ for file in filelist:
         pass
 ```
 
-
+或者使用linux的rename命令，具体见此:<http://blog.xulihang.me/notes-of-linux-commands/>
 
 合并：
 
@@ -63,4 +63,9 @@ for file in filelist:
 copy /b *.ts E:\new.ts
 ```
 
+在linux下可以用cat命令：
+
+```
+cat *.ts>out.ts
+```
 
