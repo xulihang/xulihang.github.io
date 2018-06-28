@@ -2,8 +2,8 @@
 date: 2016-09-05 21:00:50+08:00
 layout: post
 title: 翻译理论整理（一）
-categories: 翻译
-tags: 
+categories: 笔记
+tags: 翻译
 ---
  
 最近申请了免试研究生，免试还是准备一下吧，基于《翻译研究入门》一书做笔记。

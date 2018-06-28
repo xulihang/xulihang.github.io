@@ -2,7 +2,7 @@
 date: 2016-08-01 10:17:50+08:00
 layout: post
 title: 拥有自己的B4i远程构建服务器
-categories: 移动开发
+categories: 技术随笔
 tags: iOS
 ---
  

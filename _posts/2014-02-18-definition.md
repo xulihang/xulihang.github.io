@@ -2,7 +2,7 @@
 date: 2014-02-18 22:22:17+00:00
 layout: post
 title: 生活杂记，技术手册与有思想的博客（本博客定位）  
-categories: 介绍
+categories: 随笔
 tags: 讨论    
 ---
 

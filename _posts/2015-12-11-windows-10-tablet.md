@@ -2,8 +2,8 @@
 date: 2015-12-11 10:28:50+00:00
 layout: post
 title: Windows10平板体验
-categories: 随笔
-tags: win10 平板
+categories: 电子数码
+tags: 平板
 ---
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/chuwei.JPG)

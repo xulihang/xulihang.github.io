@@ -2,7 +2,7 @@
 date: 2014-09-15 18:58:17+00:00
 layout: post
 title: Android修改屏幕亮度
-categories: android
+categories: 技术随笔
 tags: 系统优化 framework 反编译
 ---
 

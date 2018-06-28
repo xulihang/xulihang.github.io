@@ -2,7 +2,7 @@
 date: 2014-07-12 21:21:17+00:00
 layout: post
 title: Sprint版有锁iPhone5c
-categories: apple
+categories: 电子数码
 tags: iphone
 ---
 

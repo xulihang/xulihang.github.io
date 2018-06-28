@@ -2,7 +2,7 @@
 date: 2014-03-07 22:54:17+00:00
 layout: post
 title: 技术团队的协作与团结
-categories: 社会与集体
+categories: 随笔
 tags: 感悟 合作
 ---
 

@@ -2,7 +2,7 @@
 date: 2016-07-19 17:38:50+08:00
 layout: post
 title: B4i使用免费开发者调试账号
-categories: 移动开发
+categories: 技术随笔
 tags: iOS B4X
 ---
  

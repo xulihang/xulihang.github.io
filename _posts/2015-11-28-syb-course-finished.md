@@ -2,7 +2,7 @@
 date: 2015-11-28 16:07:50+00:00
 layout: post
 title: SYB创业培训结束
-categories: 创业
+categories: 随笔
 tags: 创业
 ---
 

@@ -2,8 +2,8 @@
 date: 2016-01-22 9:39:50+00:00
 layout: post
 title: 换机了，国行二代MOTO G XT1079 
-categories: 随笔
-tags: android
+categories: 电子数码
+tags: Android
 ---
  
 高考后买的中兴U956一直很好用，后来买了iPhone5c后不再是主力机，但我在校的移动号还是用的U956。

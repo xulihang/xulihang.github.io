@@ -2,8 +2,8 @@
 date: 2016-08-15 11:19:50+08:00
 layout: post
 title: 移动应用的个人汉化热潮在PPC时代达到顶峰
-categories: CAT
-tags: 汉化
+categories: 随笔
+tags: 汉化 CAT
 ---
  
 回想2007年时，各大PPC论坛热闹非常，国外优秀软件为多，涌现了相当多的个人汉化作者。但微软推出Windows Phone系统，抛弃Windows Mobile，相当于给PPC判了死缓。

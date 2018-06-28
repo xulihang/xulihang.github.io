@@ -2,7 +2,7 @@
 date: 2015-06-13 14:40:50+00:00
 layout: post
 title: 用龙芯本当路由器之开启无线热点
-categories: linux
+categories: 技术随笔
 tags: linux loongson 龙芯
 ---
 

@@ -2,7 +2,7 @@
 date: 2015-07-26 10:14:50+00:00
 layout: post
 title: Windows Phone 8.1 开发学习笔记（一）使用Httpclient
-categories: WindowsPhone
+categories: 技术随笔
 tags: Windows 
 ---
 

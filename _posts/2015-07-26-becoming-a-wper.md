@@ -2,7 +2,7 @@
 date: 2015-07-26 16:51:50+00:00
 layout: post
 title: 十天，从WP小白到上架第一个应用
-categories: WindowsPhone
+categories: 技术随笔
 tags: Windows 
 ---
 

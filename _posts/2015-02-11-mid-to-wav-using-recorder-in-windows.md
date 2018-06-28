@@ -2,7 +2,7 @@
 date: 2015-02-11 15:11:50+00:00
 layout: post
 title: 在Windows用录音机内录实现mid转wav
-categories: 技巧
+categories: 技术随笔
 tags: windows mid2wav
 ---
 

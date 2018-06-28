@@ -2,7 +2,7 @@
 date: 2015-06-13 15:06:50+00:00
 layout: post
 title: 用龙芯本当路由器之远程查看摄像头
-categories: linux
+categories: 技术随笔
 tags: linux loongson 龙芯
 ---
 

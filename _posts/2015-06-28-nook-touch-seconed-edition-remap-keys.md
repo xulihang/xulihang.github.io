@@ -2,7 +2,7 @@
 date: 2015-06-28 11:56:50+00:00
 layout: post
 title: 给nook2修改按键映射
-categories: nook
+categories: 电子数码
 tags: nook 电子书 Android
 ---
 

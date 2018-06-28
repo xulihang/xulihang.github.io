@@ -2,7 +2,7 @@
 date: 2015-02-03 19:31:50+00:00
 layout: post
 title: 免开发者帐号使用b4i开发iOS应用
-categories: apple
+categories: 技术随笔
 tags: hack
 ---
 

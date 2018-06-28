@@ -2,7 +2,7 @@
 date: 2015-02-16 11:26:50+00:00
 layout: post
 title: '[Linux记]Python安装PIL库处理图片'
-categories: 经验
+categories: 技术随笔
 tags: linux python
 ---
 

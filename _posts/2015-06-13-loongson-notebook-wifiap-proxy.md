@@ -2,7 +2,7 @@
 date: 2015-06-13 14:48:50+00:00
 layout: post
 title: 用龙芯本当路由器之挂代理上网
-categories: linux
+categories: 技术随笔
 tags: linux loongson 龙芯
 ---
 

@@ -2,7 +2,7 @@
 date: 2014-07-12 10:46:17+00:00
 layout: post
 title: 暑假计划
-categories: 计划
+categories: 随笔
 tags: 假期
 ---
 

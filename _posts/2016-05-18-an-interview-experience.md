@@ -2,8 +2,8 @@
 date: 2016-05-18 20:48:50+08:00
 layout: post
 title: 记一次中国日报面试经历
-categories: 工作
-tags: 面试
+categories: 随笔
+tags: 工作
 ---
  
 

@@ -2,7 +2,7 @@
 date: 2014-05-27 10:56:17+00:00
 layout: post
 title: 使用Porteus 3.0
-categories: linux
+categories: 技术随笔
 tags: slax porteus
 ---
 

@@ -2,8 +2,8 @@
 date: 2014-11-04 16:34:17+00:00
 layout: post
 title: 给当今品牌机装Win7激活那点事儿
-categories: windows
-tags: windows激活 装机 win7
+categories: 技术随笔
+tags: Windows 装机
 ---
 
 去年买新笔记本装win7就费了我不少劲。在远景写了[这篇文章](http://bbs.pcbeta.com/viewthread-1414954-1-1.html)。

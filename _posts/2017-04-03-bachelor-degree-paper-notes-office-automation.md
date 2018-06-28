@@ -2,7 +2,7 @@
 date: 2017-04-03 15:05:50+08:00
 layout: post
 title: 论文写作心得-格式与自动化工具使用篇
-categories: 随笔
+categories: 技术随笔
 tags: 论文
 ---
 

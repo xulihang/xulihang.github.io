@@ -2,8 +2,8 @@
 date: 2015-10-24 18:22:50+00:00
 layout: post
 title: 提取netflix上的字幕
-categories: 技巧
-tags: 大创
+categories: 技术随笔
+tags: 
 ---
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/netflix/netflix.PNG)

@@ -2,7 +2,7 @@
 date: 2015-07-15 9:33:50+00:00
 layout: post
 title: 北京七日游
-categories: 生活
+categories: 随笔
 tags: 旅游
 ---
 

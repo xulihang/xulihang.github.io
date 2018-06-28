@@ -2,7 +2,7 @@
 date: 2014-05-04 20:36:17+00:00
 layout: post
 title: 变通
-categories: 感悟
+categories: 随笔
 tags: 讨论 心得 
 ---
 

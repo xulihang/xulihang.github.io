@@ -2,7 +2,7 @@
 date: 2014-09-07 9:43:17+00:00
 layout: post
 title: iPhone安装python运行本地搜狗代理
-categories: iphone
+categories: 技术随笔
 tags: 越狱 ios
 ---
 

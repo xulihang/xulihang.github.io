@@ -2,8 +2,8 @@
 date: 2016-07-17 17:07:50+08:00
 layout: post
 title: UEFI+GPT环境下安装Windows+Linux+OS X
-categories: 电子数码
-tags: Linux
+categories: 技术随笔
+tags: 
 ---
  
 前[一篇文章](http://blog.xulihang.me/my-first-DIY-computer/)讲到了我DIY了一台机子，配置如下。

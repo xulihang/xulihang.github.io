@@ -2,7 +2,7 @@
 date: 2015-02-03 11:31:50+00:00
 layout: post
 title: '[转载]Xcode6 iOS8越狱设备免IDP调试'
-categories: apple
+categories: 技术随笔
 tags: hack
 ---
 

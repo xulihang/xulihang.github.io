@@ -2,8 +2,8 @@
 date: 2016-08-24 09:16:50+08:00
 layout: post
 title: 制作双语字幕的一般流程
-categories: CAT
-tags: 字幕
+categories: 随笔
+tags: CAT 翻译
 ---
  
 最近看王华树的《计算机辅助翻译实践》，内有字幕翻译一章，便也想亲身实践一下。

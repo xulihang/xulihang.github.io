@@ -2,7 +2,7 @@
 date: 2016-10-17 22:08:50+08:00
 layout: post
 title: 华米手表入手记
-categories: 随笔
+categories: 电子数码
 tags: 
 ---
  

@@ -2,7 +2,7 @@
 date: 2015-03-01 11:45:50+00:00
 layout: post
 title: 可访问的外国网站收藏
-categories: 分享
+categories: 收集
 tags: 学习
 ---
 

@@ -2,7 +2,7 @@
 date: 2016-07-20 12:12:50+08:00
 layout: post
 title: OS X下安装Lighttpd+Python+Bottle
-categories: 笔记
+categories: 技术随笔
 tags: Python
 ---
  

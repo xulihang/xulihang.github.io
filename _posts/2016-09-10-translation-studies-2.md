@@ -2,8 +2,8 @@
 date: 2016-09-10 11:30:50+08:00
 layout: post
 title: 翻译理论整理（二）
-categories: 翻译
-tags: 
+categories: 笔记
+tags: 翻译
 ---
  
 ## 功能理论学派

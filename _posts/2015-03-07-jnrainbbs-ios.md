@@ -2,7 +2,7 @@
 date: 2015-03-07 15:55:50+00:00
 layout: post
 title: 江南听雨BBS的iOS客户端已上架
-categories: iOS
+categories: 技术随笔
 tags: 江南大学 江南听雨
 ---
 

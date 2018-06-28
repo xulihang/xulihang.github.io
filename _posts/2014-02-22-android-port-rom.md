@@ -2,8 +2,8 @@
 date: 2014-02-22 13:30:17+00:00
 layout: post
 title: '[GUIDE]How to port roms simply'
-categories: Android
-tags: 经验 分享 移植     
+categories: 技术随笔
+tags: 经验 分享 移植 Android     
 ---
 
 这本来是我用中文写的教程，现在用英语来写。中文版见[我的百度空间](http://hi.baidu.com/xulihanghai/item/ae2edd3f4bc0babc623aff63)
