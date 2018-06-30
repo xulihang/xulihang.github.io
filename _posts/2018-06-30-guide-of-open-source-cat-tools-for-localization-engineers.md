@@ -96,7 +96,7 @@ manifest.rfm是项目的声明文件。我们把该文件导入rainbow，可以�
 
 翻译好的目标文件就生成在项目文件夹的done文件夹里了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image10.png)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image010.png)
 
 以上是对于Markdown的处理，还有像restructuredText这样的标记语言，OmegaT和Okapi都不支持。好在restructuredText的写作工具Sphinx支持将restructuredText的文本提取到Gettext
 PO文件。GetText是GNU项目用来本地化程序的一套工具，逐渐成为一套本地化的标准。GetText和XLIFF类似，XLIFF是基于XML的，而GetText有自己的一套文件格式。

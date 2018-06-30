@@ -39,7 +39,16 @@ find: image(.?).png
 replace: image00(\1).png
 ```
 
+有的图片是从excel直接复制过来形成的，另存为时会被保存为emf格式，需要进行下格式转换。
+
 转换的结果是这篇文章：[面向本地化工程师的开源CAT工具教程](http://blog.xulihang.me/guide-of-open-source-cat-tools-for-localization-engineers/)
+
+处理后的md也可以再转回docx，图片和基本的结构都是对的：
+
+```
+pandoc out.md -o out.docx
+```
+
 
 
 
