@@ -8,9 +8,15 @@ tags: CAT
 
 之前尝试将word转latex，因为latex比较复杂，较难处理。这次转markdown，则相对顺利许多。
 
+使用以下代码转换docx为md：
+
+```
+$ pandoc 1.docx -o out.md
+```
+
 需要在转换的基础上在做一些查找替换操作。
 
-1. 图片
+我的情况，主要需要改的是图片部分。
 
 将docx文件另存为网页，可以得到包含图片的文件夹，图片以image序号.png命名。而pandoc生成的markdown代码如下：
 
@@ -18,7 +24,7 @@ tags: CAT
 ![](media/image23.png){width="" height=""}
 ```
 
-需要用正则来进行下处理，去掉设置宽高的部分并设置正确的文件路径。pandoc转换生成的markdown有时候会在宽高部分的代码处换行，我们用notepad++处理的话要选择匹配新行。同时要使用非贪婪模式。
+需要用正则来进行下处理，去掉设置宽高的部分并设置正确的文件路径。pandoc转换生成的markdown有时候会在不该换行的地方换行，好在markdown是用空行来区分段落的。我们用notepad++处理的话要选择匹配新行。同时要使用非贪婪模式。
 
 去掉宽高：
 
@@ -33,6 +39,7 @@ find: image(.?).png
 replace: image00(\1).png
 ```
 
+转换的结果是这篇文章：[面向本地化工程师的开源CAT工具教程](http://blog.xulihang.me/guide-of-open-source-cat-tools-for-localization-engineers/)
 
 
 

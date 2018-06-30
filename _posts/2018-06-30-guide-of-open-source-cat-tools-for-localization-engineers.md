@@ -6,6 +6,8 @@ categories: 技术随笔
 tags: CAT
 ---
 
+本地化课的期末作业，我写了下，觉得内容比较详尽了，现在发上来，虽然很多地方我讲得很简略。
+
 本地化和翻译的一个区别在于翻译内容的多样化，可能需要翻译应用软件、网页或者音视频等多媒体内容，同时还要针对译入语文化对内容适当进行修改。
 
 开源翻译工具对于其它开源界使用的技术有广泛支持，而且因为其开源的性质，很容易自由地进行功能上的扩展。除了商业软件中使用的格式，很多在开源软件中有广泛应用的格式，如本地化技术gettext使用的文件格式PO，开源翻译工具OmegaT、Okapi等都支持。OmegaT是专业的计算机辅助翻译软件，而Okapi是用于翻译与本地化的一套工具集。
@@ -38,31 +40,18 @@ tags: CAT
 安装后可以给OmegaT添加如下格式的支持，其中便包括Markdown。
 
 -   Doxygen-commented files (using the Doxygen Filter)
-
 -   HTML files (using the HTML Filter)
-
 -   InDesign IDML files (using the IDML Filter)
-
 -   JSON files (using the JSON Filter)
-
 -   Markdown files (using the Markdown Filter)
-
 -   Qt TS files (using the TS Filter)
-
 -   Trados TagEditor TTX files (using the TTX Filter)
-
 -   Transifex projects (using the Transifex Filter)
-
 -   Wordfast Pro TXML files (using the TXML Filter)
-
 -   XLIFF 1.2 documents (using the XLIFF Filter)
-
 -   XLIFF 2 documents (see more information)
-
 -   XML files (using the XML Filter)
-
 -   XML files (using the XML Stream Filter)
-
 -   YAML files (using the YAML Filter)
 
 2、将Markdown转换为XLIFF
