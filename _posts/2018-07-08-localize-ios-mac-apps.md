@@ -1,7 +1,7 @@
 ---
 date: 2018-07-08 15:16:50+08:00
 layout: post
-title: iOS／macOS应用的本地化
+title: iOS/macOS应用的本地化
 categories: 技术随笔
 tags: CAT
 ---
@@ -27,4 +27,4 @@ iOS和macOS的应用本地化还是非常方便的，以下是具体步骤：
 
 导入时会自动生成Localizable.string等资源文件。你如果想手写这个文件的话当然也是可以的。B4X也是采用的类似的key/value的本地化方案，只是它会用sqlite来存储结果。
 
-以上只是粗浅的操作步骤，更多还是看苹果的文档吧：<https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LocalizingYourApp/LocalizingYourApp.html>
+以上只是粗浅的操作步骤，更多还是看苹果的文档吧：[Internationalization and Localization Guide](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPInternational/LocalizingYourApp/LocalizingYourApp.html)
