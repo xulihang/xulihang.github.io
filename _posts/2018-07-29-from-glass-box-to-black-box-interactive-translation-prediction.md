@@ -16,11 +16,21 @@ Daniel Torregrosa等人开发了Forecat这一黑盒式的交互式翻译预测�
 
 这个插件我试用下来还是很不错的，因为机器翻译在句子级别很难做得完善，但是以语块为单位使用机器翻译，可以给翻译提供很大的帮助。
 
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/forecat.png)
+
 不过Forecat目前还有不完善的地方，比如输入的中文需要空格才能提示下一部分的翻译，自动完成时还会在结尾处加上空格，对中文这样没有分词的语言支持的不好。我给作者提了一个issue：<https://github.com/transducens/Forecat-OmegaT/issues/9>
 
+Forecat-OmegaT的使用方法：
+
+* 在此<https://github.com/transducens/Forecat-OmegaT/releases>下载插件，复制到omegat的plugins文件夹。
+* OmegaT需要设置一个机器翻译，我用的Yandex，它目前是免费使用的。
+* 更多复杂的方法，比如自己训练神经网络，我也不太会。。
 
 
-
+参考文献：
+* Alabau, V., Bonk, R., Buck, C., Carl, M., Casacuberta, F., García-Martínez, M., . . . Tsoukala, C. (2013). CASMACAT: An Open Source Workbench for Advanced Computer Aided Translation. The Prague Bulletin of Mathematical Linguistics, 100(1), 101-112.
+* Peris, Á., Domingo, M., & Casacuberta, F. (2017). Interactive neural machine translation. Computer Speech & Language, 45, 201-220.
+* Daniel, T., Mikel L, F., & Juan Antonio, P.-O. (2014). An Open-Source Web-Based Tool for Resource-Agnostic Interactive Translation Prediction. The Prague Bulletin of Mathematical Linguistics, 102(1), 69-80.
 
 
 
