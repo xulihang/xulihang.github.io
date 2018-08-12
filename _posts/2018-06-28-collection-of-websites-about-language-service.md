@@ -23,12 +23,23 @@ tags: CAT 翻译
 
 * [fiberead](https://fiberead.com) 基于网站招募译者，进行翻译，按销售分成
 * [我译网](https://www.wiitrans.cn) 有试译要求，翻译报酬较高。
-
+* [proz](https://www.proz.com/) 国外知名的翻译平台，为译者和翻译客户的提供服务。
 
 ## 在线工具
 
 * [译马网](http://www.jeemaa.com) 在线CAT
 * [一本词典](http://onedict.com) 语智云帆推出的专业领域词典
+* [MateCAT](https://www.matecat.com/) 欧盟委员会赞助下开发的在线CAT平台，特点是使用机器翻译。
+
+
+## 机构
+
+* [American Translators Association](http://www.atanet.org/) 美国翻译协会
+
+## 开源与翻译
+
+* [translate on linux](https://translateonlinux.org/) 由译员Jean Dimitriadis建立。
+
 
 
 待更新……

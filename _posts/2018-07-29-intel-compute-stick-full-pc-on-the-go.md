@@ -3,7 +3,7 @@ date: 2018-07-29 18:39:50+08:00
 layout: post
 title: Intel计算棒：随身携带的PC
 categories: 电子数码
-tags: CAT
+tags: 
 ---
 
 ![](http://wx4.sinaimg.cn/large/a6938c7aly1ftmb98y57uj22bc334npe.jpg)
