@@ -20,7 +20,7 @@ Philipp Koehn认为目前主要有两种模式[^pk]：
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/matecat.png)
 
-但是译后编辑的模式往往使得翻译工作更加无聊与繁琐。机器翻译常常不能输出一个很好的句子，而且这种在机器翻译上修改的模式显得没有创造性，有可能翻译速度和质量都因此下降。而且译后编辑的模式并不是一个好的人机交互模式。[^atanet]。于是就有了另一种模式。
+但是译后编辑的模式往往使得翻译工作更加无聊与繁琐。机器翻译常常不能输出一个很好的句子，而且这种在机器翻译上修改的模式显得没有创造性，有可能翻译速度和质量都因此下降。而且译后编辑的模式并不是一个好的人机交互模式[^atanet]。于是就有了另一种模式。
 
 # 交互式机器翻译
 
@@ -55,4 +55,4 @@ Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT
 
 [^pk]: Computer Aided Translation 
 [EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
-[^atanet]Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
+[^atanet]: Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
