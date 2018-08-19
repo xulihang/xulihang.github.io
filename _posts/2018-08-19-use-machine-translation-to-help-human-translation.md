@@ -38,7 +38,7 @@ Casmacat的特点是机器翻译可以根据用户的操作不断学习完善。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/casmacat.jpg)
 
-和Casmacat与机器翻译相耦合的方式不同，又有人提出了一个以黑箱的方法利用机器翻译等双语资源的方法，开发出了Forecat这一软件。
+和Casmacat与机器翻译相耦合的方式不同，又有人提出了一个以黑箱的方法利用机器翻译等双语资源的方法，开发出了Forecat这一软件。黑箱的方法更容易理解，运行成本低，可利用资源多，试验结果显示比Casmacat这样的白箱方法效果更好。[^compare]
 
 Forecat将原文拆分为若干片段，片段的最大长度可以定义，默认为4个词。然后，它使用机器翻译或者翻译记忆翻译这些片段，然后根据用户输入匹配译文片段。匹配译文开头时，如果开头一样，还要根据输入框中的位置和对应原文的位置进行排序。这样得到的片段会很多，很多距离较远的片段其实提供的参考价值更大，所以一般采用所处编辑位置最长和最短的片段。
 
@@ -55,3 +55,4 @@ Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT
 
 [^pk]: Computer Aided Translation[EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
 [^atanet]: Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
+[^compare]: Torregrosa D, Pérez-Ortiz J A, Forcada M L. Comparative Human and Automatic Evaluation of Glass-Box and Black-Box Approaches to Interactive Translation Prediction[J]. The Prague Bulletin of Mathematical Linguistics, 2017, 108(1): 97-108.
