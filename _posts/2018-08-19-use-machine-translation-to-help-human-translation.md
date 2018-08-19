@@ -28,15 +28,15 @@ Philipp Koehn认为目前主要有两种模式[^pk]：
 
 使用在线机器翻译的用户一般不知道统计式机器翻译系统可以生成一串备选翻译，TransType根据用户的输入对备选翻译列表进行筛选，得到合适的翻译建议。结果会以下拉列表的形式呈现。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/transtype.png)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/transtype2.jpg)
 
 SDL Trados的AutoSuggest提供了相似的功能，不过除了机器翻译，它还可以根据上下文、翻译记忆和定义的词典生成翻译建议。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/autosuggest.png)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/autosuggest.jpg)
 
 Casmacat的特点是机器翻译可以根据用户的操作不断学习完善。它使用了一个专门的统计式机器翻译系统，和翻译界面的耦合程度高。用户输入翻译后（前缀），系统会给出一个机器翻译结果（后缀），单词还会以颜色来表示置信程度。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/casmacat.png)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/casmacat.jpg)
 
 和Casmacat与机器翻译相耦合的方式不同，又有人提出了一个以黑箱的方法利用机器翻译等双语资源的方法，开发出了Forecat这一软件。
 
@@ -46,7 +46,7 @@ Forecat将原文拆分为若干片段，片段的最大长度可以定义，默�
 
 Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT工具OmegaT中使用。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/forecat.png)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/forecat.png)
 
 
 机器翻译辅助人工译员，主要还是通过让译者迅速了解原文、减少敲击键盘次数以提高翻译效率。但对于提高翻译质量，目前还没看到太多的研究。
