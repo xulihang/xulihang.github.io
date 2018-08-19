@@ -53,6 +53,5 @@ Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT
 
 
 
-[^pk]: Computer Aided Translation 
-[EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
+[^pk]: Computer Aided Translation[EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
 [^atanet]: Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
