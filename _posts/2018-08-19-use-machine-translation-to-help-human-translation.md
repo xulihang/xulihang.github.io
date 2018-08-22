@@ -20,6 +20,8 @@ Philipp Koehn认为目前主要有两种模式[^pk]：
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/matecat.png)
 
+MateCAT还可以根据用户译后编辑的结果修改背后的机器翻译的模型参数，这样一个机器翻译的错误被纠正后，下次就不用再纠正了。SDL Trados 2017的Adaptive MT功能和此类似。
+
 但是译后编辑的模式往往使得翻译工作更加无聊与繁琐。机器翻译常常不能输出一个很好的句子，而且这种在机器翻译上修改的模式显得没有创造性，有可能翻译速度和质量都因此下降。而且译后编辑的模式并不是一个好的人机交互模式[^atanet]。于是就有了另一种模式。
 
 # 交互式机器翻译
