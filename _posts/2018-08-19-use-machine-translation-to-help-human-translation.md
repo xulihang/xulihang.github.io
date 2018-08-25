@@ -28,6 +28,8 @@ MateCAT还可以根据用户译后编辑的结果修改背后的机器翻译的�
 
 机器翻译系统根据用户输入的内容，提供翻译的建议，由用户选择是否采用，这叫做交互式机器翻译。最早做出的项目是1997年的TransType，后来又涌现了Caitra和CASMACAT等交互式机器翻译系统。
 
+## TransType
+
 使用在线机器翻译的用户一般不知道统计式机器翻译系统可以生成一串备选翻译，TransType根据用户的输入对备选翻译列表进行筛选，得到合适的翻译建议。结果会以下拉列表的形式呈现。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/transtype2.jpg)
@@ -36,9 +38,13 @@ SDL Trados的AutoSuggest提供了相似的功能，不过除了机器翻译，�
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/autosuggest.jpg)
 
-Casmacat[^casmacat]的特点是机器翻译可以根据用户的操作不断学习完善。它使用了一个专门的统计式机器翻译系统，和翻译界面的耦合程度高。用户输入翻译后（前缀），系统会给出一个机器翻译结果（后缀），单词还会以颜色来表示置信程度。
+## CASMACAT
+
+CASMACAT[^casmacat]的特点是机器翻译可以根据用户的操作不断学习完善。它使用了一个专门的统计式机器翻译系统，和翻译界面的耦合程度高。用户输入翻译后（前缀），系统会给出一个机器翻译结果（后缀），单词还会以颜色来表示置信程度。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/casmacat.jpg)
+
+## Forecat
 
 和Casmacat与机器翻译相耦合的方式不同，又有人提出了一个以黑箱的方法利用机器翻译等双语资源的方法，开发出了Forecat这一软件。黑箱的方法更容易理解，运行成本低，可利用资源多，试验结果显示比Casmacat这样的白箱方法效果更好。[^compare]
 
@@ -50,7 +56,9 @@ Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/forecat.png)
 
-白箱式交互式机器翻译也在不断地完善中。斯坦福大学开发的预测性翻译记忆（Predictive translation memory）系统[^ptm]，基于混合主体（mixed-initiative）人机交互设计原则，在拥有之前的交互式翻译系统的特性上更加注重交互界面的设计。
+## PTM
+
+白箱式交互式机器翻译也在不断地完善中。斯坦福大学开发的预测型翻译记忆（Predictive translation memory, PTM）系统[^ptm]，基于混合主体（mixed-initiative）人机交互设计原则，在拥有之前的交互式翻译系统的特性上更加注重交互界面的设计。
 
 比如它强调减少眼球的移动。传统的CAT工具都是采用的双栏表格形式，PTM使用的一行原文，一行译文相互交叉的模式。它认为分栏阅读时眼球移动的距离较大，而后者更加符合阅读习惯。因为原文和译文交叉，对于英语和法语这样都是由字母构成的语言不易区分，于是译文使用了等宽字体。
 
@@ -66,7 +74,7 @@ PTM对译者的帮助主要在三个方面：
 
 PTM还有一个特点是利用斯坦福的句法分析工具提取短语，以此来确定翻译建议的单元。
 
-PTM的作者现已开办公司，推出了Lilt这一款商业化的计算机辅助翻译。
+PTM的作者现已开办公司，推出了Lilt这一款商业化的计算机辅助翻译工具。
 
 
 # 结语
