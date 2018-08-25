@@ -26,4 +26,5 @@ text[^referenceID]
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/word-footnote-endnote.png)
 
+具体的效果可以见此：[使用机器翻译来辅助人工翻译](https://blog.xulihang.me/use-machine-translation-to-help-human-translation/)
 
