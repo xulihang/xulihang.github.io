@@ -15,9 +15,10 @@ tags: CAT 翻译
 * [Globalization Partners International ](http://www.globalizationpartners.com/) 教程内容比较丰富
 * [Smartling](https://www.smartling.com) 注重技术的一家云翻译公司
 
-## 资讯类
+## 资讯与专栏类
 
-* [slator](https://slator.com/)
+* [slator](https://slator.com/) 业内新闻
+* [The Open Mic](https://theopenmic.co) 译者分享自己的故事
 
 ## 翻译平台
 
@@ -29,12 +30,14 @@ tags: CAT 翻译
 
 * [译马网](http://www.jeemaa.com) 在线CAT
 * [一本词典](http://onedict.com) 语智云帆推出的专业领域词典
-* [MateCAT](https://www.matecat.com/) 欧盟委员会赞助下开发的在线CAT平台，特点是使用机器翻译。
+* [MateCAT](https://www.matecat.com/) 欧盟委员会赞助下开发的免费在线CAT平台，特点是使用机器翻译。
+* [SmartCAT]（https://www.smartcat.ai/） 又一款免费在线CAT软件，它还是一个翻译外包平台。
 
 
 ## 机构
 
 * [American Translators Association](http://www.atanet.org/) 美国翻译协会
+* [TAUS](https://www.taus.net) 翻译自动化用户协会
 
 ## 开源与翻译
 
