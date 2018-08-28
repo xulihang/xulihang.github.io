@@ -18,7 +18,7 @@ tags: CAT
 
 ![](https://github.com/xulihang/tesseract-clipboard/raw/master/demo.gif)
 
-其它的第三方软件，ABBYY也提供截图传文字，而知网CAJ阅读器支持选中PDF区域进行识别。
+其它的第三方软件，ABBYY也支持截图传文字，而知网CAJ阅读器支持选中PDF区域进行识别。
 
 2、PDF按章节转文字
 
@@ -42,7 +42,7 @@ pdfbox支持PDF的分割、合并、图像与文字提取等操作。
 
 1、词汇表按拼音顺序排列
 
-将以下从英文翻译过来的词汇表重新按拼音顺序排列。主要利用了java的pinyin4j库来实现拼音转文字。将纯文本进行结构化这一步的代码比较麻烦一点。代码[见此](https://github.com/xulihang/glossaryMaker)。
+将以下从英文翻译过来的词汇表重新按拼音顺序排列。主要利用了java的pinyin4j库来实现文字转拼音。将纯文本进行结构化这一步的代码比较麻烦一点。代码[见此](https://github.com/xulihang/glossaryMaker)。
 
 ```
 A
