@@ -18,7 +18,7 @@ tags: CAT
 
 ![](https://github.com/xulihang/tesseract-clipboard/raw/master/demo.gif)
 
-其它的第三方软件，ABBYY也支持截图传文字，而知网CAJ阅读器支持选中PDF区域进行识别。
+其它的第三方软件，ABBYY也支持截图转文字，而知网CAJ阅读器支持选中PDF区域进行识别。
 
 2、PDF按章节转文字
 
