@@ -10,9 +10,9 @@ tags:
 
 # 实习的动力
 
-出版业的实习工资很低，每天只有70元，不像互联网公司能有200元以上。但对于现阶段的我来说，钱并不重要。而且70块钱也已经足够我的生活费了。另外就像研究生的课程一样，我在意的并不是分数，而是能真正学到什么、做点什么。每个人都看书，但并不是每个人都了解出版行业。我之前并不了解出版行业，来了后可以接触新的东西，是件很有趣的事情。我还关注了一些编辑的博客，出版业的网站。
+出版业的实习工资很低，每天只有70元，不像互联网公司能有200元以上。但对于现阶段的我来说，钱并不重要。而且70块钱也已经足够我的生活费了。另外就像研究生的课程一样，我在意的并不是分数，而是能真正学到什么、做点什么。每个人都看书，但并不是每个人都了解出版行业。我之前并不了解出版行业，来了后可以接触新的东西，是件很有趣的事情。我还关注了一些编辑的博客，出版业相关的网站。
 
-对于编辑这样创造性的工作，金钱的激励其实并不明显。这个[视频](https://www.bilibili.com/video/av16506287)（Dan Pink-Drive: The surprising truth about what motivates us）中提到，对于重复性的机械劳动，金钱的奖励是有效的。而对于需要思考的工作，金钱的奖励往往会起到负面影响。人还有其它的动机。人们希望有一定的自主性、可以不断提高自己的技能，然后创造价值。Linux、Apache这样的开源软件，Wikipedia这样的非盈利性网站，不赚钱，但影响了整个世界。当然，这些志愿者在现实中往往是有工作的。
+对于编辑这样创造性的工作，金钱的激励其实并不明显。这个[视频](https://www.bilibili.com/video/av16506287)（Dan Pink-Drive: The surprising truth about what motivates us）中提到，对于重复性的机械劳动，金钱的奖励是有效的。而对于需要思考的工作，金钱的奖励往往会起到负面影响。人还有其它的动机。人们希望有一定的自主性、可以不断提高自己的技能，然后创造价值。Linux、Apache这样的开源软件，Wikipedia这样的非盈利性网站，不赚钱，但影响了整个世界。当然，这些项目的志愿者在现实中往往是有工作的。
 
 Egmont的口号是“We bring stories to life”。我们的编辑主要还是做故事的。而我主要是把这些故事翻译成中文。遇见好的故事是一件让人开心的事情。我来公司，最初就是因为小时候看的《米老鼠》杂志，有着有趣的故事。而碰见好的故事，自然想分享给别人。
 
@@ -23,8 +23,9 @@ Egmont的口号是“We bring stories to life”。我们的编辑主要还是�
 
 翻译是需要静下心来慢慢完成的，但是翻梦工厂上万字的故事书时我为了加快翻译速度，还是使用了机器翻译+译后编辑的模式。它有几点好处：
 
-1. 随着机器翻译质量的提高，译文只需稍作修改，提高翻译的速度。另外一个作用就是可以使我迅速了解原文意思。
-2. 丰富中文的表达。机器翻译是根据别人的翻译结果训练出来的，生成的译文会有不少不错的表达，很多是我没想到的。英译汉其实挺看重中文水平，我的中文水平还有待提高。
+1、 随着机器翻译质量的提高，译文只需稍作修改，提高翻译的速度。另外一个作用就是可以使我迅速了解原文意思。
+
+2、 丰富中文的表达。机器翻译是根据别人的翻译结果训练出来的，生成的译文会有不少不错的表达，很多是我没想到的。英译汉其实挺看重中文水平，我的中文水平还有待提高。
 
 另外，关于文字转录、使用CAT软件、处理文件格式，我在之前的博文中有提到，就不细讲了。
 
@@ -32,15 +33,16 @@ Egmont的口号是“We bring stories to life”。我们的编辑主要还是�
 
 1、对话。对话翻译时要注意一个标点符号的问题。如果前后两句是连在一起的，英文里前一句结束使用了句号，中文里得用逗号。
 
-```
-"I'm not sure we should leave the puppies," Perdita said. "Will Nanny be able to handle all fifteen of them by herself?"	“我不确定我们应不应该离开小狗崽们，”白佩蒂说，“保姆能够一个人照顾好15只小狗吗？”
-```
+
+>"I'm not sure we should leave the puppies," Perdita said. "Will Nanny be able to handle all fifteen of them by herself?"	
+>“我不确定我们应不应该离开小狗崽们，”白佩蒂说，“保姆能够一个人照顾好15只小狗吗？”
+
 
 2、意译。英语和汉语还是有很大的差别，特别是下例中big heart和no bones about it等表达时，照字面意思翻译过来，会显得佶屈聱牙。下面的例子主要是介绍雪宝的性格，我们可以采用意译的方法。其实，我们也完全可以摆脱原文进行再创作。
 
-```
-Olaf is a curious and trusting snowman with a big heart. No bones about it, Olaf is all about embracing life to its fullest! From warm hugs to summertime daydreams, Olaf is filled with optimism and happiness. 
-雪宝是一个亲切可爱的雪人，他好奇心强、对别人充分信任。雪宝热爱生活，积极乐观，始终保持开心的一面。
+
+>Olaf is a curious and trusting snowman with a big heart. No bones about it, Olaf is all about embracing life to its fullest! From warm hugs to summertime daydreams, Olaf is filled with optimism and happiness. 
+>雪宝是一个亲切可爱的雪人，他好奇心强、对别人充分信任。雪宝热爱生活，积极乐观，始终保持开心的一面。
 ```
 
 3、译名统一问题。人名、电影名、地名等，如果之前有过翻译，需要沿用之前的翻译。比如超人总动员里的弹力女超人Helen Parr，在之前出的书里被翻译为芭荷莉。这时，如果有电子版的语料库就很方便了。
