@@ -35,6 +35,7 @@ Egmont的口号是“We bring stories to life”。我们的编辑主要还是�
 
 
 >"I'm not sure we should leave the puppies," Perdita said. "Will Nanny be able to handle all fifteen of them by herself?"	
+>
 >“我不确定我们应不应该离开小狗崽们，”白佩蒂说，“保姆能够一个人照顾好15只小狗吗？”
 
 
@@ -42,8 +43,9 @@ Egmont的口号是“We bring stories to life”。我们的编辑主要还是�
 
 
 >Olaf is a curious and trusting snowman with a big heart. No bones about it, Olaf is all about embracing life to its fullest! From warm hugs to summertime daydreams, Olaf is filled with optimism and happiness. 
+>
 >雪宝是一个亲切可爱的雪人，他好奇心强、对别人充分信任。雪宝热爱生活，积极乐观，始终保持开心的一面。
-```
+
 
 3、译名统一问题。人名、电影名、地名等，如果之前有过翻译，需要沿用之前的翻译。比如超人总动员里的弹力女超人Helen Parr，在之前出的书里被翻译为芭荷莉。这时，如果有电子版的语料库就很方便了。
 
