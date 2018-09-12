@@ -27,9 +27,7 @@ tags: 网络
 ```
 from selenium import webdriver
 
-options = webdriver.ChromeOptions()
-options.binary_location="F:\Programs\ChromePortable\App\Google Chrome\chrome.exe"
-driver = webdriver.Chrome("e:\chromedriver.exe",chrome_options = options)
+driver = webdriver.Chrome("e:\chromedriver.exe")
 driver.get("https://forum.51nb.com/forum.php")
 print(driver.title)
 inputs = driver.find_elements_by_tag_name("input")
@@ -38,6 +36,9 @@ for inp in inputs:
         value=inp.get_attribute("value")
         if value.startswith(" ") or value.endswith(" "):
             print(value+" has redundant spaces.")
+            driver.execute_script("document.getElementById('"+inp.get_attribute("id")+"').style.background='red';")
+        else:
+            driver.execute_script("document.getElementById('"+inp.get_attribute("id")+"').style.background='';")
 driver.close()
 
 ```
