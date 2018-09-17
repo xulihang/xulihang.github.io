@@ -3,7 +3,7 @@ date: 2018-09-02 09:39:50+08:00
 layout: post
 title: 在出版公司实习
 categories: 随笔
-tags: 
+tags: 出版
 ---
 
 来实习也快两个月了，也来谈点体会吧。

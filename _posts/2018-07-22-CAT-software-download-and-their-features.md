@@ -35,7 +35,7 @@ MemoQ同样基于.net开发，ribbon界面。
 
 MemoQ支持插件，比如mymemory、tmxmall等都有插件支持。还可以调用transpdf服务转换扫描版PDF为Word。
 
-在此下载30天试用版：<https://www.memoq.com/downloads>
+在此下载30天试用版：<https://www.memoq.com/downloads>，过期后不能导入外部翻译记忆，不能翻译多个文件。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/memoq.png)
 
@@ -68,3 +68,8 @@ OmegaT的功能很强大，同时因为其开源的属性，很容易可以给�
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/OmegaT.png)
 
 对于CAT软件的特点，我这里肯定讲得不全，欢迎补充。
+
+# 2018-09-16更新
+
+对于试用版过期问题，我们这里可以使用虚拟机来作为一种变通方法（workaround）。可以使用Parallels Desktop、VMware等虚拟软件安装一个Win7系统，等CAT软件过期后就再重装一个系统。
+

@@ -3,7 +3,7 @@ date: 2018-08-26 14:50:50+08:00
 layout: post
 title: 翻译InDesign文件
 categories: 技术随笔
-tags: CAT
+tags: CAT 出版
 ---
 
 InDesign是常用的排版软件，我翻译的许多儿童绘本都是用它来制作的。

@@ -3,7 +3,7 @@ date: 2018-09-15 10:05:50+08:00
 layout: post
 title: 出版公司内部Mac服务器的用途构想
 categories: 技术随笔
-tags: 
+tags: 出版
 ---
 
 之前公司的文字编辑要想查看使用stuffit压缩的素材文件，都需要联系美术编辑。让美术编辑在mac电脑上替她们解压。同样的情况还有indesign文件，因为文字编辑的windows上没有安装adobe的系列软件，需要美术编辑打开并导出pdf。
