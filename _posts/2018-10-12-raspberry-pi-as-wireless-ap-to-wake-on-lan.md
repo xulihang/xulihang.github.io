@@ -12,11 +12,11 @@ tags:
 
 首先配置树莓派为一个无线AP，以下操作默认使用raspbian系统：
 
-1.安装bridge-utils
+1. 安装bridge-utils
 
     `$ sudo apt install bridge-utils`
 
-2.创建网桥
+2. 创建网桥
 
     ```
     $ sudo brctl addbr br-lan
@@ -25,16 +25,16 @@ tags:
     $ sudo ifconfig eth0 0.0.0.0 up
     ```
     
-3.配置IP转发，用文本编辑器打开/etc/sysctl.conf修改以下配置
+3. 配置IP转发，用文本编辑器打开/etc/sysctl.conf修改以下配置
 
     `net.ipv4.ip_forward = 1`
     
-4.配置iptables，添加NAT
+4. 配置iptables，添加NAT
 
-    `iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE`
+    `$ sudo iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE`
     
     
-5.安装并配置dnsmasq作为dns和dhcp服务器
+5. 安装并配置dnsmasq作为dns和dhcp服务器
 
     `$ sudo apt install dnsmasq`
     
@@ -45,21 +45,21 @@ tags:
     dhcp-host=（填主机有线网卡的MAC地址，形如XX:XX:XX:XX:XX:XX）,192.168.1.55
     ```
 
-6.设置开机启动
+6. 设置开机启动
 
     修改/etc/rc.local，添加第2、4两步的命令。rc.local默认是root权限，不用sudo。
     
 然后还需要配置主机支持网络唤醒，以下介绍ubuntu系统的设置。
 
-1.安装ethtool
+1. 安装ethtool
 
     `sudo apt-get install ethtool`
     
-2.开启有线网卡的wol
+2. 开启有线网卡的wol
 
     `sudo ethtool -s eth0 wol g`
     
-3.修改/etc/init.d/halt的以下内容为no，这样休眠后保持网络接口不被关闭。
+3. 修改/etc/init.d/halt的以下内容为no，这样休眠后保持网络接口不被关闭。
 
     `NETDOWN=no`
 
@@ -72,5 +72,5 @@ tags:
     
 参考链接：
 
-1.【树莓派】在Raspbian下将wifi中继为有线网络：<https://blog.csdn.net/wr132/article/details/78986190>
-2.实战Ubuntu远程开机 (Wake on Lan)：<https://www.linuxidc.com/Linux/2012-07/64696.htm>
+1. 【树莓派】在Raspbian下将wifi中继为有线网络：<https://blog.csdn.net/wr132/article/details/78986190>
+2. 实战Ubuntu远程开机 (Wake on Lan)：<https://www.linuxidc.com/Linux/2012-07/64696.htm>
