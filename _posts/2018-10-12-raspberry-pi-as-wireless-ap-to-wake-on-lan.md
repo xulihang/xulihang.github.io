@@ -65,9 +65,9 @@ tags:
 
 
     
-主机使用pm-hibernate进行休眠或者pm-suspend挂起之后，在树莓派上使用wakeonlan命令就可以进行唤醒了。
+主机使用pm-hibernate进行休眠或者pm-suspend挂起之后，在树莓派上使用wakeonlan命令就可以进行唤醒了，注意ip地址并不是主机的ip地址，而是所处网段的广播地址。因为树莓派和主机所处的网段可能不一样。
 
-`wakeonlan -i 192.168.1.55 mac地址`
+`wakeonlan -i 192.168.1.255 mac地址`
     
     
 参考链接：

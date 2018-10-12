@@ -52,5 +52,20 @@ segment20.ts
 $ rename segment segment0 segment?.ts
 ```
 
+## scp
+
+利用ssh复制文件
+
+从远程复制过来：
+
+`scp root@hostname:/root/.ssh/pub id_rsa.pub `
+
+从本地复制到远程：
+
+`scp id_rsa.pub root@hostname:/root/.ssh/pub`
+
+指定端口：
+
+`scp -P 43999 id_rsa.pub root@hostname:/root/.ssh/pub`
 
 
