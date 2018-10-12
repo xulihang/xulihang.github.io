@@ -68,9 +68,15 @@ tags:
 主机使用pm-hibernate进行休眠或者pm-suspend挂起之后，在树莓派上使用wakeonlan命令就可以进行唤醒了，注意ip地址并不是主机的ip地址，而是所处网段的广播地址。因为树莓派和主机所处的网段可能不一样。
 
 `wakeonlan -i 192.168.1.255 mac地址`
+
+另外需要注意的是，主机同时连上了无线网和有线网，如果家里路由器进行端口转发的话，主机的服务因为网关的问题会无法外网访问。这时需要用以下命令删掉有线网关：
+
+`$ sudo route del default gw 192.168.1.1`
     
     
 参考链接：
 
 1. 【树莓派】在Raspbian下将wifi中继为有线网络：<https://blog.csdn.net/wr132/article/details/78986190>
 2. 实战Ubuntu远程开机 (Wake on Lan)：<https://www.linuxidc.com/Linux/2012-07/64696.htm>
+3. 解决Linux下同时使用有线和无线网络时，网络连接的优先级问题：<https://blog.csdn.net/qq547276542/article/details/78713893
+>
