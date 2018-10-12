@@ -23,7 +23,7 @@ p{padding:.5em 0;text-indent: 2em;}
 li{padding:.2em 0;}
 .footnotes ol,ul{list-style-position:outside;}
 .footnotes p{text-indent:.2em;}
-ol,ul{list-style-position:outside;padding:2em;}
+ol,ul{list-style-position:outside;padding-left:2em;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 ol p{text-indent:0;}
 ul p{text-indent:0;}
