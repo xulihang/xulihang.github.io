@@ -23,8 +23,9 @@ p{padding:.5em 0;text-indent: 2em;}
 li{padding:.2em 0;}
 .footnotes ol,ul{list-style-position:outside;}
 .footnotes p{text-indent:.2em;}
-ol,ul{list-style-position:inside;}
+ol,ul{list-style-position:outside;padding:auto;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
+ol ul p{text-indent:0;}
 dt{margin-left:1em;}
 dd{margin-left:2em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
