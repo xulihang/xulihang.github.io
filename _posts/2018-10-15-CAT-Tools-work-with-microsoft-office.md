@@ -8,7 +8,7 @@ tags: CAT
 
 Trados和Wordfast等CAT软件早期都是在Office界面里工作的，但后来都发展成了集成式的翻译环境。
 
-现在还有这种模式工作的CAT软件，如Felix、Anaphraseus。这些软件的用户喜欢能够在原来的软件界面里进行翻译，而不喜欢Trados这样用表格显示分割的文本的模式。毕竟，这样的方法更加直观，你可以直接看到最终翻译的结果。
+现在还有用这种模式工作的CAT软件，如Felix、Anaphraseus。这些软件的用户喜欢能够在原来的软件界面里进行翻译，而不喜欢Trados这样用表格显示分割的文本的模式。毕竟，这样的方法更加直观，你可以直接看到最终翻译的结果。
 
 Felix是c++写的一款CAT软件，从前是商业软件，后来作者因为身体原因，选择了开源。
 
@@ -18,7 +18,7 @@ Felix是c++写的一款CAT软件，从前是商业软件，后来作者因为身
 
 在工具栏里点加载项，可以看到felix的操作菜单和快捷按钮。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/felix-bar.png)
+![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/felix-toolbar.png)
 
 平时翻译的话，点Look up the next，会寻找当前光标到下一个句子结束位置的内容，然后在felix的翻译记忆和术语窗口中显示匹配的内容。用翻译覆盖之前选中的原文，然后点Set And Next就会自动保存翻译记忆，并跳转到下一句。如果使用匹配翻译记忆覆盖，则选择Get And Next。
 
