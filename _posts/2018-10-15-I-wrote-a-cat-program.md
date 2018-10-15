@@ -29,4 +29,3 @@ CAT软件对于indesign文件的支持，我在[前文](/translate-indesign-file
 因为使用的是Basic语言，所以软件名字暂定BasicCAT。我打算开放源代码，相信通过易于学习的Basic语言，即使是普通的译员也可以定制出适合自己工作流程的CAT软件。现在代码公开在此处：<https://github.com/xulihang/BasicCAT>，不过我还没确定用什么开源许可证。
 
 对于软件的实现细节，我也会写相应的开发日记，供大家参考和批评。
-
