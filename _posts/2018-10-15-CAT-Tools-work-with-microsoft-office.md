@@ -20,9 +20,9 @@ Felix是c++写的一款CAT软件，从前是商业软件，后来作者因为身
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/felix-toolbar.png)
 
-平时翻译的话，点Look up the next，会寻找当前光标到下一个句子结束位置的内容，然后在felix的翻译记忆和术语窗口中显示匹配的内容。用翻译覆盖之前选中的原文，然后点Set And Next就会自动保存翻译记忆，并跳转到下一句。如果使用匹配翻译记忆覆盖，则选择Get And Next。
+平时翻译的话，点Look up Next，会寻找当前光标到下一个句子结束位置的内容并选中，然后在felix的翻译记忆和术语窗口中显示匹配的内容。输入翻译，覆盖之前选中的原文，然后点Set And Next就会自动保存翻译记忆，并跳转到下一句。如果使用匹配的翻译记忆覆盖，则选择Get And Next。
 
-在Word中选中原文，然后可以添加术语。匹配的术语可以用快捷键ALI+数字来调用。下图使用时的截图。
+在Word中选中原文，然后可以添加术语。匹配的术语可以用快捷键ALT+数字来调用。下图是使用时的截图。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/felix.png)
 
