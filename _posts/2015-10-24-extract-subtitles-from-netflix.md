@@ -60,7 +60,7 @@ https://ipv4-c001-pdx001-ix.1.oca.nflxvideo.net/range/412380277-413177770?o=AQHt
 然后字幕文件的地址是以下格式的：
 
 ```
-https://ipv4-c001-pdx001-ix.1.oca.nflxvideo.net?o=AQG_NH7i3YyyPn7m4oCIvfJXeH9xkKcjLa3jhQeYzC1f0hopvWakPz_T7l6ZJ1xrq2wlqYNayqCeGDA9kt8qk8Eon0cBNfh52hXyTlVuFccavCEzWIx_1-W0y1ZGssr9...
+https://ipv4-c001-pdx001-ix.1.oca.nflxvideo.net/?o=AQG_NH7i3YyyPn7m4oCIvfJXeH9xkKcjLa3jhQeYzC1f0hopvWakPz_T7l6ZJ1xrq2wlqYNayqCeGDA9kt8qk8Eon0cBNfh52hXyTlVuFccavCEzWIx_1-W0y1ZGssr9...
 ```
 
 可以根据第一个地址找第二个地址的内容。
