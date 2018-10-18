@@ -48,3 +48,21 @@ In the year of 1722,
 the Kangxi Emperor of the Qing Dynasty passed away.
 ```
 
+
+2018/10/18更新：
+
+有朋友问我字幕获取的事，截至目前，上述的方法还是有效的。但是开浏览器调试工具可能比较难以找到地址，一般会获取大量以下这段地址的内容：
+
+```
+https://ipv4-c001-pdx001-ix.1.oca.nflxvideo.net/range/412380277-413177770?o=AQHthFS3s9YFW93IkMVXxQVsZTdduAMLzLxISI28vT9LfI53tHBBEi9...
+```
+
+然后字幕文件的地址是以下格式的：
+
+```
+https://ipv4-c001-pdx001-ix.1.oca.nflxvideo.net?o=AQG_NH7i3YyyPn7m4oCIvfJXeH9xkKcjLa3jhQeYzC1f0hopvWakPz_T7l6ZJ1xrq2wlqYNayqCeGDA9kt8qk8Eon0cBNfh52hXyTlVuFccavCEzWIx_1-W0y1ZGssr9...
+```
+
+可以根据第一个地址找第二个地址的内容。
+
+测试中文字幕找不到第二个地址。有高手修改了netflix播放器的脚本，利用fiddler截取播放器脚本，替换为修改过的，然后播放视频时会自动跳转到字幕地址。中文字幕格式是WEBVTT而不是ttml。因为不让放，我这里也就不给出脚本了。
