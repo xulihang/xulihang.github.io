@@ -45,7 +45,8 @@ tags: CAT 启动
 2. 安装常用CAT软件
 
 	`# apt install translate-utils`
-	然后OmegaT和Okapi需要手动安装，OmegaT自带安装脚本，运行即可。Rainbow可以参考OmegaT的脚本安装。主要是把它复制到/opt里，然后软连接执行文件到/usr/bin，并在/usr/share/applications里建立对应的desktop文件，把项目添加到系统的菜单里，把png图标放到/usr/share/icons/hicolor/32x32/apps里。
+	
+    然后OmegaT和Okapi需要手动安装，OmegaT自带安装脚本，运行即可。Rainbow可以参考OmegaT的脚本安装。主要是把它复制到/opt里，然后软连接执行文件到/usr/bin，并在/usr/share/applications里建立对应的desktop文件，把项目添加到系统的菜单里，把png图标放到/usr/share/icons/hicolor/32x32/apps里。
     
     还有heartsome translation studio是中国公司开发，后来开源的CAT软件，也是java写的，和rainbow的安装方法类似。
 
