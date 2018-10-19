@@ -20,6 +20,8 @@ tags: CAT 启动
 
 即可把启动后进行的修改打包成squashfs格式的sb文件，然后放入光盘的modules目录即可使用。
 
+去年出的Slax 9是基于Debian的，有包管理系统，也更适合小白进行操作。想之前基于slackware，安装软件要解决各种依赖关系，不过对于包的管控倒是比较清楚。
+
 下面讲一下制作过程：
 
 1. 添加中文支持。
@@ -34,7 +36,7 @@ tags: CAT 启动
 
 	这里因为slax缺少一些组件，我们需要补充上，另外默认桌面不能用中文输入法，改使用xfce桌面管理器，用lightdm登录管理器。
 
-	`# apt install dbus-x11 xfce4 lightdm`
+	`# apt install dbus-x11 task-xfce-desktop`
 
 	安装im-config，可以强制设定输入法。
 
@@ -55,7 +57,7 @@ tags: CAT 启动
 
 这样，slax for translators就完成了。
 
-不过这样的slax适合熟悉linux操作的用户使用，对于普通用户，易用性肯定是不佳的。
+不过这样的slax适合熟悉linux操作的用户使用，对于普通用户，易用性肯定是不佳的，就比如普通用户默认不支持fat32分区的写入。
 
 这套系统的实用性还是有的，制作的过程也是充满乐趣。
 
