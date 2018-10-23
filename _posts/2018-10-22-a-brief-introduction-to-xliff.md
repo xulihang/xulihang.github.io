@@ -47,11 +47,11 @@ XLIFF由oasis组织制定，oasis还制定了DITA等标准。1.0版在2002年提
 </file>
 ```
 
-主要使用<g>标签来表达原来文件中的一对标签，其中的id表示其在原文标签中的顺序。
+主要使用g标签来表达原来文件中的一对标签，其中的id表示其在原文标签中的顺序。
 
 xliff还提供了用于句段分割的标签，我觉得这个应该交由CAT软件完成，存储在trans-unit里即可。
 
-另外xliff还有skeleton标签，指定原文件的目录。比如你打开heartsome translation studio翻译idml文件，可以看到项目文件里存放的skeleton文件。其实就是删去了要翻译的文件后重新压缩的idml。在我看来没有什么意义。
+另外xliff还有skeleton标签，指定原文件的地址。比如你打开heartsome translation studio翻译idml文件，可以看到项目文件里存放的skeleton文件。其实就是删去了要翻译的文件后重新压缩的idml。在我看来没有什么意义。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/heartsome_project.png)
 
