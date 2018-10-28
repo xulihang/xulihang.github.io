@@ -109,11 +109,13 @@ See you soon!!!
 \!{1,}(?!")
 ```
 
-当然，还会有很多复杂的情况，需要修改规则，
+当然，还会有很多复杂的情况，需要修改规则。
 
 相关源文件：
 
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/segmentation.bas>
 
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/Files/segmentation_en.conf>
+
+更新：这样的方法还是显得比较粗糙，句段分割还是应该使用srx格式文件存储规则，并用它提供的算法。srx的介绍[在此](/TMX-TBX-SRX-Three-Lisa-oscar-standards/)。
 
