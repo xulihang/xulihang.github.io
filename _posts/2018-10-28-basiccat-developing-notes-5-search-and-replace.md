@@ -38,7 +38,7 @@ CAT软件也应该是一个好用的文本编辑器，搜索与替换功能必�
 
 最终的界面如下。
 
-![](/album/basiccat/search_and_replace.png)
+![](/album/basiccat/search_and_replace.jpg)
 
 相关文件：
 
