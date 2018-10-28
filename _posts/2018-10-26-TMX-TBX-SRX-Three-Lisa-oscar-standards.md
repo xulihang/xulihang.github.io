@@ -91,7 +91,7 @@ tbx的主体还是看termEntry元素，langSet子元素包含了每种语言相�
 
 通过在langSet里并列存放tig元素，可以用来表示同义词、缩写等情况。
 
-```
+```xml
 <langSet xml:lang="de">
   <tig>
     <term>Abtastglied</term>
@@ -102,7 +102,7 @@ tbx的主体还是看termEntry元素，langSet子元素包含了每种语言相�
 </langSet> 
 ```
 
-```
+```xml
 <langSet xml:lang="de"> 
   <tig>
     <term>Proportionalglied plus Integrierglied</term>
@@ -116,7 +116,7 @@ tbx的主体还是看termEntry元素，langSet子元素包含了每种语言相�
 
 如果术语由多个单词组成，还可以在里面存放每个单词的信息，例子如下：
 
-```
+```xml
 <langSet xml:lang="fr">
 <ntig>
  <termGrp>
@@ -158,9 +158,7 @@ SRX（Segmentation Rules eXchange）是专门用于表示句段分割规则的�
 >Mr. Xu is an English teacher. He is 1.7m tall.
 >He likes teaching knowledge about CAT tools. For me, He is like a "Super." 
 
-但其实大多数时候，aferbreak都是可以没有的，参见Customizing Sentence Segmentation In SRX Rules <http://wiki.languagetool.org/customizing-sentence-segmentation-in-srx-rules>。另外设置afterbreak和beforebreak也增加了复杂性。
-
-下面是进行句段分割的伪代码：
+这样的设定和它的算法有关。下面是进行句段分割的伪代码：
 
 ```
 for each inter-character position in the text 
@@ -176,6 +174,9 @@ next
 ```
 
 代码一个字符一个字符地读取文本，读取每一字符时，对每条规则进行匹配，如果匹配，则根据break属性决定是否进行断句，并跳到下一个字符上继续操作。
+
+但其实大多数时候，aferbreak都是可以没有的，参见Customizing Sentence Segmentation In SRX Rules <http://wiki.languagetool.org/customizing-sentence-segmentation-in-srx-rules>。另外设置afterbreak和beforebreak也增加了复杂性。
+
 
 以下是一个来自SRX标准文件的SRX文件的示例，包含了英、法、日三语的规则。
 
