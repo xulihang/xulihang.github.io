@@ -18,7 +18,7 @@ SRX提供的伪代码看起来很简单，但实现起来我感到有点难度�
 
 为了提高效率，每次匹配后，该条规则中需要匹配的文本要去除匹配位置前的内容，而循环到下一条规则的文本时还是要从原来的文本开始。
 
-```basic
+```vb
 For Each rule As Map In rulesList
 		textLeft=text
 		Dim beforeBreak,afterBreak As String
@@ -62,7 +62,7 @@ For Each rule As Map In rulesList
 
 得到需要断句和不需要断句的位置列表后，我们对两个列表进行比对，生成一个不包含列外位置的断句位置列表。然后就可以根据位置信息确定片段了。
 
-```basic
+```vb
 Dim finalBreakPositions As List
 finalBreakPositions.Initialize
 For Each index As Int In breakPositions
