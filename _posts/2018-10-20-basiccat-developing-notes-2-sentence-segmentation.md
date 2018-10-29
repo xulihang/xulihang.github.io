@@ -117,5 +117,7 @@ See you soon!!!
 
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/Files/segmentation_en.conf>
 
-更新：这样的方法还是显得比较粗糙，句段分割还是应该使用srx格式文件存储规则，并用它提供的算法。srx的介绍[在此](/TMX-TBX-SRX-Three-Lisa-oscar-standards/)。
+更新：这样的方法还是显得比较粗糙，句段分割还是应该使用srx格式文件存储规则，并用它提供的算法。使用SRX进行分割的方法[见此](/basiccat-developing-notes-6-srx-implementation/)。
+
+
 
