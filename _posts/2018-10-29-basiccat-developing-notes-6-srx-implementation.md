@@ -20,47 +20,47 @@ SRX提供的伪代码看起来很简单，但实现起来我感到有点难度�
 
 ```vb
 For Each rule As Map In rulesList
-		textLeft=text
-		Dim beforeBreak,afterBreak As String
-		beforeBreak=rule.Get("beforebreak")
-		afterBreak=rule.Get("afterbreak")
+    textLeft=text
+    Dim beforeBreak,afterBreak As String
+    beforeBreak=rule.Get("beforebreak")
+    afterBreak=rule.Get("afterbreak")
 
-		Dim bbm As Matcher
-		bbm=Regex.Matcher2(beforeBreak,32,textLeft)
+    Dim bbm As Matcher
+    bbm=Regex.Matcher2(beforeBreak,32,textLeft)
 
-		If beforeBreak<>"null" Then
-			Do While bbm.Find
-				If afterBreak="null" Then
-					breakPositions.Add(bbm.GetEnd(0)+text.Length-textLeft.Length)
-			        textLeft=textLeft.SubString2(bbm.GetEnd(0),textLeft.Length)
-					bbm=Regex.Matcher2(beforeBreak,32,textLeft)
-				End If
-			
-				Dim abm As Matcher
-				abm=Regex.Matcher2(afterBreak,32,textLeft)
-				Do While abm.Find
-					If bbm.GetEnd(0)=abm.GetStart(0) Then
-						breakPositions.Add(abm.GetEnd(0)+text.Length-textLeft.Length)
-						textLeft=textLeft.SubString2(abm.GetEnd(0),textLeft.Length)
-						abm=Regex.Matcher2(afterBreak,32,textLeft)
-						bbm=Regex.Matcher2(beforeBreak,32,textLeft)
-						Exit
-					End If
-				Loop
-			Loop
-		Else if afterBreak<>"null" Then
-			Dim abm As Matcher
-			abm=Regex.Matcher2(afterBreak,32,textLeft)
-			Do While abm.Find
-				breakPositions.Add(abm.GetEnd(0)+text.Length-textLeft.Length)
-				textLeft=textLeft.SubString2(abm.GetEnd(0),textLeft.Length)
-				abm=Regex.Matcher2(afterBreak,32,textLeft)
-			Loop
-		End If
-	Next
+    If beforeBreak<>"null" Then
+        Do While bbm.Find
+            If afterBreak="null" Then
+                breakPositions.Add(bbm.GetEnd(0)+text.Length-textLeft.Length)
+                textLeft=textLeft.SubString2(bbm.GetEnd(0),textLeft.Length)
+                bbm=Regex.Matcher2(beforeBreak,32,textLeft)
+            End If
+        
+            Dim abm As Matcher
+            abm=Regex.Matcher2(afterBreak,32,textLeft)
+            Do While abm.Find
+                If bbm.GetEnd(0)=abm.GetStart(0) Then
+                    breakPositions.Add(abm.GetEnd(0)+text.Length-textLeft.Length)
+                    textLeft=textLeft.SubString2(abm.GetEnd(0),textLeft.Length)
+                    abm=Regex.Matcher2(afterBreak,32,textLeft)
+                    bbm=Regex.Matcher2(beforeBreak,32,textLeft)
+                    Exit
+                End If
+            Loop
+        Loop
+    Else if afterBreak<>"null" Then
+        Dim abm As Matcher
+        abm=Regex.Matcher2(afterBreak,32,textLeft)
+        Do While abm.Find
+            breakPositions.Add(abm.GetEnd(0)+text.Length-textLeft.Length)
+            textLeft=textLeft.SubString2(abm.GetEnd(0),textLeft.Length)
+            abm=Regex.Matcher2(afterBreak,32,textLeft)
+        Loop
+    End If
+Next
 ```
 
-得到需要断句和不需要断句的位置列表后，我们对两个列表进行比对，生成一个不包含列外位置的断句位置列表。然后就可以根据位置信息确定片段了。
+得到需要断句和不需要断句的位置列表后，我们对两个列表进行比对，生成一个不包含例外位置的断句位置列表。然后就可以根据位置信息确定片段了。
 
 ```vb
 Dim finalBreakPositions As List
@@ -72,5 +72,7 @@ For Each index As Int In breakPositions
 Next
 ```
 
-这一方法不需要使用复杂的正则表达式，比较简单明了，但效率不高。如果遇到大段文字，需要先把文章分成段落等小的片段，这时的断句效率还是很可观的。我测试80000词的《哈利波特与魔法石》需要18秒时间。
+这一方法不需要使用复杂的正则表达式，比较简单明了，但效率不高。如果遇到大段文字，需要先把文章分成段落等小的片段，这时的断句效率还是很可观的。我测试80000词的《哈利波特与魔法石》需要18秒时间。因为考虑了所有的规则，所有相当于cascade没有勾选。
+
+而要实现cascade勾选的模式，需要按照SRX给出的算法，在每个字符串的位置上都匹配一遍规则，而且是优先匹配例外规则，效率会更低。
 
