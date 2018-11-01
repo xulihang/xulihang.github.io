@@ -132,7 +132,7 @@ public class Read {
 }
 ```
 
-以上主要是为了实现BasicCAR将片段导出到Word里供外部审校使用。
+以上主要是为了实现BasicCAT将片段导出到Word里供外部审校使用。
 
 相关教程：
 

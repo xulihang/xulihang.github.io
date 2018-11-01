@@ -32,9 +32,9 @@ XLIFF由oasis组织制定，oasis还制定了DITA等标准。1.0版在2002年提
 </xliff>
 ```
 
-可以看到，首先有一个根元素xliff，然后每个文件是一个file元素。语言句对存储在trans-unit元素里。alt-trans用来存储来自翻译记忆或者机器翻译的结果。
+可以看到，首先有一个根元素xliff，然后每个文件是一个file元素。语言句对存储在trans-unit元素里。alt-trans用来存储来自翻译记忆或者机器翻译的结果。trans-unit标签里还可以存储不少属性，比如该片段是不是需要翻译的片段。
 
-了解XLIFF比较复杂的一点在于标签。如何用标签表示原文的格式，XLIFF提供了一系列标签。比如以下是使用okapi从idml文件提取出的一个片段：
+XLIFF比较复杂的另一点在于行内标签。如何用标签表示原文的格式，XLIFF提供了继承自opentag的一系列标签。比如以下是使用okapi从idml文件提取出的一个片段：
 
 ```xml
 <file original="Stories/Story_u1c52c.xml" source-language="en-US" target-language="zh-CN" datatype="xml">
@@ -47,7 +47,25 @@ XLIFF由oasis组织制定，oasis还制定了DITA等标准。1.0版在2002年提
 </file>
 ```
 
-主要使用g标签来表达原来文件中的一对标签，其中的id表示其在原文标签中的顺序。
+主要使用g标签来表达原来文件中的一对标签，其中的id表示其在原文标签中的顺序。g标签是一种占位性质的抽象标签，还有一种是封装标签，包含bpt、ept等。以下是两种标签的例子。
+
+抽象标签：
+
+```xml
+<trans-unit id="1">
+<source>This is <g id="1" ctype="bold">bold</g>.</source>
+</trans-unit>
+```
+
+封装标签：
+
+```xml
+<trans-unit id="1">
+<source>This is <bpt id="1" ctype="bold">\b</bpt>bold<ept id="1">\b0</ept>.</source>
+</trans-unit>
+```
+
+抽象标签的好处是针对不同格式，抽象出来的内容可以一样。比如html、rtf中表示加粗，html是`<b>`，而rtf中是`\b`，抽象之后都变成了g标签。但是抽象之后，原文标签中的含义也被隐去了。
 
 xliff还提供了用于句段分割的标签，我觉得这个应该交由CAT软件完成，存储在trans-unit里即可。
 
