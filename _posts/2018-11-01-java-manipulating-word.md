@@ -12,6 +12,60 @@ docx4j使用JAXB将xml转换为java中的类，而apache poi使用的xml-beans�
 
 docx4j提供了[在线工具](http://webapp.docx4java.org/)来解析Word格式，我们可以用它来了解docx文件的内部结构，这在使用docx来操作文档时很重要，我们要先了解有哪些元素，元素是怎么组合起来的，才能修改docx文件。
 
+比如以下word/document.xml文件里的内容：
+
+```xml
+<w:document>
+    <w:body>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="5000" w:type="pct"/>
+                <w:tblBorders>
+                    <w:top w:val="single"/>
+                    <w:left w:val="single"/>
+                    <w:bottom w:val="single"/>
+                    <w:right w:val="single"/>
+                    <w:insideH w:val="single"/>
+                    <w:insideV w:val="single"/>
+                </w:tblBorders>
+            </w:tblPr>
+            <w:tr>
+                <w:tc>
+                    <w:p>
+                        <w:r>
+                            <w:t>col1, row1</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:p>
+                        <w:r>
+                            <w:t>col2, row1</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr>
+                <w:tc>
+                    <w:p>
+                        <w:r>
+                            <w:t>col1, row2</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:p>
+                        <w:r>
+                            <w:t>col2, row2</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+    </w:body>
+</w:document>
+```
+
 不过，只是为了达成某些操作，我们可以不用太深入地了解这些。比如要实现创建一个带表格的word，可以用以下代码调用POI库来实现：
 
 ```java
