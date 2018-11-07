@@ -11,5 +11,5 @@ window.disqus_config = function () {
           this.page.identifier = window.disqusProxy.identifier;
 };
 </script>
-<script type="text/javascript" src="https://github.com/ciqulover/disqus-proxy-core/blob/master/lib/disqus-proxy-core.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/ciqulover/disqus-proxy-core/master/lib/disqus-proxy-core.js"></script>
 <div id=""disqus_proxy_thread></div>
