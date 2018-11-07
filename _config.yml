@@ -1,4 +1,6 @@
 markdown: kramdown
+plugins:
+ - jekyll-paginate
 permalink: /:title/
 url: blog.xulihang.me
 name: xulihang's blog
@@ -10,7 +12,6 @@ beian:
 51la: 16741573
 weibo: 2794687610
 github: xulihang
-pygments: 
-safe: true
+highlighter: rouge
 paginate: 20
 about: "在Github上的Blog。"
