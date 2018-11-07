@@ -78,6 +78,6 @@ xliff还提供了用于句段分割的标签，我觉得这个应该交由CAT软
 1. XLIFF Version 1.2 <http://docs.oasis-open.org/xliff/v1.2/os/xliff-core.html>
 2. Use XLIFF to translate documents <https://www.ibm.com/developerworks/library/x-localis2/index.html>
 3. XLIFF 2.x… the translator’s panacea? <https://multifarious.filkin.com/2018/08/23/xliff-2-x-the-translators-panacea/>
-
+4. OASIS XML Localisation Interchange File Format TC <https://www.oasis-open.org/committees/xliff/faq.php#inlineFormatting>
 
 

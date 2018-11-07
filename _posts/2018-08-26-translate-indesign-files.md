@@ -30,52 +30,78 @@ InDesign是常用的排版软件，我翻译的许多儿童绘本都是用它来
 
 打开一个idml中的story文件，我们可以看到以下内容。可以发现，正文的文字会因为格式不同被分割开来。比如标题中每个单词的首字母大写。这样导入CAT软件中，会有标签过多，以及一句话被分为多个片段的问题。
 
-memoq便选择丢弃CharacterStyleRange的信息。我测试Trados需要勾选“允许打开未支持的版本”来打开cs4之后版本的indesign导出的idml文件。而memoq没有问题。Omegat使用Okapi的话，会生成大量标签，而且如果标签处理得不好，很可能无法生成目标文件。商业软件还是有它强大的地方的。
+memoq便选择丢弃部分CharacterStyleRange信息。我测试Trados需要勾选“允许打开未支持的版本”来打开cs4之后版本的indesign导出的idml文件。而memoq没有问题。Omegat使用Okapi的话，会生成大量标签，而且如果标签处理得不好，很可能无法生成目标文件。商业软件还是有它强大的地方的。
 
 ```
-<Story Self="u5b4" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Story xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="13.0">
+	<Story Self="u1de62" AppliedTOCStyle="n" UserText="true" IsEndnoteStory="false" TrackChanges="false" StoryTitle="$ID/" AppliedNamedGrid="n">
 		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
 		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
-		<XMLElement Self="di3i4" MarkupTag="XMLTag/Story" XMLContent="u5b4">
-			<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Body Copy">
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-					<Br />
-					<Content>Your body has three different types of muscles. Two types, the </Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Body Copy Bold" FontStyle="300">
-					<Content>smooth</Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-					<Content> muscles (muscles found in your organs) and the </Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Body Copy Bold" FontStyle="300">
-					<Content>cardiac</Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-					<Content> muscle (your heart), work automatically. This means you can’t control them. You </Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Body Copy Italic" FontStyle="300">
-					<Content>can</Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-					<Content> control the third type</Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" KerningValue="-60">
-					<Content>—</Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-					<Content>the </Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/Body Copy Bold" FontStyle="300">
-					<Content>skeletal</Content>
-				</CharacterStyleRange>
-				<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]">
-					<Content> muscles. There are about 650 skeletal muscles in your body. These are the muscles that make you move.</Content>
-					<Br />
-				</CharacterStyleRange>
-			</ParagraphStyleRange>
-		</XMLElement>
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/$ID/NormalParagraphStyle" Hyphenation="false" HyphenationZone="70.31454656574766" RuleAboveLineWeight="1.9531818490485455" RuleBelowLineWeight="1.9531818490485455" Justification="CenterAlign" SplitColumnInsideGutter="11.719091094291274" ParagraphBorderTopLeftCornerRadius="1.221788512786767" ParagraphBorderTopRightCornerRadius="1.221788512786767" ParagraphBorderBottomLeftCornerRadius="1.221788512786767" ParagraphBorderBottomRightCornerRadius="1.221788512786767" ParagraphShadingTopLeftCornerRadius="1.221788512786767" ParagraphShadingTopRightCornerRadius="1.221788512786767" ParagraphShadingBottomLeftCornerRadius="1.221788512786767" ParagraphShadingBottomRightCornerRadius="1.221788512786767" ParagraphBorderTopLineWeight="1.221788512786767" ParagraphBorderBottomLineWeight="1.221788512786767" ParagraphBorderLeftLineWeight="1.221788512786767" ParagraphBorderRightLineWeight="1.221788512786767">
+			<Properties>
+				<ParagraphShadingColor type="object">Color/C=100 M=100 Y=31 K=22</ParagraphShadingColor>
+			</Properties>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>Th</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" Tracking="-25" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>e </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>Rea</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" Tracking="-25" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>l </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>Scienc</Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" Tracking="-25" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>e </Content>
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8e" FontStyle="Black" PointSize="30.41629884874917" StrokeWeight="4.781663163425601" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">53.33563679789722</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>of</Content>
+				<Br />
+			</CharacterStyleRange>
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" FillColor="Color/u1de8f" FontStyle="Black" PointSize="60.05106423996018" StrokeWeight="4.781663163425601" StrokeColor="Color/C=5 M=100 Y=85 K=0" MiterLimit="7.812727396194182" EndJoin="RoundEndJoin" RubyFontSize="-1.9531818490485455" KentenFontSize="-1.9531818490485455">
+				<Properties>
+					<Leading type="unit">47.11735130636342</Leading>
+					<AppliedFont type="string">Burbank Big Regular</AppliedFont>
+				</Properties>
+				<Content>Supers</Content>
+			</CharacterStyleRange>
+		</ParagraphStyleRange>
 	</Story>
+</idPkg:Story>
 ```
 
 
