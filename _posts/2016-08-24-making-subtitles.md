@@ -44,4 +44,4 @@ and I am extraordinarily confident that that is going to happen.
 
 用格式工厂可以输出带字幕的视频，以下是我做的最终成品。
 
-<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="http://static.hdslb.com/miniloader.swf" flashvars="aid=5970802&page=1" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+<iframe src="//player.bilibili.com/player.html?aid=5970802&cid=9693866&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
