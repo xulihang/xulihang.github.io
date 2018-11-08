@@ -76,3 +76,9 @@ Next
 
 而要实现cascade勾选的模式，需要按照SRX给出的算法，在每个字符串的位置上都匹配一遍规则，而且是优先匹配例外规则，效率会更低。
 
+相关文件：
+
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/SRX.bas>
+
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/segmentation.bas>
+

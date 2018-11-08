@@ -18,7 +18,7 @@ tags: CAT
 
 BasicCAT术语管理使用起来很简单，足够满足一般需求。
 
-首先是基本划词添加。在原文和译文输入框中划取要添加的术语，然后在右边的术语区点击添加术语。
+首先是基本的划词添加。在原文和译文输入框中划取要添加的术语，然后在右边的术语区点击添加术语。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/addterm.png)
 
@@ -131,5 +131,12 @@ TBX的话，标签对应subjectField，备注放在note标签里。一个生成�
 另外还有术语的匹配问题，如果添加的术语有屈折变化，在检索时需要对其进行词型还原。比如动词的第三人称单数和复数形式。这里我采用opennlp对原文进行分词、词性标注，并最终调用lemma词典得到单词的原型。就是opennlp的模型不多，不过有英文的就够了。
 
 
+相关文件：
 
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/Term.bas>
 
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/TermEditor.bas>
+
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/TermManager.bas>
+
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/opennlp.bas>
