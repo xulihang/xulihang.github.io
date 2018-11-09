@@ -16,9 +16,9 @@ tags: CAT
 
 
 ```python
->>> '变'.encode('gbk') 将“变”转为gbk编码的字节，可以看到编码是B1E4
+>>> '变'.encode('gbk') #将“变”转为gbk编码的字节，可以看到编码是B1E4
 b'\xb1\xe4'
->>> b'\xb1\xe4'.decode('big5') 将编码B1E4以big5的编码显示
+>>> b'\xb1\xe4'.decode('big5') #将编码B1E4以big5的编码显示
 '曹'
 >>> '巨'.encode('gbk')
 b'\xbe\xde'
@@ -28,18 +28,18 @@ b'\xbe\xde'
 
 我们可以发现gbk编码中的变巨对应的是big5编码中的曹操。我们再来看看utf-8和unicode相关的操作
 
-```
+```python
 >>> '严'
 '严'
->>> ord('严') 得到“严”的unicode的十进制编码
+>>> ord('严') #得到“严”的unicode的十进制编码
 20005
->>> hex(ord('严')) “严”的unicode的十六进制编码
+>>> hex(ord('严')) #“严”的unicode的十六进制编码
 '0x4e25'
->>> int('4E25',16) 把十六进制文本转回十进制
+>>> int('4E25',16) #把十六进制文本转回十进制
 20005
->>> chr(20005) 十进制unicode转回文本
+>>> chr(20005) #十进制unicode转回文本
 '严'
->>>'严'.encode('utf-8') “严”的utf-8编码
+>>>'严'.encode('utf-8') #“严”的utf-8编码
 b'\xe4\xb8\xa5'
 ```
 
