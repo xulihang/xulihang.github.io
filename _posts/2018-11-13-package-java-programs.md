@@ -8,7 +8,7 @@ tags:
 
 java程序开发好了，接下来要进行打包分发工作了。
 
-java自带javapackage可以进行打包。这里我们使用launch4j将其转换为可执行文件。launch4j是跨平台的，可以打包mac、linux和windows程序。
+java自带javapackage可以进行打包。这里我们使用launch4j将其转换为可执行文件。launch4j是跨平台的，但只能生成windows程序。
 
 ## Windows
 
@@ -106,6 +106,31 @@ Filename: "{app}\BasicCAT.exe"; Description: "{cm:LaunchProgram,BasicCAT}"; Flag
 ### 发布到Windows Store
 
 利用桌面桥，可以将桌面Windows程序发布到Windows Store上。微软现在提供两种方法，一种是使用[Desktop App Converter](https://docs.microsoft.com/zh-cn/windows/uwp/porting/desktop-to-uwp-run-desktop-app-converter)，一种是使用[Visual Studio](https://docs.microsoft.com/zh-cn/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)，后者更加方便一点。
+
+## macOS
+
+launch4j只能生成exe文件，在mac上我们可以用jdk自带的javapackager。
+
+怎么做可以参考这篇[文章](https://alvinalexander.com/java/how-use-javapackager-build-macos-application-bundle)以及[官方文档](https://docs.oracle.com/javase/8/docs/technotes/tools/unix/javapackager.html)。
+
+```
+javapackager \
+  -deploy -Bruntime=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home \
+  -native image \
+  -srcdir java \
+  -srcfiles BasicCAT.jar \
+  -outdir release \
+  -outfile BasicCAT \
+  -appclass org.xulihang.basiccat.main \
+  -name BasicCAT \
+  -title BasicCAT \
+  -nosign \
+  -v
+```
+
+通过以上命令，可以生成一个.app文件。.app就是个文件夹，我们可以把需要的文件再补充进去。
+
+javapackager也可以生成deb和rpm等linux系统的安装包。
 
 
 
