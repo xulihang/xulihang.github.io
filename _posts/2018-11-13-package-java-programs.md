@@ -61,7 +61,7 @@ java自带javapackage可以进行打包。这里我们使用launch4j将其转换
 ; NOTE: The value of AppId uniquely identifies this application.
 ; Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{6974B743-549E-4773-9B7A-0EFE71A61295}
+AppId=\{\{6974B743-549E-4773-9B7A-0EFE71A61295\}
 AppName=BasicCAT
 AppVersion=1.0
 ;AppVerName=BasicCAT 1.0
