@@ -23,6 +23,8 @@ Desktop App Converter会在本地运行一个Windows10系统的容器，然后�
 
     注意要提交到商店的话，需要从开发者中心找到以下内容，填入对应的appid，packagename和publisher等信息，不然上传软件包时会提示错误。不过可以在生成后修改AppxManifest.xml也可以。
     
+    ![](/album/ms_store_app.JPG)
+    
 5. 打包成appx: `makeappx.exe /d PackageFiles /p out.appx`
     
     makeappx应该包含在windows10sdk中。
