@@ -26,7 +26,7 @@ msgstr ""
 
 msgctxt "okpCtx:sd=5:tu=NFDBB2FA9-tu2"
 msgid "<g1>[Global Notes:</g1>"
-msgstr "<g1>[全球注释：</g1>"
+msgstr "<g1>[全球需知：</g1>"
 
 #, c-format
 msgid "One file removed"
@@ -41,7 +41,9 @@ msgstr[1] ""
 
 要处理po的话也简单，只要按行读取，如果是`msgid`开头就读取为原文。不过有时候会遇到要翻译的内容为纯标签或者空白的情况，需要略过。读取时，对每个`msgid`都按顺序进行标号，这样方便生成的时候把内容替换回`msgstr`。
 
-BasicCAT的po过滤器是以插件的形式开发的。
+Okapi生成的PO也有类似opentag的行内标签。不过是以`<g1></g1>`这样的形式存储的，比较容易判断开头标签和结尾标签的对应情况。所以BasicCAT默认是隐藏片段开头结尾处的成对标签和单个标签的。
+
+BasicCAT的po过滤器是以插件的形式开发的，插件和主程序之间需要传递很多的参数。
 
 相关文件：<https://github.com/xulihang/BasicCAT/tree/master/plugins/poFilter>
 
