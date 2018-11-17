@@ -34,7 +34,7 @@ XLIFF由oasis组织制定，oasis还制定了DITA等标准。1.0版在2002年提
 
 可以看到，首先有一个根元素xliff，然后每个文件是一个file元素。语言句对存储在trans-unit元素里。alt-trans用来存储来自翻译记忆或者机器翻译的结果。trans-unit标签里还可以存储不少属性，比如该片段是不是需要翻译的片段。
 
-XLIFF比较复杂的另一点在于行内标签。如何用标签表示原文的格式，XLIFF提供了继承自opentag的一系列标签。比如以下是使用okapi从idml文件提取出的一个片段：
+XLIFF比较复杂的另一点在于行内标签。如何用标签表示原文的格式，XLIFF提供了继承自[opentag](http://www.opentag.com/otspecs.htm#inline_elem)的一系列标签。比如以下是使用okapi从idml文件提取出的一个片段：
 
 ```xml
 <file original="Stories/Story_u1c52c.xml" source-language="en-US" target-language="zh-CN" datatype="xml">
@@ -69,7 +69,7 @@ XLIFF比较复杂的另一点在于行内标签。如何用标签表示原文的
 
 xliff还提供了用于句段分割的标签，我觉得这个应该交由CAT软件完成，存储在trans-unit里即可。
 
-另外xliff还有skeleton标签，指定原文件的地址。比如你打开heartsome translation studio翻译idml文件，可以看到项目文件里存放的skeleton文件。其实就是删去了要翻译的文件后重新压缩的idml。在我看来没有什么意义。
+另外xliff还有skeleton标签，指定skl文件的地址。比如你打开heartsome translation studio翻译idml文件，可以看到项目文件里存放的skeleton文件。其实就是删去了要翻译的文件后重新压缩的idml。在opentag格式的时候，skeleton里会存放翻译内容的ref信息，方便重新把内容填回去。不过heartsome 似乎并没有添加ref信息，可能是有别的办法替换译文，那这样在我看来生成skeleton文件没有什么意义。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/heartsome_project.png)
 

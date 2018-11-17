@@ -21,7 +21,7 @@ Desktop App Converter会在本地运行一个Windows10系统的容器，然后�
 3. 展开基础映像：`DesktopAppConverter.exe -Setup -BaseImage .\BaseImage-1XXXX.wim -Verbose`
 4. 生成Package：`DesktopAppConverter.exe -Installer D:\setup.exe -InstallerArguments "/verysilent  /suppressmsgboxes" -Destination C:\Output\MyApp -AppId "xxxxx.xxxxx" -PackageName "MyApp" -Publisher "CN=MyPublisher" -Version 1.0.0.0`
 
-    注意要提交到商店的话，需要从开发者中心找到以下内容，填入对应的appid，packagename和publisher等信息，不然上传软件包时会提示错误。不过可以在生成后修改AppxManifest.xml也可以。
+    注意要提交到商店的话，需要从开发者中心找到以下内容，填入对应的appid，packagename和publisher等信息，不然上传软件包时会提示错误。不过在生成后修改AppxManifest.xml也可以。
     
     ![](/album/ms_store_app.JPG)
     
