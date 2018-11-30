@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: B4X
 ---
 
-[KeyValueStore](https://www.b4x.com/android/forum/threads/b4x-keyvaluestore-2-simple-powerful-local-datastore.63633/)是B4X的一个跨平台类库，它对sqlite方法进行封装，使得我们可以想使用map一样，用键/值的形式读取和存储数据。数据存储在sqlite里可以永久保存，同时可以享受sqlite的高性能。
+[KeyValueStore](https://www.b4x.com/android/forum/threads/b4x-keyvaluestore-2-simple-powerful-local-datastore.63633/)是B4X的一个跨平台类库，它对sqlite方法进行封装，使得我们可以像使用map一样，用键/值的形式读取和存储数据。数据存储在sqlite里可以永久保存，同时可以享受sqlite的高性能。
 
 KeyValueStore的Value是使用B4XSerializator生成的二进制数据，这样数据可以在iOS/Android/Jre等多个平台上进行交换，Value可以是b4x的map、list、bytes、string和用户定义的类型等等。
 
@@ -185,7 +185,7 @@ Public Sub RefreshUser(user As String)
 End Sub
 ```
 
-如果队列请求成果，则执行相关操作，并将其从队列中删除。如果失败则等待30秒后重试。
+如果队列请求成功，则执行相关操作，并将其从队列中删除。如果失败则等待30秒后重试。
 
 ```vb
 Private Sub HandleQueue
