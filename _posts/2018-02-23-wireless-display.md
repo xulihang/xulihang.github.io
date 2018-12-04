@@ -38,6 +38,11 @@ dlna大多数设备都支持，airplay是苹果设备使用的，miracast大多�
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/connect_windows.jpg)
 
+# 12月4日更新
+
+Linux上可以使用[miraclecast](https://github.com/albfan/miraclecast)和[shairply](https://github.com/juhovh/shairplay)实现micrast sink和airplay server的功能。miraclecast还比较挑无线网卡，有的网卡并不支持，比如rtl8188eu芯片的水星mw150us，而我的ar9271芯片的tplink 322g+老无线网卡倒支持。
+
+Android在4.2后一般都不能当做miracast的接收端，不过有一款软件叫airscreen，可以让全平台的设备无线投屏到Android设备上。
 
 
 
