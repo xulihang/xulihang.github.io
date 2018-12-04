@@ -6,7 +6,13 @@ categories: 电子数码
 tags: 
 ---
 
-我一直关注着
+我一直关注着基于x86架构的低功耗主机，偶然淘宝给我推送了wintel box w8 pro。这是intel atom x5-z8350 CPU，cherry trail架构的一台主机，2GB内存，32GB emmc，realtek 8723bs无线网卡，重量200多克，长宽不到10厘米，平时运行的功耗只有4w。
+
+而相比于我之前买的[intel compute stick](http://blog.xulihang.me/intel-compute-stick-full-pc-on-the-go/)，它的好处在于更加丰富的接口和64位系统的支持。它提供1个USB2.0，1个USB3.0口，microsd插槽，还有有线端口，hdmi接口和音频接口。这样平时就不用再接一个USB HUB。
+
+和树莓派相比，性能更好，而且能运行x86的windows程序。不过没有树莓派那么丰富的拓展，而且如果装linux，驱动目前并不好找。
+
+以下是在linux下输出的相关配置信息。
 
 ```
 xulihang@debian:~$ uname -a
@@ -55,3 +61,8 @@ address sizes	: 36 bits physical, 48 bits virtual
 power management:
 ……
 ```
+
+z8350集成了一系列驱动，稳定版的linux内核不够新，还不能很好地支持。我参考[这里](https://github.com/mopplayer/lattepanda-mainline-4.11)下载了ubuntu的内核，装上后可以驱动声卡。不过耳机孔没有声音，hdmi输入正常。平时hdmi转vga外接显示器，转接器要带音频输出，这样才能外接音频设备使用。
+
+但是无线网卡还是没有驱动，最新的linux内核已经将rtl8723bs的驱动放在staging里了，只是我用的debian9还没有采用。我测试安装sid版debian的内核是可以驱动无线的，但在debian9上还不稳定。
+
