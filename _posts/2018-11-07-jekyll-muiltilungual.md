@@ -145,7 +145,7 @@ rss: 订阅
 }
 ```
 
-最终的效果可以看这个网站：<https://basiccat.xulihang.me>
+最终的效果可以看这个网站：<https://www.basiccat.org>
 
 相关参考教程：
 

@@ -7,7 +7,7 @@ tags: 技术写作
 ---
 
 如何本地化Sphinx的步骤我参考官网写在此处：
-https://sphinx-apidoc.readthedocs.io/zh_CN/latest/more/i18n.html
+<https://sphinx-apidoc.readthedocs.io/zh_CN/latest/more/i18n.html>
 
 Sphinx会对要翻译的内容进行提取，然后存储为po文件。其中代码、图片等directives的内容会被忽略。这点比okapi转换markdown文件为po文件要做得好。
 
