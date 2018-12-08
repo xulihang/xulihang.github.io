@@ -8,7 +8,7 @@ tags: CAT
 
 团队协作主要是能够实时共享翻译记忆和术语库，同步工作文件。
 
-利用[CloudKVS](https://blog.xulihang.me/B4X-technology-dissection-cloudkvs/)可以实现翻译记忆和术语库的共享。客户端向本地的KeyValueStore添加项目，会自动同步到远程服务器，并会记录该条目的id。如果另一客户端提交了新的条目，该客户端本地没有，就会同步比本地存储的id更大的新条目。
+利用[CloudKVS](https://blog.xulihang.me/B4X-technology-dissection-cloudkvs/)可以实现翻译记忆和术语库的共享。客户端向本地的KeyValueStore添加项目，该项目会被自动同步到远程服务器，并记录该条目的id。如果另一客户端提交了新的条目，该客户端本地没有，就会同步比本地存储的id更大的新条目。
 
 这一工作方式和git的设计相类似，而git只适合对纯文本文件进行版本控制。
 
