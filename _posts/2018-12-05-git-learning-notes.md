@@ -194,4 +194,4 @@ PS D:\git\playground> git log  --pretty=oneline --graph
 
 #### checkout
 
-checkout除了切换分支，还可以撤销对工作区没有add过的文件进行的修改。
+checkout除了切换分支，把仓库里的文件提取到工作文件夹，还可以撤销对工作区没有add过的文件进行的修改。
