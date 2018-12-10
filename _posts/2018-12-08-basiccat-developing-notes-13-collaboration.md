@@ -33,8 +33,34 @@ BasicCAT使用jgit来实现git的功能。jgit的api分为plumbing和porcelain�
 
 可以在[jgit-cookbook](https://github.com/centic9/jgit-cookbook/tree/master/src/main/java/org/dstadler/jgit/porcelain)这个项目中了解具体的用法。
 
+### 更新
+
+9号添加了自动解决冲突的办法。主要是事先进行fetch，检测远程是否有没有同步过来的提交。如果有，则建立一个临时工作文件夹并切换过去，checkout文件并执行rebase，然后对工作文件进行比对。比对的片段内容示例如下：
+
+```
+[
+    "Page 1",
+    "第1页",
+    "Page 1\n\n",
+    "超人总动员_short.txt",
+    {
+        "creator": "xulihang",
+        "createdTime": "1544367110849"
+    }
+],
+```
+
+如果远程文件的createdTime比本地的新，那就更新本地的工作文件对应的片段。如果本地的片段更新，那就更新远程的文件。远程文件有更新的话就要执行push来同步更新远程的仓库。
+
+参考资料：
+
+* [Initializing Git Repositories with JGit ](https://www.codeaffine.com/2015/05/06/jgit-initialize-repository/)
+* [CheckoutCommand](http://download.eclipse.org/jgit/docs/jgit-2.3.1.201302201838-r/apidocs/org/eclipse/jgit/api/CheckoutCommand.html#addPath(java.lang.String))
+
 
 相关文件：
+
+<https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/Project.bas>
 
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/git.bas>
 
