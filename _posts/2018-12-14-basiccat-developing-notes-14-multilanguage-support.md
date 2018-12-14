@@ -14,9 +14,9 @@ BasicCAT最初仅支持中英互译，目的是针对两种语言做专门的适
 2. 添加对应语言的分割规则，需要修改SRX文件。
 3. 判断哪些语言是中间有空格的，它的字数又是如何统计的。
 
-另外还有针对各大机器翻译API，使用的语言代码不尽相同，需要做一个表进行转换。当然也可以设置为自动检测，检查语法和拼写的Language Tool我便设成了自动检测。而斯坦福corenlp支持的语言有限，不支持的语言就不进行句法分析了。
+另外还有针对各大机器翻译API，使用的语言代码不尽相同，需要做一个表进行转换。当然也可以设置为自动检测，检查语法和拼写的Language Tool我便设成了自动检测，不过对于德语英语这样有很多词形式一样的语言，会出现判断错误的问题。而斯坦福corenlp支持的语言有限，不支持的语言就不进行句法分析了。
 
-另外还有对屈折语的词形还原的问题，因为opennlp提供的模型和词典有限，我也没有精力去做其它语言的适配，于是目前只对英文进行词形还原。
+还有对屈折语的词形还原的问题，因为opennlp提供的模型和词典有限，我也没有精力去做其它语言的适配，于是目前只对英文进行词形还原。
 
 下面我再具体讲一下BasicCAT中对于中英互译和韩文的处理。
 
@@ -32,15 +32,10 @@ BasicCAT最初仅支持中英互译，目的是针对两种语言做专门的适
 
 ```vb
 Sub removeSpacesAtBothSides(text As String) As String
-
-	text=Regex.Replace2("\b( *)\b",32,text,"aplaceholder$1aplaceholder")
-
-	text=Regex.Replace2("(?<! *aplaceholder) *(?! *aplaceholder)",32,text,"")
-
-	text=Regex.Replace2("aplaceholder( *)aplaceholder",32,text,"$1")
-
+	text=Regex.Replace2("\b( *)\b",32,text,"placeholder<$1>placeholder")
+	text=Regex.Replace2("(?<! *placeholder<) *(?! *>placeholder)",32,text,"")
+	text=Regex.Replace2("placeholder<( *)>placeholder",32,text,"$1")
 	Return text
-
 End Sub
 ```
 
