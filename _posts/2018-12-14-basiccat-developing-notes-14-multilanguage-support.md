@@ -45,6 +45,49 @@ End Sub
 
 多语言的支持做到极致还是挺难的事情，而且我也不懂其它语言。阿拉伯语、希伯来语是从右往左书写的，我从来没有在计算机上处理过这类语言，BasicCAT便也不支持这两种语言。
 
+# 更新
+
+对于删去多余空格，我参考omegat的方法又进行了改进。需要根据句段分割标准，去除中文断句位置后面多余的空格。但有时候句子开头也会有多余空格，这时不清楚是不是要去除。我测试如果中文句子后面有一个空格，Trados会删去。但是如果有两个空格，两个都会被保留。其实大多数时候这些空格应该是删去的，但也不清楚是否有些文本会需要保留空格。于是我在BasicCAT的项目设置里添加选项，可以控制是否去除。
+
+对应代码如下：
+
+```vb
+Sub removeSpacesAtBothSides(path As String,targetLang As String,text As String,removeRedundantSpaces As Boolean) As String
+	readRules(targetLang,path)
+	Dim breakRules As List=rules.Get("breakRules")
+	Dim breakPositions As List
+	breakPositions=getPositions(breakRules,text)
+	breakPositions.Sort(False)
+	removeDuplicated(breakPositions)
+	For Each position As Int In breakPositions
+		Try
+			Dim offsetToRight As Int=0
+			For i=0 To Max(text.Length-1-position,0)
+				If position+i<=text.Length-1 Then
+					If text.CharAt(position+i)=" " Then
+						offsetToRight=offsetToRight+1
+					Else
+						Exit
+					End If
+				End If
+			Next
+			Dim rightText As String
+			If position+offsetToRight<=text.Length-1 Then
+				rightText=text.SubString2(position+offsetToRight,text.Length)
+			End If
+			text=text.SubString2(0,position)&rightText
+		Catch
+			Log(LastException)
+		End Try
+	Next
+	If removeRedundantSpaces Then
+		text=Regex.Replace2("\b *\B",32,text,"")
+		text=Regex.Replace2("\B *\b",32,text,"")
+	End If
+	Return text
+End Sub
+```
+
 
 
 
