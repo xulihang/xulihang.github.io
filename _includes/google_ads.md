@@ -1,5 +1,5 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- ¹ã¸æ1 -->
+<!-- å¹¿å‘Š1 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-7567995073919745"
