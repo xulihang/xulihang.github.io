@@ -44,6 +44,8 @@ Checkmate需要导入双语格式的文件，比如xliff、tmx，然后可以检
     
     `tikal -2tmx 321880_ms.docx.xlf`
 
+还有一个老的工具叫Olifant，是.net写的TMX编辑器，能把tab分割的txt转换为tmx，它大部分功能都可以用rainbow和tikal来实现。
+
 
 更多内容还是见Okapi的官网：<http://okapiframework.org/>
 
