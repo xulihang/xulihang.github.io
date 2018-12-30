@@ -44,10 +44,35 @@ Checkmate需要导入双语格式的文件，比如xliff、tmx，然后可以检
     
     `tikal -2tmx 321880_ms.docx.xlf`
 
+4. 其它常用选项
+
+    有时候需要指定过滤器Filter，可以用以下选项调用：
+    
+    `-fc configId`
+    
+    configId的值可以用以下命令列出：
+    
+    ```
+    $ tikal -listconf
+    ...
+    - okf_openxml = Microsoft Office documents (DOCX, DOCM, DOTX, DOTM, PPTX, PPTM, PPSX, PPSM, POTX, POTM, XLSX, XLSM, XLTX, XLTM, VSDX, VSDM).
+    - okf_pensieve = Configuration for Pensieve translation memories.
+    - okf_xliff = Configuration for XML Localisation Interchange File Format (XLIFF) documents.
+    - okf_xliff-sdl = Configuration for SDL XLIFF documents. Supports SDL specific metadata
+    ...
+    ```
+    
+    使用`-ie encoding`和`-oe encoding`可以指定输入输出时使用的编码。
+    
+    使用`-seg [srxFile]`可以指定srx文件对原文进行分割，这样分句会保存在xliff的seg-source标签里。
+    
+    
 还有一个老的工具叫Olifant，是.net写的TMX编辑器，能把tab分割的txt转换为tmx，它大部分功能都可以用rainbow和tikal来实现。
 
 
 更多内容还是见Okapi的官网：<http://okapiframework.org/>
+
+找到一篇采访Okapi开发者的文章，还挺有意思的：[The Okapi Framework: Q and A with Yves Savourel of ENLASO ](http://www.translationdirectory.com/article737.htm)。
 
 
 

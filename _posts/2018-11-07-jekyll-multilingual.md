@@ -151,3 +151,7 @@ rss: 订阅
 
 * Liquid 语言：<https://liquid.bootcss.com/>
 * jekyll 文档：<https://jekyllrb.com/docs/>
+
+# 12/30更新
+
+搜索jekyll multilingual和jekyll localization等关键词，找到了[jekyll-multiple-languages-plugin](https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin)这个项目，对本地化的支持应该更加方便合理。
