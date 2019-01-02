@@ -17,6 +17,7 @@ tags: CAT 翻译
 
 * [Qabiria](https://qabiria.com/en/) 使用OmegaT进行翻译的团队
 * [Globalization Partners International ](http://www.globalizationpartners.com/) 教程内容比较丰富
+* [velior](https://www.velior.ru/blog/) 一家俄罗斯的翻译公司，里面的博客内容不错
 * [Smartling](https://www.smartling.com) 注重技术的一家云翻译公司
 
 ## 资讯与专栏类
