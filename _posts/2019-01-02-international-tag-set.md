@@ -1,5 +1,5 @@
 ---
-date: 2018-01-02 11:19:50+08:00
+date: 2019-01-02 11:19:50+08:00
 layout: post
 title: 国际化标签集ITS
 categories: 技术随笔
@@ -69,7 +69,7 @@ ITS规则还可以用于HTML5。不过HTML5也有自己的本地化属性transla
 
 比如以下内容：
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <doc>
  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
