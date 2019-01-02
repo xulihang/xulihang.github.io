@@ -69,6 +69,10 @@ XLIFF比较复杂的另一点在于行内标签。如何用标签表示原文的
 
 xliff还提供了用于句段分割的标签，我觉得这个应该交由CAT软件完成，存储在trans-unit里即可。
 
+### 1/2更新
+
+关于分割的句段，因为CAT软件直接将数据存储在xliff文件中，所以还是有必要的。seg-segment标签一般配合mrk标签使用。
+
 另外xliff还有skeleton标签，指定skl文件的地址。比如你打开heartsome translation studio翻译idml文件，可以看到项目文件里存放的skeleton文件。其实就是删去了要翻译的文件后重新压缩的idml。在opentag格式的时候，skeleton里会存放翻译内容的ref信息，方便重新把内容填回去。不过heartsome 似乎并没有添加ref信息，可能是有别的办法替换译文，那这样在我看来生成skeleton文件没有什么意义。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/heartsome_project.png)
