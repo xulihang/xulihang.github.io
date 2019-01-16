@@ -55,4 +55,6 @@ libiconv是gnu开发的一个c的类库，可以在各种编码之间进行转�
 
 ICU，另一个为软件提供国际化的工具。BasicCAT用icu4j来识别和转换文件编码。
 
+Unicode不仅是一种字符编码，它是一种标准，更多可以访问[Unicode Consortium](http://www.unicode.org/)组织的网站。
+
 
