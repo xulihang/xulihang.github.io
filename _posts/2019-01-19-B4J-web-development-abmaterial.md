@@ -194,3 +194,6 @@ Sub guessbtn_clicked(Target As String)
 
     ![](/album/B4X/abmaterial.png)
 
+ABMaterial的好处是只需要会用B4J，它的组件丰富、功能强大。但缺点在于严重依赖于服务器，如果服务器的ping值高，响应会很慢，如果断网，网页就不能运作。另外服务器要处理所有操作，负担也会比较重，不过ABMaterial的B4JS可以在客户端运行javascript，可以一定程序解决这个问题。
+
+
