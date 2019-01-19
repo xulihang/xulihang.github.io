@@ -43,7 +43,7 @@ DBM.bas
 
 开头五个文件是平时会修改的文件，之后几个是ABMaterial运行需要的class文件，平时不需修改。
 
-这个模板项目中，ABMPageTemplate.bas和AboutPage.bas是两个ABMPage的实例，是用户能看到的页面，我们在这类文件里修改网页的内容。ABMShared.bas包含的所有Page共享的操作，比如程序的导航栏是共享的，主题是共享的。ABMApplication类是WebApp的主体，管控其它的子页面，这里可以设置整个App的属性。而在程序的Main类里，我们平时需要做的是添加页面，Template.b4j的内容如下：
+这个模板项目中，ABMPageTemplate.bas和AboutPage.bas是两个ABMPage的实例，是用户能看到的页面，我们在这类文件里修改网页的内容。ABMShared.bas包含所有Page共享的操作，比如程序的导航栏是共享的，主题是共享的。ABMApplication类是WebApp的主体，管控其它的子页面，这里可以设置整个App的属性。而在程序的Main类里，我们平时需要做的是添加页面，Template.b4j的内容如下：
 
 
 
@@ -88,7 +88,7 @@ End Sub
 
 然后是ABMPage页面类的分析，它主要包含以下Sub：
 
-```
+```vb
 'Initializes the object. You can add parameters to this method if needed.
 Public Sub Initialize
 	BuildPage
@@ -126,71 +126,71 @@ Sub guessbtn_clicked(Target As String)
 
 2. 使用ABMGridBuilder构建布局。ABMaterial采用Grid布局，一个行（row）的宽度被分为12等分，可以添加指定份宽度的列（column）。这里我选择以page为生成对象，生成3行，每行都只有占满12宽度的一列内容，分别存放Label、Input和Button组件。生成的布局代码如下：
 
-```vb
-Page.AddRows(3,true,"").AddCells12(1,"")
-Page.BuildGrid ' IMPORTANT!
-```
+    ```vb
+    Page.AddRows(3,true,"").AddCells12(1,"")
+    Page.BuildGrid ' IMPORTANT!
+    ```
 
 3. 在ConnectPage Sub里创建组件，并将它们添加到Page里，代码如下：
 
-```vb
-Dim lbl As ABMLabel
-lbl.Initialize(page,"resultlbl","Input a number and press the button to guess. You have 10 chances to guess.",ABM.SIZE_PARAGRAPH,False,"")
-page.Cell(1,1).AddComponent(lbl)
-Dim inp As ABMInput
-inp.Initialize(page,"numinput",ABM.INPUT_NUMBER,"Num:",False,"")
-page.Cell(2,1).AddComponent(inp)
-Dim btn As ABMButton
-btn.InitializeFlat(page,"guessbtn","","","Guess","")
-page.Cell(3,1).AddComponent(btn)
-```
+    ```vb
+    Dim lbl As ABMLabel
+    lbl.Initialize(page,"resultlbl","Input a number and press the button to guess. You have 10 chances to guess.",ABM.SIZE_PARAGRAPH,False,"")
+    page.Cell(1,1).AddComponent(lbl)
+    Dim inp As ABMInput
+    inp.Initialize(page,"numinput",ABM.INPUT_NUMBER,"Num:",False,"")
+    page.Cell(2,1).AddComponent(inp)
+    Dim btn As ABMButton
+    btn.InitializeFlat(page,"guessbtn","","","Guess","")
+    page.Cell(3,1).AddComponent(btn)
+    ```
 
-ABM.INPUT_NUMBER、ABM.SIZE_PARAGRAPH等都是特定组件需要用到的值，可以通过ABMaterial类调用。
+    ABM.INPUT_NUMBER、ABM.SIZE_PARAGRAPH等都是特定组件需要用到的值，可以通过ABMaterial类调用。
 
-4. 添加按钮的响应代码，实现输入的数字不等于生成的随机数提示是大了还是小了，超过10次尝试次数就提示失败并重置，如果猜对了就获胜：
+4. 添加按钮的响应代码，实现输入的数字不等于生成的随机数时提示是大了还是小了，超过10次尝试次数就提示失败并重置，如果猜对了就获胜：
 
-```vb
-Sub guessbtn_clicked(Target As String)
-	Log("clicked")
-	Dim inp As ABMInput
-	inp=page.Component("numinput") '通过设置的id获得某个元素
-	If inp.Text="" Then
-		myToastId = myToastId + 1
-		page.ShowToast("toast" & myToastId, "toastgreen", "Input a num to guess.", 5000, False)
-		Return
-	End If
-	times=times+1
-	Dim usernum As Int
-	usernum=inp.Text
-	Dim chances As Int
-	chances=10-times
-	If usernum=num Then
-		myToastId = myToastId + 1
-		page.ShowToast("toast" & myToastId, "toastgreen", "You win! Game reset.", 5000, False)
-		num=Rnd(1,100)
-		times=0
-	Else
-		If times>10 Then
-			myToastId = myToastId + 1
-			page.ShowToast("toast" & myToastId, "toastgreen", "You lose. The num is "&num&". Game reset.", 5000, False)
-			num=Rnd(1,100)
-			times=0
-			Return
-		End If
-		If usernum>num Then
-			myToastId = myToastId + 1
-			page.ShowToast("toast" & myToastId, "toastgreen", "Too big. "&chances&" chances left.", 5000, False)
-		Else
-			myToastId = myToastId + 1
-			page.ShowToast("toast" & myToastId, "toastgreen", "Too small. "&chances&" chances left.", 5000, False)
-		End If
-	End If
-End Sub
-```
+    ```vb
+    Sub guessbtn_clicked(Target As String)
+        Log("clicked")
+        Dim inp As ABMInput
+        inp=page.Component("numinput") '通过设置的id获得某个元素
+        If inp.Text="" Then
+            myToastId = myToastId + 1
+            page.ShowToast("toast" & myToastId, "toastgreen", "Input a num to guess.", 5000, False)
+            Return
+        End If
+        times=times+1
+        Dim usernum As Int
+        usernum=inp.Text
+        Dim chances As Int
+        chances=10-times
+        If usernum=num Then
+            myToastId = myToastId + 1
+            page.ShowToast("toast" & myToastId, "toastgreen", "You win! Game reset.", 5000, False)
+            num=Rnd(1,100)
+            times=0
+        Else
+            If times>10 Then
+                myToastId = myToastId + 1
+                page.ShowToast("toast" & myToastId, "toastgreen", "You lose. The num is "&num&". Game reset.", 5000, False)
+                num=Rnd(1,100)
+                times=0
+                Return
+            End If
+            If usernum>num Then
+                myToastId = myToastId + 1
+                page.ShowToast("toast" & myToastId, "toastgreen", "Too big. "&chances&" chances left.", 5000, False)
+            Else
+                myToastId = myToastId + 1
+                page.ShowToast("toast" & myToastId, "toastgreen", "Too small. "&chances&" chances left.", 5000, False)
+            End If
+        End If
+    End Sub
+    ```
 
 5. 在Main类里添加该页面。另外还可以修改ABMShared.bas里创建导航栏的代码，添加这个猜数字页面的链接。
 
-以下是运行的效果：
+    通过<http://127.0.0.1/template/GuessNum>这样的路径访问，template是应用的名字，GuessNum是页面的名字。以下是运行的效果：
 
-![](/album/B4X/abmaterial.png)
+    ![](/album/B4X/abmaterial.png)
 
