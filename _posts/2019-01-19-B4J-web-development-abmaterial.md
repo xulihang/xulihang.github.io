@@ -6,9 +6,9 @@ categories: 技术随笔
 tags: B4X
 ---
 
-[ABMaterial](https://alwaysbusycorner.com/abmaterial/)是基于[WebSocket](https://blog.xulihang.me/b4x-websocket/)技术的WebApp开发框架，利用它，使用者不需要HTML、CSS和Javascript的知识，单纯用B4J就能开发出不错的网页应用。
+B4J支持使用[WebSocket](https://blog.xulihang.me/b4x-websocket/)开发WebApp，利用服务器来处理一切操作。而[ABMaterial](https://alwaysbusycorner.com/abmaterial/)是一个B4J WebApp开发框架，利用它，使用者不需要HTML、CSS和Javascript的知识，单纯用B4J就能开发出不错的网页应用。
 
-ABMaterial集成了[Materialize CSS](https://materializecss.com/)框架，所以叫做ABMaterial，可以在Objects\www文件夹里看到css、js、font等文件夹。我们写的Basic语句，会被用来生成HTML和CSS，并利用Websocket操作DOM以及执行JavaScript语句。
+ABMaterial集成了[Materialize CSS](https://materializecss.com/)框架，所以叫做ABMaterial，可以在Objects\www文件夹里看到css、js、font等文件夹。我们写的Basic语句，会被用来生成HTML和CSS，并利用Websocket操作DOM以及执行从Basic转译过去的JavaScript语句。
 
 在[此](https://www.b4x.com/android/forum/threads/abmaterial-framework-for-webapps.60072/)下载ABMaterial。
 
