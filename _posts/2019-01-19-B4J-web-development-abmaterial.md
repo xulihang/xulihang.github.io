@@ -43,7 +43,7 @@ DBM.bas
 
 开头五个文件是平时会修改的文件，之后几个是ABMaterial运行需要的class文件，平时不需修改。
 
-这个模板项目中，ABMPageTemplate.bas和AboutPage.bas是两个ABMPage的实例，是用户能看到的页面，我们在这类文件里修改网页的内容。ABMShared.bas包含所有Page共享的操作，比如程序的导航栏是共享的，主题是共享的。ABMApplication类是WebApp的主体，管控其它的子页面，这里可以设置整个App的属性。而在程序的Main类里，我们平时需要做的是添加页面，Template.b4j的内容如下：
+这个模板项目中，ABMPageTemplate.bas和AboutPage.bas是两个ABMPage的类，是用户能看到的页面，我们在这类文件里修改网页的内容。ABMShared.bas包含所有Page共享的操作，比如程序的导航栏是共享的，主题是共享的。ABMApplication类是WebApp的主体，管控其它的子页面，这里可以设置整个App的属性。而在程序的Main类里，我们平时需要做的是添加页面，Template.b4j的内容如下：
 
 
 
