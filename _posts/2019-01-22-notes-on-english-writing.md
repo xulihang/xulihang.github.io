@@ -91,8 +91,7 @@ In fact、What's more、Similarly、Provided等词可以用来引出新的内容
 
 用于人说话时的直接引语时用逗号而不是冒号。英文的冒号可以用来引用的话或者演讲文本前面。另外冒号还用于解释说明和罗列项目。
 
-### 
-撇号（Apostrophe）
+### 撇号（Apostrophe）
 
 注意单复数形式时撇号的位置，还有children等不规则复数形式时撇号的位置。
 
@@ -105,6 +104,7 @@ In fact、What's more、Similarly、Provided等词可以用来引出新的内容
 逗号还可以起一个非限定性的作用，比如以下两句：
 
 > Pop-star who earn fortunes should pay higher taxes.
+>
 > Pop-star, who earn fortunes, should pay higher taxes.
 
 前一个句子表示赚很多钱的明星应该付更多税，后一句表示明星都能赚很多钱，他们都应该交更多税。
