@@ -18,7 +18,7 @@ tags:
 
 ![](/album/trouble_girl.jpg)
 
-这首歌要演唱得好，对节奏的掌握还是挺高的，对于杨超越是有难度的。所以，节目里我们可以看到许诗茵拍了她肩膀两下，对应谱子里第二个哎呀后面的两个休止符。
+这首歌要演唱得好，对节奏的掌握，要求还是挺高的，对于杨超越的确有难度。所以，节目里我们可以看到许诗茵拍了她肩膀两下，对应谱子里第二个哎呀后面的两个休止符。
 
 <video src="https://github.com/xulihang/resources/releases/download/v1.0/trouble_girl.mp4" controls="controls">
 您的浏览器不支持 video 标签。
