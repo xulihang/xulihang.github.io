@@ -1,7 +1,7 @@
 ---
 date: 2019-02-23 10:20:50+08:00
 layout: post
-title: 英语疑难详解笔记
+title: 《英语疑难详解》笔记
 categories: 笔记
 tags: 
 ---
@@ -56,8 +56,11 @@ tags:
     抽象名词，比如life、hope，一般在词典里显示mass noun和uncountable。当给它们加上冠词，或变成复数使用时，则变成了普通名词。就好像面向对象编程里的抽象的类可以有很多具体的实例。
     
     Life is pleasure. （抽象）
+    
     Work is a pleasure to him. （普通）
+    
     Friendship is the feelings and behaviour that exists between friends. （抽象）
+    
     The two boys formed a deep and lasting friendship. （普通）
 
 ### II 代名词    
@@ -78,5 +81,47 @@ tags:
     At the warehouse we found a suitable table, although it would be two weeks before they could deliver it to us.
     
     这里的they没有指代清楚。可以采用被动语句进行忽略：... before it is delivered to us，或者交代清楚，比如说是staff。
+    
+* 代名词的格
+
+    我想那是他。可以被翻译为(a)I thought that it was he. 或者(b)I thought it to be him.     
+
+    用he还是him主要看it在主句中做什么成分。
+    
+    
+* 代名词的顺序
+
+    我和你应该翻译为You and me而不是I and you. 因为英文的习惯用法是先说别人再说自己。
+    
+### III 形容词、副词
+
+* 做动词的补语，形容词的最高级可以省略。
+
+    It is best to do so.
+    
+    This is the best book I've ever read.
+    
+* 部分否定
+
+    Both of them are not my brothers.
+    
+    Neither of them is my brother.
+    
+    前一句意思是他们两个不全是我的兄弟，后者表示他们都不是我的兄弟。
+    
+* 两种形容词
+
+    我们可以说This is a wooden house. 但不说This house is wooden. 但He is old. 和 He is an old man.是可以的。
+    
+    因为old既可以做限定形容词，也可以做叙述形容词。而wooden只能做限定形容词。
+    
+    不过查询语料库可以看到be wooden还是有例句的，说明这样的规则也不是绝对的。
+    
+    
+* 名词作形容词
+
+    英语可以用名词作形容词，丰富其表达。比如泰晤士报派专人到罗马担任通讯员。英文是Rome Correspondent，而不是Roman Correspondent。后者的意思可能会被以为是罗马人通讯员。
+
+
     
     
