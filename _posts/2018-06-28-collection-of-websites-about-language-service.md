@@ -24,7 +24,8 @@ tags: CAT 翻译
 
 * [slator](https://slator.com/) 业内新闻
 * [The Open Mic](https://theopenmic.co) 译者分享自己的故事
-* [multilingual](https://multilingual.com/) 有杂志、新闻网站和博客站，提供前沿的业内信息。推荐！
+* [multilingual](https://multilingual.com/) 有杂志、新闻网站和博客站，提供前沿的业内信息。
+* [Globally Speaking](https://www.globallyspeakingradio.com/) 一个本地化行业的播客，RWS Moravia是赞助者。
 
 ## 翻译平台
 
