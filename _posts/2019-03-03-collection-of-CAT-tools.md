@@ -3,11 +3,11 @@ date: 2019-03-03 18:45:50+08:00
 layout: post
 title: CAT工具收集
 categories: 技术随笔
-tags: 
+tags: CAT
 ---
 
 
-收集常见翻译工具，持续更新。
+收集常见计算机辅助翻译工具，持续更新。
 
 国外：
 
