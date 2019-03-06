@@ -1,7 +1,7 @@
 ---
 date: 2019-03-06 10:41:50+08:00
 layout: post
-title: CAT工具收集
+title: 翻译中使用的正则表达式
 categories: 技术随笔
 tags: CAT
 ---
@@ -27,7 +27,7 @@ See also: [CAL license](#0140)
 
     `^-+$`
 
-2. Markdown的段落需要用两个换行进行区分，段落可以是一行或多行文字。用pandoc转换后的markdown，段落里有多行文字。而我打算用BasicCAT以txt形式打开markdown文件，所以得吧段落中的换行替换掉，这个操作英文叫做reflow。
+2. Markdown的段落需要用两个换行进行区分，段落可以是一行或多行文字。用pandoc转换后的markdown，段落里有多行文字。而我打算用BasicCAT以txt形式打开markdown文件，所以得把段落中的换行替换掉，这个操作英文叫做reflow。
 
     1. 把连续的换行符换成一个标记
     
