@@ -27,7 +27,7 @@ Elasticsearch是用java写的，以rest api或者java api对外提供接口。�
 
 ### 基础操作
 
-####　添加三个文档到叫做twitter的索引
+#### 添加三个文档到叫做twitter的索引
 
 ```
 curl -XPUT 'http://localhost:9200/twitter/_doc/1?pretty' -H 'Content-Type: application/json' -d '
@@ -240,6 +240,58 @@ curl -X GET "localhost:9200/_search?pretty=true" -H 'Content-Type: application/j
   }
 }
 ```
+
+如果不想显示_source里的内容，可以在表达式里加上_source，变成以下这样的：
+
+```
+curl -X GET "localhost:9200/_search?pretty=true" -H 'Content-Type: application/json' -d'
+{
+    "query" : {
+        "match": { "message": "tweet" }
+    },
+    "_source":"", 
+    "highlight" : {
+        "fields" : {
+            "message" : {}
+        }
+    }
+}
+'
+```
+
+结果：
+
+```json
+{
+  "took" : 13,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 15,
+    "successful" : 15,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1,
+    "max_score" : 0.2876821,
+    "hits" : [
+      {
+        "_index" : "twitter",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 0.2876821,
+        "_source" : { },
+        "highlight" : {
+          "message" : [
+            "Another <em>tweet</em>, will it be indexed?"
+          ]
+        }
+      }
+    ]
+  }
+}
+```
+
 
 #### aggregations 聚合
 
