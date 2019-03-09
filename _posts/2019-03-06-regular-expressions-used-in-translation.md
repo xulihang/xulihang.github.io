@@ -6,7 +6,11 @@ categories: 技术随笔
 tags: CAT
 ---
 
+整理翻译过程中用到的正则表达式。
+
 ### 处理用pandoc转换而来的markdown
+
+用途：把这个[网页](https://jealousmarkup.xyz/texts/cat-tool-glossary/)转换为markdown文件供BasicCAT翻译。
 
 处理以下内容：
 
