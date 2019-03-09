@@ -292,7 +292,6 @@ curl -X GET "localhost:9200/_search?pretty=true" -H 'Content-Type: application/j
 }
 ```
 
-
 #### aggregations 聚合
 
 类似于SQL中的GROUP BY，可以对数据进行分析然后分组。
@@ -383,6 +382,57 @@ curl -X GET "localhost:9200/twitter/_search?pretty=true" -H 'Content-Type: appli
 }
 ```
 
+
+把size设置为0，这样就不会显示hits内容：
+
+```
+curl -X GET "localhost:9200/twitter/_search?pretty=true" -H 'Content-Type: application/json' -d'
+{
+    "size":0, 
+    "aggs" : {
+        "usernames" : {
+            "terms" : { "field" : "user.keyword" }
+        }
+    }
+}
+'
+```
+
+结果：
+
+```
+{
+  "took" : 41,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 3,
+    "max_score" : 0.0,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "usernames" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 0,
+      "buckets" : [
+        {
+          "key" : "kimchy",
+          "doc_count" : 2
+        },
+        {
+          "key" : "elastic",
+          "doc_count" : 1
+        }
+      ]
+    }
+  }
+}
+```
 
 ### 其它
 
