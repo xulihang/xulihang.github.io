@@ -312,7 +312,7 @@ curl -X GET "localhost:9200/twitter/_search?pretty=true" -H 'Content-Type: appli
 
 其中usernames可以自己定义，我们这里使用的term aggregation，根据字段进行分组。
 
-除了检索结果，可以看到还多了aggregations这一部分。
+除了检索结果，可以看到还多了aggregations这一部分。其中buckets是符合检索条件的文档的集合，里面会包含一些统计信息。
 
 ```json
 {
@@ -400,7 +400,7 @@ curl -X GET "localhost:9200/twitter/_search?pretty=true" -H 'Content-Type: appli
 
 结果：
 
-```
+```json
 {
   "took" : 41,
   "timed_out" : false,
@@ -433,6 +433,7 @@ curl -X GET "localhost:9200/twitter/_search?pretty=true" -H 'Content-Type: appli
   }
 }
 ```
+
 
 ### 其它
 
