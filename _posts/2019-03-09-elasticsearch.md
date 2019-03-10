@@ -152,6 +152,19 @@ curl -XGET 'http://localhost:9200/twitter/_search?pretty=true' -H 'Content-Type:
   }
 }
 
+可以使用size可以指定检索返回几条结果，使用from指定从第几条开始返回结果。
+
+```
+$ curl -X GET "localhost:9200/_search" -H 'Content-Type: application/json' -d'
+{
+    "from" : 0, "size" : 1,
+    "query" : {
+        "term" : { "user" : "kimchy" }
+    }
+}
+'
+```
+
 ```
 
 #### 更新
@@ -434,6 +447,171 @@ curl -X GET "localhost:9200/twitter/_search?pretty=true" -H 'Content-Type: appli
 }
 ```
 
+#### 使用中文分词
+
+elasticsearch在检索中文时会把检索词拆分成一个个单字然后进行匹配。比如以下这样的：
+
+检索：
+
+```
+$ curl -X GET "localhost:9200/_search?pretty=true" -H 'Content-Type: application/json' -d'
+{
+    "query" : {
+        "match": { "message": "名字张三" }
+    },
+    "highlight" : {
+        "fields" : {
+            "message" : {}
+        }
+    }
+}
+'
+```
+
+结果：
+
+```json
+{
+  "took" : 140,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 15,
+    "successful" : 15,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1,
+    "max_score" : 1.1507283,
+    "hits" : [
+      {
+        "_index" : "twitter",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : 1.1507283,
+        "_source" : {
+          "user" : "kimchy",
+          "post_date" : "2009-11-15T13:12:00",
+          "message" : "我是中华人民共和国的成员，我的名字叫张三。"
+        },
+        "highlight" : {
+          "message" : [
+            "我是中华人民共和国的成员，我的<em>名</em><em>字</em>叫<em>张</em><em>三</em>。"
+          ]
+        }
+      }
+    ]
+  }
+}
+```
+
+我们可以使用ik插件来进行分词。
+
+在此<https://github.com/medcl/elasticsearch-analysis-ik>下载和安装ik插件，然后重启elasticsearch。
+
+重新建立一个索引：
+
+```
+$ curl -XPUT http://localhost:9200/twitter
+```
+
+设置索引里的文档的mapping，使用ik进行分析：
+
+```
+curl -XPOST http://localhost:9200/twitter/_doc/_mapping -H 'Content-Type:application/json' -d'
+{
+        "properties": {
+            "message": {
+                "type": "text",
+                "analyzer": "ik_max_word",
+                "search_analyzer": "ik_max_word"
+            }
+        }
+
+}'
+```
+
+添加一条带中文的记录：
+
+```
+$ curl -XPUT 'http://localhost:9200/twitter/_doc/5?pretty' -H 'Content-Type: application/json' -d '
+{
+    "user": "kimchy",
+    "post_date": "2009-11-15T13:12:00",
+    "message": "我是中华人民共和国的成员，我的名字叫张三。"
+}'
+```
+
+检索结果：
+
+```json
+{
+  "took" : 10,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 15,
+    "successful" : 15,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1,
+    "max_score" : 0.8630463,
+    "hits" : [
+      {
+        "_index" : "twitter",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : 0.8630463,
+        "_source" : {
+          "user" : "kimchy",
+          "post_date" : "2009-11-15T13:12:00",
+          "message" : "我是中华人民共和国的成员，我的名字叫张三。"
+        },
+        "highlight" : {
+          "message" : [
+            "我是中华人民共和国的成员，我的<em>名字</em>叫<em>张三</em>。"
+          ]
+        }
+      }
+    ]
+  }
+}
+```
+
+这里我们修改的mapping是用来定义字段的属性的，添加文档时会进行自动生成，并且不推荐再进行更改。我们要修改的话就得重新索引。
+
+查看修改后的mapping：
+
+```
+$ curl -XGET 'http://localhost:9200/twitter/_mapping?pretty=true'
+{
+  "twitter" : {
+    "mappings" : {
+      "_doc" : {
+        "properties" : {
+          "message" : {
+            "type" : "text",
+            "analyzer" : "ik_max_word"
+          },
+          "post_date" : {
+            "type" : "date"
+          },
+          "user" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "type" : "keyword",
+                "ignore_above" : 256
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
 
 ### 其它
 
