@@ -151,6 +151,7 @@ curl -XGET 'http://localhost:9200/twitter/_search?pretty=true' -H 'Content-Type:
     ]
   }
 }
+```
 
 可以使用size可以指定检索返回几条结果，使用from指定从第几条开始返回结果。
 
@@ -165,7 +166,7 @@ $ curl -X GET "localhost:9200/_search" -H 'Content-Type: application/json' -d'
 '
 ```
 
-```
+
 
 #### 更新
 
