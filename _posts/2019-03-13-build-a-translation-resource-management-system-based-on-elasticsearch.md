@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: CAT B4X Elasticsearch
 ---
 
-翻译部门常常会有一堆存在硬盘上的过往的翻译资源以及不断产生的新的资源，可以利用Elasticsearch构建一个全文检索进行管理。
+翻译部门常常会有一堆存在硬盘上的过往的翻译资源以及不断产生的新的资源，可以利用Elasticsearch构建一个全文搜索引擎进行管理。
 
 ### 索引
 
@@ -81,7 +81,7 @@ tags: CAT B4X Elasticsearch
 
 #### 通配符与模糊匹配
 
-要检索包含227的内容，可以输入*227*来检索，*表示匹配多个字符，?表示匹配单个字符。
+要检索包含227的内容，可以输入`*227*`来检索，*表示匹配多个字符，?表示匹配单个字符。
 
 ```
 curl -X GET "localhost:9200/_search" -H 'Content-Type: application/json' -d'
