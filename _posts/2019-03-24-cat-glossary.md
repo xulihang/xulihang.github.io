@@ -175,49 +175,49 @@ CAT终极术语大全
 
 ### 免责声明
 
-我编写这份词汇表主要是出于自己的爱好（是的，我知道，我的爱好有点奇怪），同时也是为了帮助那些试图快速了解翻译行业术语的人。 作为一群开发CAT软件，致力于帮助人们交流的人，我们确实创造了很多专业领域的词汇，是吧？
+我编写这份词汇表主要是出于自己的爱好（是的，我知道，我的爱好有点奇怪），同时也是为了帮助那些试图快速了解翻译行业术语的人。作为一群开发CAT软件，致力于帮助人们交流的人，我们确实创造了很多专业领域的词汇，是吧？
 
-希望读者不要完全相信本文的内容。 很多都只是我的一面之词，而且我还是[memoq](https://memoq.com)的员工。 客观地说，memoQ是世界上最棒的CAT工具。 但我会尽量做到内容和具体的工具无关。 我加入了尽可能少的memoQ术语，不过我没有用到其它工具的术语。 我只是觉得我对于其它工具并不了解，也没有这个权威性，对于未知领域要保持谨慎。
+希望读者不要完全相信本文的内容。很多都只是我的一面之词，而且我还是[memoq](https://memoq.com)的员工。客观地说，memoQ是世界上最棒的CAT工具。但我会尽量做到内容和具体的工具无关。我加入了尽可能少的memoQ术语，不过我没有用到其它工具的术语。我只是觉得我对于其它工具并不了解，也没有这个权威性，对于未知领域要保持谨慎。
 
-如果你喜欢本文，欢迎分享给你的朋友、同事和对手。 如果你发现任何错误或者不准确的地方，可以选择你喜欢的沟通方式给我反馈。
+如果你喜欢本文，欢迎分享给你的朋友、同事和对手。如果你发现任何错误或者不准确的地方，可以选择你喜欢的沟通方式给我反馈。
 
 ### 激活（activation）
 
-激活一般需要访问制造商的网站。 本地程序向远程网站发送一串序列号以及关于你计算机的一些匿名信息。 如果你拥有证书或者选择的试用版，网站就会返回一串代码，授权程序在你的电脑上运行。
+激活一般需要访问制造商的网站。本地程序向远程网站发送一串序列号以及关于你计算机的一些匿名信息。如果你拥有证书或者选择的试用版，网站就会返回一串代码，授权程序在你的电脑上运行。
 
 另见：CAL许可证（CAL License）
 
 ### 对齐（alignment）
 
-一般你收到一份要翻译的文件时，你还会收到很多之前翻译过的文件和对应的原文，或者你在网络上能找到匹配的内容。 这些文件内容很大程度可以用作翻译记忆使用，在模糊匹配和检索时发挥作用。 问题是，翻译记忆是对齐了的句段，而你现在有的是整个文档。 对齐指将源文档和目标文档拆分成片段，并利用算法找出目标片段对应于哪个源文片段。 这可不是一件简单的事！ 高级CAT软件可以做到大致的句段自动对齐，并帮助你修正对齐错误的句段。
+一般你收到一份要翻译的文件时，你还会收到很多之前翻译过的文件和对应的原文，或者你在网络上能找到匹配的内容。这些文件内容很大程度可以用作翻译记忆使用，在模糊匹配和检索时发挥作用。问题是，翻译记忆是对齐了的句段，而你现在有的是整个文档。对齐指将源文档和目标文档拆分成片段，并利用算法找出目标片段对应于哪个源文片段。这可不是一件简单的事！高级CAT软件可以做到大致的句段自动对齐，并帮助你修正对齐错误的句段。
 
 另见：LiveAlign
 
 ### 分析（analysis）
 
-在你接受一份任务前，你需要知道有多少文本需要翻译。 但是你已经有了包含过去翻译的翻译记忆，所以您还想知道有多少新的文本需要翻译，有多少模糊匹配和精确匹配。 这就是分析所做的：它对要翻译的文本和翻译记忆与语料库中的文本进行比对，并给你一个清晰的统计结果，包括句段、词和字符数。
+在你接受一份任务前，你需要知道有多少文本需要翻译。但是你已经有了包含过去翻译的翻译记忆，所以您还想知道有多少新的文本需要翻译，有多少模糊匹配和精确匹配。这就是分析所做的：它对要翻译的文本和翻译记忆与语料库中的文本进行比对，并给你一个清晰的统计结果，包括句段、词和字符数。
 
 “分析”有时也可以和“统计”这个词互换使用，在这种情况下，统计并不是一门高深的学科。
 
 ### 应用程序编程接口（API）
 
-一个计算机术语，指一个程序允许其它程序通过某种方式使用它的功能，就像用户通过点击按钮来使用程序。 如果一个程序没有API，那么它就不能与其它系统集成，用户最终会因为大量完全不必要的点击而患上肌腱炎。 确保你考虑的基于云的工具提供API，这一点尤为重要。 如果不提供，你就没有获得你的数据并和其它程序进行数据交换的简便方法。
+一个计算机术语，指一个程序允许其它程序通过某种方式使用它的功能，就像用户通过点击按钮来使用程序。如果一个程序没有API，那么它就不能与其它系统集成，用户最终会因为大量完全不必要的点击而患上肌腱炎。确保你考虑的基于云的工具提供API，这一点尤为重要。如果不提供，你就没有获得你的数据并和其它程序进行数据交换的简便方法。
 
 ### 在服务器上自动保存（auto save on server）
 
-当你在一个memoQ在线项目中工作时，你的翻译最初只保存在你的计算机上。 您可以选择每天进行几次同步。如果启用自动保存，在保存时，你的翻译将立即发送到服务器，且不会耽误你的工作。 这样别人就可以看到你的工作，且\*几乎*\就像你在实时编辑一个谷歌文档。 有什么比这更好的方法来保持翻译的一致性？
+当你在一个memoQ在线项目中工作时，你的翻译最初只保存在你的计算机上。您可以选择每天进行几次同步。如果启用自动保存，在保存时，你的翻译将立即发送到服务器，且不会耽误你的工作。这样别人就可以看到你的工作，且\*几乎*\就像你在实时编辑一个谷歌文档。有什么比这更好的方法来保持翻译的一致性？
 
 ### 自动检索（automatic concordance）
 
-如果你想知道某个表达是怎么翻译的，你可以使用检索（concordance）功能。 但是一个好的CAT工具可以做得更多：它可以搜索到在许多句段都存在的内容，并进行高亮。 这就像是在说，“嘿！ 这些短语似乎到处都是，马上对它们进行检索可能是个好主意！” 如果你非常*幸运*，这些短语还作为整个原文句段出现，这样可以自动调用翻译记忆或语料库进行翻译。
+如果你想知道某个表达是怎么翻译的，你可以使用检索（concordance）功能。但是一个好的CAT工具可以做得更多：它可以搜索到在许多句段都存在的内容，并进行高亮。这就像是在说，“嘿！这些短语似乎到处都是，马上对它们进行检索可能是个好主意！”如果你非常*幸运*，这些短语还作为整个原文句段出现，这样可以自动调用翻译记忆或语料库进行翻译。
 
 ### AutoPick
 
-我不知道各位读者是不是也是这样，我不喜欢在翻译的时候输入数字，我也不喜欢在中途从原文复制一段内容到译文。 除了数字，原文句段中还会包含其它需要直接复制到译文的内容，比如标签、非译元素和一些术语。 在memoQ中，如果你按下并释放CTRL键，它的AutoPick功能会列出所有原文中的这些特殊内容，你可以用方向键来选择内容，把它们插入到译文中。 它还能重新格式化数字以匹配目标语言的格式。
+我不知道各位读者是不是也是这样，我不喜欢在翻译的时候输入数字，我也不喜欢在中途从原文复制一段内容到译文。除了数字，原文句段中还会包含其它需要直接复制到译文的内容，比如标签、非译元素和一些术语。在memoQ中，如果你按下并释放CTRL键，它的AutoPick功能会列出所有原文中的这些特殊内容，你可以用方向键来选择内容，把它们插入到译文中。它还能重新格式化数字以匹配目标语言的格式。
 
 ### 自动填充（auto-propagation）
 
-需要翻译的文本基本上都有重复。很多片段会出现多次。 在一些技术文本中，重复片段的比例会更高。 翻译记忆的一个作用就是能重复利用翻译过的内容。不过CAT工具可以做得更好。 如果你启用了自动填充，那么确认一个句段后，工具就会立即填充文档中的所有其他相同片段，并将其标记为已确认状态。
+需要翻译的文本基本上都有重复。很多片段会出现多次。在一些技术文本中，重复片段的比例会更高。翻译记忆的一个作用就是能重复利用翻译过的内容。不过CAT工具可以做得更好。如果你启用了自动填充，那么确认一个句段后，工具就会立即填充文档中的所有其他相同片段，并将其标记为已确认状态。
 
 ### 自动可译元素处理（auto-translatables）
 
@@ -225,7 +225,7 @@ CAT终极术语大全
 
 ### BiDi
 
-BiDi，双向文本，是bidirectional text的缩写。阿拉伯语、希伯来语和波斯语是从右往左书写的， 但同时，数字和一些用拉丁字母书写的名词是从左往右书写的。
+BiDi，双向文本，是bidirectional text的缩写。阿拉伯语、希伯来语和波斯语是从右往左书写的，但同时，数字和一些用拉丁字母书写的名词是从左往右书写的。
 
 ### 双语Excel（bilingual Excel）
 
@@ -233,79 +233,79 @@ BiDi，双向文本，是bidirectional text的缩写。阿拉伯语、希伯来�
 
 ### 双语RTF（bilingual RTF）
 
-一种特殊格式的Word文档，包含翻译的源文句段和目标句段，通常还包括注释和其他信息。 这样，翻译人员可以和没有CAT软件的客户或领域专家进行合作。 反过来，CAT工具可以读取修改过的双语RTF，并将更新的内容导回翻译软件环境中。 有些旧格式依赖于隐藏文本，并且很容易被一个错误的编辑所破坏。 如今，一个包含三列或更多列的表格的文档更为常见。
+一种特殊格式的Word文档，包含翻译的源文句段和目标句段，通常还包括注释和其他信息。这样，翻译人员可以和没有CAT软件的客户或领域专家进行合作。反过来，CAT工具可以读取修改过的双语RTF，并将更新的内容导回翻译软件环境中。有些旧格式依赖于隐藏文本，并且很容易被一个错误的编辑所破坏。如今，一个包含三列或更多列的表格的文档更为常见。
 
 ### CAL许可证（CAL License）
 
-CAL是“并发访问许可证（concurrent access license）”的缩写。 个人许可证允许个人用户运行单个程序，作为组织则可以购买CAL许可证，这些许可证可以按需分发给任何终端用户。 限制主要在于有多少人可以同时使用这个工具。不管他们是谁，或者在哪里工作都没有限制。
+CAL是“并发访问许可证（concurrent access license）”的缩写。个人许可证允许个人用户运行单个程序，作为组织则可以购买CAL许可证，这些许可证可以按需分发给任何终端用户。限制主要在于有多少人可以同时使用这个工具。不管他们是谁，或者在哪里工作都没有限制。
 
 ### 计算机辅助翻译（Computer-aided Translation）
 
-提高译员和审校翻译速度和质量的软件，多人同时处理一个大型文本也不在话下。 有时，该名称会简化为“翻译记忆工具”，因为翻译记忆是CAT工具关注的第一个功能。 Jost Zetzsche喜欢使用*翻译环境工具*或TEnT。这个叫法我也同意。 翻译管理系统（TMS）经常被用作同义词，它们的边界实际上非常模糊。
+提高译员和审校翻译速度和质量的软件，多人同时处理一个大型文本也不在话下。有时，该名称会简化为“翻译记忆工具”，因为翻译记忆是CAT工具关注的第一个功能。Jost Zetzsche喜欢使用*翻译环境工具*或TEnT。这个叫法我也同意。翻译管理系统（TMS）经常被用作同义词，它们的边界实际上非常模糊。
 
 ### CJJK
 
-CJJK指东亚语言，包含汉语、日语和韩语。 有两个C是因为中文有简体中文和翻译中文两种存在。
+CJJK指东亚语言，包含汉语、日语和韩语。有两个C是因为中文有简体中文和翻译中文两种存在。
 
 ### 检出（check out）
 
-When a translator or reviewer checks out an online project in memoQ, the tool downloads the assigned documents and sets up a correctly configured working environment. This eliminates saving email attachments and going through an error-prone series of steps, saving time and ensuring all project participants work with the right resources and settings.
+当译员或者审校用memoQ执行在线项目检出操作时，memoQ会把任务文件下载下来并正确配置一个工作环境。这样就不用再使用邮件来发送附件，省去了一系列容易出错的步骤，节省时间，保证项目的参与者的文件和设置都是正确的。
 
 ### 内容管理系统（CMS）
 
-Software used to edit, organize and publish large amounts of content. A CMS typically tracks who is responsible for what content, whether it is approved or obsolete, what the content applies to, and much more. Often, CMSes break down content into smaller chunks, which are reused in several related documents. CMSes are important because an incredible amount of text that gets translated comes from them, typically as small chunks of XML and often in the DITA format.
+一种用来编辑、组织和发布大量内容的软件。CMS系统通常能记录内容的负责人是谁，是否得到批准，是否过期，内容的适用对象等内容。通常，CMS系统会把内容拆分为小的部分，可以在多个相关文档中重复使用。CMS系统很重要，因为很多翻译内容需要从CMS系统获得，通常是小部分的XML文件，并且通常是DITA格式。
 
 ### 评论（comment）
 
-In a CAT tool you can mark entire documents, source or target segments, or just a short part within a segment. You can add a remark, or use the function to simply highlight something. This way you can communicate with other translators, reviewers or even clients, or just bookmark something for yourself to return to later. You can keep comments private, or choose to export them as part of the finished translation.
+在CAT工具中，您可以标记整个文档、源片段或目标片段，或者只标记段中的一部分。你可以添加注释或者使用这一功能来高亮文本。通过这种方式，您可以与其他翻译人员、审校或者客户进行交流，或者将某个内容添加到书签中，以便之后再查看。您可以将评论保密，也可以选择将其作为完成的翻译的一部分导出。
 
 ### 检索（concordance）
 
-A function of translation memories and LiveDocs corpora that allows you to search for a word or expression, retrieving all translated segments where it occurs. This is nothing short of a small wonder, allowing you to “Google” existing translations. memoQ also highlights the expression's most probable translation within the target segments, just like Linguee, but from your own private data.
+翻译记忆和LiveDocs语料库的一个功能，允许你搜索一个单词或表达式，检索所有匹配的翻译过的片段。这像一个小的“谷歌”，可以让你检索现有的翻译。memoq在目标片段中高亮出检索内容最可能对应的翻译，就像Linguee一样，但检索的是您自己的私有数据。
 
 ### 已确认（confirmed）
 
-See segment status
+见句段状态（segment status）。
 
 ### 上下文ID（content ID）
 
-Usually a short machine-readable text that identifies a string that belongs to a specific place in an app or a game. It's crucial to distinguish between, say, “Open” on a label (translated into German as “Offen”) or on a button (translated as “Öffnen”). The TM stores the ID and returns a context match if the same text occurs with the same ID later.
+通常是一个短的机器可读文本，用于标识属于应用程序或游戏中特定位置的字符串。同样的文本在不同的语境翻译结果可能是不一样的，比如标签上的“Open”翻译为德语是“Offen”，而按钮上的是翻译为“Öffnen”。翻译记忆会存储这个上下文ID，如果以后具有相同上下文ID的相同文本出现，就是显示该匹配为上下文匹配。
 
 ### 上下文匹配（context match）
 
-See TM match types
+参见翻译记忆匹配类型
 
 ### CSV
 
-A seemingly simple text-based format that stores several values in each line, separated by commas. It's still widely used to exchange glossaries, and sometimes even for translatable content. In spite of its apparent simplicity it's very easy to mess up; the most common problem is using the wrong code page instead of Unicode.
+一种看似简单的基于文本的格式，每行存储若干值，用逗号分隔。它仍然广泛用于交换词汇表，有时甚至用于交换可翻译内容。尽管看起来很简单，但很容易出错；最常见的问题是使用错误的代码页而不是Unicode。
 
 ### 自定义字段（custom fields）
 
-See metadata
+见元数据（metadata）。
 
 ### 交付（deliver）
 
-The translator or reviewer's action to signal that they are finished with their task, such as the translation of a given document. Delivery is not a symbolic step: in a system like memoQ, it usually triggers a series of actions like automated QA checks or emailing the finished translation back to the end client.
+译者或审校表明自己完成了任务，比如翻译给定的文件，这一动作叫做交付。交付不是一个象征性的步骤：在像memoq这样的系统中，它通常会触发一系列的操作，比如自动的质量保证检查或者通过电子邮件将完成的翻译返回到最终的客户。
 
 ### 听写（dictation）
 
-Technology that allows you dictate text, instead of typing it on a keyboard. Commercial tools have become incredibly good for major languages. Dictation is preferred by a minority of translators; they, however, report a productivity boost of 50% or more over typists.
+允许您口述文本而不是在键盘上键入文本的技术。商业工具对主要语言的支持已经非常棒了。口述是少数译者的首选；不过有报告显示听写的效率比打字提高了50%或更多。
 
 ### 听写错误（dicto）
 
-dicto是从typo发展出来的一个新词。 表示听写软件的错误听写。 打字错误可以容忍，但是听写错误是很严重的错误，因为它们虽然听起来像原文的短语，但意义却完全不同，就像一个不成熟的中学生笑话。 想想Uranus。
+dicto是从typo发展出来的一个新词。表示听写软件的错误听写。打字错误可以容忍，但是听写错误是很严重的错误，因为它们虽然听起来像原文的短语，但意义却完全不同，就像一个不成熟的中学生笑话。想想Uranus。
 
 ### DITA
 
-Short for Document Information Typing Architecture, DITA is exactly as unsexy as it sounds, but tremendously useful. It is an open standard that defines how to structure and reuse content in CMS systems. The format is based on XML, and if your CAT tool supports it, you can deal with a huge share of the content coming from several different CMSes.
+DITA是达尔文信息分类结构（Darwin Information Typing Architecture）的缩写，它听起来很无聊，但非常有用。它是一个开放的标准，定义了如何在CMS系统中构造和重用内容。该格式基于XML，如果您的CAT工具支持它，您可以处理来自几个不同CMS的大量内容。
 
 ### 桌面出版（DTP）
 
-DTP tools include the likes of FrameMaker and InDesign, used to produce professionally typeset printed documents. In the industry DTP typically means an activity after translation and review. Translated text looks really bad in the original format unless you adjust the typesetting to accommodate longer paragraphs, different special characters, or even a complete left/right directional swap.
+DTP工具包括像FrameMaker和InDesign这样的工具，用于生成专业的排版打印文档。在行业中，DTP通常是翻译和审校后的进行的步骤。翻译后的文本在原始格式中看起来确实很糟糕，除非您调整排版以适应较长的段落、不同的特殊字符，甚至是变化了的文字方向。
 
 ### 编辑距离（edit distance）
 
-A number that expresses how different one text is from another, usually derived from the number of insertions, deletions and swaps needed to get from here to there. While similar TM matches are qualified by fuzzy match rates, edit distance is sometimes used to measure the extent of a reviewer's changes.
+一个文本转换到另一个文本，使用插入、删除和交换的操作，需要进行的操作次数叫做编辑距离。模糊匹配是根据编辑距离算出来的。编辑距离有时还会直接用于测量审校对译文修改的程度。
 
 ### ELM许可证（ELM license）
 
@@ -313,83 +313,83 @@ A number that expresses how different one text is from another, usually derived 
 
 ### 完全匹配（exact match）
 
-See TM match types
+参见翻译记忆匹配类型
 
 ### 导出（export）
 
-See file format filter
+参见文件格式过滤器（file format filter）
 
 ### 外部标签（external tags）
 
-See tags
+参见标签
 
 ### 文件格式过滤器（file format filter）
 
-One key benefit of CAT tools is that you always translate in the same familiar editor, regardless of the file format your text came in. That means CAT tools must somehow extract the text from all the different file formats. The component that does this is called a file format filter: it “filters” text from all the other stuff in the file. Bringing the text into the CAT tool is called *importing* a file; retrieving the translation in the original format is called *exporting* it.
+CAT工具的一个主要好处是，无论文本的格式如何，您总是在同一熟悉的编辑器中进行翻译。这意味着cAT工具必须以某种方式从所有不同的文件格式中提取文本。执行此操作的组件称为文件格式过滤器：它“过滤”文件中所有其他内容的文本。将文本导入CAT工具称为导入文件；以原始格式保存翻译内容称为导出文件。
 
-Every filter comes with its own options that affect how it works (“Do you want to extract the hidden text from this Word file?”), and for some formats, notably XML, these settings make an enormous difference.
+每个过滤器都有自己的选项，这些选项会影响它的工作方式（比如是否要从Word文件中提取隐藏文本？），对于某些格式，尤其是XML，这些设置会产生巨大的差异。
 
 ### 查找/替换列表（find/replace listing）
 
-In memoQ, the Find function has an option that puts all occurrences on a separate list, instead of walking through them one by one from the pop-up window. The outcome is the find/replace listing, where you can review each segment comfortably and decide where to replace and where to leave as is.
+在memoq中，查找功能有一个选项，可以将所有的匹配放在一个单独的列表中，而不是用弹出窗口逐个遍历它们。结果是用户可以得到一个查找/替换列表，在这里您可以轻松地查看每个片段，并决定替换的位置和保留的位置。
 
 ### 字体替换（font substitution）
 
-Many file formats, particularly from DTP tools, tend to use fonts that look really good, but cannot draw a lot of special characters. If your target language happens to have a lot of these, the translated file will look ugly, or skip letters outright. Font substitution is a function of file format filters that tweaks the file, replacing the original font with one that has the right glyphs for your target language.
+许多文件格式，特别是DTP工具的文件格式，倾向于使用看起来很好但不能绘制很多特殊字符的字体。如果您的目标语言恰好有很多这样的内容，那么翻译后的文件会看起来很难看，或者直接不显示某些字符。字体替换是文件格式过滤器的一个功能，它可以调整文件，用目标语言的字体替换原始字体。
 
 ### 片段组合（fragment assembly）
 
-可能对于一个句段，您的记忆库或语料库没有精确或模糊匹配的片段，但这一句段的部分内容可能仍然与术语库的内容想匹配，或者有非译元素或自动可译内容。 片段组合功能可以识别这些部分内容并用合适的译文进行替换，这样和重头翻译相比应该还是能节省不少工作。
+可能对于一个句段，您的记忆库或语料库没有精确或模糊匹配的片段，但这一句段的部分内容可能仍然与术语库的内容想匹配，或者有非译元素或自动可译内容。片段组合功能可以识别这些部分内容并用合适的译文进行替换，这样和重头翻译相比应该还是能节省不少工作。
 
 ### 模糊（fuzzy）
 
-First impressions are correct here: this is one of the fuzziest words in the entire industry jargon. Initially a *fuzzy match* was used in contrast to an exact match from a TM: you get a translation that is fully legit, except it's the translation of something more or less different from your current source segment. Just how different is expressed by the fuzzy match rate. Eventually fuzzy matching was also extended to terminology, where it can be pretty useful if your language is in the habit of changing letters in the middle of words.
+这里的第一印象是正确的：这是整个行业术语中最模糊的一个词。模糊匹配最初是用来和精确匹配形成对比的。模糊匹配的翻译的原文片段和你当前的片段会有些许不同。不同的程度用模糊匹配率来表示。最后，模糊匹配也被扩展到了术语，如果你的语言习惯于在单词中间改变字母，那么它会非常有用。
 
-See also: TM match types
+参见翻译记忆匹配类型
 
 ### 全局查找/替换（global find/replace）
 
-In the olden days, the find function only worked if you first opened a document. Global find & replace searches through all documents in your project: a massive difference if, for instance, your job entails hundreds of tiny XML files from a CMS.
+在过去，只有当您首先打开一个文档时，“查找”功能才起作用。全局查找和替换会在项目的所有文档中进行。如果您的工作需要操作来自CMS的数百个小XML文件，这是一个非常方便的操作。
 
 ### 词汇表（glossary）
 
-See term base
+参见术语库
 
 ### 高亮（highlight）
 
-See comment
+见评论
 
 ### 均匀性（homogeneity）
 
-常规的项目分析可以告诉你，你的文本中有多少模糊匹配或者完全匹配。匹配的内容是现有的翻译记忆和语料库。 但是，即时你一开始的翻译记忆库是空的，随着你不断的翻译，片段也会得到越来越多匹配的内容。 均匀性功能可以把这些“内部”匹配作为分析的一部分进行处理，而不仅仅是检测重复内容。
+常规的项目分析可以告诉你，你的文本中有多少模糊匹配或者完全匹配。匹配的内容是现有的翻译记忆和语料库。但是，即时你一开始的翻译记忆库是空的，随着你不断的翻译，片段也会得到越来越多匹配的内容。均匀性功能可以把这些“内部”匹配作为分析的一部分进行处理，而不仅仅是检测重复内容。
 
 ### 水平布局（horizontal layout）
 
-A two-column grid layout where you see source on the left and target on the right has engulfed CAT tools like a flash flood washing away a hapless creekside camper's stock of ABC soup. But many a translator still prefers to see their target text below the source. The horizontal layout option reshuffles the active segment's dominos, so source and target show up one below the other.
+几乎所有CAT工具都采用了左列原文，右列译文的网格布局，就像一股急流冲走了可怜的河边露营者的ABC汤。但是许多译者仍然喜欢在原文在上，译文在下的显示方式。水平布局选项可以重新组合活动句段，以原文在上，译文在下的形式展示。
 
 ### 导入（import）
 
-See file format filter
+参见文件格式过滤器（file format filter）
 
 ### 内联标签（inline tags）
 
-See tags
+参见标签
 
 ### 国际化（internationalization;i18n）
 
-Localizing a product entails more than just translation: it includes things like showing dates in the right format, displaying temperatures in Celsius vs. Fahrenheit, writing first name last or vice versa, and the like. It requires extra effort to enable a product to do all this; that effort is called internationalization.
+本地化产品需要的不仅仅是翻译：它包括以正确的格式显示日期、以摄氏度和华氏度显示温度、在姓氏后面写名字或反之亦然等内容。它需要额外的努力才能使产品做到这一切；这种努力称为国际化。
 
 ### 互操作性
 
-The ability of CAT tools to understand each other's formats and APIs, and to support standard formats well, so that people using software from different manufacturers can work together without drama, tears and major tragedies.
+CAT工具能够理解彼此的格式和API，并且能够很好地支持标准格式，这样，使用不同制造商的软件的人就可以在一起工作，而不会出现悲剧。
 
 ### 合并句段（join segments）
 
-See segments
+见句段（segment）
 
 ### 关键字上下文检索（KWIC）
 
-A layout for concordance results where the search term is in the middle, with preceding and following text on both sides, row after row.
+一种用于展示检索结果的布局，其中匹配内容位于中间，前后文本位于两边，一行接一行。
 
 ### 利用（Leverage）
 
@@ -397,31 +397,31 @@ leverage是一个时髦的表达，To leverage past translations的意思是CAT�
 
 ### 轻量资源（light resources）
 
-这是一个memoq的术语，指代非译元素、句段分割规则等内容。 而重量资源指翻译记忆、LiveDocs语料、Muses，和它们相比，轻量资源的数据量更小。 在许多其它的工具里，它们在设置里出现，而在memoQ中，它们是一种资源。它们有名字，可以被导进导出，可以在不同项目中被重复利用，也能通过memoQ服务器进行在线共享。
+这是一个memoq的术语，指代非译元素、句段分割规则等内容。而重量资源指翻译记忆、LiveDocs语料、Muses，和它们相比，轻量资源的数据量更小。在许多其它的工具里，它们在设置里出现，而在memoQ中，它们是一种资源。它们有名字，可以被导进导出，可以在不同项目中被重复利用，也能通过memoQ服务器进行在线共享。
 
 ### 语言专家（linguist）
 
-This term is probably the single biggest crime of the translation industry against proper English usage. For every educated person, a linguist means someone like Noam Chomsky, William Labov, Daniel Everett, or Arrival's Amy Adams: a scientist studying language in the mind, or language in society. In the translation industry, “linguist” is sloppy shorthand for translator or reviewer.
+这一术语可能是翻译行业对英语的正确使用所犯下的最大的罪行。对于每一个受过教育的人来说，语言学家指的是像诺姆·乔姆斯基、威廉·拉波夫、丹尼尔·埃弗雷特，或者小说《降临》里的艾米·亚当斯这样的人：一个研究人脑中的语言或社会中的语言的科学家。在翻译行业，“语言学家”即指是翻译或审校。
 
 ### LiveAlign
 
-memoQ's approach to alignment, where you simply throw a bag of source and target documents at the tool, and start translating. The tool aligns fist the documents, then their segments, and indexes them in the background so they immediately give you lookup results in the editor. There will inevitably be errors, but you only spend time fixing those that actually give you matches.
+memoQ的对齐操作名称，只需将一堆源文档和目标文档扔到工具里，就可以进行对齐。该工具首先对齐文档，然后对齐句段，并在后台对其进行索引，以便能在编辑器中立即检索到结果。错误不可避免会有，不多你只需花时间对齐那些匹配到的句段。
 
 ### LiveDocs语料（LiveDocs corpus）
 
-memoQ's alternative to TMs. While a TM holds a homogenous mass of translated segments in no particular order, a LiveDocs corpus preserves entire translated documents, but gives you the same kinds of matches. If you want to check the context of a past translation, you can jump directly to the full document from the translation editor. TMs have one big advantage: they only store every translation once. If your content has a lot of repetitions, LiveDocs can become cumbersome.
+memoQ的翻译记忆替代品。翻译记忆不按特定顺序保存大量翻译片段，而LiveDocs语料库保留了整个翻译文档，并提供了相同类型的匹配。如果要检查过去翻译的上下文，可以直接从翻译编辑器跳到完整文档。翻译记忆有一个很大的优势：同样的翻译，它只存储一次。如果你的内容有很多重复，LiveDocs会变得很笨重。
 
 ### 本地化（localization;l10n）
 
-Sometimes used as a synonym for translation, localization entails a bit more: it includes showing dates in the right format, money in the right currency, and the like. In order to localize a product, it must first enable doing all this, which is called internationalization.
+有时用作翻译的同义词，不过通常本地化有更广泛的含义：它包括以正确的格式显示日期、以正确的货币显示货币等。为了使产品本地化，必须修改产品使其支持本地化操作，这叫做国际化。
 
 ### 本地化工程师（localization engineer）
 
-A person who knows the ins and outs of CAT tools, nasty file formats, regular expressions and other arcana. Many are not shy to code either. They make sure that before a complex project is launched, all the content is imported correctly, the segmentation is right, untouchable segments are locked, and a lot more. Without localization engineers, complex projects would never be finished on time and budget, and translators would tear out their hair and move to a farm to raise pigs.
+了解CAT工具、讨厌的文件格式、正则表达式和其他奥秘的人。许多人也有很强的代码能力。他们确保在启动一个复杂的项目之前，所有内容都被正确导入，句段分割是正确的，不应该被修改的句段被锁定，等等。如果没有本地化工程师，复杂的项目将永远无法按时完成，而翻译人员则会拔光头发，搬到农场养猪。
 
 ### 锁定使用了不同语言的句段（lock segments in different languages）
 
-没有一个CAT工具能够处理好源文使用了混合语言的情况。 在memoQ中隐藏着一个很好的功能可以锁定句段。 这个不显眼的选项将检测每个句段的语言，如果它不同于文档的原文语言，则将其锁定。
+没有一个CAT工具能够处理好源文使用了混合语言的情况。在memoQ中隐藏着一个很好的功能可以锁定句段。这个不显眼的选项将检测每个句段的语言，如果它不同于文档的原文语言，则将其锁定。
 
 ### 锁定的（locked）
 
@@ -499,11 +499,11 @@ See machine translation
 
 ### 不换行空格（non-breaking space）
 
-一种特殊的字符，看起来像一个普通的空格，但作用不同，因为它不允许句子在单词的左右两边换行。 在法语中，冒号前面必须有一个非换行空格（你不希望一行内容的开头是“：”），数字和度量单位之间也必须有一个非换行空格（你也不希望开头是“cm”）。 在大多数文字处理器中，您可以通过按ctrl+space来键入它。
+一种特殊的字符，看起来像一个普通的空格，但作用不同，因为它不允许句子在单词的左右两边换行。在法语中，冒号前面必须有一个非换行空格（你不希望一行内容的开头是“：”），数字和度量单位之间也必须有一个非换行空格（你也不希望开头是“cm”）。在大多数文字处理器中，您可以通过按ctrl+space来键入它。
 
 ### 非打印字符（non-printing characters）
 
-空格、非换行空格、制表符和换行符。 另外，在双向文本中使用的一些不可见字符。 它们都是空白的，你通常看不到它们。 和Word一样，CAT工具也有一个显示它们的选项，这样您就不会意外地键入两个空格，或者在该输入非断行空格的地方插入了一个正常的空格。
+空格、非换行空格、制表符和换行符。另外，在双向文本中使用的一些不可见字符。它们都是空白的，你通常看不到它们。和Word一样，CAT工具也有一个显示它们的选项，这样您就不会意外地键入两个空格，或者在该输入非断行空格的地方插入了一个正常的空格。
 
 ### 非译元素（non-translatables）
 
@@ -653,7 +653,7 @@ See machine translation
 
 ### 分割句段（split segments）
 
-见句段（segment）。
+见句段（segment）
 
 ### 句段分割规则（SRX; Segmentation Rules eXchange）
 
@@ -707,7 +707,7 @@ The analysis output of well-behaved CAT tools has a separate section that shows 
 
 ### TB
 
-参见术语库。
+参见术语库
 
 ### 术语库交换格式（TBX; TermBase eXchange）
 
@@ -735,7 +735,7 @@ A function of advanced CAT tools that looks at new source text or a body of exis
 
 ### 术语数据库（terminology  database）
 
-参见术语库。
+参见术语库
 
 ### 翻译记忆（TM; translation memory）
 
