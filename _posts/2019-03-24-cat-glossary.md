@@ -56,12 +56,12 @@ tags: CAT
 * [全局查找/替换（global find/replace）](#全局查找替换global-findreplace)
 * [词汇表（glossary）](#词汇表glossary)
 * [高亮（highlight）](#高亮highlight)
-* [均匀性（homogeneity）](#均匀性homogeneity)
+* [同质性（homogeneity）](#同质性homogeneity)
 * [水平布局（horizontal layout）](#水平布局horizontal-layout)
 * [导入（import）](#导入import)
-* [内联标签（inline tags）](#内联标签inline-tags)
+* [行内标签（inline tags）](#行内标签inline-tags)
 * [国际化（internationalization;i18n）](#国际化internationalizationi18n)
-* [互操作性](#互操作性)
+* [互操作性](#互操作性interoperability)
 * [合并句段（join segments）](#合并句段join-segments)
 * [关键字上下文检索（KWIC）](#关键字上下文检索kwic)
 * [利用（Leverage）](#利用leverage)
@@ -93,12 +93,12 @@ tags: CAT
 * [非打印字符（non-printing characters）](#非打印字符non-printing-characters)
 * [非译元素（non-translatables）](#非译元素non-translatables)
 * [光学字符识别（OCR）](#光学字符识别ocr)
-* [在线项目](#在线项目)
+* [在线项目（online project）](#在线项目online-project)
 * [在线翻译记忆（online TM）](#在线翻译记忆online-tm)
 * [即时过滤（on-the-fly filter）](#即时过滤on-the-fly-filter)
 * [PDF](#pdf)
-* [PEMT; post-edited machine translation](#pemt-post-edited-machine-translation)
-* [惩罚](#惩罚)
+* [机器翻译译后编辑（PEMT; post-edited machine translation）](#机器翻译译后编辑pemt-post-edited-machine-translation)
+* [惩罚（penalty）](#惩罚penalty)
 * [永久许可证（perpetual license）](#永久许可证perpetual-license)
 * [插件（plugin）](#插件plugin)
 * [填充纯数字片段（populate number-only segments）](#填充纯数字片段populate-number-only-segments)
@@ -129,7 +129,7 @@ tags: CAT
 * [句段分割规则（SRX; Segmentation Rules eXchange）](#句段分割规则srx-segmentation-rules-exchange)
 * [子片段的利用（subsegment leverage）](#子片段的利用subsegment-leverage)
 * [统计信息（statistics）](#统计信息statistics)
-* [文本（String）](#文本string)
+* [字符串（String）](#字符串string)
 * [结构标签（structural tags）](#结构标签structural-tags)
 * [同步（synchronize）](#同步synchronize)
 * [表格RTF（table RTF）](#表格rtftable-rtf)
@@ -161,13 +161,13 @@ tags: CAT
 * [字数统计（word count）](#字数统计word-count)
 * [工作、主和参考翻译记忆（working, master and reference TM）](#工作主和参考翻译记忆working-master-and-reference-tm)
 * [XLIFF](#xliff)
-* [XML; eXtensible Markup Language](#xml-extensible-markup-language)
+* [可扩展标记语言（XML; eXtensible Markup Language）](#可扩展标记语言xml-extensible-markup-language)
 * [X-translate](#x-translate)
 
 
 ## 译文
 
-CAT终极术语大全
+CAT术语大全
 
 2017年5月16日
 
@@ -297,7 +297,7 @@ dicto是从typo发展出来的一个新词。表示听写软件的错误听写�
 
 ### DITA
 
-DITA是达尔文信息分类结构（Darwin Information Typing Architecture）的缩写，它听起来很无聊，但非常有用。它是一个开放的标准，定义了如何在CMS系统中构造和重用内容。该格式基于XML，如果您的CAT工具支持它，您可以处理来自几个不同CMS的大量内容。
+DITA是达尔文信息分类架构（Darwin Information Typing Architecture）的缩写，它听起来很无聊，但非常有用。它是一个开放的标准，定义了如何在CMS系统中构造和重用内容。该格式基于XML，如果您的CAT工具支持它，您可以处理来自几个不同CMS的大量内容。
 
 ### 桌面出版（DTP）
 
@@ -359,9 +359,9 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 见注释
 
-### 均匀性（homogeneity）
+### 同质性（homogeneity）
 
-常规的项目分析可以告诉你，你的文本中有多少模糊匹配或者完全匹配。匹配的内容是现有的翻译记忆和语料库。但是，即使你一开始的翻译记忆库是空的，随着你不断的翻译，片段也会得到越来越多匹配的内容。均匀性功能可以把这些“内部”匹配作为分析的一部分进行处理，而不仅仅是检测重复内容。
+常规的项目分析可以告诉你，你的文本中有多少模糊匹配或者完全匹配。匹配的内容是现有的翻译记忆和语料库。但是，即使你一开始的翻译记忆库是空的，随着你不断的翻译，片段也会得到越来越多匹配的内容。同质性功能可以把这些“内部”匹配作为分析的一部分进行处理，而不仅仅是检测重复内容。
 
 ### 水平布局（horizontal layout）
 
@@ -371,7 +371,7 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 见文件格式过滤器（file format filter）
 
-### 内联标签（inline tags）
+### 行内标签（inline tags）
 
 见标签
 
@@ -379,7 +379,7 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 本地化产品需要的不仅仅是翻译：它包括以正确的格式显示日期、以摄氏度和华氏度显示温度、在姓氏后面写名字或反之亦然等内容。它需要额外的努力才能使产品做到这一切；这种努力称为国际化。
 
-### 互操作性
+### 互操作性（interoperability）
 
 CAT工具能够理解彼此的格式和API，并且能够很好地支持标准格式，这样，使用不同制造商的软件的人就可以在一起工作，而不会出现悲剧。
 
@@ -513,7 +513,7 @@ SDL MultiTrans用于导出和导入术语的基于XML的格式。虽然不是官
 
 一种将图像（如扫描的页面）转换为可编辑文本（通常是Word文档）的软件。在翻译中，OCR常用于将PDF格式的文档转换为可编辑或导入到CAT工具中的Word文档。
 
-### 在线项目
+### 在线项目（online project）
 
 一个在服务器中存储文档的Memoq项目，允许多个人同时翻译和查看文档，进行实时协同工作。在线项目还使分配工作变得非常简单，因为它们消除了在电子邮件中发送文件的功能，并防止了微不足道的错误，因为它们确保项目中的每个人都使用正确的设置和资源。
 
@@ -533,7 +533,7 @@ PDF是的Portable document format的缩写，设计目的是无论你在哪里�
 
 见机器翻译后编辑（machine translation post-editing）
 
-### 惩罚
+### 惩罚（penalty）
 
 有些翻译的可信度较低。它们可能太旧，来自水平较差的译者，或者适用于不同的客户和领域。惩罚意味着降低译文的匹配率，使其排名低于其它匹配。
 
@@ -553,7 +553,7 @@ PDF是的Portable document format的缩写，设计目的是无论你在哪里�
 
 缩写是PTA，它和普通的分析相似，不过是翻译完成后立刻执行的。翻译大型文本时会产生很多的“内部”记忆匹配，有模糊的也有精确的。当两个或两个以上的译员一起工作时，很难说谁会从头翻译一个句段，谁会得到别人翻过的内容的匹配。对此，memoQ会在它的在线项目进行跟踪，并在所有工作完成后给出精确而公平的任务量分析。
 
-顺便说一下，译前分析匹配的数字与均匀性分析中的数字非常接近。不同的是，PTA的分析可以显示出译员各自在翻译时使用了多少内部匹配。这些内部匹配是一开始均匀性分析时就有预测。
+顺便说一下，译前分析匹配的数字与同质性分析中的数字非常接近。不同的是，PTA的分析可以显示出译员各自在翻译时使用了多少内部匹配。这些内部匹配是一开始同质性分析时就有预测。
 
 ### 输入预测（predictive typing）
 
@@ -701,7 +701,7 @@ CAT工具最性感的功能之一，但名字并不性感。输入预测可以�
 
 CAT工具通过引入标签来应对所有这些问题。句段中的标签在编辑器中的作用类似于字符，但看起来完全不同。它们被称为行内标签或者内联标签。
 
-像XML或HTML这样的格式，把标签编织到了自己的DNA中。其中一些标记定义结构（如标题、说明文字），并把文字封装在标签里面。这些称为结构或外部标记，不应出现在您的句段中。只有在导入之前XML过滤器配置不正确时，它们才会出现。你可以通过雇佣一个好的本地化工程师来解决这个问题。
+像XML或HTML这样的格式，把标签编织到了自己的DNA中。其中一些标记定义结构（如标题、说明文字），并把文字封装在标签里面。这些称为结构标记或外部标记，不应出现在您的句段中。只有在导入之前XML过滤器配置不正确时，它们才会出现。你可以通过雇佣一个好的本地化工程师来解决这个问题。
 
 好的CAT工具的分析输出有一个单独的部分，该部分会显示了除了字符之外，文本还包含多少标记。这一点很重要，因为标签可能需要很多工作，会减慢翻译的速度。
 
