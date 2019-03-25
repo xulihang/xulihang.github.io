@@ -31,7 +31,7 @@ tags: CAT
 * [CJJK](#cjjk)
 * [检出（check out）](#检出check-out)
 * [内容管理系统（CMS）](#内容管理系统cms)
-* [评论（comment）](#评论comment)
+* [注释（comment）](#注释comment)
 * [检索（concordance）](#检索concordance)
 * [已确认（confirmed）](#已确认confirmed)
 * [上下文ID（content ID）](#上下文idcontent-id)
