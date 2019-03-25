@@ -8,7 +8,7 @@ tags: CAT
 
 这篇文章翻译自memoQ的产品经理Gabor的[The ultimate CAT tool jargon buster](https://jealousmarkup.xyz/texts/cat-tool-glossary/)，已经得到了作者的翻译许可。
 
-目前还在翻译中。
+本文使用BasicCAT翻译，大部分内容都是基于百度翻译做的译后编辑，基本保留原文的句式和内容，除了一些拗口的地方，我进行了意译。翻译此文的目的是普及CAT基础知识，统一CAT的用语，有不对的地方欢迎指出。
 
 
 目录
@@ -229,11 +229,11 @@ BiDi，双向文本，是bidirectional text的缩写。阿拉伯语、希伯来�
 
 ### 双语Excel（bilingual Excel）
 
-参见多语言Excel（multilingual Excel）
+见多语言Excel（multilingual Excel）
 
 ### 双语RTF（bilingual RTF）
 
-一种特殊格式的Word文档，包含翻译的源文句段和目标句段，通常还包括注释和其他信息。这样，翻译人员可以和没有CAT软件的客户或领域专家进行合作。反过来，CAT工具可以读取修改过的双语RTF，并将更新的内容导回翻译软件环境中。有些旧格式依赖于隐藏文本，并且很容易被一个错误的编辑所破坏。如今，一个包含三列或更多列的表格的文档更为常见。
+一种特殊格式的Word文档，包含翻译的原文句段和目标句段，通常还包括注释和其他信息。这样，翻译人员可以和没有CAT软件的客户或领域专家进行合作。反过来，CAT工具可以读取修改过的双语RTF，并将更新的内容导回翻译软件环境中。有些旧格式依赖于隐藏文本，并且很容易被一个错误的编辑所破坏。如今，一个包含三列或更多列的表格的文档更为常见。
 
 ### CAL许可证（CAL License）
 
@@ -273,7 +273,7 @@ CJJK指东亚语言，包含汉语、日语和韩语。有两个C是因为中文
 
 ### 上下文匹配（context match）
 
-参见翻译记忆匹配类型
+见翻译记忆匹配类型
 
 ### CSV
 
@@ -313,15 +313,15 @@ DTP工具包括像FrameMaker和InDesign这样的工具，用于生成专业的�
 
 ### 完全匹配（exact match）
 
-参见翻译记忆匹配类型
+见翻译记忆匹配类型
 
 ### 导出（export）
 
-参见文件格式过滤器（file format filter）
+见文件格式过滤器（file format filter）
 
 ### 外部标签（external tags）
 
-参见标签
+见标签
 
 ### 文件格式过滤器（file format filter）
 
@@ -345,7 +345,7 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 这里的第一印象是正确的：这是整个行业术语中最模糊的一个词。模糊匹配最初是用来和精确匹配形成对比的。模糊匹配的翻译的原文片段和你当前的片段会有些许不同。不同的程度用模糊匹配率来表示。最后，模糊匹配也被扩展到了术语，如果你的语言习惯于在单词中间改变字母，那么它会非常有用。
 
-参见翻译记忆匹配类型
+见翻译记忆匹配类型
 
 ### 全局查找/替换（global find/replace）
 
@@ -353,7 +353,7 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 ### 词汇表（glossary）
 
-参见术语库
+见术语库
 
 ### 高亮（highlight）
 
@@ -361,7 +361,7 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 ### 均匀性（homogeneity）
 
-常规的项目分析可以告诉你，你的文本中有多少模糊匹配或者完全匹配。匹配的内容是现有的翻译记忆和语料库。但是，即时你一开始的翻译记忆库是空的，随着你不断的翻译，片段也会得到越来越多匹配的内容。均匀性功能可以把这些“内部”匹配作为分析的一部分进行处理，而不仅仅是检测重复内容。
+常规的项目分析可以告诉你，你的文本中有多少模糊匹配或者完全匹配。匹配的内容是现有的翻译记忆和语料库。但是，即使你一开始的翻译记忆库是空的，随着你不断的翻译，片段也会得到越来越多匹配的内容。均匀性功能可以把这些“内部”匹配作为分析的一部分进行处理，而不仅仅是检测重复内容。
 
 ### 水平布局（horizontal layout）
 
@@ -369,11 +369,11 @@ CAT工具的一个主要好处是，无论文本的格式如何，您总是在�
 
 ### 导入（import）
 
-参见文件格式过滤器（file format filter）
+见文件格式过滤器（file format filter）
 
 ### 内联标签（inline tags）
 
-参见标签
+见标签
 
 ### 国际化（internationalization;i18n）
 
@@ -401,7 +401,7 @@ leverage是一个时髦的表达，To leverage past translations的意思是CAT�
 
 ### 语言专家（linguist）
 
-这一术语可能是翻译行业对英语的正确使用所犯下的最大的罪行。对于每一个受过教育的人来说，语言学家指的是像诺姆·乔姆斯基、威廉·拉波夫、丹尼尔·埃弗雷特，或者小说《降临》里的艾米·亚当斯这样的人：一个研究人脑中的语言或社会中的语言的科学家。在翻译行业，“语言学家”即指是翻译或审校。
+这一术语可能是翻译行业对英语的正确使用所犯下的最大的罪行。对于每一个受过教育的人来说，语言学家指的是像诺姆·乔姆斯基、威廉·拉波夫、丹尼尔·埃弗雷特，或者电影《降临》里的艾米·亚当斯这样的人：一个研究人脑中的语言或社会中的语言的科学家。在翻译行业，“语言学家”即指是翻译或审校。
 
 ### LiveAlign
 
@@ -421,51 +421,51 @@ memoQ的翻译记忆替代品。翻译记忆不按特定顺序保存大量翻译
 
 ### 锁定使用了不同语言的句段（lock segments in different languages）
 
-没有一个CAT工具能够处理好源文使用了混合语言的情况。在memoQ中隐藏着一个很好的功能可以锁定句段。这个不显眼的选项将检测每个句段的语言，如果它不同于文档的原文语言，则将其锁定。
+没有一个CAT工具能够处理好源文档使用了混合语言的情况。在memoQ中隐藏着一个很好的功能可以锁定句段。这个不显眼的选项将检测每个句段的语言，如果它不同于文档的原文语言，则将其锁定。
 
 ### 锁定的（locked）
 
-In practically every CAT tool segments have a status like *new, pre-translated* or *confirmed*. Independently from this, segments can also be locked, which makes them read-only. If a localization engineer has populated some segments with translations approved (and mandated) by the client, then locking makes sure these do not get changed accidentally. Locked segments are also easy to exclude from the word count during analysis.
+实际上，每个CAT工具的句段都有一个状态属性，如“新建”、“预翻译”或“已确认”。句段也可以被锁定，这使得它们是只读的。如果本地化工程师用客户批准或指定的翻译填充了一些片段，那么锁定可以确保这些片段不会被意外更改。在分析项目时，锁定的句段也很容易从字数统计中排除。
 
 ### 语言质量保证（LQA）
 
-In addition to merely reviewing and correcting translations, human reviewers can also mark every error they find, indicating the error's type from a pre-defined list; the error's severity; and possibly other details. This information can later be evaluated to assess quality objectively. LQA is the function that facilitates this in CAT tools.
+除了审读和修改译文，人工审校还可以标记他们找到的错误，从预先定义的列表选择错误的类型，错误的严重程度等其它细节内容。这些信息可以在以后进行评估，以客观地评价质量。LQA是在CAT工具在这方面提供的一个功能。
 
 ### LSC
 
-See automatic concordance
+见自动检索（automatic concordance）
 
 ### 语言服务提供商（LSP）
 
-A business that sells translation services to its clients.
+向客户销售翻译服务的公司。
 
 ### 机器翻译（MT）
 
-A computer system that transforms a sequence of characters into a different sequence of characters that is recognizable, to a human, as text in another language, with relevant clues about the information in the original text. MT systems come in three main flavors. In rules-based (RBMT) systems, humans hand-craft grammatical rules. In statistical (SMT), a statistical system is trained on large amounts of human-translated text. Neural (NMT) systems are also trained on human-translated data, but they need a lot more computation, and have been reported to produce superior results.
+一种计算机系统，它把一个字符序列转换成另一种语言的序列。结果是人可以阅读的。目前主要有三种机器翻译系统。基于规则的系统（RBMT）需要人类手工制定语法规则。基于统计的系统（SMT）需要使用大量人工翻译文本进行训练。基于神经网络的系统（NMT）也需要使用人工翻译数据训练，但它们需要更多的计算，并且根据报道，可以得到更好的翻译结果。
 
-Tools like Google MT are generic. In the translation industry it is more common to train specialized systems that do really well on a single type of content. This needs MT experts and a body of relevant, high-quality human translations for the training data.
+像谷歌翻译这样的机器翻译针对的是通用的领域。在翻译行业中，更常见的是定制专门的系统，这些系统做专门领域的翻译做得很好。这需要机器翻译专家和一个相关的、高质量的大型人工翻译语料库。
 
-One way in which MT is used is human post-editing: the MT system produces a rough translation that is often incorrect and ungrammatical, but is cheaper/faster to fix by humans than to translate from scratch. Another way is interactive MT, where the human translator receives suggestions from the MT system while she is translating text in a CAT tool.
+使用机器翻译的一种方法是人的后期编辑：机器翻译系统产生的粗略的翻译，通常是不正确的和不符合文法的，但是在此基础上进行编辑比人从头翻译更便宜，更快。另一种方式是交互式的机器翻译，当人工译员在CAT工具中翻译文本时，会收到机器翻译系统的建议。
 
 ### 机器翻译后编辑（machine translation post-editing）
 
-One way to utilize machine translation, where the MT system produces a rough “translation” that is often incorrect and ungrammatical, and is then post-edited by a human to remove major errors and improve fluency.
+利用机器翻译的一种方法是译后编辑，即机器给出一个粗略的翻译，这个翻译可能并不正确，有语法问题，需要人来进行后期的编辑，改正错误，提高流畅度。
 
 ### 主翻译记忆（master TM）
 
-See working, master and reference TM
+见工作、主和参考翻译记忆（working, master and reference TM）
 
 ### 匹配率（match rate）
 
-See TM match types
+见翻译记忆匹配类型
 
 ### MatchPatch
 
-A memoQ function that improves fuzzy matches from a TM or a corpus by replacing the phrases that are different, relying on term base matches, auto-translatables and non-translatables.
+一种memoQ的功能，比较从翻译记忆和语料库得到的模糊匹配和翻译的原文不一样的部分，依赖于词库匹配、可自动翻译内容和非译元素的设置，生成对应的翻译。
 
 ### 元数据（metadata）
 
-Additional details about a piece of stored information, like “who translated this, when, and for what client” in the case of a translation unit, or “what source did this come from and did the client approve it” for a term base entry. CAT tools usually support a set of standard fields like the ones above, but also allow users to define their own custom fields and categories for more detail.
+有关存储信息的其他详细信息，例如翻译单元的元数据包含“谁翻译的，什么时候翻译的，客户是谁”，而术语库条目的元数据包含“来源，客户是否批准”等。CAT工具通常支持一组标准字段，如上面的字段，但也允许用户定义自己的字段和类别以存储更多详细信息。
 
 ### 移动端许可证（mobile license）
 
@@ -473,29 +473,29 @@ Additional details about a piece of stored information, like “who translated t
 
 ### 单语审校（monolingual review）
 
-A function where you export your translation into its original format, make changes outside the CAT tool, and can then bring those changes back into the translation environment from the edited target-language file. It is particularly useful when you need to send your work for client review but even a Word-based bilingual file is “too complicated.”
+通过单语审校功能，你可以将翻译导出到其原始格式，在CAT工具环境外外进行更改，然后将这些更改从编辑过的目标语言文件中导回翻译环境。当您需要将工作发送给客户审校时，它特别有用，因为可能即使是双语Word文件，对于客户也显得太复杂了。
 
-Why do you want to bring such changes back into the CAT tool? To make sure your TM contains only final, approved translations. Otherwise you may end up with trash in, trash out.
+为什么要将这些更改重新导入CAT工具？是为了确保您的TM仅包含最终版本的翻译。不然，翻译记忆的内容就都是低质量的垃圾内容了。
 
 ### MQXLIFF
 
-An XLIFF file than contains additional, non-standard information specific to memoQ, such as segment statuses, QA warnings, LQA errors, comments etc.
+memoQ的专有XLIFF格式文件，含有一些memoQ才有的信息，比如句段信息、QA警告、LQA错误、评论等等。
 
 ### 多语言Excel（multilingual Excel）
 
-An Excel file with source text, translations, comments and other information. Sometimes it's a small, innocuous file with two columns for source and target text, but we have reliable eyewitness reports of files out there with 50,000 rows and 25 columns for different languages. Such monstrous files often come from computer games.
+包含源文本、翻译、评论和其他信息的Excel文件。有时它是一个小巧的文件，有两列内容：源文本和目标文本。但有可靠的目击者报告说，他们见到过有50000行和25列不同语言的文件。这种巨大的的文件往往来自电脑游戏。
 
 ### MultiTrans XML
 
-The XML-based format used by SDL MultiTrans to export and import terminology. Although not an official standard, it is widely used for terminology exchange even between completely different systems.
+SDL MultiTrans用于导出和导入术语的基于XML的格式。虽然不是官方标准，但它被广泛用于术语交换，即使是在完全不同的系统之间。
 
 ### Muse
 
-One of the resources powering predictive typing in memoQ. A Muse is built by analyzing existing TMs and corpora, with the aim of extracting words and phrases that correspond to each other in the two languages. When you translate a new source segment, the Muse looks at the phrases in it and gives you a list of suggestions that might be the translation of a phrase in the source text.
+在memoQ中支持输入预测的资源之一。Muse通过对现有的记忆库和语料库的分析，抽取原文和译文对应的短语对。翻译新的原文句段时，Muse会查询之前存储的短语，并给出可能是原文中某个短语翻译的建议列表。
 
 ### 神经网络机器翻译（NMT）
 
-See machine translation
+见机器翻译
 
 ### 不换行空格（non-breaking space）
 
@@ -507,109 +507,109 @@ See machine translation
 
 ### 非译元素（non-translatables）
 
-Somewhat similar to terms, except that they are identical in all languages. Most often they are brand names that are to be left alone.
+有点类似于术语，只是它们在所有语言中都是相同的。比如说品牌的名称，基本上是不需要翻译的。
 
 ### 光学字符识别（OCR）
 
-Software whose original function is to turn an image (e.g., a scanned page) into editable text, usually a Word document. In translation OCR is used to turn documents in the one-way PDF format into a Word document that you can edit or import into a CAT tool.
+一种将图像（如扫描的页面）转换为可编辑文本（通常是Word文档）的软件。在翻译中，OCR常用于将PDF格式的文档转换为可编辑或导入到CAT工具中的Word文档。
 
 ### 在线项目
 
-A memoQ project that stores documents in a server, allowing multiple people to simultaneously translate and review them, working together in real time. Online projects also make it really simple to assign work because they eliminate sending files around in email, and they prevent trivial errors because they make sure everyone in the project uses the right settings and resources.
+一个在服务器中存储文档的Memoq项目，允许多个人同时翻译和查看文档，进行实时协同工作。在线项目还使分配工作变得非常简单，因为它们消除了在电子邮件中发送文件的功能，并防止了微不足道的错误，因为它们确保项目中的每个人都使用正确的设置和资源。
 
 ### 在线翻译记忆（online TM）
 
-A translation memory shared through a server or in the cloud. They allow organizations to store their translations centrally (and always find them when they are needed). They also make sure that translators working together in real time on different parts of a project get to see each other's translations instantly, ensuring their work will be consistent.
+通过服务器或者云服务共享的翻译记忆。它们允许组织在一个中心节点存储它们的翻译，并能在需要时找到它们。他们还确保项目的翻译人员能够立即看到彼此的翻译，确保他们的工作是一致的。
 
 ### 即时过滤（on-the-fly filter）
 
-A function present in all advanced CAT tools (though usually called differently) that allows you to filter the segments of the document you're working in. It is “find” on steroids: you can quickly skim segments that contain a particular word or expression, and make changes if you changed you mind about a translation. It's also useful to eliminate, say, segments that are already confirmed so you can just focus on what needs work.
+所有高级CAT工具中都存在的一个功能，它允许您过滤正在处理的文档的句段。它是一个加强版的查找功能。你可以快速浏览包含某个词或者表达的句段，如果觉得翻的不好，可以随时修改。你也可以使用这个功能来隐藏已经确认的句段，这样就可以只关注需要工作的部分。
 
 ### PDF
 
-Portable document format by its maiden name, it is meant to make sure a document looks exactly the same no matter where you view or print it. The price of that consistency is that it's extremely hard (nigh-impossible) to change the text inside it. In other words, it's a one-way format, which makes it one of the biggest nuisances for the translation industry. Apart from a few innovative solutions like TransPDF, your best bet is to convert a PDF into a Word file with an OCR tool, then translate that. Or, if you have the chance, to get the source (InDesign, FrameMaker or similar DTP file) from your client and work on that.
+PDF是的Portable document format的缩写，设计目的是无论你在哪里查看或打印它，文档看起来都完全相同，这种一致性的代价是很难（几乎不可能）更改其中的文本。换句话说，它是一种单向格式，即你很难把PDF格式转换到其它格式，这使得它成为翻译行业最大的障碍之一。除了一些创新的解决方案，比如TransPDF，你最好的选择是用OCR工具将一个PDF文件转换成一个Word文件，然后翻译它。但最好是从您的客户获取源文档（InDesign、Framemaker或类似的DTP文件），并进行相应的翻译工作。
 
-### PEMT; post-edited machine translation
+### 机器翻译译后编辑（PEMT; post-edited machine translation）
 
-See machine translation post-editing
+见机器翻译后编辑（machine translation post-editing）
 
 ### 惩罚
 
-Some translations are to be trusted less than others. They may be too old, coming from the wrong translator, or applicable to a different client or domain. A penalty means reducing the translation's natural match rate so it gets ranked lower than others.
+有些翻译的可信度较低。它们可能太旧，来自水平较差的译者，或者适用于不同的客户和领域。惩罚意味着降低译文的匹配率，使其排名低于其它匹配。
 
 ### 永久许可证（perpetual license）
 
-A license that allows you to use a piece of software you have purchased forever. Perpetual licenses typically belong to a specific version of the software: to make sure the developer stays in business, it needs to finance its work by charging an [upgrade fee](1130) for new versions.
+允许您永久使用软件的许可证。永久许可通常只适用于软件的特定版本，升级版本还是要花钱的。这是为了确保开发人员能够继续努力完善软件。
 
 ### 插件（plugin）
 
-A small module in a larger piece of software that performs a specific task. The point, usually, is that anyone can develop a plugin without the need to involve the main software's developer. A typical example in CAT tools is machine translation plugins: the providers of the machine translation make their service available through plugins for the CAT tools used by translators, LSPs or companies. Whatever the purpose, you can create plugins if the CAT tool's developer opened up a part of their application by creating and publishing an SDK.
+在较大的软件中执行特定任务的一个小模块。通常，任何人都可以开发一个插件，而无需该软件的开发人员参与。CAT工具中的一个典型例子是机器翻译插件。机器翻译商通过为CAT软件开发插件来为译员、语言服务商或公司提供他们的服务。只要CAT工具的开发人员通过创建和发布一个SDK，使得应用程序对外提供交互的接口，就可以创建插件。
 
 ### 填充纯数字片段（populate number-only segments）
 
-Quite often a source document has lots of segments that all contain only numbers – think financial reports. Numbers are funny. They don't need translation in the traditional sense, but they also cannot go straight into the translated text: the target language's conventions for decimal separators and the like are different. This function processes all the segments with numbers in one go, adjusting their format along the way.
+很多时候，源文档有许多只包含数字的部分，比如财务报告。数字很有趣。他们不需要传统意义上的翻译，但是他们也不能直接翻译成译文：目标语言的数字使用分割符的约定是不同的。这个功能可以一次处理所有带数字的句段，并调整它们的格式。
 
 ### 译后分析（post-translation analysis）
 
-PTA for short, it is similar to analysis, but is performed once the translation is finished, not up front. Every large text will yield a lot of “internal” TM matches, both fuzzy and exact. When two or more translators work together, there's no way to say in advance who will translate a segment from scratch, and who will get a match because someone else was there first. memoQ keeps track of this in its online projects, and gives a precise and fair breakdown when all the work is done.
+缩写是PTA，它和普通的分析相似，不过是翻译完成后立刻执行的。翻译大型文本时会产生很多的“内部”记忆匹配，有模糊的也有精确的。当两个或两个以上的译员一起工作时，很难说谁会从头翻译一个句段，谁会得到别人翻过的内容的匹配。对此，memoQ会在它的在线项目进行跟踪，并在所有工作完成后给出精确而公平的任务量分析。
 
-Incidentally, the numbers in the pre-translation analysis match very closely those from homogeneity. The difference is that PTA's breakdown shows *who* got how many of the internal matches that homogeneity predicted at the start.
+顺便说一下，译前分析匹配的数字与均匀性分析中的数字非常接近。不同的是，PTA的分析可以显示出译员各自在翻译时使用了多少内部匹配。这些内部匹配是一开始均匀性分析时就有预测。
 
 ### 输入预测（predictive typing）
 
-One of CAT tools' most sexy functions with the least sexy name. Predictive typing makes you both faster (by eliminating keystrokes) and more consistent (by offering the right things to type). It looks at the characters that you have typed so far and offers a list of continuations from the current segment's term base matches, auto-translatables, non-translatables, Muse hints and other such sources.
+CAT工具最性感的功能之一，但名字并不性感。输入预测可以使翻译速度更快（通过减少击键）、内容更一致（通过提供正确的输入内容）。它分析用户输入的字符，然后根据当前句段的术语库匹配、自动可翻译内容、非译元素、Muse提示和其它资源来提供一个建议列表。
 
 ### 预翻译的（pre-translated）
 
-See segment status and pre-translation
+见句段状态（segment status）和预翻译（pre-translation）
 
 ### 预翻译（pre-translation）
 
-A function that processes every segment in a document and automatically inserts the best translation from the project's TMs and corpora.
+预翻译会分析文档中的每个句段，并自动用翻译记忆和语料库中的内容进行填充。
 
 ### 预览（preview）
 
-A screen area in your CAT tool that shows the document in its original format, or a close approximation. A premise of CAT tools is to rip text to segments and let you translate these in the same efficient environment, regardless of the original file format. But one thing is lost through this: visual context. The solution to this self-inflicted pain is the preview, which magicks visual context right back into your environment.
+预览功能可以原始格式或近似格式查看翻译的文档。CAT工具将文本拆分为句段，让您在相同的高效环境中进行翻译，而不用管原始文件格式。但视觉上下文信息是丢失了的，你看不到译文在原始文档中是什么样的。解决这种CAT软件自己造成的痛苦的方法是预览。
 
 ### 项目主页（project home）
 
-The screen in memoQ where you can add or remove documents to translate, pick TMs, term bases, Muses and other resources, and fiddle with your working environment in countless other ways, whenever you have an urge to procrastinate.
+在memoQ的项目主页，你可以添加或删除要翻译的文档、选择翻译记忆、术语库、Muse和其他资源。当你犯拖延症时，你也可以用无数其他方式来把玩你的工作环境。
 
 ### 项目管理系统（project management system）
 
-Software that keeps track of jobs, prices, customers, vendors, deadlines, invoices, and a host of other things that you need to run a translation business or department.
+项目管理系统可以跟踪翻译任务、价格、客户、供应商、截止日期、发票以及运行翻译业务或部门所需的大量其他内容。
 
 ### 项目模板（project templates）
 
-If you get recurring or at least similar translation jobs (and you do), you are forced to do the same things over and over again: pick the right TMs, term bases, light resources, settings, people etc., and also perform the same actions like analysis, pre-translation and the like. Project templates define rules for all of these and a lot more, so you don't make embarrassing mistakes, don't get tendonitis from incessant clicking, and have a fighting chance to stay sane in the midst of it all. Also, project templates allow you to reuse the work of experts like localization engineers and make it a lot simpler for new hires to get up to speed.
+处理很多有重复或至少类似的翻译工作，你不得不一遍又一遍地做同样的事情：选择合适的翻译记忆、术语库、轻量资源、设置、人员等，然后还要执行相同的操作，如分析、预翻译等。项目模板可以为以上这些定义规则。这样你就不会犯令人尴尬的错误，也不会因为不停的点击而导致肌腱炎，并且能在这类繁琐工作中保持清醒。此外，项目模板允许您重用本地化工程师等专家的工作，并使新员工更容易跟上进度。
 
 ### 伪翻译（pseudo-translation）
 
-Translation is the fun part, but if you're dealing with complex file formats from esoteric systems, you need to make sure your work will also make it back to the original system at the end and not crash your client's multimillion-dollar flagship app right before the deadline. Pseudo-translation allows you to test the whole process without actually translating anything. It replaces source text with funny characters, words spelled backwards, and made-up stuff to inflate strings.
+文本翻译是有趣的一个环节，但是如果你处理的是来自深奥系统的复杂文件格式，你需要确保你的工作可以正常导回原来的系统（正常生成目标文件），而不是在项目截止前弄坏你的客户花数百万美元买的旗舰应用程序。伪翻译允许您测试整个过程，而不需要实际翻译任何内容。它会把源文本替换为有趣目标语言字符。
 
 ### 译后分析（PTA）
 
-See post-translation analysis
+见译后分析（post-translation analysis）
 
 ### 质量保证（QA; quality assurance; automatic QA）
 
-Machines cannot even come close to humans in crafting a message that resonates, but humans are really bad at getting numbers and other boring and repetitive things right. Quality assurance checks come to the rescue: they verify that you got your numbers right, that you didn't type two spaces, that you used MegaCorp Ltd's official terminology, that you translated the same thing the same way throughout the text, that you didn't forget a mission-critical tag, and a lot more. And if the dumb machine didn't get it right, you always have the option to ignore (suppress) individual QA warnings.
+机器很难像人类一样创造出能引起共鸣的内容，但人类在正确处理数字和其他无聊和重复的事情上的表现确实很糟糕。这时质量保证检查可以发挥作用：它能验证了你的数字是否正确，你有没有键入两个连续空格，你是否使用了MegaCorp公司的官方术语，你在整个文本中是否以同样的方式翻译了相同的内容，你有没有忘记一个关键的标签，等等。如果愚蠢的机器做出了错误的判断，您总是可以选择忽略（禁止）个别的QA警告。
 
 ### 参考翻译记忆（reference TM）
 
-See working, master and reference TM
+见工作、主和参考翻译记忆（working, master and reference TM）
 
 ### 正则表达式（regular expressions; regex）
 
-Even texts written by humans are full of patterns that have well-defined moving parts. Think dates: Number(1-12)/Number(1-31)/Number(four digits) is a date in the US. For German, you have the same numbers in there, you just need to rearrange them and use dots instead. Regular expressions are a super counter-intuitive but super-useful way to describe exactly these kinds of patterns. No wonder CAT tools support them across the board, from defining file format filters through auto-translatables to find/replace. You can get half a localization engineer's career just out of knowing your regex.
+即使是人类写的文本也可以发掘出明确的模式。比如美国用MM/DD/YYYY来表示日期。而德国也是采用的类似的日期格式，不过他们使用点来作为间隔符。正则表达式是一种非常反直观但非常有用的，可以精确描述以上类型内容的模式的方式。CAT工具全面支持正则表达式，从定义文件格式过滤器到自动可翻译内容，再到查找/替换，都有使用到。熟悉正则表达式，你就相当于半个本地化工程师了。
 
 ### 拒绝的（rejected）
 
-See segment status
+见句段状态（segment status）
 
 ### 重复（repetition）
 
-Any segment that occurs at least twice in your source text is a repetition. They are a delight because usually you need to translate the same thing only once. That's how repetitions gave rise to auto-propagation and exact matches. And for the cases where the same thing must be translated differently, you have context IDs to differentiate.
+在源语文本中出现至少两次的句段叫做重复句段。出现重复是好事，因为通常你只需要翻译相同的内容一次。自动填充和完全匹配使用的就是重复的句段。对于必须以不同方式翻译相同内容的情况，您可以使用上下文ID进行区分。
 
 ### 从右往左文本（RTL; right-to-left）
 
@@ -617,39 +617,39 @@ Any segment that occurs at least twice in your source text is a repetition. They
 
 ### 软件开发套件（SDK; software development kit）
 
-A set of tools and documentation that allows developers to build their own module to work together with a different piece of software. SDKs are what allows third parties to develop plugins for CAT tools, for instance.
+一组工具和文档，允许开发人员构建自己的模块，以便与不同的软件一起工作。比如SDK允许第三方为CAT工具开发插件。
 
 ### 句段（segment）
 
-When we translate text, we almost always proceed sentence by sentence. If you try to get to the bottom of it, however, nobody really knows what a sentence precisely is. Also, when you translate a single word in a bullet-point list, is that a sentence? CAT tools decided to sidestep this can of worms altogether, so we speak about *segments* instead.
+我们翻译文本的时候，基本都是以句子为单位进行的。然而，没有人真正知道一个句子到底是什么。列表中的一个单词是一个句子吗？CAT工具决定完全回避句子的叫法，改用“句段”。
 
-Generally (though not always), a segment is the essential unit of translation: you proceed segment by segment in the editor, and you store the translation of segments in the TM. Your TM and corpus matches also refer to the segment you are translating at the moment.
+一般来说（尽管并非总是如此），句段是翻译的基本单位：您在编辑器中按句段进行翻译，并把句段的翻译存储在翻译记忆中。你的翻译记忆和语料库匹配也指的是你目前正在翻译的句段。
 
-Segments are born with the active cooperation of regular expressions, in a special incarnation called *segmentation rules*. As all regex, they look gibberish to the uninitiated eye, but they basically elaborate a single theme: “If you find sentence-final punctuation like a period followed by one or more spaces followed by a capital letter, start a new segment right there. Except if the last word before the period is a known abbreviation.” Segmentation normally happens quietly, behind the scenes, when your CAT tool's file format filter imports a source document.
+句段是使用句段分割规则来进行切分的，这些规则是用正则表达式描述的。就像所有的正则一样，它们在外行眼中看来就是一堆乱码，但它们基本上遵循这样的一个模式：“如果你发现句子的最后标点像一个句点，后面跟着一个或多个空格，后面跟着一个大写字母，那么就从那里开始一个新的句段。除非句号前的最后一个词是已知的缩写。”当您的CAT工具的文件格式过滤器导入源文档时，通常会在幕后悄悄地进行句段分割。
 
-No matter how elaborate, segmentation rules will inevitably get it wrong from time to time. To help get around this, CAT tools have a function to join neighboring segments, and to split a single segment into two.
+但再全面的分割规则也难免会出错。为了解决这个问题，CAT工具有一个功能，可以合并相邻的句段，或将一个句段拆分为两个。
 
 ### 句段状态（segment status）
 
-From the moment you import a document into your CAT tool all through the steps of translation, review, client review, proofreading after a good night's sleep, and additional review by your pet, up to the point of exporting it for delivery to your client, the text lives in the form of segments. In this form, there's a whole lot to know about segments beside the text itself: does the target come from a TM, or from you? Have you confirmed it already? Was it rejected by a reviewer? Is it halfway edited but not quite finished yet? That is the kind of information that you can see in the form of colors and icons within the translation environment.
+从你把一份文件导入你的CAT工具的那一刻起，通过翻译、审校、客户审校、一晚上好觉后第二天进行的校对以及二校，直到把它交付给你的客户，文本是以句段的形式存在的。因此，除了文本本身之外，还需要知道很多关于句段的信息：目标是来自翻译记忆的，还是我自己翻的？翻译有没有得到确认？它是不是被审校拒绝了？是不是还处于编辑状态，不是最终的完成状态？这是您可以在翻译环境中通过颜色和图标的形式看到的信息。
 
-For several years after they arrived, my friends from Mars were convinced translators were in the business of turning empty (grey) segments into confirmed (green) ones, and they thought this was a terribly appealing job. By now they know they were wrong, but they still think the job is awesome.
+我的火星人朋友们到来后的几年里都确信翻译人员的工作是把空的（灰色）片段转变成确认的（绿色）片段，他们认为这是一个非常吸引人的工作。现在他们知道自己错了，但他们仍然认为这份工作很棒。
 
 ### 句段分割（segmentation）
 
-See segment
+见句段（segment）
 
 ### 同时翻译与审校（simultaneous translation and review）
 
-A function of online collaborative CAT tools that allows several people to edit the same document together in real time. You can think of this as Google Docs on steroids, customized for the two-column, source-and-target world of translation.
+在线协作CAT工具的一个功能，允许几个人一起实时编辑同一文档。你可以把它看作是加强版的为翻译定制的Google Docs。
 
 ### 支持与维护协议（SMA; support & maintenance agreement）
 
-While a license agreement entitles you to use a piece of software, the SMA that usually goes along with it grants you access to support from a human and to new versions of the software. Normally, perpetual licenses have a one-off fee; SMA, in contrast, is charged on an annual basis.
+许可协议允许您使用某个软件，而与之配套的SMA通常允许您获得人工支持和软件的新版本。通常，永久性许可证只收取一次性费用；与此相反，SMA每年收取一次费用。
 
 ### 统计机器翻译（SMT; statistical machine translation）
 
-See machine translation
+见机器翻译
 
 ### 分割句段（split segments）
 
@@ -657,27 +657,27 @@ See machine translation
 
 ### 句段分割规则（SRX; Segmentation Rules eXchange）
 
-An XML-based standard that allows different CAT tools to read each other's segmentation rules.
+一种基于XML的标准，允许不同的CAT工具读取彼此的分割规则。
 
 ### 子片段的利用（subsegment leverage）
 
-This is a strong contender for the industry's most fuzzy word, right there after fuzzy itself. When a CAT tool vendor uses it, they basically want to say, “We're doing something extremely advanced and useful here.” In prosaic terms it means lookup results and suggestions (aka leverage) that refer to a shorter bit of the source segment. In all earnestness, often the machinery that generates such matches really is pretty advanced, extrapolating knowledge from past translations in ways that are far from obvious.
+这是一个翻译行业最模糊词汇的有力竞争者，仅次于模糊这次词。CAT工具供应商标榜这一功能时，他们基本上想说：“我们正在做一些非常先进和有用的事情。”简单地说，这一功能可以根据原文片段的一部分得到翻译建议。产生这种建议的机制是相当先进的，可以从过去的翻译中总结出咋一眼看去并不明显的知识。
 
 ### 统计信息（statistics）
 
 见分析（analysis）。
 
-### 文本（String）
+### 字符串（String）
 
-In developer-talk, a string is a sequence of characters. When you translate the user interface of a software application or a game, all the chunks of text that appear in different places are called “strings.” Typically, a string shows up as a single segment, and it has an associated context ID to disambiguate it.
+用开发的语言描述，字符串是一个字符序列。翻译软件应用程序或游戏的用户界面时，出现在不同位置的所有文本块都称为“字符串”。通常，一个字符串显示为一个单独的句段，它有一个关联的上下文ID来消除它的歧义。
 
 ### 结构标签（structural tags）
 
-See tags
+见标签
 
 ### 同步（synchronize）
 
-When you work in a memoQ online project, you have the option not to save every translated segment in the server immediately, but instead gather a lot of changes locally, and exchange news with the server in one go. That action is called *synchronizing* the project.
+在memoQ在线项目中工作时，您可以选择不立即在服务器上保存每个翻译的句段，而是在本地收集大量更改，然后一次性与服务器交换。这一操作叫做项目同步，
 
 ### 表格RTF（table RTF）
 
@@ -685,29 +685,29 @@ When you work in a memoQ online project, you have the option not to save every t
 
 ### 标签错误（tag error）
 
-Some inline tags are optional: maybe that bold formatting in the source text is not needed in your translation at all. Others, however, are mission-critical: if they represent N in the sentence “You have N enemies left”, then if you omit the tag, the translated game will crash and the outrage of gamers will put your client out of business. To avoid such an outcome, the QA module of CAT tools gives you a tag error right in the editor, and won't let you deliver your translation until you fix it.
+一些内联标记是可选的：也许源文本中的粗体格式在您的翻译中根本不需要。然而，还有一些标签是非常重要的。比如果“你还有N个敌人”这句话中，N是以标签的形式存储的，那么如果你省略了标签，翻译后的游戏程序可能崩溃，游戏玩家的愤怒将使你的客户破产。为了避免这种情况，CAT工具的QA模块可以在编辑器里给出标签错误的提示，并且直到标签错误得到修复才允许进行交付操作。
 
 ### 标签插入模式（tag insertion mode）
 
-Tags can be a real nuisance as you translate: you need to think about where they must go, you need special shortcuts to insert them, and generally, they throw you out of the flow. So in memoQ you can just focus on translating a segment's text first, then activate tag insertion mode and sprinkle your target segment with tags in the right places.
+当你翻译时，标签可能是一个真正的麻烦：你需要考虑它们放在哪里，你需要快捷输入标签的方法。而且，标签会影响正常的翻译思路。因此，在memoQ中，您可以先集中精力翻译一个句段的文本，然后激活标签插入模式，并在目标句段的正确位置插入标签。
 
 ### 清理标签（tag soup）
 
-An unfortunate but all too frequent situation when a document that you have just imported is chock full of tags that are unexpected, pointless, or both. This most often happens with Word documents that an OCR tool produced from a PDF because it wanted to make sure everything is shown exactly in the right place, down to a hundredth of a millimeter. You can make things better by tweaking the OCR tool's settings, running a cleanup macro like Dave Turner's CodeZapper, or pestering your CAT tool's developers to do something about it. Only the first two have been conclusively shown to work.
+导入的文档中充满了多余的、无意义的标签时，是一种不幸但频繁的情况。这通常发生在导入使用OCR转换PDF得到的Word文档时，因为生成的文档希望确保所有内容都显示在正确的位置，精确到百分之一毫米，所以会有很多标签。您可以通过调整OCR工具的设置、使用清理标签的宏（如Dave Turner的codezapper），或者缠着您的CAT工具的开发人员来做一些事情来改善情况。只有前两个被确凿地证明是有效的。
 
 ### 标签（tags）
 
-The content we need to translate consists mostly of text – but not exclusively. One oddity is formatting changes: how do you represent a change of text color in the middle of a sentence? The other oddity is a consequence of structured content, where text is intertwined with markup like hyperlinks, cross-references, or placeholders that will be substituted with, say, a number when a piece of software runs.
+我们需要翻译的内容大部分是文本，但不是唯一的内容。比如要确定翻译中的文本的哪一部分对应原文中有颜色的部分。另外还有结构化内容的处理，其中文本与标记（如超链接、交叉引用或占位符）交织在一起，当一个软件运行时，这些标记将被替换为数字。
 
-CAT tools cope with all this by introducing tags: symbols inside your segments that act like a character in the editor, but look completely different. These creatures are called *inline* or *internal* tags.
+CAT工具通过引入标签来应对所有这些问题。句段中的标签在编辑器中的作用类似于字符，但看起来完全不同。它们被称为行内标签或者内联标签。
 
-Then you have formats like XML or HTML that have tags woven into their own DNA. Some of these tags define structure (“this is a headword”, “this is a caption”), always enclosing text from the outside. These are called *structural* or *external* tags, and should never show up in your segments. They only do if the XML filter was not configured properly before the import. You can fix that by hiring a good localization engineer.
+像XML或HTML这样的格式，把标签编织到了自己的DNA中。其中一些标记定义结构（如标题、说明文字），并把文字封装在标签里面。这些称为结构或外部标记，不应出现在您的句段中。只有在导入之前XML过滤器配置不正确时，它们才会出现。你可以通过雇佣一个好的本地化工程师来解决这个问题。
 
-The analysis output of well-behaved CAT tools has a separate section that shows how many tags the text contains in addition to good old-fashioned characters. This is important, because tags can be a lot of work and really slow you down as you translate.
+好的CAT工具的分析输出有一个单独的部分，该部分会显示了除了字符之外，文本还包含多少标记。这一点很重要，因为标签可能需要很多工作，会减慢翻译的速度。
 
 ### TB
 
-参见术语库
+见术语库
 
 ### 术语库交换格式（TBX; TermBase eXchange）
 
@@ -715,106 +715,106 @@ The analysis output of well-behaved CAT tools has a separate section that shows 
 
 ### 修订匹配（TC match）
 
-A bit of a schizophrenic creature that cannot completely make up its mind whether it's a match rate or a segment status. It rears its head in the complicated scenario when you need to translate a source segment that contains tracked changes, which you need to reproduce in the translation too. A TC match is basically an exact match for the original form of the source segment, pretending those tracked changes were never put in there.
+让人精神分裂的概念，不知道它是匹配率还是句段状态。当您需要翻译包含跟踪更改的原文句段时，它就有用了。TC匹配是指修订过的原文句段的原始文本的精确匹配，假装那些跟踪修订不存在。
 
-See also: track changes
+见跟踪修订（track changes）
 
 ### 翻译编辑校对（TEP; translation-editing-proofreading）
 
-A widely used workflow that involves a translator and two different people subsequently reviewing her work, with the aim of ensuring a high-quality translation, and giving feedback for the translator to improve.
+一种广泛使用的工作流程，一名译员和两名不同的人员，按顺序对翻译进行审校，目的是确保高质量的翻译，并为译员提供反馈以改进翻译。
 
 ### 术语库（term base）
 
-A “database” or a component of CAT tools that allows users to store important words/expressions and their equivalents. It saves the hassle of researching the same term twice. It also helps translators adhere to terminology mandated by their clients, or at least stay consistent with themselves. In fact, it's indispensable for consistency if different people are translating the same large text simultaneously, collaborating online from different locations.
+一个“数据库”或CAT工具的一个组件，允许用户存储重要的单词/表达等等。它省去了两次研究同一术语的麻烦。它还帮助翻译人员遵守客户指定的术语，或者至少与自己保持一致。事实上，如果不同的人同时翻译同一个大文本，在不同的地点进行在线协作，术语库是保持一致性所必需的。
 
-Often used interchangeably with *glossary*, but they're not quite the same. A glossary is usually just a word list in two languages, while term bases have structure and metadata too.
+通常与词汇表互换使用，但它们并不完全相同。词汇表通常只是包含两种语言的单词列表，而术语库有结构信息和元数据。
 
 ### 术语抽取（term extraction）
 
-A function of advanced CAT tools that looks at new source text or a body of existing translations and extracts important words and expressions. The output typically contains a lot of “false positives,” but it allows a translator to research important terms before starting to translate, include them in a term base, and make sure they are then translated both correctly and consistently.
+高级CAT工具的一种功能，可以从新的源文本或现有翻译对中提取重要的单词和表达。输出结果通常包含许多错误的术语，但它允许翻译人员在开始翻译之前研究重要的术语，将它们包含在术语库中，确保随后正确地翻译它们，并保持一致性。
 
 ### 术语数据库（terminology  database）
 
-参见术语库
+见术语库
 
 ### 翻译记忆（TM; translation memory）
 
-The idea that initially gave rise to commercial translation technology. Why translate the same sentence twice? The TM is a “database” of segments and their translations. TMs quickly evolved to give a hint also for segments that are only similar (see TM match types), to allow concordance searches, and to support subsegment leverage.
+翻译记忆这一想法产生了最初的商业翻译技术。为什么要翻译同一句话两次？翻译记忆是存储句段及其翻译的数据库。翻译记忆技术发展迅速，模糊匹配、检索和子片段匹配是利用翻译记忆的新方式。
 
 ### 翻译记忆匹配类型（TM match types）
 
-Translation memories are big bags full of source segments and their translations. When a new segment comes along, CAT tools rack these bags for segments that were translated before, and return these as matches. If the same sentence is there in the bag, that's an *exact* match, whose match rate is 100%. It can get even better: if there's a translation of not only the same segment, but the same segment from the exact same context, that's a *context match* (aka “ICE” for in-context exact). If the best there is is the translation of something similar but not identical, that's a *fuzzy* match with a match rate below 100%. Often, *high fuzzies* are distinguished: these matches only differ in punctuation, capitalization or numbers, and are therefore easier to fix.
+翻译记忆像一个袋子，装着原文句段和其对应的翻译。当新的句段出现时，CAT工具会在这个袋子里寻找以前翻译过的相似句段，并将其作为匹配项返回。如果袋子里有相同的句子，那就是一个精确匹配，匹配率为100%。它可以变得更好：如果有一个翻译不仅句段内容相同，而且上下文也完全相同，那就是一个上下文匹配。如果匹配率低于100%，那就是模糊匹配。通常，高匹配度的模糊匹配价值更大：这些匹配只在标点、大小写或数字上有所不同，因此更易于使用。
 
 ### 翻译记忆驱动的句段分割（TM-driven segmentation）
 
-An advanced function of memoQ that dynamically splits or joins segments during pre-translation to get better TM matches. It's a simple idea. What if a translator joined two segments before storing the translation in the TM, and now the same two segments show up again? By recognizing this on the spot, the two segments can be joined in the current document too for a perfect match, without human intervention.
+memoQ的一种高级功能，在预翻译时动态分割或合并句段，以获得更好的翻译记忆匹配。这个想法很简单。如果一个译员在将翻译存储在记忆库之前合并了两个句段，而现在相同的两个句段又出现了呢？通过识别这种情况，新的文本中的这两个句段可以得到合并，从而得到一个完美的匹配。
 
 ### 翻译管理系统（TMS; translation management system）
 
-Software that helps you manage translations and organize resources. Re: manage, think “these 1500 files must be translated into 25 languages, with 6 translators and 2 reviewers working in parallel for each, making sure that nobody overrides approved translations from the past, and ready by next Monday, with real-time visibility into the project's progress until then.” Re: organize, think “I must find the right translation memories and term bases from among the 2000 resources I have around for various clients and language pairs.”
+帮助您管理翻译和组织资源的软件。以下这种情况需要管理：“1500个文件必须翻译成25种语言，6名译员和2名审校同时为每种语言工作，确保没有人覆盖过去批准的翻译，并在下周一前准备好，实时了解项目的进展情况，直到交付。”以下这种情况需要组织：“我必须从2000种为不同用户和语言对提供的资源中找到正确的翻译记忆和术语库。”
 
 ### 翻译记忆交换格式（TMX; Translation Memory eXchange）
 
-An XML-based format to, well, exchange translation memories. The adoption of this standard was a crucial step in the industry towards interoperability, and at this point virtually all tools support it.
+一种基于XML的格式，用来交换翻译记忆。采用该标准是业界朝着互操作性迈进的关键一步，目前几乎所有工具都支持该标准。
 
 ### 跟踪修订（track changes）
 
-Many regulated industries (like pharma) are required by law to track every change they make to crucial documents, such as the usage instructions and side effects of a medicament. Not only that, but when they sell to multiple markets, they must reproduce all these changes in translated materials too. As a translator or LSP, the only way to achieve this without losing your sanity and/or getting sued out of your profits is if your CAT tool has special functions to both cope with change-tracked documents and preserve the benefits of TMs, term bases, QA and everything else.
+法律要求许多受监管行业（如制药）跟踪其对关键文件所做的每一项更改，例如使用说明和药物的副作用。不仅如此，当他们向多个市场销售时，他们还必须在翻译材料中体现所有这些变化。作为一名翻译人员或LSP，在不丧失理智，不因为追求利润而被起诉的情况下实现这一目标的唯一方法是，您的CAT工具具有特殊功能，既能处理跟踪修改的文档，又能保留翻译记忆、术语库、质量检查和其他所有功能的好处。
 
-See also: TC match
+见跟踪修订匹配（TC match）
 
 ### 翻译单元（translation unit）
 
-In a CAT tool, you translate documents segment by segment. Once you store the translation of a source segment in your TM, the two together, plus some metadata like “who translated this and when,” are bundled up and transmogrified into a translation unit.
+在CAT工具中，可以句段为单位翻译文档。一旦您将原文句段的翻译存储在TM中，这原文和译文加上一些元数据（如谁翻的，什么时候翻的）就被合在一起转换为一个翻译单元。
 
 ### 垃圾进，垃圾出（trash in, trash out）
 
-Imagine you store a nonsense translation in your TM. When you receive an updated document, pre-translation picks it up as a perfect match, and you don't even get to see it. If you train an MT engine with this data, it will produce nonsense translations. Once trash gets into the system, it perpetuates itself. How do you avoid that? Through QA, through TEP, through separating working and master TMs, and other similar efforts. All of which are only possible if you use a CAT tool that allows you centralize your resources, define the right processes, and eliminate error-prone manual steps.
+假设你在你的TM中存储了一个无意义的翻译。当你收到更新的文档时，预翻译会将其视为一个完美的匹配，结果你就没有再看它第二眼。如果用这些数据训练一个机器翻译引擎，它将产生质量极差的翻译。一旦垃圾进入系统，它就会一直存在。该怎么避免呢？通过QA，通过TEP，通过分离工作和主翻译记忆以及其他类似的操作。这需要你能够集中式管理资源，制定正确的处理流程，避免容易产生错误的手工操作。
 
 ### 两列Excel（two-column Excel）
 
-参见多语言Excel（multilingual Excel）
+见多语言Excel（multilingual Excel）
 
 ### Unicode
 
-According to Wikipedia, *Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems.*
+根据维基百科，Unicode是一种计算行业标准，用于对世界上大多数书写系统中表示的文本，进行一致的编码、表示和处理。
 
-According to me, Unicode is the best thing that has happened since sliced bread. It means if you write a text with your own language's special characters, that text can be read by people anywhere in the world, using any gadget with a CPU and a display. Even (usually) in Excel.
+在我看来，Unicode是自切片面包以来人类发明的最好的事情。这意味着，如果你用你自己语言的特殊字符写一个文本，那么世界上任何地方的人都可以使用任何带有CPU和显示器的设备来阅读该文本。甚至是在Excel里的文本。
 
-Nonetheless, to prove that our world is not the best of all possible worlds, you must keep in mind that while Unicode doesn't support Klingon, it does have a character for the handgun emoji.
+不过，我们的世界不是完美无缺的，你必须记住，虽然Unicode不支持克林贡语，但它确实有手枪的emoji。
 
 ### UTF-8
 
-See Unicode
+见Unicode
 
 ### 提供商（vendor）
 
-In our industry, a person or a business that offers translation services to other persons or businesses.
+在我们的行业中，为其他人或企业提供翻译服务的人或企业。
 
 ### 视图（view）
 
-Since CAT tools are apparently great fans of deconstructivism and start their day by tearing text into chunks called segments, you might as well max this out by slicing and dicing the living daylight out of those poor segments. As in: “I have just turned this User Guide into 1300 segments and pre-translated them. Now give me those segments that have no TM match, occur at least twice, and have the words ‘squinting squirrels' in them. Also, show me each segment only once, and order them alphabetically.” That is the kind of thing that views allow you to do.
+CAT工具显然是解构主义的狂热爱好者，最早的版本就把文本撕成称为句段的片段。你也可以通过视图来充分调用这些句段。“我刚刚将此用户指南转换为1300个句段，并对其进行了预翻译。现在给我那些没有翻译记忆匹配的片段，要求至少出现两次，其中有单词‘眯眼松鼠’。另外，给我显示只出现过一次的片段，并且按字母顺序排列。”这是视图允许你做的事。
 
 ### 网络编辑器（web editor）
 
-A component of CAT tools that allows translators and reviewers in an online project to work from a browser, without installing software on their own computer. A web editor is to traditional desktop tools as Google Docs is to Word, except advanced CAT tools offer both options (even within the same project) and don't force you to choose between two incompatible companies.
+CAT工具的一个组件，允许在线项目中的译员和审校在浏览器中工作，而不需要在自己的计算机上安装软件。Web编辑器对传统的桌面工具来说就像Google Docs之于Word一样。不过高级的CAT工具既提供在线版也提供桌面版，还不强迫您在两个不兼容的公司之间做出选择。
 
 ### 字数统计（word count）
 
-See analysis
+见分析（analysis）
 
 ### 工作、主和参考翻译记忆（working, master and reference TM）
 
-Keeping stuff organized is an age-old challenge. If you don't get it right, you end up with trash in, trash out. One way to stay on top of data within a translation project is to designate one TM as the master (translations coming from there get precedence over others); another one as the working TM (new, as-yet unrevised translations get stored there, keeping the master pristine); and the rest as reference (to fill in the gaps that the master does not cover).
+保持事物井然有序是一项由来已久的挑战。如果你不把它处理，结果会是垃圾进，垃圾出。在翻译项目中，一个好的管理方法是将一个TM指定为主版本（来自主版本的翻译优先于其他版本）；将另一个TM指定为工作TM（新的、未经审校的翻译存储在工作版本中，保持主版本的纯净）；其余翻译记忆则作为参考（主版本TM的内容可能不够全面）。
 
 ### XLIFF
 
-Short for XML Localization Interchange File Format, a standard maintained by OASIS. In practice, it is a file format that allows translatable text to be passed between tools in a source/target, bilingual form.
+XML本地化交换文件格式的缩写，由OASIS维护的标准。实际上，它是一种文件格式，允许在源/目标双语形式的工具之间传递可翻译文本。
 
-### XML; eXtensible Markup Language
+### 可扩展标记语言（XML; eXtensible Markup Language）
 
-An extremely versatile format for storing structured information in files that are readable by machines and not *completely* unreadable by humans. A tremendous amount of content that gets translated comes from XML files, particularly if the content's source is a CMS system. You generally don't need to understand the dirty details unless you are a localization engineer, in which case you are a wizard who knows all about file format filters and don't need this glossary anyway.
+一种极为通用的格式，用于将结构化信息存储在机器可读的文件中。对于人来说也具有一定的可读性。翻译的大量内容来自XML文件，特别是当内容的来源是CMS系统时。一般来说，除非您是本地化工程师，否则您不需要了解XML的详细信息。
 
 ### X-translate
 
-So you're half done translating a file, with tons of comments in there and segments in all imaginable statuses. At this point your client calls you and says, “Hey, our editors have been busy, we have a revised source file, we actually need you translate that instead of the one from last week.” If your CAT tool has X-translate, this is not a problem. The function compares the original source document with the updated source document, going segment by segment, and recreates your work, including comments, ignored QA warnings, segment statuses and all the rest. Whatever changed in the source text is left empty, so you can catch up with the changes and continue where you left off.
+你已经完成了一半的文件翻译工作，其中有大量的评论和状态各不相同的句段。这时，你的客户打电话给你说：“嘿，我们的编辑很忙，我们有一个修改过的源文件，我们实际上需要你翻译这个文件，而不是上周的那个。”如果您的CAT工具有X-translate功能，这将不是问题。X-translate将原始源文档与更新的源文档进行比较，逐句段进行，并重新记录你的工作，包括评论、忽略的QA警告、句段状态和所有其他内容。如果源文本的句段有变化，那就保持一个未翻译的初始状态。这样你可以翻译更改的部分，并在之前停止的地方继续翻译。
