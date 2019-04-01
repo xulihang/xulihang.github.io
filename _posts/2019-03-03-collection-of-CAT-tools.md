@@ -33,13 +33,13 @@ tags: CAT
 
 国内：
 
-| 名称        | 网址                                            | 简介              | 分类  |
-| --------- | --------------------------------------------- | --------------- | --- |
-| 雪人CAT     | <http://www.gcys.cn/>                         |                 | CAT |
-| Transmate | <http://www.uedrive.com/products/standalone/> |                 | CAT |
-| 译马网       | <http://www.jeemaa.com/>                      | 在线CAT           | CAT |
-| 云译客       | <http://pe.iol8.com/>                         | 在线CAT           | CAT |
-| YiCAT     | <https://www.tmxmall.com/yicat>               | tmxmall开发的在线CAT | CAT |
-| YeeKit    | <https://www.yeekit.com/>                     | 中译语通开发的在线CAT    | CAT |
+| 名称        | 网址                                            | 简介              |
+| --------- | --------------------------------------------- | --------------- |
+| 雪人CAT     | <http://www.gcys.cn/>                         |                 |
+| Transmate | <http://www.uedrive.com/products/standalone/> |                 |
+| 译马网       | <http://www.jeemaa.com/>                      | 在线              |
+| 云译客       | <http://pe.iol8.com/>                         | 在线              |
+| YiCAT     | <https://www.tmxmall.com/yicat>               | tmxmall开发的在线CAT |
+| YeeKit    | <https://www.yeekit.com/>                     | 中译语通开发的在线CAT    |
 
 
