@@ -11,23 +11,25 @@ tags: CAT
 
 国外：
 
-| 名称                           | 网址                                                    | 简介    | 分类  |
-| ---------------------------- | ----------------------------------------------------- | ----- | --- |
-| SDL                          | <https://www.sdl-china.cn/cn/>                        |       | CAT |
-| Dejavu                       | <https://www.atril.com/>                              |       | CAT |
-| memoQ                        | <https://www.memoq.com/>                              |       | CAT |
-| Wordfast                     | <https://www.wordfast.net/>                           |       | CAT |
-| Swordfish                    | <https://www.maxprograms.com/products/swordfish.html> |       | CAT |
-| Felix-cat                    | <http://felix-cat.com/>                               |       | CAT |
-| Heartsome Translation Studio | <https://github.com/heartsome/translationstudio8>     | 开源    | CAT |
-| OmegaT                       | <https://www.omegat.org/>                             | 开源    | CAT |
-| BasicCAT                     | <https://www.basiccat.org/>                           | 开源    | CAT |
-| wordfast anyhwere            | <https://freetm.com/>                                 | 在线CAT | CAT |
-| Memsource                    | <https://www.memsource.com/>                          | 在线CAT | CAT |
-| MateCAT                      | <https://www.matecat.com/>                            | 在线CAT | CAT |
-| SmartCAT                     | <https://www.smartcat.ai/>                            | 在线CAT | CAT |
-| crowdin                      | <https://crowdin.com/>                                | 众包平台  | 平台  |
-| transifex                    | <https://www.transifex.com/>                          | 众包平台  | 平台  |
+| 名称                           | 网址                                                    | 简介       |
+| ---------------------------- | ----------------------------------------------------- | -------- |
+| SDL                          | <https://www.sdl-china.cn/cn/>                        |          |
+| Dejavu                       | <https://www.atril.com/>                              |          |
+| memoQ                        | <https://www.memoq.com/>                              |          |
+| Wordfast                     | <https://www.wordfast.net/>                           |          |
+| Swordfish                    | <https://www.maxprograms.com/products/swordfish.html> |          |
+| Felix-cat                    | <http://felix-cat.com/>                               | 开源       |
+| Heartsome Translation Studio | <https://github.com/heartsome/translationstudio8>     | 开源       |
+| OmegaT                       | <https://www.omegat.org/>                             | 开源       |
+| BasicCAT                     | <https://www.basiccat.org/>                           | 开源       |
+| wordfast anyhwere            | <https://freetm.com/>                                 | 在线       |
+| Memsource                    | <https://www.memsource.com/>                          | 在线       |
+| MateCAT                      | <https://www.matecat.com/>                            | 在线       |
+| SmartCAT                     | <https://www.smartcat.ai/>                            | 在线       |
+| crowdin                      | <https://crowdin.com/>                                | 众包平台     |
+| transifex                    | <https://www.transifex.com/>                          | 众包平台     |
+| Pootle                       | <https://pootle.translatehouse.org/>                  | 在线本地化；开源 |
+| Weblate                      | <https://weblate.org/zh-hans/>                        | 在线本地化；开源 |
 
 国内：
 
