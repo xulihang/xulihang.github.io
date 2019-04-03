@@ -40,7 +40,7 @@ Framemaker属于Adobe的技术传播套件（Technical Communication Suite），
 
 MadCap Flare并不采用DITA，而是使用了自己的一套类似html的xml格式，文件名都是htm。它也是基于主题（topic）和同源开发（single sourcing）的概念设计的。它支持导入framemaker、robohelp或者dita的项目文件，把这些文件转换为自己格式的文件。
 
-![](/ablum/techcomm/madcap.png)
+![](/album/techcomm/madcap.png)
 
 这是一个madcap项目的结构，可以感受一下：
 
