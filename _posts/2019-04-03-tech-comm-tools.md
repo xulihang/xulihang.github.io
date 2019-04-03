@@ -34,7 +34,7 @@ Framemaker也算是一款老牌的商业软件，但是国内的教程很少，�
 
 另外还有官方推荐的免费的入门教程：<https://courses.techcommtools.com/p/fm2019intro/>
 
-Framemaker属于Adobe的技术传播套件（Technical Communication Suite），套件里还有RoboHelp、Captivate、Acrobat等其它套件。
+Framemaker属于Adobe的技术传播套件（Technical Communication Suite），套件里还有RoboHelp、Captivate、Acrobat等其它组件。Robohelp和madcap比较类似，captivate支持视频，acrobat是专业的PDF编辑软件。
 
 ### MadCap Flare
 
@@ -86,6 +86,7 @@ C:.
 
 与Madcap Flare配套的还有一系列软件，比如Madcap lingo，是类似于SDL Trados的计算机辅助翻译软件，可以用来翻译madcap flare的项目。
 
+使用上述这类商业软件，初次使用也还是需要花挺多时间摸索的。不过它们都有共通性。比如都有Index、Glossary，都是基于主题的，都可以给输出进行各种参数的设置。商业软件使用的格式不同，但基本可以互操作。
 
 ## 开源软件
 
