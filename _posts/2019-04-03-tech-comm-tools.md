@@ -34,7 +34,7 @@ Framemaker也算是一款老牌的商业软件，但是国内的教程很少，�
 
 另外还有官方推荐的免费的入门教程：<https://courses.techcommtools.com/p/fm2019intro/>
 
-Framemaker属于Adobe的技术传播套件（Technical Communication Suite），套件里还有RoboHelp、Captivate、Acrobat等其它组件。Robohelp和madcap比较类似，captivate支持视频，acrobat是专业的PDF编辑软件。
+Framemaker属于Adobe的技术传播套件（Technical Communication Suite），套件里还有RoboHelp、Captivate、Acrobat等其它组件。Robohelp和madcap比较类似，更简单易用，captivate专注电子学习，acrobat是专业的PDF编辑软件。
 
 ### MadCap Flare
 
@@ -106,6 +106,9 @@ C:.
 
 有一篇讨论doc like code的主题演讲博客，可以看一下：<https://idratherbewriting.com/2018/03/09/docs-as-code-tools-and-workflows-denver-presentation/>，里面提到了如何解决文档即代码模式缺少的传统DITA模式具有的内容重用等功能。
 
+对于DITA和docbook，可以选择vim之类的编辑器，或者专门的XML编辑器，比如XML Copy Editor，来编写XML，然后使用对应的工具生成文档。
+
+另外还有man page等等，就不提了。
 
 ## 在线软件
 
