@@ -11,7 +11,7 @@ tags:
 
 ## 商业软件
 
-商业软件一般提供了很好的集成式的软件环境，用户只需要注重内容的写作。它们一般都支持DITA等标准XML格式，支持所见所得的方式进行编辑，也可以切换到代码编辑模式，支持从单一文件生成多种目标格式。商业软件一般都宣传自己简单易用，用户支持好，相较免费软件，学习成本较低。
+商业软件一般提供了很好的集成式的软件环境，用户只需要注重内容的写作。它们一般都支持DITA等基于XML格式的标准，支持所见所得的方式进行编辑，也可以切换到代码编辑模式，支持从单一文件生成多种目标格式。商业软件一般都宣传自己简单易用，用户支持好，相较免费软件，学习成本较低。
 
 
 ### Oxygen XML Editor
@@ -26,13 +26,63 @@ Framemaker最近几年一直在推基于DITA的结构化文档。相比于以前
 
 Framemaker有三种视图模式：XML View、Author View和WYSWYG View。XML模式就是XML代码编辑模式，这时菜单也会相应改变，添加XPath、XSLT等操作。WYSWYG View就是所见即所得模式，内容会被预览为一个A4 PDF的内容，有一个窗口，可以显示文档的结构。Author View也是所见即所得的，不过更像Word里的Web视图。
 
-使用Framemaker可以打开上面Oxygen的实例文件，因为都是基于DITA，可以在两个软件中操作，不过Oxygen使用的一些自定义元素，比如修订用到的元素，就没有效果了。
+使用Framemaker可以打开上面Oxygen的示例文件，因为都是基于DITA，可以在两个软件中操作，不过Oxygen使用的一些自定义元素，比如修订用到的元素，就没有效果了。
 
 ![](/album/techcomm/framemaker.png)
 
 Framemaker也算是一款老牌的商业软件，但是国内的教程很少，有的话大多是很早之前的了，所以只有看官方文档。这个视频介绍得不错：<https://my.adobeconnect.com/structuredframemaker17/>
 
 另外还有官方推荐的免费的入门教程：<https://courses.techcommtools.com/p/fm2019intro/>
+
+### MadCap Flare
+
+MadCap Flare并不采用DITA，而是使用了自己的一套类似html的xml格式，文件名都是htm。它也是基于主题（topic）和同源开发（single sourcing）的概念设计的。它支持导入framemaker、robohelp或者dita的项目文件，把这些文件转换为自己格式的文件。
+
+![](/ablum/techcomm/madcap.png)
+
+这是一个madcap项目的结构，可以感受一下：
+
+```
+C:.
+│  AllAboutSanDiego.htm
+│  Beer.htm
+│  Food.htm
+│  Home.htm
+│  SanDiegoAttractions.htm
+│  SanDiegoCuisine.htm
+│  
+├─PrintOnlyTopics
+│      Copyright.htm
+│      PrintTOC.htm
+│      Resources.htm
+│      TitlePage.htm
+│      
+└─Resources
+    ├─Images
+    │      balboapark.png
+    │      balboapark.png.props
+    │      Bullet1.png
+    │      
+    ├─MasterPages
+    │      HomePage.flmsp
+    │      OtherTopics.flmsp
+    │      
+    ├─PageLayouts
+    │      Chapters.flpgl
+    │      Copyright.flpgl
+    │      
+    ├─Stylesheets
+    │      MainStyles.css
+    │      StylesForHomePage.css
+    │      
+    └─TableStyles
+            BasicAlternateRows.css
+            Simple.css
+```
+
+其实就相当于下一部分会提到的jekyll，提供一套主题，然后用户基于这套主题添加和管理内容。madcap使用起来并不是很直观，而且会被限制在它这个环境。
+
+与Madcap Flare配套的还有一系列软件，比如Madcap lingo，是类似于SDL Trados的计算机辅助翻译软件，可以用来翻译madcap flare的项目。
 
 
 ## 开源软件
@@ -47,7 +97,7 @@ Framemaker也算是一款老牌的商业软件，但是国内的教程很少，�
 
 这样的方式对技术传播人员提高了要求，要掌握一些编程工具。
 
-文档需要有发布机制，也要能像商业软件和DITA一样，从单个文件格式发布到多种目标格式（single sourcing）。上面提到的Sphinx、javadoc和doxygen都能将内容以网页的形式发布。Sphinx支持的格式更多，PDF、网页、LaTeX等都能支持。
+文档需要有发布机制，也要能像商业软件和DITA一样，从单个文件格式发布到多种目标格式。上面提到的Sphinx、javadoc和doxygen都能将内容以网页的形式发布。Sphinx支持的格式更多，PDF、网页、LaTeX等都能支持。
 
 另外，现在也流行静态网页生成器，比如jekyll，可以基于liquid语法定制一套主题，自动从配置文件、markdown文件生成网站。
 
@@ -69,3 +119,14 @@ Framemaker也算是一款老牌的商业软件，但是国内的教程很少，�
 * GitHub，一般都用GitHub托管git项目
 * Gitbook，用git+markdown来写作，有一套自己的工具链
 
+
+## 其它
+
+还有很多传统的文档格式，比如Windows的HLP、CHM格式，也有新兴的ePub格式，这类本质都是基于html技术实现的。上面提到的软件基本都能生成这类格式的目标文件。
+
+一些工具：
+
+* easyCHM
+* Calibre
+
+另外，除了文本，帮助文档还可以以音视频、虚拟现实、增强现实和聊天机器人等新的方式存在，这样涉及的工具就更多了。
