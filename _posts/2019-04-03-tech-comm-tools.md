@@ -34,6 +34,8 @@ Framemaker也算是一款老牌的商业软件，但是国内的教程很少，�
 
 另外还有官方推荐的免费的入门教程：<https://courses.techcommtools.com/p/fm2019intro/>
 
+Framemaker属于Adobe的技术传播套件（Technical Communication Suite），套件里还有RoboHelp、Captivate、Acrobat等其它套件。
+
 ### MadCap Flare
 
 MadCap Flare并不采用DITA，而是使用了自己的一套类似html的xml格式，文件名都是htm。它也是基于主题（topic）和同源开发（single sourcing）的概念设计的。它支持导入framemaker、robohelp或者dita的项目文件，把这些文件转换为自己格式的文件。
