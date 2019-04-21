@@ -29,4 +29,16 @@ tags:
 
 《存在主义心理治疗》这本书本身比较晦涩难懂，我关心的是人存在的意义到底是什么。人存在的意义其实是自己定义的。在生活中，我们可以通过帮助别人、实现自己的目标等方式来获得意义感。忙碌起来，有意义感，焦虑也会减少，这样心理疾病就可以得到治疗。
 
+### 名人名言录
+
+<http://www.defprogramming.com>这一网站收集了很多计算机领域专家的名言。
+
+比如，我看了一条鼠标发明者Douglas Engelbart关于创新的观点：
+
+> These days, the problem isn't how to innovate; it's how to get society to adopt the good ideas that already exist.
+
+我的理解是我们现在的社会并不缺乏创新，难点在于怎么把新的东西在社会中应用起来，这可能会遇到很大的阻力。
+
+
+
 
