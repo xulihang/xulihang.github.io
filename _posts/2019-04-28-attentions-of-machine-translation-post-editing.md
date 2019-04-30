@@ -30,7 +30,7 @@ tags:
 
 减少执行网络所需的时间和内存占用
 
-其实这里的原文也是可以改进的，memory比较短应该放在前面，time有修饰成分比较长应该放在后面。
+其实这里的原文也是可以改进的，memory比较短应该放在前面，time有修饰成分比较长应该放在后面。为了用好机器翻译，有时候得先做一些译前编辑。
 
 ## 注意一词多义
 
@@ -58,3 +58,4 @@ TAUS译后编辑指南：<https://www.taus.net/file-downloads/download?path=Arti
 
 TAUS译后编辑定价指南：<https://www.taus.net/academy/best-practices/postedit-best-practices/pricing-machine-translation-post-editing-guidelines>
 
+人工智能给翻译带来的便利和挑战 – 李长栓：<http://ttv.cn/archives/3937>
