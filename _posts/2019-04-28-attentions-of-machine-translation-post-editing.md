@@ -52,5 +52,9 @@ capacity一词多义，有能力和容量这两种意思，放在processing和st
 
 可以用机器翻译翻译一下这句话试试：improving latency and efficiency，是不是结果存在词语搭配的问题。
 
+相关资料：
 
+TAUS译后编辑指南：<https://www.taus.net/file-downloads/download?path=Articles%252Ftaus-cngl-machine-translation-postediting-guidelines.pdf>
+
+TAUS译后编辑定价指南：<https://www.taus.net/academy/best-practices/postedit-best-practices/pricing-machine-translation-post-editing-guidelines>
 
