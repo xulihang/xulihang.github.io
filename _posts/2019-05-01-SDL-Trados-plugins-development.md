@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: CAT
 ---
 
-SDL Trados是目前行业里占有率最好的CAT软件之一，给Trados开发插件比开发和推广一款新的软件要容易很多，有更多的实际需求，而我写的BasicCAT更适合对工具选择的自由权较大的用户。所以，还是得专门研究下主流CAT软件，以应对客户定制化的需求。下面是教程内容。
+SDL Trados是目前行业里占有率最高的CAT软件之一，给Trados开发插件比开发和推广一款新的软件要容易很多，有更多的实际需求，而我写的BasicCAT更适合对工具选择的自由权较大的用户。所以，还是得专门研究下主流CAT软件，以应对客户定制化的需求。下面是教程内容。
 
 ## 可以开发什么样的插件
 
@@ -37,7 +37,7 @@ Trados是使用Windows上的.net框架，用C#编写的，所以插件的开发�
 
 比较简单的就是开发机器翻译插件了，目标是做一个mymemory的插件，调用这个API: [MyMemory: API technical specifications](https://mymemory.translated.net/doc/spec.php)，实现以下效果：
 
-![](/album/mt.png)
+![](/album/Trados/mt.png)
 
 官网的示例可以参考：[Creating a Translation Service Provider Plug-in](http://producthelp.sdl.com/SDK/TranslationMemoryApi/2017/html/03670e46-3379-4005-baf3-7b1613115d60.htm)。
 
@@ -45,7 +45,7 @@ Trados是使用Windows上的.net框架，用C#编写的，所以插件的开发�
 
 安装完成后，打开Visual Studio，有四类SDL插件开发模板可选，要开发机器翻译选择Translation Provider。
 
-![](/album/new_project.png)
+![](/album/Trados/new_project.png)
 
 项目结构如下：
 
@@ -69,7 +69,7 @@ Trados是使用Windows上的.net框架，用C#编写的，所以插件的开发�
 
 pluginpackage.manifest.xml是项目的声明文件，定义了项目的描述、名称和作者等信息，这里我们还可以添加第三方的dll。比如添加如下内容[^3rd_Dll]以包括Newtonsoft.Json.dll。
 
-```
+```xml
   <Include>
     <File>Newtonsoft.Json.dll</File>
   </Include>
@@ -374,13 +374,13 @@ namespace SDL_Translation_Provider1
 因为我们只是实现机器翻译，其它什么对于翻译记忆使用的片段搜索等功能就可以略过。另外还有密钥的存储、设置界面的定制等等，我这里就不具体写了，官网文档更详细。
 
 
+其它文档：
+
+[SDK合集](https://appstore.sdl-china.cn/cn/language/developers/sdk-collection.html)
+
 参考资料：
 
 
 [^apis]: [SDL AppStore 开发人员计划 SDK ](https://appstore.sdl-china.cn/cn/language/developers/sdk.html)
 [^3rd_Dll]: [3rd Party Assemblies and SDL Trados Studio Plugins](https://www.sdltrados.cn/blog/3rd-party-assemblies-and-sdl-trados-studio-plugins.html)
 [^ITPIF]: [ITranslationProvider Interface](http://producthelp.sdl.com/SDK/TranslationMemoryApi/2017/html/7600ff21-d21e-1e4a-366c-51314b7ea07d.htm)
-
-其它文档：
-
-* [SDK合集](https://appstore.sdl-china.cn/cn/language/developers/sdk-collection.html)
