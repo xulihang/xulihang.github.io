@@ -1,7 +1,7 @@
 ---
 date: 2019-05-01 20:16:50+08:00
 layout: post
-title: 开发Trados插件
+title: Trados插件开发
 categories: 技术随笔
 tags: CAT
 ---
