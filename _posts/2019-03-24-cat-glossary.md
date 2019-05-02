@@ -21,7 +21,7 @@ tags: CAT
 * [在服务器上自动保存（auto save on server）](#在服务器上自动保存auto-save-on-server)
 * [自动检索（automatic concordance）](#自动检索automatic-concordance)
 * [AutoPick](#autopick)
-* [自动填充（auto-propagation）](#自动填充auto-propagation)
+* [自动传播（auto-propagation）](#自动传播auto-propagation)
 * [自动可译元素处理（auto-translatables）](#自动可译元素处理auto-translatables)
 * [BiDi](#bidi)
 * [双语Excel（bilingual Excel）](#双语excelbilingual-excel)
@@ -215,9 +215,9 @@ CAT术语大全
 
 我不知道各位读者是不是也是这样，我不喜欢在翻译的时候输入数字，我也不喜欢在中途从原文复制一段内容到译文。除了数字，原文句段中还会包含其它需要直接复制到译文的内容，比如标签、非译元素和一些术语。在memoQ中，如果你按下并释放CTRL键，它的AutoPick功能会列出所有原文中的这些特殊内容，你可以用方向键来选择内容，把它们插入到译文中。它还能重新格式化数字以匹配目标语言的格式。
 
-### 自动填充（auto-propagation）
+### 自动传播（auto-propagation）
 
-需要翻译的文本基本上都有重复。很多片段会出现多次。在一些技术文本中，重复片段的比例会更高。翻译记忆的一个作用就是能重复利用翻译过的内容。不过CAT工具可以做得更好。如果你启用了自动填充，那么确认一个句段后，工具就会立即填充文档中的所有其他相同片段，并将其标记为已确认状态。
+需要翻译的文本基本上都有重复。很多片段会出现多次。在一些技术文本中，重复片段的比例会更高。翻译记忆的一个作用就是能重复利用翻译过的内容。不过CAT工具可以做得更好。如果你启用了自动传播，那么确认一个句段后，工具就会立即填充文档中的所有其他相同片段，并将其标记为已确认状态。
 
 ### 自动可译元素处理（auto-translatables）
 
