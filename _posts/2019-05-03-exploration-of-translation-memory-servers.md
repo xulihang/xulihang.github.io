@@ -74,6 +74,8 @@ es_res = self._es_call(
 
 如果Elasticsearch是本地服务，用户的翻译单元会添加进去，如果是远程的，则不是自动添加。
 
+除了Pootle，Transifex也有使用Elasticsearch作为翻译记忆的后端，具体可以看这篇博文：[Elasticsearch at Transifex](https://www.transifex.com/blog/2015/elasticsearch-at-transifex/)。
+
 ### 其它
 
 BasicCAT目前采取的方法是中央服务器只存储翻译记忆，用户在使用时，会把远程的翻译记忆先同步到本地，然后在本地进行相似度计算。这对于共享项目翻译记忆还是很好用的。但是如果记忆库很大、或者记忆库需要保密，则不是很好使了。
