@@ -1,7 +1,7 @@
 ---
 date: 2019-05-01 22:05:50+08:00
 layout: post
-title: CAT的定制性
+title: CAT工具的定制性
 categories: 技术随笔
 tags: CAT
 ---

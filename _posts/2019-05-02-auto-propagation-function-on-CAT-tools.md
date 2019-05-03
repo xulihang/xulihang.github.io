@@ -1,7 +1,7 @@
 ---
 date: 2019-05-02 14:16:50+08:00
 layout: post
-title: CAT的自动传播功能
+title: CAT工具的自动传播功能
 categories: 技术随笔
 tags: CAT
 ---
