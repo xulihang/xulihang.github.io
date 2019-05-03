@@ -50,9 +50,9 @@ es_res = self._es_call(
         )
 ```
 
-每个条目存储的结构如下：
+每个条目存储的结构如下(python dict)：
 
-```json
+```
 {
     '_index': self.INDEX_NAME,
     '_type': unit['store__translation_project__language__code'],
@@ -79,6 +79,8 @@ es_res = self._es_call(
 ### 其它
 
 BasicCAT目前采取的方法是中央服务器只存储翻译记忆，用户在使用时，会把远程的翻译记忆先同步到本地，然后在本地进行相似度计算。这对于共享项目翻译记忆还是很好用的。但是如果记忆库很大、或者记忆库需要保密，则不是很好使了。
+
+类似的还有OmegaT的协作方法，基于SVN/Git服务器共享翻译记忆tmx文件。
 
 参考资料：
 
