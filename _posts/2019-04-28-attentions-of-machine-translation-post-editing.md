@@ -52,10 +52,15 @@ capacity一词多义，有能力和容量这两种意思，放在processing和st
 
 可以用机器翻译翻译一下这句话试试：improving latency and efficiency，是不是结果存在词语搭配的问题。
 
-相关资料：
+## 编辑策略
 
-TAUS译后编辑指南：<https://www.taus.net/file-downloads/download?path=Articles%252Ftaus-cngl-machine-translation-postediting-guidelines.pdf>
+* 先阅读机器翻译。MTPE是一种注重翻译效率的，随着机器翻译质量的提高，可以通过直接阅读机器翻译来了解原文内容，然后进行编辑。
+* 注重内容的准确性，但不必进行过多润色。一般译后编辑项目，读者阅读的主要目的是获得信息，不必做精细的优化，只要保证术语一致、语句通畅、信息准确就行。
+* 译文难以读懂时，选择从原文重新翻译。
 
-TAUS译后编辑定价指南：<https://www.taus.net/academy/best-practices/postedit-best-practices/pricing-machine-translation-post-editing-guidelines>
+## 相关资料：
 
-人工智能给翻译带来的便利和挑战 – 李长栓：<http://ttv.cn/archives/3937>
+* [TAUS译后编辑指南](https://www.taus.net/file-downloads/download?path=Articles%252Ftaus-cngl-machine-translation-postediting-guidelines.pdf)
+* [TAUS译后编辑定价指南](https://www.taus.net/academy/best-practices/postedit-best-practices/pricing-machine-translation-post-editing-guidelines)
+* [人工智能给翻译带来的便利和挑战 – 李长栓](http://ttv.cn/archives/3937)
+* [Advice to freelance translators on MT post-editing projects](https://www.translationdirectory.com/articles/article2433.php)
