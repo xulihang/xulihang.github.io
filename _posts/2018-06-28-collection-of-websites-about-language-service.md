@@ -26,6 +26,7 @@ tags: CAT 翻译
 * [The Open Mic](https://theopenmic.co) 译者分享自己的故事
 * [multilingual](https://multilingual.com/) 有杂志、新闻网站和博客站，提供前沿的业内信息。
 * [Globally Speaking](https://www.globallyspeakingradio.com/) 一个本地化行业的播客，RWS Moravia是赞助者。
+* [translationdirectory](https://www.translationdirectory.com/)，以目录形式收录了很多相关文章，有很多历史悠久的内容。
 
 ## 翻译平台
 
@@ -45,6 +46,7 @@ tags: CAT 翻译
 
 * [American Translators Association](http://www.atanet.org/) 美国翻译协会
 * [TAUS](https://www.taus.net) 翻译自动化用户协会
+* [GALA](https://www.gala-global.org/) 全球化与本地化协会
 
 ## 开源与翻译
 
