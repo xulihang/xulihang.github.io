@@ -52,6 +52,9 @@ tags: CAT 翻译
 
 * [translate on linux](https://translateonlinux.org/) 由译员Jean Dimitriadis建立。
 
+## 其它
+
+* [翻译资源 - 吾思语](https://www.cnblogs.com/sbxlm/p/3542257.html) 另一个收集帖。
 
 
 待更新……
