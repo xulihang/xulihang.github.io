@@ -40,7 +40,7 @@ SDL Trados的AutoSuggest提供了相似的功能，不过除了机器翻译，�
 
 ## CASMACAT
 
-CASMACAT（Cognitive Analysis and Statistical Methods for Advanced Computer Aided Translation）[^casmacat]基于MateCAT开发，它的一个特点是机器翻译可以根据用户的操作不断学习完善。它使用了一个专门的统计式机器翻译系统，和翻译界面的耦合程度高。用户输入翻译后（前缀），系统会给出一个机器翻译结果（后缀），单词还可以设置用颜色来表示置信程度。
+CASMACAT（Cognitive Analysis and Statistical Methods for Advanced Computer Aided Translation）[^casmacat]基于MateCAT开发。它使用了一个专门的统计式机器翻译系统，和翻译界面的耦合程度高。用户输入一部分翻译后（前缀），系统会给出一个机器翻译结果（后缀），单词还可以设置用颜色来表示置信程度。
 
 ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/casmacat-new.png)
 
@@ -78,12 +78,21 @@ PTM还有一个特点是利用斯坦福的句法分析工具提取短语，以�
 
 PTM的作者现已开办公司，推出了Lilt这一款商业化的计算机辅助翻译工具。
 
+## Transmart
+
+腾讯AI Lab的交互式机器翻译项目，目前提供一个在线翻译页面，融合辅助翻译输入法。
+
+具体可以看黄国平博士在译直播上的讲座：[《译者与人工智能辅助翻译的约会 – 黄国平》](http://ttv.cn/archives/3951)
+
+
 
 # 结语
 
 机器翻译主要通过直接提供译文或翻译建议，帮助用户了解原文，减少输入时敲击键盘的次数以提高翻译效率，实现人与机器合作完成翻译任务。
 
 译后编辑与交互式机器翻译两种模式也并没有优劣之分，随着机器翻译质量的提高，两者的实用性都会大大加强。
+
+另见：[机器翻译译后编辑注意事项](/attentions-of-machine-translation-post-editing/)
 
 
 
