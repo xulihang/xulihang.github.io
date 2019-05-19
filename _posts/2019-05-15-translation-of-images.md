@@ -14,13 +14,13 @@ tags: CAT
 
 1. 提取文字并翻译
 
-如果文字较多，需要先提取文字，导入CAT软件进行翻译。提取文字可以使用常见的OCR软件。
+    如果文字较多，需要先提取文字，导入CAT软件进行翻译。提取文字可以使用常见的OCR软件。
 
-我开发的[tesseract-clipboard](https://github.com/xulihang/tesseract-clipboard/)是一个不错的选择，可以对存在剪贴板里的截图进行文字识别操作。直接使用ABBYY FineReader这类软件对整个图片进行处理会有很多不需要翻译的内容被识别进去。
+    我开发的[tesseract-clipboard](https://github.com/xulihang/tesseract-clipboard/)是一个不错的选择，可以对存在剪贴板里的截图进行文字识别操作。直接使用ABBYY FineReader这类软件对整个图片进行处理会有很多不需要翻译的内容被识别进去。
 
 2. 处理图片
 
-我使用Gimp处理图片，首先框住原文部分，用背景色进行填充，然后输入译文。整个操作全手动进行，比较费劲。
+    我使用Gimp处理图片，首先框住原文部分，用背景色进行填充，然后输入译文。整个操作全手动进行，比较费劲。
 
 ## 自动方法
 
