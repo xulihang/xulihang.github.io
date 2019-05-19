@@ -8,6 +8,8 @@ tags: CAT NLP
 
 Linux自带了很多有用的命令行工具，比如要重命名segment9.ts为segment09.ts，我们可以用Python来写脚本实现，但使用Linux自带的rename命令更加方便。这里做一个收集整理，会根据我碰到的实际问题不断更新。
 
+更多内容可以见[The Art of Commandline](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+
 ## rename
 
 用法：
