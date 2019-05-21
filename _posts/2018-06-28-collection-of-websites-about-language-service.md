@@ -11,6 +11,8 @@ tags: CAT 翻译
 ## 个人博客
 
 * [multifarious](https://multifarious.filkin.com/) SDL技术支持Paul Filkin的博客
+* [eMpTy Pages](https://kv-emptypages.blogspot.com/) SDL技术咨询师Kirti Vashee的博客
+* [jealous markup](https://jealousmarkup.xyz/) memoQ产品经理Gabor的博客
 * [Anthony Teixeira](https://www.at-it-translator.com/) 一个法国个人译者的网站
 
 ## 语言服务提供者
