@@ -21,7 +21,6 @@ tags: CAT
 | Felix-cat                    | <http://felix-cat.com/>                               | 开源       |
 | Heartsome Translation Studio | <https://github.com/heartsome/translationstudio8>     | 开源       |
 | OmegaT                       | <https://www.omegat.org/>                             | 开源       |
-| BasicCAT                     | <https://www.basiccat.org/>                           | 开源       |
 | wordfast anyhwere            | <https://freetm.com/>                                 | 在线       |
 | Memsource                    | <https://www.memsource.com/>                          | 在线       |
 | MateCAT                      | <https://www.matecat.com/>                            | 在线       |
@@ -35,6 +34,7 @@ tags: CAT
 
 | 名称        | 网址                                            | 简介              |
 | --------- | --------------------------------------------- | --------------- |
+| BasicCAT                     | <https://www.basiccat.org/>                           | 开源       |
 | 雪人CAT     | <http://www.gcys.cn/>                         |                 |
 | Transmate | <http://www.uedrive.com/products/standalone/> |                 |
 | 译马网       | <http://www.jeemaa.com/>                      | 在线              |
