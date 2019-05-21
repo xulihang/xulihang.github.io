@@ -12,7 +12,7 @@ tags:
 
 因为本站没有备案，国内的平台不能用。选择谷歌的Adsense。Adsense的申请还是比较容易的，通过后在网页中加入代码即可以显示广告了。以下是这一天半的情况。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/adsense.png)
+![](/album/adsense.png)
 
 Google Adsense和百度推广一样，是要用户点击后才给收入，没有点击，即使展示上万次也是没有用的。
 

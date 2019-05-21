@@ -16,6 +16,6 @@ tags: digitalocean vps 教育网
 
 更新：实际测试，vps.me用作ssh代理也够用了，使用ipv6地址和一个共享的ipv4地址，10GB流量足够。目前digitalocean上的droplet被我销了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/vps/digitalocean.JPG)
+![](/album/vps/digitalocean.JPG)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/vps/vpsme.JPG)
+![](/album/vps/vpsme.JPG)

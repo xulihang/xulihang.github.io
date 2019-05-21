@@ -18,7 +18,7 @@ Philipp Koehn认为目前主要有两种模式[^pk]：译后编辑与交互式�
 
 大多数CAT软件都支持调用机器翻译。在线CAT平台MateCAT，以译后编辑为主，并且除了机器翻译，还支持调用在线翻译记忆服务MyMemory进行辅助翻译。在创建项目时还需要选择领域，以利用针对性更强的资源。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/matecat.png)
+![](/album/mt/matecat.png)
 
 MateCAT还可以根据用户译后编辑的结果修改背后的机器翻译的模型参数，做增量式学习，这样一个机器翻译的错误被纠正后，下次就不用再纠正了。SDL Trados 2017的Adaptive MT功能和此类似。和MateCAT类似的国内CAT平台有yeekit。
 
@@ -32,17 +32,17 @@ MateCAT还可以根据用户译后编辑的结果修改背后的机器翻译的�
 
 使用在线机器翻译的用户一般不知道统计式机器翻译系统可以生成一串备选翻译，TransType根据用户的输入对备选翻译列表进行筛选，得到合适的翻译建议。结果会以下拉列表的形式呈现。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/transtype2.jpg)
+![](/album/mt/transtype2.jpg)
 
 SDL Trados的AutoSuggest提供了相似的功能，不过除了机器翻译，它还可以根据上下文、翻译记忆和定义的词典生成翻译建议。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/autosuggest.jpg)
+![](/album/mt/autosuggest.jpg)
 
 ## CASMACAT
 
 CASMACAT（Cognitive Analysis and Statistical Methods for Advanced Computer Aided Translation）[^casmacat]基于MateCAT开发。它使用了一个专门的统计式机器翻译系统，和翻译界面的耦合程度高。用户输入一部分翻译后（前缀），系统会给出一个机器翻译结果（后缀），单词还可以设置用颜色来表示置信程度。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/casmacat-new.png)
+![](/album/mt/casmacat-new.png)
 
 CASMACAT可以记录用户的翻译过程，以便进行相关研究。
 
@@ -56,7 +56,7 @@ Forecat将原文拆分为若干片段，片段的最大长度可以定义，默�
 
 Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT工具OmegaT中使用。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/forecat.png)
+![](/album/forecat.png)
 
 ## PTM
 
@@ -64,7 +64,7 @@ Forecat使用Java编写，除了提供Web应用外，还可以集成到开源CAT
 
 比如它强调减少眼球的移动。传统的CAT工具都是采用的双栏表格形式，PTM使用的一行原文，一行译文相互交叉的模式。它认为分栏阅读时眼球移动的距离较大，而后者更加符合阅读习惯。因为原文和译文交叉，对于英语和法语这样都是由字母构成的语言不易区分，于是译文使用了等宽字体。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mt/ptm.png)
+![](/album/mt/ptm.png)
 
 上图是PTM的界面截图，A是原文，B是翻译了的整句，C是当前进行翻译的句子，如果原文的单词已经被翻译（通过词对齐实现），颜色会变为蓝色，D是翻译是用来给出建议的下拉列表，E是在输入框中给出的翻译。在原文的单词上悬停鼠标，还可以查看释义。
 

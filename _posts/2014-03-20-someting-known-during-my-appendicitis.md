@@ -23,7 +23,7 @@ tags: 经历 感悟
 
 当然对阑尾炎有了清楚的认识，网上有详细介绍，但平时没关注，以后应该多了解点医学。还了解了点静脉注射的东西。打针的分类、流程什么的有了了解。第一次看到静脉留置针，了解了压脉带，找脉，看回血判断是否打入静脉等等。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/needle.jpg)
+![](/album/appendicitis/needle.jpg)
 
 ##医生与护士
 
@@ -35,7 +35,7 @@ tags: 经历 感悟
 
 这是病号的分配：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/division.jpg)
+![](/album/appendicitis/division.jpg)
 
 ###对中国医患关系的看法
 
@@ -60,31 +60,31 @@ tags: 经历 感悟
 
 2.医院有无线覆盖，且信号不错，更重要的是免费。其实这是在无锡市范围内的公共服务，但在医院保持信号，还要靠这个无线路由器吧。NETGEAR，以前没听过。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/netgear.jpg)
+![](/album/appendicitis/netgear.jpg)
 
 3.我一开始听到以前在PPC上常听见的提示音，还以为谁还在用这么过时的手机。结果给我一个惊喜。护士拿着搭载了Windows Mobile 6.5的手持PDA，运行一个叫移动护士工作站的软件，通过无线与总台连接。它还具备条码扫描功能，能扫描病人手上的腕带，实现快速管理信息的功能，护士不再需要手写记录了。采用wm而不是android估计是因为开发较早，且与PC交互、软件移植方便什么的有关吧。
 
 发张图，是MOTO MC55AO型号的：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/pda1.jpg)
+![](/album/appendicitis/pda1.jpg)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/pda2.jpg)
+![](/album/appendicitis/pda2.jpg)
 
 腕带
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/id-belt.jpg)
+![](/album/appendicitis/id-belt.jpg)
 
 
 #最后
 
 安于休养的我：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/me.jpg)
+![](/album/appendicitis/me.jpg)
 
 
 宽敞的病房（这其实是示教室，别的病房还有电视）：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/appendicitis/room.jpg)
+![](/album/appendicitis/room.jpg)
 
 
 

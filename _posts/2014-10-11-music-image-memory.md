@@ -14,13 +14,13 @@ tags: 感悟
 
 当时我正在折腾安装黑苹果，初次尝黑苹果，一种全新的感受。同时同学电脑扬声器循环播放的之前未听过的一首lemon tree，伴随着我初尝黑苹果。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mem/osx.jpg)
+![](/album/mem/osx.jpg)
 
 2、苹果、乔布斯、音乐、影像
 
 苹果每次发布会都会选择主题乐曲。苹果最经典的发布会当然是MacWorld2007，乔布斯出色地向世人介绍iPhone，改变了整个手机产业。而macworld2007的主题曲是I feel good。乔布斯在发布会上演示了很多影音，其中印象最深的是Like A Rolling Stone。这也是乔布斯出席D5时放过的入场曲。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/mem/macworld2007.jpg)
+![](/album/mem/macworld2007.jpg)
 
 3、电视剧、电影与音乐
 

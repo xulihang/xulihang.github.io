@@ -12,7 +12,7 @@ tags: 二专 学习
 
 选择第二专业为会计，因为会计这门活实用性很强，就业面广。可以弥补光学英语专业性不强、知识面不够广的问题。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/second_major_class.png)
+![](/album/second_major_class.png)
 
 以上是这学期的课表。
 

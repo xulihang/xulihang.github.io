@@ -38,10 +38,10 @@ Eugene Nide受到Chomsky的转换生成语法思想影响，提出了功能对�
 
 等效（equivalence）的例子比如to kill a bird with two stones，翻译为中文是一箭双雕。功能对等的例子比如英语里的耶稣的替罪羊翻译为爱斯基摩语时，羊没有对应的单词，就用海豹进行替换，达到差不多的效果。但只注重功能，把罗密欧翻译成梁山伯，就缺少了文化的传递。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/translation/nida_three_stages_of_translation.jpg)
+![](/album/translation/nida_three_stages_of_translation.jpg)
 
 Nida抛弃了传统的直译（literal）和意译（free）的说法，采用了形式对等（Formal Equivalence）和动态对等（Dynamic Equivalence）的说法。
 
 Newmark提出了交际翻译(communicative translaton)和语义翻译(semantic translaton)。交际翻译针对读者，语义翻译关注作者。两者相当于意译和直译。比如“Wet floor”，交际翻译翻译为地面湿滑，小心摔跤，而语义翻译直接翻译为湿地板。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/translation/newmark.jpg)
+![](/album/translation/newmark.jpg)

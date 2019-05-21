@@ -24,11 +24,11 @@ tags: CAT
 
 下面是模糊匹配结果的截图：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/fuzzymatch.png)
+![](/album/basiccat/fuzzymatch.png)
 
 下面是片段搜索功能的截图，在翻译记忆库中搜索匹配的内容，搜索内容用绿色加以高亮显示。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/segment_search.png)
+![](/album/basiccat/segment_search.png)
 
 相关文件：
 

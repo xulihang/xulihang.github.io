@@ -6,7 +6,7 @@ categories: 随笔
 tags: 大学
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/zhouchenggang.JPG)
+![](/album/zhouchenggang.JPG)
 
 每次有一些名人讲座，我基本都会去看。
 

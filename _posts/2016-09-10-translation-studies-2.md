@@ -14,7 +14,7 @@ Holz-Manttari提出了翻译行为（Translation theory）说，她认为翻译�
 
 Nord提出了文本分析的方法，影响文本分析的有文内因素和文外因素，如图所示：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/translation/nord.JPG)
+![](/album/translation/nord.JPG)
 
 关于文外的读者，举个例子比如原作中的女子的描写符合西方人的审美，翻译后就变成樱桃小嘴，适合中国人的审美。文内的内容，比如文章是有关穆斯林宗教的，翻译可能会有亵渎，所以很敏感，翻译的人少。
 

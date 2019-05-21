@@ -6,7 +6,7 @@ categories: 电子数码
 tags: 护眼
 ---
  
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/st4121.JPG)
+![](/album/st4121.JPG)
  
 # 反射屏 
 

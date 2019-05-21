@@ -42,6 +42,6 @@ tags: 社会 名人 大学
 
 不多说了，讲这么两个小时的活动，也只是泛泛而谈了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/chenweihong/1.jpg)
+![](/album/chenweihong/1.jpg)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/chenweihong/2.jpg)
+![](/album/chenweihong/2.jpg)

@@ -26,4 +26,4 @@ fastspring的使用非常用户友好，webhook的添加也比较简单，可以
 
 这样，一个报名系统就基本构建完成了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/bm.png)
+![](/album/bm.png)

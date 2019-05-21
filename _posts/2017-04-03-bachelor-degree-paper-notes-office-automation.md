@@ -19,7 +19,7 @@ tags: 论文
 
 学院的模板里，章节标题和下面第一级分节标题都是标题1的样式，再下一级是标题2样式，但章节标题的格式是后来重新改过的，把字号改大了。我后来将章节标题设置为标题样式，其实弄混了word里样式的概念。标题1到标题9一般用于长文件有分级标题的排版。而标题和副标题是一对的，主要用于小文件。其实是不影响最终效果的，目录也可以正常地根据设置标题样式的标题自动生成，但给图片添加题注时章节样式只有从标题1到标题9里选，没有标题样式，所以我最终还是改回了正确的做法，使用标题1-3的样式。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/paper/1.PNG)
+![](/album/paper/1.PNG)
 
 一开始插入题注时提示错误如下：
 
@@ -30,7 +30,7 @@ tags: 论文
 
 和上一个问题紧密关联，题注的生成需要文中有对应的列表。我一开始没有用列表，是手动标1.1.1这样的序号的（论文模板便是这样操作，另外题注也是手动编辑的），这样不能自动生成题注，而且手动标号显得不够自动化。这里要用开始选项卡-段落功能区里的多级列表的功能。点击定义新的多级列表后，可以将级别链接到样式。因为级别1是特殊的Chapter One/Two/Three...格式，所以级别2要勾选正规形式编号单选框，不然编号会是One.1.1这样的形式。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/paper/2.PNG)
+![](/album/paper/2.PNG)
 
 3、页眉页脚的设置
 
@@ -50,13 +50,13 @@ tags: 论文
 
 2、引文标注与参考文献管理。 引文标注和图表题注一样，最好是自动管理的，不然前面的序号变了，后面的序号就都要变。这里我使用了endnote x7文献管理工具结合修改过了国标GB 7713-2005参考文献标准的样式文件（[此处](https://cnzhx.net/blog/endnote-output-style-cnzhx/)下载）。但该样式文件支持的格式有限，和学院论文规范里讲的格式也有出入，我又有给它进行了一点修改。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/paper/3.PNG)
+![](/album/paper/3.PNG)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/paper/4.PNG)
+![](/album/paper/4.PNG)
 
 除此之外，我们专业的论文还要求在中文文献作者姓名之前加上拼音，并把中文名用[]框起来，但这个endnote我想就不能做到了。不过这也不是很难的事情，用python和xpinyin库很容易可以处理完成。之后将处理好的纯文本参考文献内容替换endnote生成的参考文献即可。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/paper/5.PNG)
+![](/album/paper/5.PNG)
 
 
 理工科的同学有很多是用latex进行论文排版的，但我还没用过，毕竟word的功能也很强大，而且学院也只提供word模板，先把word用好吧。

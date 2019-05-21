@@ -16,7 +16,7 @@ Daniel Torregrosa等人开发了Forecat这一黑盒式的交互式翻译预测�
 
 这个插件我试用下来还是很不错的，因为机器翻译在句子级别很难做得完善，但是以语块为单位使用机器翻译，可以给翻译提供很大的帮助。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/forecat.png)
+![](/album/forecat.png)
 
 不过Forecat目前还有不完善的地方，比如输入的中文需要空格才能提示下一部分的翻译，自动完成时还会在结尾处加上空格，对中文这样没有分词的语言支持的不好。我给作者提了一个issue：<https://github.com/transducens/Forecat-OmegaT/issues/9>
 

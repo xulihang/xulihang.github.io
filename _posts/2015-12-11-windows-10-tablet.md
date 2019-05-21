@@ -6,7 +6,7 @@ categories: 电子数码
 tags: 平板
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/chuwei.JPG)
+![](/album/chuwei.JPG)
 
 一直想买一台windows平板，看了好久，终于决定在双十一买下驰为hi8 pro。它采用8寸1920x1200分辨率的IPS屏，最新的cherry trail架构intel凌动处理器，2G内存+32GB EMMC，带micro HDMI接口和microsd卡拓展槽。在一众8寸国产寨板中，只有它采用了高清的屏幕。虽然是塑料屏，但毕竟没用过，而且这款平板性价比真的很高，先买来再说吧。结果跟我说良品率为0%，发回原厂加工，一直到12月5号才发货。
 

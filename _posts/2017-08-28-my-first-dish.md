@@ -6,7 +6,7 @@ categories: 随笔
 tags: 做菜
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/fanqiechaodan.jpg)
+![](/album/fanqiechaodan.jpg)
 
 今天自己照着网上的教程烧了一道番茄炒蛋。
 

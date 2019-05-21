@@ -49,7 +49,7 @@ tags: 语料库
 
     使用以下表达式：`want_VV *_NP *_VVG`，可以检索want sb doing的句子。不过这里没有准备很多奥斯丁与艾丽字幕文本的语料，只显示一条内容。
 
-    ![](https://github.com/xulihang/xulihang.github.io/raw/master/album/corpus/antconc.png)
+    ![](/album/corpus/antconc.png)
 
 
 我们也可以直接使用在线的语料库，比如杨百翰大学的[BNC语料库](https://corpus.byu.edu/bnc/)。
@@ -58,6 +58,6 @@ tags: 语料库
 
 我们检索want的任意形态+代词+动词ing形式的内容：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/corpus/bnc_search.png)
+![](/album/corpus/bnc_search.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/corpus/bnc_result.png)
+![](/album/corpus/bnc_result.png)

@@ -6,7 +6,7 @@ categories: 电子数码
 tags: 
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/happylinux.png)
+![](/album/happylinux.png)
 
 最近整理联想天鹤640P老电脑的随机光盘，安装了幸福之家v3.23生活版并录制视频传到了[b站](https://www.bilibili.com/video/av13241747/)上。
 

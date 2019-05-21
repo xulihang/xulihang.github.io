@@ -18,11 +18,11 @@ syslinux引导U盘启动，基本5秒内见桌面。选择的Kde4环境果然很
 
 制作xzm模块还是很容易的，用继承自slax的txz2xzm,tgz2xzm,deb2xzm,rpm2xzm,dir2xzm等等脚本转换很轻松。源码包用src2pkg也比较方便，自己编译也可以。Porteus提供保存session或changes到模块或单个文件或文件夹的功能，使做包更容易了。当然依赖关系还得自己搞定。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/porteus/snapshot2.jpeg)
+![](/album/porteus/snapshot2.jpeg)
 
 个人很喜欢slax或porteus的模块化，显得比较清爽，没有不干净的感觉。启动选always flesh进系统就是全新的系统，copy2ram大大提高运行速度，保存changes就可以当本地linux用了。
 
 以上就是我作为使用者的一点感受。
 
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/porteus/snapshot3.jpeg)
+![](/album/porteus/snapshot3.jpeg)

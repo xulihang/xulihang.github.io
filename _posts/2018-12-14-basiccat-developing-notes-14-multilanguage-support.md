@@ -92,7 +92,7 @@ End Sub
 
 关于从右至左（RTL, right to left）书写的阿拉伯语和希伯来语，我测试其实Windows可以自动帮我们处理。只要输入框里存在阿拉伯语，就会自动采用从右至左的模式。delete和backspace键是反的，复制粘贴是反的，输入的光标会一直在左端。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/arabic.png)
+![](/album/basiccat/arabic.png)
 
 
 

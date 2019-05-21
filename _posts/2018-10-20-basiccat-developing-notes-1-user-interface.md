@@ -10,7 +10,7 @@ tags: CAT
 
 以下是目前设计的一个界面。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/main.png)
+![](/album/basiccat/main.png)
 
 左边是项目区，中间是编辑区，右边是术语区。下方是提供翻译记忆、片段搜索等功能的区域。最下面有状态栏，最上面有菜单栏。
 

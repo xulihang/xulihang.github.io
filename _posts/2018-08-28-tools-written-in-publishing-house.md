@@ -84,7 +84,7 @@ W
 
 我们可以将生成的PDF每页的文字导出，设置正文页与PDF实际页数之差和要索引的页码，然后就可以生成索引了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/indexmaker.png)
+![](/album/indexmaker.png)
 
 3、比较字表中的重复
 

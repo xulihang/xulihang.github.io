@@ -13,13 +13,13 @@ tags: 云
 
 2、搜索Bottle或点击左侧边栏应用服务，可以在Web app frameworks里找到bottle。点击创建。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/azure/1.PNG)
+![](/album/azure/1.PNG)
 
 3、接下来要建立资源组和应用服务计划。网上的介绍如下。。可以选择服务的位置
 
 >资源组是共享相同生命周期、权限和策略的资源的集合。应用服务计划是你的应用的容器。应用服务计划设置将确定与你的应用关联的位置、功能、成本和计算资源。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/azure/2.PNG)
+![](/album/azure/2.PNG)
 
 4、接下来我想从本地git仓库进行部署。要在应用服务设置的部署选项里设置。具体见该网站[Local Git Deployment to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-deploy-local-git#a-namestep3astep-3-enable-the-app-service-app-repository)。会需要设置部署凭据。
 

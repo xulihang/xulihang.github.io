@@ -12,11 +12,11 @@ tags: 汉化 CAT
 
 这点从汉化新世纪的掌上汉化数量统计中也可以看出来：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/localization/rank.png)
+![](/album/localization/rank.png)
 
 PPC时代有名的汉化作者：玉龙雪山。后来即转投安卓汉化，加入了机锋的汉化组。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/localization/yulongxueshan.png)
+![](/album/localization/yulongxueshan.png)
 
 Windows Mobile和Windows桌面系统有着很大的相似性，会windows开发的程序员开发WM的应用也不是难事。而且WM的应用可以直接在桌面Windows下修改。可以使用同样的工具。Windows有着极为广泛的用户和开发者。在[如何汉化PPC/SP/PC汉化教程](http://www.cr173.com/html/6136_1.html) 一文中有详细的汉化方法介绍。我也曾用exescope简单地汉化过一款扫雷应用。上了大学，了解了CAT后才知道SDL PASSOLO、Alchemy CATALYST这样的专业汉化软件。
 

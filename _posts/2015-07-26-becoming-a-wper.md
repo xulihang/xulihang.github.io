@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: Windows 
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/windows/jnrain-wp.png)
+![](/album/windows/jnrain-wp.png)
 
 ##成为WP用户
 暑假总归要找点事情做。买点新东西可以得到新鲜感和新的学习方向。

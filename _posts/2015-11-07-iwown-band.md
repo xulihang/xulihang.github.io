@@ -6,7 +6,7 @@ categories: 电子数码
 tags: 可穿戴设备
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/shouhuan.jpg)
+![](/album/shouhuan.jpg)
 
 智能可穿戴设备近年来一直很流行。周边的人有很多在使用小米手环，我爸就每天带着它去锻炼，不达到目标就感觉不舒服。
 

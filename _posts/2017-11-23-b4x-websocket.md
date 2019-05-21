@@ -7,7 +7,7 @@ tags: B4X
 ---
 
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/websocket.JPG)
+![](/album/websocket.JPG)
 
 如图是一个基于websocket实现共享输入框文本的b4j应用。使用websocket主要是用来做实时的双向的消息传输。
 

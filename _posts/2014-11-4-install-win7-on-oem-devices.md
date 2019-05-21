@@ -24,4 +24,4 @@ tags: Windows 装机
 
 一切的一切，都为了看到这个：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/win7_activated.PNG)
+![](/album/win7_activated.PNG)

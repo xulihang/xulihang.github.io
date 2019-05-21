@@ -60,7 +60,7 @@ end sub
 
 2008年那会出的很多PE系统，用的工具都是下图这样一个界面，获取用户输入，执行下一步操作。后来也都转而使用图形界面了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/bat.png)
+![](/album/bat.png)
 
 
 相关链接：

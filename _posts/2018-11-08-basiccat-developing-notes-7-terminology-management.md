@@ -10,9 +10,9 @@ tags: CAT
 
 而Lisa提出的TBX标准则定义了单词的领域、定义、用法、词性、阴阳性、缩写、同义词、与其它词语的关联等一系列标签，较为复杂。SDL Multiterm和MemoQ的术语模块都参考了TBX的设计。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/term-management/multiterm.png)
+![](/album/term-management/multiterm.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/term-management/addterm.png)
+![](/album/term-management/addterm.png)
 
 另外还有把TBX转换为RDF用于描述实体（ontology），就更为复杂了，适合相关研究人员使用。
 
@@ -20,13 +20,13 @@ BasicCAT术语管理使用起来很简单，足够满足一般需求。
 
 首先是基本的划词添加。在原文和译文输入框中划取要添加的术语，然后在右边的术语区点击添加术语。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/addterm.png)
+![](/album/basiccat/addterm.png)
 
 这里要注意的是，术语原文一样，但表达的概念可能不一样。比如test，可以表示试验，也可以表示测试。所以，一个原文键值可以存储多个对应的译文。这对应TBX中的多个termEntry。
 
 添加后的术语可以在术语管理器中进行进一步的管理。可以删除条目、修改条目、快速检索、添加标签和备注。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/basiccat/editterm.png)
+![](/album/basiccat/editterm.png)
 
 另外还要支持TBX和TXT格式的导入导出。TXT以Tab分隔，依次是原文、译文、备注和标签。
 

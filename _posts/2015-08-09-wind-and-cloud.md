@@ -6,7 +6,7 @@ categories: 随笔
 tags: 风云 电视剧
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/wind-and-cloud.jpg)
+![](/album/wind-and-cloud.jpg)
 
 最近发现新办的数字电视有点播功能，看到最新上线的列表里有《风云》。小时候看《风云》的影响很深，便点开看。结果那熟悉的画面、情节与人物让我不由决定重温下这部2002年的电视剧。
 

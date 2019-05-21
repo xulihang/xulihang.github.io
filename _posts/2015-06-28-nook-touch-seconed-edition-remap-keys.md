@@ -34,9 +34,9 @@ tags: nook 电子书 Android
 
 最后上几张图：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/nook/20150628115149.png)
+![](/album/nook/20150628115149.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/nook/20150628115425.png)
+![](/album/nook/20150628115425.png)
 
 参考链接：
 

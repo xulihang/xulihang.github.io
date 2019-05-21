@@ -21,36 +21,36 @@ Windows Mobile本身不支持打印，需要第三方的应用来支持，比如
 
 上几张图吧：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/1.JPG)
+![](/album/printer/irda/1.JPG)
 
 红外接口要对准：
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/2.JPG)
+![](/album/printer/irda/2.JPG)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/4.JPG)
+![](/album/printer/irda/4.JPG)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/3.JPG)
+![](/album/printer/irda/3.JPG)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/5.JPG)
+![](/album/printer/irda/5.JPG)
 
 软件截图：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen001.png)
+![](/album/printer/irda/Captures/Screen001.png)
 
 没注册。。先试用下吧
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen002.png)
+![](/album/printer/irda/Captures/Screen002.png)
 
 这里选打印机型号：
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen003.png)
+![](/album/printer/irda/Captures/Screen003.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen008.png)
+![](/album/printer/irda/Captures/Screen008.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen004.png)
+![](/album/printer/irda/Captures/Screen004.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen005.png)
+![](/album/printer/irda/Captures/Screen005.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen006.png)
+![](/album/printer/irda/Captures/Screen006.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/printer/irda/Captures/Screen007.png)
+![](/album/printer/irda/Captures/Screen007.png)
 
 
 

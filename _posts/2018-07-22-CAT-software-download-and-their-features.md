@@ -16,7 +16,7 @@ tags: CAT
 
 在此下载30天试用版：<https://www.sdltrados.cn/cn/products/trados-studio/free-trial.html>
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/trados.png)
+![](/album/CAT/trados.png)
 
 2、Déjà Vu
 
@@ -26,7 +26,7 @@ Deja Vu同样基于.net开发，使用access数据库存储术语和翻译记忆
 
 最新的Deja Vu X3下载地址：<https://dejavux4.com/installers/DejaVuX3.Setup.exe>
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/dejavu.png)
+![](/album/CAT/dejavu.png)
 
 3、MemoQ
 
@@ -37,7 +37,7 @@ MemoQ支持插件，比如mymemory、tmxmall等都有插件支持。还可以调
 
 在此下载30天试用版：<https://www.memoq.com/downloads>，过期后不能导入外部翻译记忆，不能翻译多个文件。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/memoq.png)
+![](/album/CAT/memoq.png)
 
 
 
@@ -51,7 +51,7 @@ MemoQ支持插件，比如mymemory、tmxmall等都有插件支持。还可以调
 
 雪人的特点很多，还是见官网吧，免费版有提供下载：<http://www.gcys.cn/>
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/snowman.png)
+![](/album/CAT/snowman.png)
 
 5、OmegaT
 
@@ -65,7 +65,7 @@ OmegaT的功能很强大，同时因为其开源的属性，很容易可以给�
 
 下载见官网：<http://omegat.org/download>
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/CAT/OmegaT.png)
+![](/album/CAT/OmegaT.png)
 
 对于CAT软件的特点，我这里肯定讲得不全，欢迎补充。
 

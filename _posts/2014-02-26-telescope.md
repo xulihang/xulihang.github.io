@@ -10,20 +10,20 @@ tags: DIY
 
 夹上手机，架上三角架就可以开拍了。拿在手上也可以，但很抖，一般用连拍才能获得较满意的图片。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/telescope/1.jpg)
+![](/album/telescope/1.jpg)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/telescope/2.jpg)
+![](/album/telescope/2.jpg)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/telescope/3.jpg)
+![](/album/telescope/3.jpg)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/telescope/4.jpg)
+![](/album/telescope/4.jpg)
 
 上测试样张，对面可是女生寝室哦～～
 
 原来的样子：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/telescope/before.jpg)
+![](/album/telescope/before.jpg)
 
 装上望远镜后：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/telescope/after.jpg)
+![](/album/telescope/after.jpg)

@@ -6,7 +6,7 @@ categories: 随笔
 tags: 
 ---
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/simplepage.jpg)
+![](/album/simplepage.jpg)
 
 北京经过了上个星期在一个星期内的四季变化，终于又回到了春天的轨道。在安静的夜里看书上网显得格外自在。
 

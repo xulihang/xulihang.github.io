@@ -30,7 +30,7 @@ Story：文字框中的文本。
 
 我们这里新建一个5页的Document，使用对页，然后在第二、三页上画5个文字框，然后导出为IDML。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/indesign_example.png)
+![](/album/indesign_example.png)
 
 IDML文件是一个zip压缩的文件夹，里面包含了功能不同的xml文件。解压IDML，可看到文件的结构如下：
 
@@ -122,7 +122,7 @@ DOMVersion="7.0">
 
 IDML里的定位（geometry）比较复杂，有ItemTransform和PathPoint这些概念。首先，idml里是以中心为原点的，如下图所示：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/idml_coordinate.png)
+![](/album/idml_coordinate.png)
 
 坐标是ItemTransform属性中后面的两个数值，分别是x坐标和y坐标。而前面的1 0 0 1表示方向。而PathGeometry的内容则定义了形状的大小。
 

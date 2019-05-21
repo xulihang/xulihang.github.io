@@ -25,7 +25,7 @@ tags: CAT
 
 首先是维基上的这张公式：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/editdistance/formula.png)
+![](/album/editdistance/formula.png)
 
 这是使用了一个递归的方法。维基里讲的不清楚，我在quora上看了一些例子后明白了很多。递归的方法就是把算两个文本的编辑距离这一问题分解成了很多的小问题。公式中的lev(i-1,j)是删除操作，lev(i,j-1)是增加操作，而lev(i-1,j-1)说明两个文本相同或需要进行替换。
 

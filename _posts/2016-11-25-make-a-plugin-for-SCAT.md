@@ -23,8 +23,8 @@ tags: B4J CAT B4X
 
 这是术语的管理界面，一大块DataGrid并不能直接获得数据
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/SCAT/info1.jpg)
+![](/album/SCAT/info1.jpg)
 
 激活了术语的编辑模式，可以获得数据。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/SCAT/info2.jpg)
+![](/album/SCAT/info2.jpg)

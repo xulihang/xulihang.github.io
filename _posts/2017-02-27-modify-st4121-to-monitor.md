@@ -12,21 +12,21 @@ tags: 护眼
 
 买来后接线如下：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/st4121-monitor/2.jpg)
+![](/album/st4121-monitor/2.jpg)
 
 点亮屏幕后色彩不对，卖家教用遥控器进行初始设置。接下来就是可以正常使用了。
 
 背光关闭，在荧光灯下运行星际争霸图：
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/st4121-monitor/1.jpg)
+![](/album/st4121-monitor/1.jpg)
 
 驱动板支持调节亮度和对比度等，但灯管的亮度不能调节。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/st4121-monitor/4.jpg)
+![](/album/st4121-monitor/4.jpg)
 
 
 之前购买的改装的反射屏的运行图，没有外面的保护玻璃显得比较清晰：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/st4121-monitor/3.jpg)
+![](/album/st4121-monitor/3.jpg)
 
 不足：
 

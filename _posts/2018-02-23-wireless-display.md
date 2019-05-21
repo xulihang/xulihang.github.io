@@ -36,7 +36,7 @@ dlna大多数设备都支持，airplay是苹果设备使用的，miracast大多�
 
 测试android可以投射屏幕，并输送音频。用另一台windows连接还可以设置为扩展屏幕，也可以在支持投射的视频播放软件里把视频投到server上播放。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/connect_windows.jpg)
+![](/album/connect_windows.jpg)
 
 # 12月4日更新
 

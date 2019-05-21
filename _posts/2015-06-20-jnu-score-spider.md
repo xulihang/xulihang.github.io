@@ -14,7 +14,7 @@ tags: 爬虫
 
 我们学校默认的登录地址是`http://jwxt.jiangnan.edu.cn/jndx/default2.aspx`，相比其它学校，少了中间会动态变化的一串字符，显得容易一点。但默认地址要求输入验证码，还要搞一个验证码识别的话就加大了难度。还好，我找到了另外两个地址，不需要输验证码：`http://jwxt.jiangnan.edu.cn/jndx/default6.aspx`,`http://jwxt.jiangnan.edu.cn/jndx/default_ysdx.aspx`。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/cjcx/login.JPG)
+![](/album/cjcx/login.JPG)
 
 得知要POST的内容，用python测试。
 
@@ -44,7 +44,7 @@ def login():
 
 在成绩查询页面下点击历年成绩，可以得到所有成绩信息。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/cjcx/getscore.JPG)
+![](/album/cjcx/getscore.JPG)
 
 可以看到，需要post的参数很多，即使参数是空白的，也都需要发送。head照搬了httpfox下抓到的head。
 
@@ -152,4 +152,4 @@ def gen():
 
 最后布置到openshift上，再写个安卓客户端就显得比较实用了。我还加上了算绩点的功能。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/cjcx/android.jpg)
+![](/album/cjcx/android.jpg)

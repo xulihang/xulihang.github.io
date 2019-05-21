@@ -64,7 +64,7 @@ tags: CAT
 
 安装说明在Okapi官网的[*OmegaT插件页面*](http://okapiframework.org/wiki/index.php?title=Okapi_Filters_Plugin_for_OmegaT)。需要下载如下图的插件文件，并复制到OmegaT安装目录下的plugins文件夹。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image001.png)
+![](/album/oscat/image001.png)
 
 安装后可以给OmegaT添加如下格式的支持，其中便包括Markdown。
 
@@ -91,48 +91,48 @@ Localization Interchange File Format
 
 我们首先将Markdown文件导入Rainbow：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image002.png)
+![](/album/oscat/image002.png)
 
 点击Languages and Encodings标签可以设置源语言和目标语言。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image003.png)
+![](/album/oscat/image003.png)
 
 然后，点击菜单栏的Utilities-&gt;Translation -Kit Creation。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image004.png)
+![](/album/oscat/image004.png)
 
 点击后使用默认的设置即可，然后点击Execute即可生成XLIFF文件。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image005.png)
+![](/album/oscat/image005.png)
 
 生成的文件夹如下图：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image006.png)
+![](/album/oscat/image006.png)
 
 original里保存的原来的文件，work里是生成的需要翻译的XLIFF文件。XLIFF可以导入OmegaT进行翻译。
 
 manifest.rfm是项目的声明文件。我们把该文件导入rainbow，可以进一步生成目标文件。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image007.png)
+![](/album/oscat/image007.png)
 
 导入声明文件后选择Utilities-&gt;Translation Kit Post-Processing...
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image008.png)
+![](/album/oscat/image008.png)
 
 点击执行，并继续在弹出的创建中点击继续。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image009.png)
+![](/album/oscat/image009.png)
 
 翻译好的目标文件就生成在项目文件夹的done文件夹里了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image010.png)
+![](/album/oscat/image010.png)
 
 以上是对于Markdown的处理，还有像restructuredText这样的标记语言，OmegaT和Okapi都不支持。好在restructuredText的写作工具Sphinx支持将restructuredText的文本提取到Gettext
 PO文件。GetText是GNU项目用来本地化程序的一套工具，逐渐成为一套本地化的标准。GetText和XLIFF类似，XLIFF是基于XML的，而GetText有自己的一套文件格式。
 
 需要从源文件生成.pot模板文件，然后基于该文件生成对应的语言供翻译的po文件，po文件主要由msgid和msgstr构成：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image011.png)
+![](/album/oscat/image011.png)
 
 翻译好后进一步生成二进制的mo文件，然后在生成网页或者PDF的成品时，Sphinx可以根据不同的语言，生成对应的目标文件。具体的步骤见此：[*http://www.sphinx-doc.org/\
 en/master/intl.html\#sphinx-internationalization-details*](http://www.sphinx-doc.org/en/master/intl.html#sphinx-internationalization-details)
@@ -142,7 +142,7 @@ en/master/intl.html\#sphinx-internationalization-details*](http://www.sphinx-doc
 
 使用OmegaT新建项目，默认不需要进行额外设置。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image012.png)
+![](/album/oscat/image012.png)
 
 需要注意的是分割规则。
 
@@ -160,18 +160,18 @@ OmegaT中有两种类型的规则，中断规则和例外规则。
 
 之后，我们需要导入文件。如果文件的格式不支持，则会导入失败。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image013.png)
+![](/album/oscat/image013.png)
 
 导入完成后，就可以进行翻译了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image014.png)
+![](/album/oscat/image014.png)
 
 项目统计
 --------
 
 点击工具-&gt;统计，我们可以查看项目的统计信息。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image015.png)
+![](/album/oscat/image015.png)
 
 我们可以知道总共需要翻译多少字，有哪些重复的片段等等，在进行项目计划和报价的时候都可以用到。
 
@@ -185,19 +185,19 @@ OmegaT中有两种类型的规则，中断规则和例外规则。
 
 添加源文件后，点击Utilities-&gt;Term Extraction。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image016.png)
+![](/album/oscat/image016.png)
 
 下一步，可以设置输出文件的目录，输出结果是否要按词频进行排序，以及提取的词长等等。另外还可以设置停用词，这样提取出的词就会接近术语了。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image017.png)
+![](/album/oscat/image017.png)
 
 点击执行后就可以获得结果了：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image18.emf)
+![](/album/oscat/image18.emf)
 
 之后我们对其进行翻译，保存为源文本、译文和注释以TAB分割的glossary.txt放入OmegaT项目的glossary文件夹，便可以作为术语库导入OmegaT中使用了。glossary.txt的内容如下：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image019.png)
+![](/album/oscat/image019.png)
 
 建立术语条目
 ------------
@@ -205,15 +205,15 @@ OmegaT中有两种类型的规则，中断规则和例外规则。
 使用OmegaT进行翻译时，如果碰到术语，会在下方出现蓝色的标记（需要手动开启），在词汇表的窗口里显示术语库的记录。比如下图中识别到Context
 Menu是一个术语。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image020.png)
+![](/album/oscat/image020.png)
 
 我们在翻译中碰到未添加的术语，可以手动添加进术语库。在词汇表窗口右键，点击增加词汇表条目。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image021.png)
+![](/album/oscat/image021.png)
 
 我们需要输入源词语和目标词语，另外也可以添加注释。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image022.png)
+![](/album/oscat/image022.png)
 
 翻译记忆
 ========
@@ -256,9 +256,9 @@ OmegaT支持基于git或者svn进行团队协作。以利用GitHub建立团队�
 
 完成后，点击下载团队项目，输入项目的地址，就可以将团队项目下载下来。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image023.png)
+![](/album/oscat/image023.png)
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image024.png)
+![](/album/oscat/image024.png)
 
 译员需要提交翻译，需要使用自己的GitHub账户进行登录，当然也需要对GitHub仓库有推送修改的权限。
 
@@ -267,7 +267,7 @@ Zanata
 
 当然，除了使用OmegaT的团队功能之外，我们还可以用Rainbow生成PO文件，然后上传到Zanata或者Pootle这些在线本地化系统上进行协作。当然Zanata自己支持常见的一些格式。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image025.png)
+![](/album/oscat/image025.png)
 
 质量管控
 ========
@@ -277,23 +277,23 @@ Zanata
 
 翻译完成后，点击菜单工具-&gt;Check Issues，可以对翻译进行检查。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image026.png)
+![](/album/oscat/image026.png)
 
 OmegaT会检测检查术语是否翻译得一致、有没有丢失标签。如果有装Language
 Tools插件的话，还会提示一些语法问题。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image027.png)
+![](/album/oscat/image027.png)
 
 使用CheckMate
 -------------
 
 Okapi还提供了CheckMate这一质量检查工具。我们需要把生成的翻译记忆tmx文件导入。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image028.png)
+![](/album/oscat/image028.png)
 
 导入后点击check就可以显示错误了，涉及译文长度、译文有没有原文中对应的符号或者数字或者比译文多出哪些内容，具体可以点击configuration进行设置。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image029.png)
+![](/album/oscat/image029.png)
 
 其它辅助功能的配置
 ==================
@@ -304,7 +304,7 @@ Okapi还提供了CheckMate这一质量检查工具。我们需要把生成的翻
 OmegaT支持基于StarDict或为Lingvo
 DSL格式的词典，将词典下载下来后，把dict.dz，idx和info扩展名的几个文件放到dictionary文件夹即可。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image030.png)
+![](/album/oscat/image030.png)
 
 拼写词典
 --------
@@ -312,11 +312,11 @@ DSL格式的词典，将词典下载下来后，把dict.dz，idx和info扩展名
 OmegaT内置有拼写检查器，它基于在Apache
 OpenOffice、LibreOffice、Firefox和Thunderbird中使用的拼写检查器。因此能使用在这些程序中可用的大量免费的拼写检查词典，供译员在进行翻译时就能检查拼写。点击菜单的选项-&gt;Preferences，
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image031.png)
+![](/album/oscat/image031.png)
 
 切换到Spellchecker的设置界面，在此，我们可以设置存放词典的文件夹和下载拼写检查词典。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image032.png)
+![](/album/oscat/image032.png)
 
 机器翻译
 --------
@@ -326,11 +326,11 @@ OmegaT支持调用多种机器翻译服务，可以为译员提供参考。
 进入Machine
 Translation的设置界面，可以选择要启动的机器翻译。一般我们都需要都提供机器翻译服务的网站获取访问用的API密钥，才能使用机器翻译。Google和微软的目前要收费，Yandex是免费的。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image033.png)
+![](/album/oscat/image033.png)
 
 使用Yandex机器翻译的效果如下：
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image034.png)
+![](/album/oscat/image034.png)
 
 使用脚本
 ========
@@ -339,11 +339,11 @@ OmegaT支持使用javascript和groovy作为脚本语言编写脚本。
 
 点击菜单-&gt;工具-&gt;脚本，进入脚本窗口。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image035.png)
+![](/album/oscat/image035.png)
 
 通过脚本我们可以自动执行一些批处理任务或者快捷操作，比如以片段顺序导出原文和译文，自己建立规则进行QA检查，快速打开项目文件夹等等。
 
-![](https://github.com/xulihang/xulihang.github.io/raw/master/album/oscat/image036.png)
+![](/album/oscat/image036.png)
 
 结语
 ====
