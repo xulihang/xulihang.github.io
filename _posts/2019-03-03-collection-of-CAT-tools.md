@@ -41,5 +41,6 @@ tags: CAT
 | 云译客       | <http://pe.iol8.com/>                         | 在线              |
 | YiCAT     | <https://www.tmxmall.com/yicat>               | tmxmall开发的在线CAT |
 | YeeKit    | <https://www.yeekit.com/>                     | 中译语通开发的在线CAT    |
+| Termsoup    | <https://termsoup.com/>                     | 台湾人基于rails制作的在线CAT，主要适用于图书翻译    |
 
 
