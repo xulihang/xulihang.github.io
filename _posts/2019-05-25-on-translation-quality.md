@@ -52,6 +52,8 @@ SAE J2450是针对汽车行业设计的，这类文本使用的算是受控语�
 
 讲到翻译的难点就涉及一个不可译的问题，比如很多修辞方法难以翻译，特别是和语言本身关联性很大的押韵等修辞。
 
+更多论述可以看Juliane House的*TRANSLATION QUALITY ASSESSMENT*。
+
 ## 什么使我们不懈追求翻译质量(what makes us pursue a perfect translation quality)
 
 什么使我们不懈追求翻译质量？是爱吗，也是责任。
