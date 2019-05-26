@@ -102,5 +102,6 @@ Intel神经计算棒(Intel Movidius Neural Compute Stick)是一个专门用于�
 
 边缘计算机视觉：使用Intel神经计算棒完成计算机视觉任务。
 
+机器学习和深度学习两门课的实用性很强，目前Intel已经优先给出了中文版本。
 
 
