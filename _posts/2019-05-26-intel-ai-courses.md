@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: AI
 ---
 
-4月份的时候接到了一份翻译任务，翻译Intel的人工智能课程（链接：https://software.intel.com/zh-cn/ai/courses，提供讲义、教学视频、工具等）。
+4月份的时候接到了一份翻译任务，翻译Intel的人工智能课程（链接：<https://software.intel.com/zh-cn/ai/courses>，提供讲义、教学视频、工具等）。
 
 我主要翻译pptx讲稿，在翻译过程中也算是对人工智能有了更深入的认识。这份教材还算容易理解。
 
