@@ -94,11 +94,13 @@ PTM的作者现已开办公司，推出了Lilt这一款商业化的计算机辅�
 
 另见：[机器翻译译后编辑注意事项](/attentions-of-machine-translation-post-editing/)
 
+# 2019/05/26更新
 
+机器翻译的使用带来了新的定价模式，比如有人提出按编辑距离计算价格。而很多人认为，既然是基于机器翻译完成的，应该打一个折扣。Lilt的CEO Spence Green认为[^green]，这样的话，技术是给译员增加了成本，让翻译变成血汗劳动。新的时代，我们需要探索合适的商业模型。
 
 [^pk]: Computer Aided Translation[EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
 [^atanet]: Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
 [^casmacat]: Alabau V, Bonk R, Buck C, et al. CASMACAT: An Open Source Workbench for Advanced Computer Aided Translation[J]. The Prague Bulletin of Mathematical Linguistics, 2013, 100(1): 101-112.
 [^compare]: Torregrosa D, Pérez-Ortiz J A, Forcada M L. Comparative Human and Automatic Evaluation of Glass-Box and Black-Box Approaches to Interactive Translation Prediction[J]. The Prague Bulletin of Mathematical Linguistics, 2017, 108(1): 97-108.
 [^ptm]: Green S, Chuang J, Heer J, et al. Predictive translation memory: a mixed-initiative system for human language translation[A]. Association for Computing Machinery Symposium on User Interface Software and Technology[C], 2014: 177-187.
-
+[^green]: THE RISE OF THE MACHINE: AI, ML, MT AND MORE[EB/OL]. https://trends2018.memoq.com/ai-ml-mt-and-more/, 2018/2019-5.26.
