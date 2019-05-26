@@ -65,9 +65,9 @@ SAE J2450是针对汽车行业设计的，这类文本使用的算是受控语�
 
 翻译质量评估标准相关链接：
 
-[LISA QA Metric](http://producthelp.sdl.com/SDL_TMS_2011/en/Creating_and_Maintaining_Organizations/Managing_QA_Models/LISA_QA_Model.htm)
-[J2450 Translation Quality Metric ](https://www.translationdirectory.com/article581.htm)
-[DQF: Quality benchmark for our industry](https://www.taus.net/evaluate/dqf-background)
+* [LISA QA Metric](http://producthelp.sdl.com/SDL_TMS_2011/en/Creating_and_Maintaining_Organizations/Managing_QA_Models/LISA_QA_Model.htm)
+* [J2450 Translation Quality Metric ](https://www.translationdirectory.com/article581.htm)
+* [DQF: Quality benchmark for our industry](https://www.taus.net/evaluate/dqf-background)
 
 
 参考资料：
