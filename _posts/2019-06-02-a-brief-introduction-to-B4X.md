@@ -6,13 +6,9 @@ categories: 技术随笔
 tags: B4X
 ---
 
-看了下B4X论坛上我的注册信息，算算我从2009年左右接触basic4ppc，学习编写PPC软件，到后来大一时利用B4A编写听雨书房，大二时利用B4i编写听雨BBS客户端，再到现在一直专注于用B4J开发桌面端和网页应用，也已经过了10年了。
+[B4X](https://www.b4x.com)是一套用来开发跨平台应用的工具，包含针对安卓的B4A、针对iOS的B4i以及针对Java的B4J。它使用现代化的Basic语言，可以快速开发应用(RAD)。所编写的Basic代码会被转译到对应平台的代码，比如Java、Objective-C、C、JavaScript等等。
 
-![](/album/B4X/profile.png)
-
-我业余时间学习了Autoit、C、Pascal、B4X、Python、C#、Swift、JavaScript等各种语言，但是目前使用得最顺手的还是B4X。
-
-下面讲一下它的主要优点：
+主要优点：
 
 ### 1. 现代化的Basic语言
 
@@ -59,14 +55,21 @@ B4X虽然不是很热门，但也有很多粉丝用户，其中有现实中从�
 * 网络相关集合贴：[[B4X] The Networker's Guide To The Galaxy](https://www.b4x.com/android/forum/threads/b4x-the-networkers-guide-to-the-galaxy.68974/
 )
 
+很多内容，比如各种网络协议、安全问题、SQL和数据库等复杂的东西，B4X上的帖子都有清楚地讲解，而且B4X代码比较容易读懂，所以也可以用B4X来快速了解和应用各种技术。
+
 除了文档，Erel还专门录制了教学视频：[B4X Video Tutorials](https://www.b4x.com/etp.html)
 
 我的博客也会继续发与B4X相关的内容。
 
-另外讲讲B4X的在国内的情况。国内的用户不多，也没看到哪家公司招聘时说需要B4X开发者。不过应该是存在使用B4X作为主力开发语言的公司的。
+另外讲讲B4X的在国内的情况。国内的用户不多，也没看到哪家公司招聘时说需要B4X开发者。不过应该是存在使用B4X作为主力开发语言的公司的。而个人用户可以使用B4X快速开发相关工具，帮助自己提高工作效率或者为他人定制软件。
 
 B4X的推广，早期有沉默蜂，在163上写了很多B4A的博客，他也创建了QQ群。还有几个其它的群，有一个群的群主是刺鱼，管理员有王爷、icefairy333等人。但B4X的主要交流场所还是论坛，交流的语言是英文。
 
 B4X套件是闭源软件，其中，B4A和B4i是收费产品，B4J和B4R则是免费的。平时论坛里用户经常会贴出自己的源码，不过在GitHub和StackOverFlow等地方并不活跃。如果想使用主流语言，还是推荐使用Java、Python之类的，关于这点，可以看我之前的文章：[小众编程语言](/minority-programming-language/)。
 
+看了下B4X论坛上我的注册信息，算算我从2009年左右接触basic4ppc，学习编写PPC软件，到后来大一时利用B4A编写听雨书房，大二时利用B4i编写听雨BBS客户端，再到现在一直专注于用B4J开发桌面端和网页应用，也已经过了10年了。
+
+![](/album/B4X/profile.png)
+
+我业余时间学习了Autoit、C、Pascal、B4X、Python、C#、Swift、JavaScript等各种语言，但是目前使用得最顺手的还是B4X。
 
