@@ -59,8 +59,10 @@ The textile and clothing industry in China holds a unique position in the world 
 这里提两个专业领域翻译用到的工具：
 
 1. [CNKI翻译助手](http://dict.cnki.net/)
+
     知网基于其庞大的文献构建的词典，可以按学科分类检索内容。可以知道每条查询有多少种翻译，每种翻译出现了多少次，并进一步查看例句。
 2. [语料快搜](https://www.tmxmall.com/qsearch)
+
     TMXMall的翻译记忆检索工具，但是没有分类检索功能，翻译质量也难以保证。不过可以作为参考。
 
 其它还有搜索引擎、各类电子词典和机器翻译，其实整个互联网的内容都可以提供帮助。
@@ -68,6 +70,6 @@ The textile and clothing industry in China holds a unique position in the world 
 
 相关文章：
 
-[互联网在翻译中的应用 - 李长栓](https://weibo.com/p/23041867d1e1980102wwb2)
-[500G+记忆库术语库](https://www.douban.com/group/topic/107361307/)
+* [互联网在翻译中的应用 - 李长栓](https://weibo.com/p/23041867d1e1980102wwb2)
+* [500G+记忆库术语库](https://www.douban.com/group/topic/107361307/)
 
