@@ -32,16 +32,17 @@ The textile and clothing industry in China holds a unique position in the world 
 
 >China's textile and apparel industry has a unique position in the world, and Guangdong is a major province of China's textile and apparel industry. Textile and apparel industry is a labor-intensive and low-tech industry, but Guangdong has built up a set of industrial system by virtue of its unique advantages and made textile and apparel industry its pillar industry. This paper will make an analysis in the way of combining theory with practice.
 
-这时如果有机器翻译，还是能省事不少。百度翻译还会给出相关短语的翻译：
+这时如果有机器翻译，还是能省事不少。百度翻译还会给出相关短语的翻译（虽然这里给出的用处不是很大）：
 
->apparel industry    服装工业
->labor-intensive 劳动集约的
->low-tech    不涉及最现代技术的
->built up    同“build”; 确立; 增进; 集结
->a set of    一套; 一副
->industrial system   工业体系
->by virtue of    凭借，依靠，因为，由于
->in the way of   妨碍; 在…方面; 使能于
+>纺织 spinning and weaving; textile process
+>世界上    on earth
+>广东 Guangdong
+>服装 dress; clothing; costume; fashion
+>劳动密集型  labor-intensive
+>凭借 rely on; depend on
+>支柱产业   support/pillar industry
+>实证 authentic proof; substantial evidence; excess syndrome
+>相结合    adjoin, combine
 
 我们学专业领域英语(ESP，English for special purpose)时，往往需要阅读大量的单语文本和平行文本，学习这个领域，了解这个领域的用词。
 
