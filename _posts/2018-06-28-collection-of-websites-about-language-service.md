@@ -15,12 +15,14 @@ tags: CAT 翻译
 * [jealous markup](https://jealousmarkup.xyz/) memoQ产品经理Gabor的博客
 * [Anthony Teixeira](https://www.at-it-translator.com/) 一个法国个人译者的网站
 
-## 语言服务提供者
+## 语言服务提供商
 
 * [Qabiria](https://qabiria.com/en/) 使用OmegaT进行翻译的团队
 * [Globalization Partners International ](http://www.globalizationpartners.com/) 教程内容比较丰富
 * [velior](https://www.velior.ru/blog/) 一家俄罗斯的翻译公司，里面的博客内容不错
 * [Smartling](https://www.smartling.com) 注重技术的一家云翻译公司
+* [Nimdzi](https://www.nimdzi.com/) 为客户提供行业相关的研究、咨询和培训服务，有很多博客和播客内容。
+
 
 ## 资讯与专栏类
 
