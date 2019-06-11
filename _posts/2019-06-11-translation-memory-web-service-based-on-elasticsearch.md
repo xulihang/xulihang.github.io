@@ -53,7 +53,9 @@ curl -XGET 'http://localhost:9200/tm/_search?pretty=true' -H 'Content-Type: appl
 
 做好核心功能后，还可以添加多用户的功能以及社区协作模式，类似[globse](https://zh.glosbe.com/)。但用户多了可能难以确定哪个版本的质量好，如何保证质量还需要进一步研究。
 
+相关链接：
 
+[elasticsearch 嵌套对象之嵌套类型](https://www.cnblogs.com/gmhappy/p/9472382.html)
 
 
 
