@@ -2,7 +2,7 @@
 date: 2018-02-23 10:22:50+08:00
 layout: post
 title: 网络抓包
-categories: 技术随笔
+categories: 网络
 tags: 
 ---
 
@@ -22,7 +22,7 @@ tags:
 
 ota包是用packet capture抓的，本来想解包boot.img的，但是发现都是patch，不知道怎么搞。海信a2pro的bootloader是有锁的，也刷不了添加root的boot.img。
 
-给iphone抓旧版软件包网上的教程很多了，大多是使用的fiddler在windows上抓，因为新版的itunes不能直接下载ipa了，需要下载12.6的老版itunes。这里吐槽下越狱的软件源和xx助手们居然都没有保存旧版ipa。
+给iphone抓旧版软件包网上的教程很多了（例如：[利用 Fiddler 下载旧版本 iOS App](https://sspai.com/post/37594)），大多是使用的fiddler在windows上抓，因为新版的itunes不能直接下载ipa了，需要下载12.6的老版itunes。这里吐槽下越狱的软件源和xx助手们居然都没有保存旧版ipa。
 
 使用fiddler获取包含软件各个版本号的xml文件，然后在截获下载请求（相当于断点调试啊），修改请求的包里的版本号为想要的旧版版本号，然后itnues就会下载下旧版的ipa，并对ipa进行签名处理。
 
