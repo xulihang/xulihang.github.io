@@ -6,9 +6,9 @@ categories: 技术随笔
 tags: CAT
 ---
 
-此前的一篇文章[翻译记忆服务器探究](/exploration-of-translation-memory-servers/)主要介绍了Pootle采用的基于PostregreSQL的amaGma和Elasticsearch两种实现方式。
+此前的一篇文章[翻译记忆服务器探究](/exploration-of-translation-memory-servers/)主要介绍了Pootle采用的基于PostegreSQL的amagama和Elasticsearch两种实现方式。
 
-PostregreSQL对性能要求没有Elasticsearch那样高，但是学习难度不小。我这里先基于提供REST API的Elasticsearch设计自己中间件程序，用于提供翻译记忆检索的Web服务。
+PostegreSQL对性能要求没有Elasticsearch那样高，但是学习难度不小。我这里先基于提供REST API的Elasticsearch设计自己中间件程序，用于提供翻译记忆检索的Web服务。
 
 构想的索引结构见以下新建索引的命令：
 
@@ -47,7 +47,7 @@ curl -XGET 'http://localhost:9200/tm/_search?pretty=true' -H 'Content-Type: appl
 
 关于如何上传翻译记忆，有两种方法，一种是用户翻译一条，上传一条，一种是导入tmx文件或者其它双语格式文件。
 
-使用前一种，则基本可以替代本地的翻译记忆数据库，直接通过网络API保存和检索翻译记忆。后一种因为是一般是翻译结束后导入，可以保证质量。另外，导入的双语文件可以是xliff或者是BasicCAT的工作文件，这样可以提供上下文信息。所以我在上面的索引结构里还添加了翻译记忆来自于哪个翻译文件，对应的片段号是多少。
+使用前一种，则基本可以替代本地的翻译记忆数据库，直接通过网络API保存和检索翻译记忆。后一种因为是翻译结束后导入，可以保证质量。另外，导入的双语文件可以是xliff或者是BasicCAT的工作文件，这样可以提供上下文信息。所以我在上面的索引结构里还添加了翻译记忆来自于哪个翻译文件，对应的片段号是多少。
 
 还要考虑一个翻译记忆的更新问题，可以根据文件名和文本确定是否有该条记忆，如果有则进行更新操作，没有则新建一个索引项目。
 
