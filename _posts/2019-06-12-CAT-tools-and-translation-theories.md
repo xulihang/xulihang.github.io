@@ -20,7 +20,10 @@ tags: CAT
 
 * [翻译理论整理（一）](/translation-studies-1/)
 * [翻译理论整理（二）](/translation-studies-2/)
-* [英汉对比与翻译](/comparison-of-English-and-Chinese-and-its-application-in-translation/)
+
+整理中：
+
+* [英汉对比与翻译](/comparison-and-translation-between-English-and-Chinese/)
 
 
 
