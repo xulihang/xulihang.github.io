@@ -1,7 +1,7 @@
 ---
 date: 2019-06-17 11:51:50+08:00
 layout: post
-title: 翻译Excel中的HTML
+title: 翻译内嵌HTML的Excel文件
 categories: 技术随笔
 tags: CAT
 ---
