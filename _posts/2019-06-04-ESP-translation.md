@@ -67,6 +67,7 @@ The textile and clothing industry in China holds a unique position in the world 
 
 其它还有搜索引擎、各类电子词典和机器翻译，其实整个互联网的内容都可以提供帮助。
 
+不过如果长期从事某个领域的翻译，还是应该系统地进行学习。
 
 相关文章：
 
