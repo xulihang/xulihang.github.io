@@ -24,31 +24,31 @@ HTML作为标记文本，还是比较容易处理的。但是内嵌在Excel里�
 
 在项目设置里，要选择应用于文档中的哪些结构，比如单元格(sdl:cell)。之后定义规则。标记内容的处理主要还是依赖于正则表达式。
 
-![](/album/project_setting_embeded_content.PNG)
+![](/album/Trados/project_setting_embeded_content.PNG)
 
 可以设置是标记对（比如HTML的段落标签）还是占位符（比如HTML的换行标签）。可以根据标签的属性赋予格式，比如strong标签表示加粗。
 
-![](/album/embedded_content_filter_setting.png)
+![](/album/Trados/embedded_content_filter_setting.png)
 
 
 在高级设置里可以设置是包含还是排除标签，以及是否能够隐藏标签等等。
 
-![](/album/embedded_content_filter_advanced_setting.png)
+![](/album/Trados/embedded_content_filter_advanced_setting.png)
 
 如果不排除标签，翻译时会显示标签：
 
-![](/album/preview_with_tags.PNG)
+![](/album/Trados/preview_with_tags.PNG)
 
 设置排除后效果如下：
 
-![](/album/preview_exlude_all.PNG)
+![](/album/Trados/preview_exlude_all.PNG)
 
 但并不是所有标签都应该排除，比如strong是行内标签，用于格式化部分文字。
 
-![](/album/preview_with_format_without_hiding.PNG)
+![](/album/Trados/preview_with_format_without_hiding.PNG)
 
 这时我们可以更进一步，设置strong标签对应的样式，并设置为隐藏标签。最后结果如下：
 
-![](/album/preview_with_format.PNG)
+![](/album/Trados/preview_with_format.PNG)
 
 
