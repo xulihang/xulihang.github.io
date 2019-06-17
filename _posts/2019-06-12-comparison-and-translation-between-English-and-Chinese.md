@@ -73,6 +73,10 @@ tags: 翻译
 
 ### 第六章 英汉文化比较
 
+### 我的个人实践
+
+英语的动词有及物动词和不及物动词。spread这个词，及物用法时需要用施事和受事，比如He spreads his arms，不及物用法时表示事物自己改变自己，比如Fire spreads quickly。这可以从语法上保证语义的完整。因为汉语很多内容会有成分残缺，但母语者对这些不是很敏感。例如使用社交媒体进行传播，感觉很对，但是翻译到英文Use social media to propagate时会发现少了宾语，这时只好改成Use social media for propagation。
+
 待更新……
 
 
