@@ -69,6 +69,23 @@ The textile and clothing industry in China holds a unique position in the world 
 
 不过如果长期从事某个领域的翻译，还是应该系统地进行学习。
 
+### 分领域翻译实践案例
+
+#### 武术
+
+中国人自己一般没有翻译武术为英语的需求，这方面其实海外华人和老外做得比较多。
+
+比如翻译武术中的三种手法：拳、掌、勾，以及五种步法：弓步、马步、虚步、仆步、歇步。我们可以了解这些是什么后自己尝试翻，但是这样有难度，也和之前的翻译不一致。所以我们还是进行搜索。
+
+可以搜索到以下网页：
+
+* [Kung Fu Stances - UK Shaolin Temple - Facebook](https://www.facebook.com/britishshaolintemple/posts/394483440595409/)
+* [The Five Basic Shaolin/Wushu Stances](https://shaolinsticksandstones.wordpress.com/2015/06/25/the-five-basic-wushu-stances-in-no-particular-order/)
+* [Wushu stances - wikipedia](https://en.wikipedia.org/wiki/Wushu_stances)
+
+对于这种武术动作，一般验证翻译时看图片很有用。
+
+
 相关文章：
 
 * [互联网在翻译中的应用 - 李长栓](https://weibo.com/p/23041867d1e1980102wwb2)
