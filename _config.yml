@@ -12,6 +12,6 @@ beian:
 51la: 16741573
 weibo: 2794687610
 github: xulihang
-highlighter: rouge
+highlighter: pygments
 paginate: 20
 about: "在Github上的Blog。"

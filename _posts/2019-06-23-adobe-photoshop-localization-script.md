@@ -16,7 +16,7 @@ Adobe的全系列产品基本都提供了脚本的支持，Photoshop支持使用
 
 1. 将目录下所有PSD文档中的文字图层的内容导出，内容保存为txt，以psd的文件名命名。TXT是一个tab分隔的文档，有两列内容，分别是图层名和文字。
 
-	```au3
+	```autoit
 	#include <FileConstants.au3>
 	#include <Array.au3>
 	#include <File.au3>
@@ -66,7 +66,7 @@ Adobe的全系列产品基本都提供了脚本的支持，Photoshop支持使用
 
 2. 将翻译导回每个PSD文档，根据每个图层的名字查找对应的翻译。除了单纯的文本替换，如果原来使用的字体不适用于译文，还要进行字体的修改。
 
-	```au3
+	```autoit
 	#include <FileConstants.au3>
 	#include <Array.au3>
 	#include <File.au3>
