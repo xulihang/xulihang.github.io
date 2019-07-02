@@ -84,7 +84,13 @@ PTM的作者现已开办公司，推出了Lilt这一款商业化的计算机辅�
 
 具体可以看黄国平博士在译直播上的讲座：[《译者与人工智能辅助翻译的约会 – 黄国平》](http://ttv.cn/archives/3951)
 
+## BasicCAT
 
+BasicCAT对原文做分词处理，并利用Stanford CoreNLP做句法分析以获得短语片段，提取出来的单词和短语会调用机器翻译进行翻译，在翻译时如果输入的内容有匹配，会以下拉列表的形式提示。
+
+使用说明：[自动完成（交互式机器翻译）](http://docs.basiccat.org/zh_CN/latest/advancedFeatures.html#id16)
+
+原理介绍：[BasicCAT开发笔记（九）：交互式机器翻译](/basiccat-developing-notes-9-interactive-machine-translation/)
 
 # 结语
 
