@@ -14,7 +14,7 @@ tags:
 
 以下是使用训练的模型的识别效果：
 
-![bubble_detection](/ablum/bubble_detection.jpg)
+![bubble_detection](/album/bubble_detection.jpg)
 
 easyDL基于百度自己的Paddlepaddle深度学习框架实现，只需用户上传自己的数据就可以完成模型的训练，而且提供各种优化模型的方法。中文的文档、视频教程也比较齐全。百度在AI方面还是很良心的。
 
