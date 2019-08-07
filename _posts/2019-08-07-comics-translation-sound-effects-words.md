@@ -91,9 +91,9 @@ tags: 翻译
 1. 蜘蛛侠：<https://www.cbr.com/the-15-most-iconic-comic-book-sound-effects/>
 2. 德古拉：<https://readcomicsonline.ru/comic/disney-dracula-starring-mickey-mouse-2019/1/12>
 3. 神之一角
-4. 复仇者联盟v3第500卷
-5. Mother Box：<https://www.cbr.com/the-15-most-iconic-comic-book-sound-effects/>
-6. 史高治叔叔：<https://readcomicsonline.ru/comic/uncle-scrooge-2015/1/5>
+4. 史高治叔叔：<https://readcomicsonline.ru/comic/uncle-scrooge-2015/1/5>
+5. 复仇者联盟v3第500卷
+6. Mother Box：<https://www.cbr.com/the-15-most-iconic-comic-book-sound-effects/>
 7. 逆转逃杀
 8. 沉睡末日
 
