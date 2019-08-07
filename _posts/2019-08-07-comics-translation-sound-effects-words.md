@@ -6,7 +6,7 @@ categories: 随笔
 tags: 翻译
 ---
 
-漫画中不是人类发出的声音通过拟声词来表现。比如蜘蛛侠弹丝的声音：
+漫画中通过拟声词来增加声音效果，比如蜘蛛侠弹丝的声音：
 
 ![](/album/soundeffects/thwip.jpg)
 
@@ -15,6 +15,10 @@ tags: 翻译
 ![](/album/soundeffects/dracula.JPG)
 
 ![](/album/soundeffects/pa.JPG)
+
+也有拟声词存在于对话气泡中。
+
+![](/album/soundeffects/balloon.JPG)
 
 每种语言都有拟声词。不过同样的内容，发音可能并不一样，比如猫的叫声，中文是喵，日语是nya。
 
