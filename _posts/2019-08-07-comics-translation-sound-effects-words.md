@@ -85,6 +85,10 @@ tags: 翻译
 
 ![](/album/soundeffects/hua-shakes.JPG)
 
+对于和图像内容融合程度非常高的拟声词，因为较难处理，一般是不翻译的。
+
+![](/album/soundeffects/boom.jpg)
+
 
 引用图片来源：
 
@@ -96,5 +100,6 @@ tags: 翻译
 6. Mother Box：<https://www.cbr.com/the-15-most-iconic-comic-book-sound-effects/>
 7. 逆转逃杀
 8. 沉睡末日
+9. Breaking the Silence: How Comics Visualize Sound <http://sequart.org/magazine/53486/how-comics-visualize-sound/>
 
 
