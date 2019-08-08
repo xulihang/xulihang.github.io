@@ -34,19 +34,19 @@ tags: 翻译
 
 ### 情况二
 
-通过PSDLocalization操作Photoshop，可以直接批量提取文本并替换。
+文字存在于文本框中，可以通过PSDLocalization操作Photoshop，可以直接批量提取文本并替换。
 
 ![](/album/comics/text_layers.JPG)
 
 ### 情况三
 
-通过PSDLocalization操作Photoshop，将存在文字的图层导出为图像，使用OCR提取文字。回填时根据该图层的坐标生成文本图层，同时删去或者隐藏原来的图层。
+文字已经由文本框转换为图像，文本都有单独的图层，可以通过PSDLocalization操作Photoshop，将存在文字的图层导出为图像，使用OCR提取文字。回填时根据该图层的坐标生成文本图层，同时删去或者隐藏原来的图层。
 
 ![](/album/comics/separate_pixelized_text_layers.JPG)
 
 ### 情况四
 
-将PSD另存为JPG，使用ImageTranscriber处理，然后在PSD文件中生成遮盖层和文本框。如果PSD中的文字可以比较容易地隐藏，那就不用生成遮盖层。
+文字已经由文本框转换为图像，而且和其它内容融合在一起。需要将PSD另存为JPG，使用ImageTranscriber处理，然后在PSD文件中生成遮盖层和文本框。如果PSD中的文字可以比较容易地隐藏，那就不用生成遮盖层。
 
 ![](/album/comics/merged_pixelized_text_layers.JPG)
 
