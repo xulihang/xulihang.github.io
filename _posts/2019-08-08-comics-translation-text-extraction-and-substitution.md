@@ -58,7 +58,7 @@ InDesign文件可以直接使用CAT软件处理。
 
 如果文字实在放不下，需要把气泡调大。
 
-
+![](/album/comics/balloons.JPG)
 
 
 
