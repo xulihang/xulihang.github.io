@@ -10,7 +10,7 @@ tags: 翻译
 
 这一现象英文中有专门的词来描述：paraphrase。
 
-thefreedictionary上找打的释义如下：
+thefreedictionary上找到的释义如下：
 
 >a restatement of a text or passage giving the meaning in another form, as for clearness; rewording. 
 
