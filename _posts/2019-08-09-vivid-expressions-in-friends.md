@@ -35,4 +35,4 @@ Chandler: I understand, but I have to put my foot down. The answer is no. 我理
 
 #### 13集
 
-Ross: First, you break the ice with some kind of a joke so they know you are the funny one then I swoop in with some interesting conversion so they'll see I'm the brilliant, brooding, sexy one.  首先，你和她们讲一个笑话来打开局面，让她们知道你是有趣的那个人。然后我来接管对话，讨论一些有趣的内容，这样她们就知道我是那个优秀、有涵养又性感的人。
+Ross: First, you break the ice with some kind of a joke so they know you are the funny one then I swoop in with some interesting conversation so they'll see I'm the brilliant, brooding, sexy one.  首先，你和她们讲一个笑话来打开局面，让她们知道你是有趣的那个人。然后我来接管对话，讨论一些有趣的内容，这样她们就知道我是那个优秀、有涵养又性感的人。
