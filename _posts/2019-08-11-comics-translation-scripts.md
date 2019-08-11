@@ -12,15 +12,14 @@ tags: 翻译
 
 以下是忍者神龟(TMNT: UNIVERSE)开头的一段脚本和对应的漫画。
 
-```
-PAGE ONE – FIVE PANELS 
- 
-PANEL ONE 
 
-A heavily-industrialized area, in the outer boroughs (maybe Queens or The Bronx, somewhere run-down and pre-gentrification – I name check Ridgewood [Queens] later, but we can change that), at sunset. It gives off the impression of blight, desolation and urban ruin. We see the Manhattan skyline in the distance. 
- 
-1. BISHOP/CAP: “This is our world.” 
-```
+>PAGE ONE – FIVE PANELS 
+> 
+>PANEL ONE 
+>
+>A heavily-industrialized area, in the outer boroughs (maybe Queens or The Bronx, somewhere run-down and pre-gentrification – I name check Ridgewood [Queens] later, but we can change that), at sunset. It gives off the impression of blight, desolation and urban ruin. We see the Manhattan skyline in the distance. 
+> 
+>1. BISHOP/CAP: “This is our world.” 
 
 ![](http://wx1.sinaimg.cn/large/a6938c7aly1g5sfgz73afj20ra0begyp.jpg)
 
