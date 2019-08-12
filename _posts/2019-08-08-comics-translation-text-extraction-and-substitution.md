@@ -56,7 +56,9 @@ PDF一般是由InDesign转换而来的，如果有InDesign的源文件，最好�
 
 ### 情况六
 
-InDesign文件可以直接使用CAT软件处理。参考：[BasicCAT使用教程——翻译InDesign文件](https://www.bilibili.com/video/av36646458/)
+使用InDesign格式的一般是漫画书。InDesign文件可以直接使用CAT软件处理。参考：[BasicCAT使用教程——翻译InDesign文件](https://www.bilibili.com/video/av36646458/)
+
+但是InDesign文件中的文字如果是存在图片文件里的，则会比较麻烦，比如InDesign会使用eps格式的图像文件。eps图像的文字一般都是需要设计师重新设计的。
 
 ### 文字排版
 
