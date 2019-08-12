@@ -66,6 +66,10 @@ InDesign文件可以直接使用CAT软件处理。
 
 ![](/album/comics/balloons.JPG)
 
+对于拟声词，有PSD的话一般直接隐藏就可以。但是有的漫画的拟声词是作者绘画时手动画上去的或者只有JPG，这时要p掉文字会比较麻烦。要p掉文字的话可以用PS的污点修复画笔工具，对背景的还原效果还可以。
+
+![](/album/comics/spot-healing-brush-tool.png)
+
 
 
 
