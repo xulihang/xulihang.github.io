@@ -33,7 +33,15 @@ Chandler: I understand, but I have to put my foot down. The answer is no. 我理
 
 #### 10集
 
-Chandler: But I didn't get to shake my belly like a bowful of jelly.    但我还没来得及像摇果冻一样摇晃我的肚子。
+Chandler: But I didn't get to shake my belly like a bowlful of jelly.    但我还没来得及像摇果冻一样摇晃我的肚子。
+
+#### 15集
+
+1. Monica: We just want to bounce some ideas off you about the wedding ceremony. 我们想请你们给我们的婚礼想一些主意。
+
+2. Joey: She's been on the show forever. It's gonna be really hard to fill her shoes.   她参演这部戏很久了，很难替代她。 
+
+3. Monroe: The essence of the character is rooted in her confidence. So when Jessica enters a room, for instance she owns everything and every person in that room. 这个角色的精髓在于她的自信。比如当杰西卡走进一个房间，她拥有房间里所有事物、所有人。
 
 ### 第九季
 
