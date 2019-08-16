@@ -31,6 +31,10 @@ Richard: Well, my nose got lonely.  因为我的鼻子觉得孤单了。
 
 Chandler: I understand, but I have to put my foot down. The answer is no. 我理解，但我必须态度坚决。我的回答是不。
 
+#### 10集
+
+Chandler: But I didn't get to shake my belly like a bowful of jelly.    但我还没来得及像摇果冻一样摇晃我的肚子。
+
 ### 第九季
 
 #### 13集
