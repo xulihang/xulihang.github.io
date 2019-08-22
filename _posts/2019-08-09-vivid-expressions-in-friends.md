@@ -8,6 +8,16 @@ tags: 翻译
 
 fandom和imdb上已经有很多《老友记》的语录等资料了，我这里记录下看《老友记》过程中发现的一些生动表达。
 
+### 第四季
+
+#### 13集
+
+Rachel: I have the best job in the entire world. The most adorable guy came over today. 我的工作是世界上最棒的。今天来了一个非常帅气的男人。
+
+#### 14集
+
+Heston: I don't know one actor worth his salt who one time in his career did't say, "God, I stink." 我想每个好演员在生涯中都曾说过：“天哪，我真烂。”
+
 ### 第六季
 
 #### 14集
