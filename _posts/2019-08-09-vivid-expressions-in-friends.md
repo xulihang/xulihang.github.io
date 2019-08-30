@@ -59,7 +59,7 @@ Chandler: But I didn't get to shake my belly like a bowlful of jelly.    但我�
 
 Rachel: Knock that door down.   把门撞开。
 
-Roos: I would. But I bruise like a peach.   我也想。但我像个桃子一样容易撞出淤青。
+Ross: I would. But I bruise like a peach.   我也想。但我像个桃子一样容易撞出淤青。
 
 #### 第13集
 
