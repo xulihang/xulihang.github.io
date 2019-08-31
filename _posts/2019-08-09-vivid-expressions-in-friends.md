@@ -53,6 +53,12 @@ Chandler: But I didn't get to shake my belly like a bowlful of jelly.    但我�
 
 3. Monroe: The essence of the character is rooted in her confidence. So when Jessica enters a room, for instance she owns everything and every person in that room. 这个角色的精髓在于她的自信。比如当杰西卡走进一个房间，她拥有房间里所有事物、所有人。
 
+### 第八季
+
+#### 第18集
+
+Judy: While we think it is simply marvelous that you are having this baby out of wedlock, some of our friends are less open-minded. 对我们来说，你们未婚生子完全没有问题，但我们的一些朋友并不那么开放。
+
 ### 第九季
 
 #### 第5集
@@ -60,6 +66,10 @@ Chandler: But I didn't get to shake my belly like a bowlful of jelly.    但我�
 Rachel: Knock that door down.   把门撞开。
 
 Ross: I would. But I bruise like a peach.   我也想。但我像个桃子一样容易撞出淤青。
+
+#### 第12集
+
+Ross: Yeah, obvious beauty is the worst. You know when it is right there in your face. Me, I like to have to work to find someone attractive. Makes me feel like I earned it.   对，显而易见的美是最糟的，当它就在你面前时。我更喜欢花一段时间去发现某人有魅力。我会觉得这是我努力得来的。
 
 #### 第13集
 
