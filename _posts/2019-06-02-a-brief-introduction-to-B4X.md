@@ -54,6 +54,7 @@ B4X虽然不是很热门，但也有很多粉丝用户，其中有现实中从�
 * B4X小册子，包含B4X语言、分平台开发、自定义控件等内容：[[B4X] Documentation Booklets - klaus ](https://www.b4x.com/android/forum/threads/88985/)
 * 网络相关集合贴：[[B4X] The Networker's Guide To The Galaxy](https://www.b4x.com/android/forum/threads/b4x-the-networkers-guide-to-the-galaxy.68974/
 )
+* B4J示例程序（包含猜数字、字体选择多页示例、Canvas绘图、文本读取、排序等等）：[Getting Started Examples](https://www.b4x.com/android/forum/threads/getting-started-examples.57537/#content)
 
 很多内容，比如各种网络协议、安全问题、SQL和数据库等复杂的东西，B4X上的帖子都有清楚地讲解，而且B4X代码比较容易读懂，所以也可以用B4X来快速了解和应用各种技术。
 
@@ -64,6 +65,8 @@ B4X虽然不是很热门，但也有很多粉丝用户，其中有现实中从�
 另外讲讲B4X的在国内的情况。国内的用户不多，也没看到哪家公司招聘时说需要B4X开发者。不过应该是存在使用B4X作为主力开发语言的公司的。而个人用户可以使用B4X快速开发相关工具，帮助自己提高工作效率或者为他人定制软件。
 
 B4X的推广，早期有沉默蜂，在163上写了很多B4A的博客，他也创建了QQ群。还有几个其它的群，有一个群的群主是刺鱼，管理员有王爷、icefairy333等人。但B4X的主要交流场所还是论坛，交流的语言是英文。
+
+台湾联合大学的盧坤勇教授有把B4J加入了他的程序语言课程里：[第十七章 使用B4J建立跨平台應用程式](http://web.nuu.edu.tw/~carlu/prgLan/VB-17.ppt)
 
 B4X套件是闭源软件，其中，B4A和B4i是收费产品，B4J和B4R则是免费的。平时论坛里用户经常会贴出自己的源码，不过在GitHub和StackOverFlow等地方并不活跃。如果想使用主流语言，还是推荐使用Java、Python之类的，关于这点，可以看我之前的文章：[小众编程语言](/minority-programming-language/)。
 
