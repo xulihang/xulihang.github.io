@@ -15,12 +15,13 @@ comments: no
 
 漫画实例分析：
 
-1. 多习语
+1. 多习语与口语表达
 
-Filthy Rich
+	1. Filthy Rich
 
-![](/album/comics/Filthy_Rich.jpg)
-
+		![](/album/comics/Filthy_Rich.jpg)
+	
+	2. Ma'am, 
 2. 口语化表达
 
 3. 缩写
