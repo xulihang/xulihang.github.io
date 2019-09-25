@@ -68,6 +68,8 @@ comments: no
 	
 ## 漫画工具功能演示与构想
 
+软件的详细说明手册：<https://imagetrans.readthedocs.io/en/latest/index.html>
+
 
 1. 工具总体界面
 
@@ -105,6 +107,9 @@ comments: no
 
 
 
+
+
+## 相似论文
 
 
 
