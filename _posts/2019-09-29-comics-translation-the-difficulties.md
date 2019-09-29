@@ -12,6 +12,8 @@ tags: 翻译
 
 ![](/album/comics/rnchh.png)
 
+关于拟声词的更多内容可以见此文：[漫画翻译之拟声词](/comics-translation-sound-effects-words/)
+
 ## 口语文本
 
 漫画文本多是人物的对话，属于口语语体，语言可能不规范，会使用很多习语。
