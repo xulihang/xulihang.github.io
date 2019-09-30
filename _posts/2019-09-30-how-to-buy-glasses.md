@@ -38,6 +38,10 @@ tags:
 
 眼镜行业的水深，我这里也只是讲一些目前我知道的注意事项。
 
+附一张戴着板材眼镜的小哀：
+
+![](/album/haibara_with_glasses.png)
+
 参考资料：
 
 * How to Buy Glasses That Fit: <https://www.wikihow.com/Buy-Glasses-That-Fit>
