@@ -104,7 +104,7 @@ BasicCAT对原文做分词处理，并利用Stanford CoreNLP做句法分析以�
 
 机器翻译的使用带来了新的定价模式，比如有人提出按编辑距离计算价格。而很多人认为，既然是基于机器翻译完成的，应该打一个折扣。Lilt的CEO Spence Green认为[^green]，这样的话，技术是给译员增加了成本，让翻译变成血汗劳动。新的时代，我们需要探索合适的商业模型。
 
-# 2019/10/03更新
+# 2019/10/02更新
 
 现有的机器翻译提供商一般都提供定制化机器翻译功能，以适用于不同领域和文体的文本，以下是一个列表：
 
@@ -121,6 +121,8 @@ BasicCAT对原文做分词处理，并利用Stanford CoreNLP做句法分析以�
 
 * [nmt-keras](https://github.com/lvapeab/nmt-keras/tree/interactive_NMT)
 * [modernmt github repo](https://github.com/modernmt/modernmt)
+
+# 参考文献
 
 [^pk]: Computer Aided Translation[EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
 [^atanet]: Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
