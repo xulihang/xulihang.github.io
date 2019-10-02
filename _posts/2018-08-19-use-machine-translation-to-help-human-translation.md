@@ -20,7 +20,7 @@ Philipp Koehn认为目前主要有两种模式[^pk]：译后编辑与交互式�
 
 ![](/album/mt/matecat.png)
 
-MateCAT还可以根据用户译后编辑的结果修改背后的机器翻译的模型参数，做增量式学习，这样一个机器翻译的错误被纠正后，下次就不用再纠正了。SDL Trados 2017的Adaptive MT功能和此类似。和MateCAT类似的国内CAT平台有yeekit。
+MateCAT还可以根据用户译后编辑的结果修改背后的机器翻译的模型参数，做增量式学习，这样一个机器翻译的错误被纠正后，下次就不用再纠正了。SDL Trados 2017的Adaptive MT功能和此类似。
 
 但是机器翻译有时不能输出一个很好的句子结果，另外这种在机器翻译上修改的模式显得没有创造性。而译后编辑的模式也并不是一个很好的人机交互模式[^atanet]。于是就有了另一种模式。
 
@@ -103,6 +103,24 @@ BasicCAT对原文做分词处理，并利用Stanford CoreNLP做句法分析以�
 # 2019/05/26更新
 
 机器翻译的使用带来了新的定价模式，比如有人提出按编辑距离计算价格。而很多人认为，既然是基于机器翻译完成的，应该打一个折扣。Lilt的CEO Spence Green认为[^green]，这样的话，技术是给译员增加了成本，让翻译变成血汗劳动。新的时代，我们需要探索合适的商业模型。
+
+# 2019/10/03更新
+
+现有的机器翻译提供商一般都提供定制化机器翻译功能，以适用于不同领域和文体的文本，以下是一个列表：
+
+* [阿里云自学习平台](https://helpcdn.aliyun.com/document_detail/125151.html)
+* [modernmt](https://www.modernmt.eu/)
+* [KantanMT](https://www.kantanmt.com/whatiskantanmt.php)
+* [Google AutoML Translation](https://cloud.google.com/translate/automl/docs/)
+* [Microsoft Custom Translator](https://portal.customtranslator.azure.ai/)
+* [IBM Watson Customizing your model](https://cloud.ibm.com/docs/services/language-translator/customizing.html#customizing)
+* [Amazon Custom Terminology](https://docs.aws.amazon.com/zh_cn/translate/latest/dg/creating-custom-terminology.html
+)
+
+另外还有很多开源项目，这里列出支持交互式机器翻译及增量学习的：
+
+* [nmt-keras](https://github.com/lvapeab/nmt-keras/tree/interactive_NMT)
+* [modernmt github repo](https://github.com/modernmt/modernmt)
 
 [^pk]: Computer Aided Translation[EB/OL]. https://www.microsoft.com/en-us/research/video/computer-aided-translation/, 2016/2018-8.19.
 [^atanet]: Beyond Post-Editing: Advances in Interactive Translation Environments[EB/OL]. http://www.atanet.org/chronicle-online/?p=2448, 2016/2018-8.19.
