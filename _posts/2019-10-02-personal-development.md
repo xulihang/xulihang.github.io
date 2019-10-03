@@ -2,7 +2,7 @@
 date: 2019-10-02 19:56:50+08:00
 layout: post
 title: 个人发展
-categories: 随笔
+categories: 笔记
 tags: 
 ---
 
