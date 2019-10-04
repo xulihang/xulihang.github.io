@@ -21,7 +21,7 @@ the absorption and transformation of another.
 
 具体来说，一个文本是和其它文本相关联的，读者要了解一段文本的含义，需要去了解相关的文本，受到所处的社会和时代环境的影响。文本不是不变的，它被读者吸收后，又能生成新的文本。
 
-互文性通常体现在以下几种形式：引喻(allusion)、引用(quotation)、仿造(calque)、抄袭(plagiarism)、翻译(translation)、模仿(pastiche and parody)。[^wiki]
+互文性通常体现在以下几种形式：引喻(allusion)、引用(quotation)、仿造(calque)、抄袭(plagiarism)、翻译(translation)、模仿(pastiche and parody)。[^wiki] 当然也可能体现在其它细微的方面，比如某个语篇类别下的文本有独特的风格。
 
 宏观层面的例子：乔伊斯的《尤利西斯》的故事改编自《荷马史诗》。
 
