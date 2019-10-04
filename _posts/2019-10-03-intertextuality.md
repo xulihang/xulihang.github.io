@@ -19,7 +19,9 @@ the absorption and transformation of another.
 
 任何文本就像马赛克铺的墙一样，一片片“引用”就是组成它的马赛克；任何文本都是对另一文本的吸收和转化。
 
-具体来说，一个文本是和其它文本相关联的，读者要了解一段文本的含义，需要去了解相关的文本，受到所处的社会和时代环境的影响。文本不是不变的，它被读者吸收了，又能生成新的文本。
+具体来说，一个文本是和其它文本相关联的，读者要了解一段文本的含义，需要去了解相关的文本，受到所处的社会和时代环境的影响。文本不是不变的，它被读者吸收后，又能生成新的文本。
+
+互文性通常体现在以下几种形式：引喻(allusion)、引用(quotation)、仿造(calque)、抄袭(plagiarism)、翻译(translation)、模仿(pastiche and parody)。[^wiki]
 
 宏观层面的例子：乔伊斯的《尤利西斯》的故事改编自《荷马史诗》。
 
@@ -27,7 +29,7 @@ the absorption and transformation of another.
 
 互文性中的文本可以不单单指文字，还能引申到其它形式，比如绘画、电影等等。很多电影中的经典桥段，台词，在后续的作品中得到引用，这也算是互文。更多例子可以看这个视频：[What is intertextuality? Media concept explained!](https://www.youtube.com/watch?v=L_CUd5apse4)
 
-Youtube上一个叫Uplife的频道对什么是互文性有更详细的介绍：[WHAT IS INTERTEXTUALITY? | LITERARY THEORY COURSE](https://www.youtube.com/watch?v=hJ4_gmE37oI)
+Youtube上一个叫Uplife的频道对什么是互文性有更详细的介绍：[WHAT IS INTERTEXTUALITY? LITERARY THEORY COURSE](https://www.youtube.com/watch?v=hJ4_gmE37oI)
 
 
 # 互文性与翻译
@@ -58,7 +60,7 @@ Hatim和Mason在《语篇与译者》(Discourse and the Translator)中对互文�
 
 > 饭后百步走，能活九十九
 
-这是关于健康的一则短语，我们可以想一下，英文中是否有类似的表达。
+这是关于健康的一则短语，我们可以想一下，英文中是否有类似的表达，而且语篇类型相同。
 
 我们可以找到这一表达：
 
@@ -82,3 +84,4 @@ Hatim和Mason在《语篇与译者》(Discourse and the Translator)中对互文�
 [^zhu]: 祝朝伟. 互文性与翻译研究[J]. 解放军外国语学院学报, 2004, 27(4).
 [^he]: 何飞. 互文性理论指导下的汉英翻译教学研究[J]. 安徽工业大学学报（社会科学版）, 2018(02):78-80.
 [^wang]: 王春宇, 娄德平. 巴赫金对话理论研究[J]. 北方文学：下, 2016(2):107-108.
+[^wiki]: <https://en.wikipedia.org/wiki/Intertextuality>
