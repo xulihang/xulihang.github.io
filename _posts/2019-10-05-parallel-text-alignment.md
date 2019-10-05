@@ -33,8 +33,15 @@ Gale & Church 算法[^Gale]假设文本已经做好了段落对齐，原文句�
 
 我写的BasicCAT的对齐工具原理很简单，首先进行段落对齐，然后根据SRX断句规则进行断句，如果段落的句子数量不一致，就用空白片段填补。提供手动调整的功能。
 
-再讲下短语和词的对齐。这通常用于统计式机器翻译当中。它一般使用的无监督机器学习的方法，通过观察文本，得出词之间的概率关系。[^wiki]
+这有一篇句对齐的集合贴：[Getting started with sentence alignment
+](https://textprocessing.org/getting-started-with-sentence-alignment
+)
 
+再讲下短语和词这样亚句级的对齐。这通常用于统计式机器翻译当中。它一般使用的无监督机器学习的方法，通过观察文本，得出词之间的概率关系。[^wiki]
+
+词和短语的对齐还可以用在双语语料库的检索时高亮显示原文对应的译文，以及CAT软件从翻译记忆中提取有用的片段翻译（Trados的upLift功能）。
+
+参考文献：
 
 [^Gale]: William Gale, Kenneth Church. A Program for Aligning Sentences in Bilingual Corpora 
 [^wiki]: <https://en.wikipedia.org/wiki/Bitext_word_alignment>
