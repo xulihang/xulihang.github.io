@@ -16,9 +16,31 @@ tags: 翻译
 
 开创者：James Holmes
 
-Jakobson把翻译分为三种：1.语内翻译（intralingual） 2.语际翻译（interlingual） 3.符际翻译（intersemiotic）
+翻译的分类：Jakobson把翻译分为三种：1.语内翻译（intralingual） 2.语际翻译（interlingual） 3.符际翻译（intersemiotic）
 
 Holmes将翻译研究分为纯粹的研究和应用的研究，Toury基于Holmes的创作了路线图。
+
+2019-10-07更新：
+
+这里再结合例子具体讲一下三种分类。
+
+语内翻译，《Translation：An Advanced Resource Book》中给出的例子是《哈利波特与魔法石》在英国的名字是《Harry Potter: The Philosopher's Stone》，但引进到美国时出于文化考虑改成了《Harry Potter: The Sorcerer's Stone》。
+
+语际翻译，即一般意义上的翻译，将一种语言转换为另一种语言。
+
+符际翻译，用文字来反应图像、音乐等其它媒介的意义。《符际翻译视角下的儿童绘本翻译》给出了一个例子，因为儿童阅读绘本时注重图像内容，所以在译文中增添了云朵一词，虽然和原文有出入，但更适合孩子这一对象。
+
+图像：
+
+![](/album/translation/miss_rumphius.jpg)
+
+原文：
+
+> Now he worked in the shop at the bottom of the house， making figure heads for the prows of ships， and carving Indians out of wood to put in front of cigar stores. For Alice's grandfather was an artist. He painted pictures， too， of sailing ships and places across the sea. When he was very busy，Alice helped him put in the skies.
+
+译文
+
+> 艾莉丝的爷爷在房子的一楼开了一家店，专门雕刻船头的人像，以及摆在烟草店门口的印地安人像；他也是个艺术家，偶尔会画一些帆船和沿海地区的风景。当他很忙的时候， 艾莉丝就帮他在画布上画几朵白云。
 
 ### 早期的翻译方法：
 
