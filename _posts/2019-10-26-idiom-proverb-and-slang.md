@@ -1,7 +1,7 @@
 ---
 date: 2019-10-26 15:34:50+08:00
 layout: post
-title: 习语、谚语和俚语
+title: 习语、谚语、俚语
 categories: 随笔
 tags: 
 ---
