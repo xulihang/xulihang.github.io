@@ -52,4 +52,12 @@ MaxPayen999的翻译版本并不贴切，应该是对这一习语不够熟悉。
 
 “What kind of bug is always spinning?” “a spider!”
 
+相关文章：
+
+* [TRANSLATING SOUND EFFECTS IN COMICS — ZACK DAVISSON](https://glli-us.org/2018/05/22/translating-sound-effects-in-comics-zack-davisson/)
+* [The Perils of Comics Translation](http://zuzelandthefox.com/2015/03/10/the-perils-of-comics-translation/
+)
+* [The challenge of bringing graphic novels to a global audience](https://atc.org.uk/the-challenge-of-bringing-graphic-novels-to-a-global-audience/)
+* [上海闵行翻译公司在动漫翻译中的挑战和难点 ](https://mih.landeservice.cn/fyxs/27378.html)
+
 
