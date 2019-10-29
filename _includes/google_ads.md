@@ -1,3 +1,4 @@
+<section class="ads">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- 广告1 -->
 <ins class="adsbygoogle"
@@ -9,3 +10,4 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</section>
