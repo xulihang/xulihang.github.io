@@ -1,326 +1,107 @@
 ---
-date: 2019-10-28 20:26:50+08:00
+date: 2019-10-30 20:41:50+08:00
 layout: post
-title: OpenCV使用笔记
+title: 区域生长
 categories: 技术随笔
 tags: 图像处理
 ---
 
-OpenCV是开源的计算机视觉库，封装了很多图像处理操作和算法，用C++编写，可以用Python进行调用。这里主要就操作做一个整理。
+区域生长是一种图像分割方法。选择一个种子点，判断邻近区域的8个点或4个点是否和该像素点具有相似的属性，如果符合则标记，并将这一点作为种子点继续计算。
 
-# 基本操作
+用途比如可以将下面这张漫画截图中的气泡和背景相分割。
 
-## 读写
+原图：
 
-以下代码读取MyPic.png这一文件并另存为jpg格式。
+![](/album/image-processing/text.png)
 
-```python
-import cv2
-image = cv2.imread('MyPic.png')
-cv2.imwrite('MyPic.jpg', image)
-```
+目标：
 
-imread有两个参数，前一个是文件名，后一个是读取模式，比如cv2.IMREAD_GRAYSCALE（该值为0）是以灰度模式进行读取。
+![](/album/image-processing/mask.png)
 
-imread默认以24位BGR彩色模式进行读取，保存为一个numpy的三维数组。而如果是8位的灰度模式，则是一个二维数组。
-
-image[2,0,1]表示Y坐标为2，X坐标为0的这一像素的蓝色通道的值。image[:,0]表示X坐标为0时的所有像素。image[:,:,1]表示所有蓝色通道的值。
-
-操作numpy.array还可以用它的item和itemset方法。
-
-指定array的范围以设置兴趣区域：my_roi = img[0:100, 0:100]
-
-image具有shape属性，可以查看高（行数）、宽（列数）和通道数。
-
-```
->>> image.shape
-(121, 383, 3)
-```
-
-## 新建
-
-新建图像就是新建一个numpy array: 
-
-`image = numpy.zeros((400,300), numpy.uint8)`
-
-也可以复制一个现有图像：
-
-`image = img.copy()`
-
-将8位黑白图像转换为24位BGR彩色的，获得三维数组：
-
-`image = cv2.cvtColor(img,cv2.COLOR_GRAY2BGR)`
-
-## 显示
+以下代码修改自：[Python实现区域生长算法（regionGrow）](https://blog.csdn.net/qq_38784098/article/details/82143117)
 
 ```python
-cv2.imshow('my image', img) # 显示图像
-cv2.waitKey() # 等待用户操作，不然图像窗口会一闪而过
-cv2.destroyAllWindows() # 关闭所有窗口
-```
-
-默认的窗口不能更改大小，可以在imshow语句前加上下面这句，注意标题要和imshow中的一致：
-
-`cv2.namedWindow("my image",cv2.WINDOW_NORMAL)`
-
-也可以用matplotlib来显示，因为opencv的彩色图片使用的BRG模式，需要先转换为RGB：
-
-```python
-import matplotlib.pyplot as plt
-img2 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-plt.imshow(img2)
-plt.show()
-```
-
-# 颜色转换
-
-## 彩色转换为灰度
-
-`img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)`
-
-## BGR转换为HSV
-
-`hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)`
-
-HSV是色调（H），饱和度（S），明度（V）的缩写，转换到HSV颜色空间可以较为容易地检测颜色。比如较浅的颜色，S值较低，V值较高。
-
-# 阈值
-
-根据阈值在灰白图像的基础上分类像素。
-
-`ret, thresh1 = cv2.threshold(img,127,255,cv2.THRESH_BINARY)`
-
-它有四个参数：图像、阈值、最大值、阈值处理类型。
-
-阈值可以使用OSTU算法自动计算，需要修改阈值处理类型的值：
-
-`ret, thresh1 = cv2.threshold(img,127,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)`
-
-ret是返回的计算得到的阈值，这时参数中的阈值没有作用。上述语句可以用于图像的二值化、
-
-# 几何变换
-
-变换包括移动、拉伸、收缩、扭曲、旋转、翻转等操作，方法有仿射变换和透视变换等。
-
-## 翻转
-
-翻转主要用到cv2.flip方法，第二个参数表示翻转方向：
-
-`h_flip = cv2.flip(image, 1)`
-
-## 平移
-
-图像移动需要用到仿射变换，它需要一个2*3的矩阵做参数。以下矩阵中，t<sub>x</sub>表示横向移动的单位，t<sub>y</sub>表示纵向移动的单位。
-
-$$A = \begin{bmatrix}
-1&0&t_{x}\\
-0&1&t_{y}\\
-\end{bmatrix}$$
-
-以下代码将图片向右移动20像素，向下移动30像素。
-
-```python
-num_rows, num_cols = img.shape[:2]
-translation_matrix = np.float32([ [1,0,20], [0,1,30] ])
-img_translation = cv2.warpAffine(img, translation_matrix, (num_cols,
-num_rows))
-```
-
-## 旋转
-
-旋转也是利用仿射变换，可以用cv2.getRotationMatrix2D生成矩阵，它有三个参数：旋转中心店、旋转角度和图像缩放。
-
-```python
-rotation_matrix = cv2.getRotationMatrix2D((num_cols/2, num_rows/2), 30, 1)
-img_rotation = cv2.warpAffine(img, rotation_matrix,(num_cols, num_rows))
-```
-
-## 缩放
-
-主要是用cv2.resize方法。缩放图像需要进行插值处理。
-
-```python
-img_scaled = cv2.resize(img,None,fx=1.5, fy=1.2, interpolation =
-cv2.INTER_CUBIC)
-cv2.imshow('Scaling - Cubic Interpolation', img_scaled)
-```
-
-# 绘图
-
-画线——设置起点和终点、颜色、线条宽度：
-
-`cv2.line(image,(0,0),(100,100),(0,255,0),3)`
-
-画矩形框——设置起点和终点、颜色、线条宽度：
-
-`cv2.rectangle(image,(0,0),(100,100),(0,255,0),3)`
-
-画圆——设置原点和半径、颜色、线条宽度：
-
-`cv2.circle(image,(60,60),30,(0,255,0),-1)`
-
-画椭圆——设置中心、X轴、Y轴长度、旋转角度、起始角度、结束角度、颜色、线条宽度：
-
-`cv2.ellipse(image, (256, 256), (100, 50), 0, 0, 180, (255, 0, 0), -1)`
-
-画多边形——设置多个顶点（按顺序）、颜色、线条宽度：
-
-```
-pts=np.array([[10,3],[60,3],[98,19],[48,19]],np.int32)
-cv2.polylines(image,[pts],True,(0,0,255),3)
-```
-
-添加文字——设置文字、位置、字型、字体大小、文字颜色、线条宽度：
-
-```
-font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image,'OpenCV',(80,90), font, 2,(255,255,255),3)
-```
-
-# 图像混合
-
-## 相加
-
-要求两张图片的颜色模式、尺寸相同。如果相加的值超过255，取值就是255。比如有一张图片和该图片文字部分的掩膜图片，相加后黑色文字会变成掩膜的颜色。因为黑色的像素是0，所以相加后的值就是掩膜中的值。
-
-```
-image = cv2.imread('09.jpg')
-mask = cv2.imread('09.png')
-result=cv2.add(image, mask)
-```
-
-可以设置每张图片的权重：
-
-`result = cv2.addWeighted(image, 0.7, mask, 0.3, 0)`
-
-## 按位操作
-
-可以通过位操作将某张图片覆盖在另一张图片之上。将背景图像中前景图像的部分变成黑色，然后将这一图像和去除背景的前景图像相加即可。
-
-具体操作见此文：[opencv-python的位运算cv2.bitwise_and,cv2.bitwise_not使用及效果展示](https://blog.csdn.net/weixin_35732969/article/details/83748054)
-
-
-# 滤波
-
-比如要模糊边缘，可以设置一个核(kernel)，以核为单位遍历图片，对其中的像素做平均化处理，这叫卷积。
-
-```python
-img = cv2.imread('02.jpg')
-kernel = np.ones((3, 3), np.float32) / 10
-dst = cv2.filter2D(img, -1, kernel)
-```
-
-OpenCV自带了几种模糊方法：cv2.blur(), cv2.GaussianBlur(), cv2.medianBlur(), cv2.bilateralFilter()。模糊可以用于消除噪声。
-
-# 边缘检测
-
-使用Canny边缘检测算法，需要设置最大和最低阈值。
-
-```python
-import cv2
 import numpy as np
-
-img = cv2.imread('02.jpg', 0)
-edges = cv2.Canny(img, 30, 70)  # canny边缘检测
-
-cv2.imshow('canny', np.hstack((img, edges)))
-cv2.waitKey(0)
-```
-
-# 形态学操作
-
-形态学操作可以改变图像的形状，让原来的形状更突出或者不突出，也可以用于填充形状中的小空隙。形态学操作需要定义一个核，可以用cv2.getStructuringElement()方法生成。
-
-形态学操作主要是腐蚀和膨胀。腐蚀总归是一个区域腐蚀另一个区域，所以是相对来说的。腐蚀操作时，较深的区域会变大，较浅的区域会被侵蚀。膨胀则反过来。
-
-## 腐蚀
-
-```python
-import cv2
-import numpy as np
-
-img = cv2.imread('02.jpg', 0)
-kernel = np.ones((5, 5), np.uint8)
-erosion = cv2.erode(img, kernel) 
-```
-
-## 膨胀
-
-```python
-dilation = cv2.dilate(erosion, kernel)
-```
-
-## 开运算
-
-先腐蚀后膨胀
-
-`opening = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)`
-
-## 闭运算
-
-先膨胀后腐蚀
-
-`closing = cv2.morphologyEx(img, cv2.MORPH_CLOSE, kernel)`
-
-# 轮廓检测
-
-```python
 import cv2
 
-img = cv2.imread('02.jpg')
-img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-ret, thresh = cv2.threshold(img_gray, 200, 255, cv2.THRESH_BINARY)
-contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-for cnt in contours:
-    cv2.drawContours(img, [cnt], 0, (0, 0, 255), 2)
-cv2.imshow('contours', img)	
-cv2.waitKey()
+class Point(object):
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+    def getX(self):
+        return self.x
+    def getY(self):
+        return self.y
+
+def getGrayDiff(img,currentPoint,tmpPoint):
+    return abs(int(img[currentPoint.x,currentPoint.y]) - int(img[tmpPoint.x,tmpPoint.y]))
+
+def selectConnects(p):
+    if p != 0:
+        connects = [Point(-1, -1), Point(0, -1), Point(1, -1), Point(1, 0), Point(1, 1), \
+                    Point(0, 1), Point(-1, 1), Point(-1, 0)]
+    else:
+        connects = [ Point(0, -1),  Point(1, 0),Point(0, 1), Point(-1, 0)]
+    return connects
+
+def regionGrow(img,seeds,thresh,p = 1):
+    height, weight = img.shape
+    seedMark = np.zeros(img.shape,np.uint8)
+    seedList = []
+    for seed in seeds:
+        seedList.append(seed)
+    label = 255
+    connects = selectConnects(p)
+    while(len(seedList)>0):
+        currentPoint = seedList.pop(0)
+
+        seedMark[currentPoint.x,currentPoint.y] = label
+        for i in range(8):
+            tmpX = currentPoint.x + connects[i].x
+            tmpY = currentPoint.y + connects[i].y
+            if tmpX < 0 or tmpY < 0 or tmpX >= height or tmpY >= weight:
+                continue
+            grayDiff = getGrayDiff(img,currentPoint,Point(tmpX,tmpY))
+            if grayDiff < thresh and seedMark[tmpX,tmpY] == 0:
+                seedMark[tmpX,tmpY] = label
+                seedList.append(Point(tmpX,tmpY))
+    return seedMark
+
+def removeInnerParts(binaryImg):
+    Y=binaryImg.shape[0]
+    X=binaryImg.shape[1]
+    for y in range(0,Y):
+        start=0
+        end=0
+        for x in range(0,X):
+            if binaryImg[y][x]==255:
+                start=x
+                break
+        for x in range(X-1,-1,-1):
+            if binaryImg[y][x]==255:
+                end=x
+                break
+        if start<end:
+            for x in range(start,end+1):
+                binaryImg[y][x]=255
+    return binaryImg
+    
+if __name__=="__main__":
+    img = cv2.imread('ttt.png',0)
+    Y=img.shape[0]
+    X=img.shape[1]
+    seeds = [Point(int(X/2),int(Y/2))]
+    binaryImg = regionGrow(img,seeds,10)
+    binaryImg = removeInnerParts(binaryImg)
+    image = cv2.cvtColor(binaryImg,cv2.COLOR_GRAY2BGRA)
+    for x in range(0,X):
+        for y in range(0,Y):
+            if image[y][x][0]==0:
+                image[y][x][3]=0
+                
+    cv2.imwrite('out.png', image)
+    cv2.imshow('region grow',image)
+    cv2.waitKey(0)
 ```
-
-可以用cv2.boundingRect获取轮廓的最小外接矩形。
-
-```python
-for c in cnts:
-    x,y,w,h = cv2.boundingRect(c)
-    cv2.rectangle(img, (x, y), (x + w, y + h), (36,255,12), 2)  
-```
-
-# 连通区域分析
-
-通过标记图像中连通的像素来获得连通区域，需要在二值图像上进行。
-
-使用cv2.connectedComponents获得labels，包含区域数量和包含标记的阵列。
-
-`labels=cv2.connectedComponents(thresh)`
-
-使用connectedComponentsWithStats获得额外信息
-
-
-`_, labels, stats, centroids  = cv2.connectedComponentsWithStats(thresh)`
-
-
-stats包含坐标信息和面积，可以据此画出连通区域的矩形区域。
-
-```python
-for stat in stats:
-    x=stat[cv2.CC_STAT_LEFT]
-    y=stat[cv2.CC_STAT_TOP]
-    w=stat[cv2.CC_STAT_WIDTH]
-    h=stat[cv2.CC_STAT_HEIGHT]
-    area=stat[cv2.CC_STAT_AREA]
-    cv2.rectangle(img, (x, y), (x + w, y + h), (36,255,12), 2)
-```
-
-# 特征抽取
-
-# Seam Carving
-
-待更新
-
-
-参考资料：
-
-* OpenCV 3.x with Python By Example
-* OpenCV Computer Vision with Python
-* [【视觉与图像】OpenCV篇：Python+OpenCV实用教程 ](http://ex2tron.wang/)
 
