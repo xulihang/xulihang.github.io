@@ -14,9 +14,9 @@ tags: 图像处理
 
 ![](/album/image-processing/text.png)
 
-目标：
+目标（外面一圈红色保存为png时是透明的）：
 
-![](/album/image-processing/mask.png)
+<img style="background:#ff0000" alt="" src="/album/image-processing/mask.png">
 
 以下代码修改自：[Python实现区域生长算法（regionGrow）](https://blog.csdn.net/qq_38784098/article/details/82143117)
 
