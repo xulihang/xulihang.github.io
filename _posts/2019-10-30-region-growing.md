@@ -295,7 +295,9 @@ for c in cnts:
 
 使用connectedComponentsWithStats获得额外信息
 
+
 `_, labels, stats, centroids  = cv2.connectedComponentsWithStats(thresh)`
+
 
 stats包含坐标信息和面积，可以据此画出连通区域的矩形区域。
 
@@ -308,14 +310,6 @@ for stat in stats:
     area=stat[cv2.CC_STAT_AREA]
     cv2.rectangle(img, (x, y), (x + w, y + h), (36,255,12), 2)
 ```
-
-注意反转图像颜色：
-
-`thresh = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]`
-
-或者用位操作：
-
-`thresh1=cv2.bitwise_not(thresh1)`
 
 # 特征抽取
 
