@@ -174,10 +174,11 @@ background: #83BF73;
       padding:0;
     }
     img { max-width: 100%!important;}
-    .ads ins iframe{
-      display: block;
-    }
 	ins iframe{
       display: none;
     }
+    .ads ins iframe{
+      display: block;
+    }
+
 }
