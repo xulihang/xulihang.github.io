@@ -177,6 +177,7 @@ background: #83BF73;
 	ins iframe{
       display: none;
     }
+	.google-auto-placed { display:none; }
     .ads ins iframe{
       display: block;
     }
