@@ -16,7 +16,7 @@ B4J的wrapper是用于在B4J中调用jar类库，因为B4J生成的语言是Java
 
 opencv是C++编写的计算机图形库，其提供的java类库就是一种绑定。有两个流行的java类库，一个是javacv，一个是官方的类库。后者是基于c++文件自动生成的[^opencv-java]，和c++的API 接口非常接近。这里我使用官方的类库。
 
-我们的目标是实现以下Java代码的接口在B4J中的绑定：
+我们的目标是实现以下Java代码[^csdn]的接口在B4J中的绑定：
 
 ```java
 public class TestOpencvDemo {   
@@ -31,7 +31,7 @@ public class TestOpencvDemo {
 
 封装好后，以上代码对应的B4J代码：
 
-```basic
+```vb
 Dim cv2 As opencv
 cv2.Initialize
 Dim mat As cvMat

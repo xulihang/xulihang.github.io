@@ -18,7 +18,7 @@ K-Means聚类需要用户指定K个分类，取随机K个种子点（质心）�
 
 这些区域可以按高度进行划分，依次为整张图片、分镜、分镜中的内容。
 
-我们使用Pyton-opencv获取连通区域的矩形框，然后用Python的sklearn机器学习库来使用KMeans聚类：
+我们使用Python-opencv获取连通区域的矩形框，然后用Python的sklearn机器学习库来使用KMeans聚类：
 
 ```python
 import cv2
