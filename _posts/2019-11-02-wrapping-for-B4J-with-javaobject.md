@@ -80,11 +80,11 @@ End Sub
 
 'Initializes the object. You can add parameters to this method if needed.
 Public Sub Initialize(params() As Object)
-    'Java 支持重载，一个方法可以有多种参数组合。
+	'Java 支持重载，一个方法可以有多种参数组合。
 	'Mat的构建方法有多种，比如以下几个。
 	'Mat()
-    'Mat​(int[] sizes, int type)
-    'Mat​(int rows, int cols, int type)
+	'Mat​(int[] sizes, int type)
+	'Mat​(int rows, int cols, int type)
 	'但B4J不支持，可以直接设置参数为一个array。
 	matJO.InitializeNewInstance("org.opencv.core.Mat",params)
 End Sub
@@ -109,13 +109,13 @@ End Sub
 
 'Initializes the object. You can add parameters to this method if needed.
 Public Sub Initialize
-    '初始化两个类，用于调用静态方法
+	'初始化两个类，用于调用静态方法
 	Imgproc.InitializeStatic("org.opencv.imgproc.Imgproc") 
 	Imgcodecs.InitializeStatic("org.opencv.imgcodecs.Imgcodecs")
 End Sub
 
 Public Sub imread(path As String) As cvMat
-    '使用RunMethod调用Java的方法
+	'使用RunMethod调用Java的方法
 	Return matJO2mat(Imgcodecs.RunMethodJO("imread",Array(path)))
 End Sub
 
