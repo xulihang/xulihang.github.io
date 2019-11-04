@@ -1,5 +1,5 @@
 ---
-date: 2019-11-02 22:44:50+08:00
+date: 2019-11-03 22:44:50+08:00
 layout: post
 title: B4J类库封装之JavaObject
 categories: 技术随笔
