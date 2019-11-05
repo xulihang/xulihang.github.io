@@ -72,7 +72,11 @@ PDF一般是由InDesign转换而来的，如果有InDesign的源文件，最好�
 
 ![](/album/comics/spot-healing-brush-tool.png)
 
+## 2019-11-05更新：
 
+关于漫画嵌字是如何做的，可以看此文：[漫画嵌字](http://blog.xulihang.me/comics-lettering/)。
+
+最新版的ImageTranscriber同时具备PSD处理能力以及文本翻译功能，已经更名为ImageTrans，使用文档见此：[ImageTrans](https://imagetrans.readthedocs.io/)。
 
 
 
