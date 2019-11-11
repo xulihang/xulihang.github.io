@@ -32,7 +32,7 @@ SELECT count(*) FROM enrondata2 WHERE content LIKE '%linux%'; /* 22.5 seconds */
 CREATE VIRTUAL TABLE IF NOT EXISTS idx USING fts4(key, source, target, notindexed=key)
 ```
 
-从文本中抽取词语需要使用分词器(Tokenizer)，默认使用simple分词方法，其它还有potter、unicode61和icu，需要在建表的时候指定：
+从文本中抽取词语需要使用分词器(Tokenizer)，默认使用simple分词方法，其它还有porter、unicode61和icu，需要在建表的时候指定：
 
 ```
 CREATE VIRTUAL TABLE porter USING fts3(tokenize=porter);
@@ -40,13 +40,13 @@ CREATE VIRTUAL TABLE porter USING fts3(tokenize=porter);
 
 simple方法会将文本全部小写，并利用标点和空格进行分词。比如"Right now, they're very frustrated."的分词结果是"right now they re very frustrated"。
 
-而potter分词是一种去除词尾获得词干的方法，上面的句子使用potter分词的结果是"right now thei veri frustrat"，这样可以使用英语词的不同屈折变化进行检索，比如frustrated和frustration使用potter后的都是frustrat，都可以检索到该条内容。
+而porter分词是一种去除词尾获得词干的方法，上面的句子使用porter分词的结果是"right now thei veri frustrat"，这样可以使用英语词的不同屈折变化进行检索，比如frustrated和frustration使用porter后的都是frustrat，都可以检索到该条内容。
 
-对于中文、日语和藏语这样词汇间没有空格，可以使用icu分词，但一般的SQLite编译版本都没有包含这一分词器。
+对于中文、日语和藏语这样词汇间没有空格的语言，可以使用icu分词，但一般的SQLite编译版本都没有包含这一分词器。
 
 ### 增删与更新
 
-```vb
+```
 INSERT INTO idx VALUES('I am Tony!', 'I am Tony', '我 是 托 尼')) '插入
 DELETE FROM idx '删除整张表的内容
 DROP TABLE data '删除整张表
@@ -69,13 +69,13 @@ SELECT * FROM mail WHERE subject = 'database';      -- Slow. Linear scan.
 SELECT * FROM mail WHERE subject MATCH 'database';  -- Fast. Full-text query.
 ```
 
-WHERE和MATCH之间可以是表的名字，也可以是列的名字。如果要列号，可以使用rowid这一隐藏的列的名字。
+WHERE和MATCH之间可以是表的名字，也可以是列的名字。如果要获得列号，可以使用rowid这一隐藏的列的名字。
 
 ```
 SELECT key, rowid FROM idx WHERE source MATCH 'text'
 ```
 
-可以用通配符修饰查询的文本，比如lin*匹配以lin开头的词，^lin*表示第一个词的开头是lin的内容。
+可以用通配符修饰查询的文本，比如`lin*`匹配以lin开头的词，`^lin*`表示第一个词的开头是lin的内容。
 
 可以使用双引号进行短语查询，用NEAR/间隔字数限制两个词之间相隔的词数：
 
@@ -98,7 +98,7 @@ offsets函数可以显示匹配到的词在第几列，在文本中的偏移量�
 根据匹配度排序，取前1000个条目：
 
 ```
-SELECT key, rowid, quote(matchinfo(idx)) as rank FROM idx WHERE source MATCH 'text' ORDER BY rank DESC LIMIT 1000 OFFSET 0"
+SELECT key, rowid, quote(matchinfo(idx)) as rank FROM idx WHERE source MATCH 'text' ORDER BY rank DESC LIMIT 1000 OFFSET 0
 ```
 
 ## 和普通模式的比较
