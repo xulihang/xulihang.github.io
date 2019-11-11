@@ -148,3 +148,9 @@ reduce后的结果：
     510   510   510   510   510   510   510  1020  8670]]
 ```
 
+
+参考资料：
+
+
+* [opencv3 reduce函数及其使用](https://blog.csdn.net/zfjBIT/article/details/84861497)
+* [How to construct horizontal projection of binary image in OpenCV](https://stackoverflow.com/questions/54285839/how-to-construct-horizontal-projection-of-binary-image-in-opencv)
