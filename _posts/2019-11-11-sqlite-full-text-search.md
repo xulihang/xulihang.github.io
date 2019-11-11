@@ -40,7 +40,7 @@ CREATE VIRTUAL TABLE porter USING fts3(tokenize=porter);
 
 simple方法会将文本全部小写，并利用标点和空格进行分词。比如"Right now, they're very frustrated."的分词结果是"right now they re very frustrated"。
 
-而porter分词是一种去除词尾获得词干的方法，上面的句子使用porter分词的结果是"right now thei veri frustrat"，这样可以使用英语词的不同屈折变化进行检索，比如frustrated和frustration使用porter后的都是frustrat，都可以检索到该条内容。
+而porter分词是一种去除词尾获得词干的方法，上面的句子使用porter分词的结果是"right now thei veri frustrat"，这样可以使用英语词的不同屈折变化进行检索，比如frustrated和frustration使用porter处理后的结果都是frustrat，都可以检索到该条内容。
 
 对于中文、日语和藏语这样词汇间没有空格的语言，可以使用icu分词，但一般的SQLite编译版本都没有包含这一分词器。
 
@@ -105,7 +105,7 @@ SELECT key, rowid, quote(matchinfo(idx)) as rank FROM idx WHERE source MATCH 'te
 
 普通的表可以设置主键，相同主键的内容不能添加两次。而FTS模式可以重复添加内容。
 
-建立索引过程耗费内容，而且数据会占用更多空间。
+建立索引过程耗费内存，而且数据会占用更多空间。
 
 ## 关于中文索引
 
