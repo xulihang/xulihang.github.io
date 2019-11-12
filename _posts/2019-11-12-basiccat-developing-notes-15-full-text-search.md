@@ -191,3 +191,48 @@ tags: CAT
 		Return result
 	End Sub
 	```
+	
+6. 中英混合检索
+
+	有的时候检索内容同时包含中文和英文，这时需要对中文和英文进行区别处理。
+
+	比如对于这么一条检索内容：
+	"computer 电脑"，需要拆分为computer、电、脑这三个检索词。
+
+	我们先用空格进行拆分，得到computer和电脑，之后根据汉字是多字节字符的特点，去除汉字结果。
+
+	```vb
+	Sub removeMultiBytesWords(words As List)
+		Dim newList As List
+		newList.Initialize
+		For Each word As String In words
+			If word.Length>1 Then
+				If getBytesLength(word.CharAt(0))>1 Then
+					Continue
+				End If
+			End If
+			newList.Add(word)
+		Next
+		words.Clear
+		words.AddAll(newList)
+	End Sub
+	```
+
+	然后在把检索内容拆分为单字，并去掉单个英文字母的结果。
+
+	```vb
+	Sub removeCharacters(source As List)
+		Dim newList As List
+		newList.Initialize
+		For Each text As String In source
+			If text.Length=1 Then
+				If Regex.IsMatch("[a-z]",text.ToLowerCase)=True Then
+					Continue
+				End If
+			End If
+			newList.Add(text)
+		Next
+		source.Clear
+		source.AddAll(newList)
+	End Sub
+	```
