@@ -19,177 +19,175 @@ tags: CAT
 
 1. 初始化时添加一个FTS的Virtual Table，包含三列内容，原文，分词后的原文和译文
 
-```vb
-Private Sub CreateTable
-	sql1.ExecNonQuery("CREATE TABLE IF NOT EXISTS main(key TEXT PRIMARY KEY, value NONE)")
-	sql1.ExecNonQuery("CREATE VIRTUAL TABLE IF NOT EXISTS idx USING fts4(key, source, target, notindexed=key)")
-End Sub
-```
+	```vb
+	Private Sub CreateTable
+		sql1.ExecNonQuery("CREATE TABLE IF NOT EXISTS main(key TEXT PRIMARY KEY, value NONE)")
+		sql1.ExecNonQuery("CREATE VIRTUAL TABLE IF NOT EXISTS idx USING fts4(key, source, target, notindexed=key)")
+	End Sub
+	```
 
-2. 针对旧的数据库，提供使用原有数据建立新的索引表的功能
+2. 打开旧的数据库时会使用原有数据建立新的索引表
 
-```vb
-Sub Initialize 
-   '...
-   
-	If checkIsFTSEnabled=False Then
-		CreateTable
-		createIdx
-	Else
-		CreateTable
-	End If
-End Sub
+	```vb
+	Sub Initialize 
+	   '...
+	   
+		If checkIsFTSEnabled=False Then
+			CreateTable
+			createIdx
+		Else
+			CreateTable
+		End If
+	End Sub
 
-Sub checkIsFTSEnabled As Boolean
-	Try
-		sql1.ExecQuery("SELECT * FROM idx")
-		Return True
-	Catch
-		Log(LastException)
-		Return False
-	End Try
-End Sub
-```
+	Sub checkIsFTSEnabled As Boolean
+		Try
+			sql1.ExecQuery("SELECT * FROM idx")
+			Return True
+		Catch
+			Log(LastException)
+			Return False
+		End Try
+	End Sub
+	```
 
 3. 预先分词
 
-因为sqlite-jdbc的Sqlite不支持中文分词，只能事先进行分词。这里把汉语分为每个单字，并不包含多个字组成的词。
+	因为sqlite-jdbc的Sqlite不支持中文分词，只能事先进行分词。这里把汉语分为每个单字，并不包含多个字组成的词。
 
-根据语言代码分词：
+	根据语言代码分词：
 
-```vb
-Sub getStringForIndex(source As String,lang As String) As String
-	Dim sb As StringBuilder
-	sb.Initialize
-	Dim words As List=LanguageUtils.TokenizedList(source,lang)
-	For index =0 To words.Size-1
-		sb.Append(words.Get(index)).Append(" ")
-	Next
-	Return sb.ToString.Trim
-End Sub
-```
+	```vb
+	Sub getStringForIndex(source As String,lang As String) As String
+		Dim sb As StringBuilder
+		sb.Initialize
+		Dim words As List=LanguageUtils.TokenizedList(source,lang)
+		For index =0 To words.Size-1
+			sb.Append(words.Get(index)).Append(" ")
+		Next
+		Return sb.ToString.Trim
+	End Sub
+	```
 
-```
+	添加条目：
 
-添加条目：
-
-```vb
-Public Sub Put(source As String, targetMap As Map)
-	Dim ser As B4XSerializator
-	Dim bytes() As Byte=ser.ConvertObjectToBytes(targetMap)
-	sql1.ExecNonQuery2("INSERT OR REPLACE INTO main VALUES(?, ?)", Array (source,bytes))
-	sql1.ExecNonQuery2("INSERT OR REPLACE INTO idx VALUES(?, ?, ?)", Array (source,getStringForIndex(source,sourceLang),getStringForIndex(targetMap.Get("text"),targetLang)))
-End Sub
-```
+	```vb
+	Public Sub Put(source As String, targetMap As Map)
+		Dim ser As B4XSerializator
+		Dim bytes() As Byte=ser.ConvertObjectToBytes(targetMap)
+		sql1.ExecNonQuery2("INSERT OR REPLACE INTO main VALUES(?, ?)", Array (source,bytes))
+		sql1.ExecNonQuery2("INSERT OR REPLACE INTO idx VALUES(?, ?, ?)", Array (source,getStringForIndex(source,sourceLang),getStringForIndex(targetMap.Get("text"),targetLang)))
+	End Sub
+	```
 
 4. 检索
 
-模糊匹配时，因为是以原文句子为检索内容，寻找包含原文词语多的句子，需要将原来的句子拆分为词，并用OR操作符连接。
+	模糊匹配时，因为是以原文句子为检索内容，寻找包含原文词语多的句子，需要将原来的句子拆分为词，并用OR操作符连接。
 
-而检索翻译记忆时，则是根据用户输入的词汇进行检索，需要AND操作符连接。
-
-
-生成检索表达式：
+	而检索翻译记忆时，则是根据用户输入的词汇进行检索，需要AND操作符连接。
 
 
-```vb
-Sub getQuery(words As List,operator As String) As String
-	Dim sb As StringBuilder
-	sb.Initialize
-	For index =0 To words.Size-1
-		Dim word As String=words.Get(index)
-		If word.Trim<>"" Then
-			sb.Append(word)
-			If index<>words.Size-1 Then
-				sb.Append(" "&operator&" ") ' AND OR NOT
+	生成检索表达式：
+
+
+	```vb
+	Sub getQuery(words As List,operator As String) As String
+		Dim sb As StringBuilder
+		sb.Initialize
+		For index =0 To words.Size-1
+			Dim word As String=words.Get(index)
+			If word.Trim<>"" Then
+				sb.Append(word)
+				If index<>words.Size-1 Then
+					sb.Append(" "&operator&" ") ' AND OR NOT
+				End If
 			End If
-		End If
-	Next
-	Return sb.ToString
-End Sub
-```
+		Next
+		Return sb.ToString
+	End Sub
+	```
 
-获得检索结果，检索翻译记忆时matchAll是True，同时检索原文和译文，模糊匹配时matchAll是False，只检索原文：
+	获得检索结果，检索翻译记忆时matchAll是True，同时检索原文和译文，模糊匹配时matchAll是False，只检索原文：
 
 
-```vb
-Public Sub GetMatchedMapAsync(text As String,isSource As Boolean,matchAll As Boolean) As ResumableSub
-	Dim sqlStr As String
-	Dim matchTarget As String
-	Dim operator As String
-	Dim lang As String
-	Dim words As List
-	words.Initialize
-	If isSource Then
-		lang=sourceLang
-		matchTarget="source"
-	Else
-		lang=targetLang
-		matchTarget="target"
-	End If
-	If matchAll Then
-		matchTarget="idx"
-		operator="AND"
-		If text.StartsWith($"""$) And text.EndsWith($"""$) Then
-			words.Add(text)
+	```vb
+	Public Sub GetMatchedMapAsync(text As String,isSource As Boolean,matchAll As Boolean) As ResumableSub
+		Dim sqlStr As String
+		Dim matchTarget As String
+		Dim operator As String
+		Dim lang As String
+		Dim words As List
+		words.Initialize
+		If isSource Then
+			lang=sourceLang
+			matchTarget="source"
 		Else
-			words=getWordsForAll(text)
+			lang=targetLang
+			matchTarget="target"
 		End If
-	Else
-		operator="OR"
-		words=LanguageUtils.TokenizedList(text,lang)
-	End If
-	text=getQuery(words,operator)
-	
-	sqlStr="SELECT key, rowid, quote(matchinfo(idx)) as rank FROM idx WHERE "&matchTarget&" MATCH '"&text&"' ORDER BY rank DESC LIMIT 1000 OFFSET 0"
-	Log(sqlStr)
-	Dim SenderFilter As Object = sql1.ExecQueryAsync("SQL", sqlStr, Null)
-	Wait For (SenderFilter) SQL_QueryComplete (Success As Boolean, rs As ResultSet)
-	Dim resultMap As Map
-	resultMap.Initialize
-	Dim result As Object = Null
-	If Success Then
-		Do While rs.NextRow
-			result=GetDefault(rs.GetString2(0),Null)
-			If result<>Null Then
-				resultMap.Put(rs.GetString2(0),result)
+		If matchAll Then
+			matchTarget="idx"
+			operator="AND"
+			If text.StartsWith($"""$) And text.EndsWith($"""$) Then
+				words.Add(text)
 			Else
-				Log("not exist")
-				DeleteIdxRow(rs.GetInt2(1))
+				words=getWordsForAll(text)
 			End If
-		Loop
-		rs.Close
-	Else
-		Log(LastException)
-	End If
-	Return resultMap
-End Sub
-```
+		Else
+			operator="OR"
+			words=LanguageUtils.TokenizedList(text,lang)
+		End If
+		text=getQuery(words,operator)
+		
+		sqlStr="SELECT key, rowid, quote(matchinfo(idx)) as rank FROM idx WHERE "&matchTarget&" MATCH '"&text&"' ORDER BY rank DESC LIMIT 1000 OFFSET 0"
+		Log(sqlStr)
+		Dim SenderFilter As Object = sql1.ExecQueryAsync("SQL", sqlStr, Null)
+		Wait For (SenderFilter) SQL_QueryComplete (Success As Boolean, rs As ResultSet)
+		Dim resultMap As Map
+		resultMap.Initialize
+		Dim result As Object = Null
+		If Success Then
+			Do While rs.NextRow
+				result=GetDefault(rs.GetString2(0),Null)
+				If result<>Null Then
+					resultMap.Put(rs.GetString2(0),result)
+				Else
+					Log("not exist")
+					DeleteIdxRow(rs.GetInt2(1))
+				End If
+			Loop
+			rs.Close
+		Else
+			Log(LastException)
+		End If
+		Return resultMap
+	End Sub
+	```
 
 5. 多个词语匹配结果的高亮展示
 
-用`<--->`包裹匹配的词语，从而实现匹配词和其它部分相分割的列表，可用于在Searchview中高亮显示。
+	用`<--->`包裹匹配的词语，用正则得到匹配词和其它部分相分割的列表，可用于在Searchview中高亮显示。
 
-```vb
-Sub splitByStrs(strs() As String,text As String) As List
-	For Each str As String In strs
-		Dim matcher As Matcher
-		matcher=Regex.Matcher(str.ToLowerCase,text.ToLowerCase)
-		Dim offset As Int=0
-		Do While matcher.Find
-			Dim startIndex,endIndex As Int
-			startIndex=matcher.GetStart(0)+offset
-			endIndex=matcher.GetEnd(0)+offset
-			text=text.SubString2(0,endIndex)&"<--->"&text.SubString2(endIndex,text.Length)
-			text=text.SubString2(0,startIndex)&"<--->"&text.SubString2(startIndex,text.Length)
-			offset=offset+"<--->".Length*2
-		Loop
-	Next
-	Dim result As List
-	result.Initialize
-	For Each str As String In Regex.Split("<--->",text)
-		result.Add(str)
-	Next
-	Return result
-End Sub
-```
+	```vb
+	Sub splitByStrs(strs() As String,text As String) As List
+		For Each str As String In strs
+			Dim matcher As Matcher
+			matcher=Regex.Matcher(str.ToLowerCase,text.ToLowerCase)
+			Dim offset As Int=0
+			Do While matcher.Find
+				Dim startIndex,endIndex As Int
+				startIndex=matcher.GetStart(0)+offset
+				endIndex=matcher.GetEnd(0)+offset
+				text=text.SubString2(0,endIndex)&"<--->"&text.SubString2(endIndex,text.Length)
+				text=text.SubString2(0,startIndex)&"<--->"&text.SubString2(startIndex,text.Length)
+				offset=offset+"<--->".Length*2
+			Loop
+		Next
+		Dim result As List
+		result.Initialize
+		For Each str As String In Regex.Split("<--->",text)
+			result.Add(str)
+		Next
+		Return result
+	End Sub
+	```
