@@ -169,7 +169,7 @@ curl -X POST "http://localhost:8000/TMServer/concordance" -H 'Content-Type: appl
 '
 ```
 
-
+另外商业软件SDL Trados也早就提供了GroupShare在线服务，能供多人共享翻译记忆，可以参见它的博文：[翻译记忆库技术的过去和现在](https://www.sdltrados.cn/cn/blog/past-present-translation-memory-technology.html)。
 
 参考资料：
 
