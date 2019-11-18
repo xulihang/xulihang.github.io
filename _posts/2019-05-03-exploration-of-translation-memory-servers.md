@@ -84,6 +84,93 @@ BasicCAT目前采取的方法是中央服务器只存储翻译记忆，用户在
 
 类似的还有OmegaT的协作方法，基于SVN/Git服务器共享翻译记忆tmx文件。
 
+### 2019/11/18更新 
+
+MaxPrograms发布了[TMEngine](https://github.com/rmraya/TMEngine)这一开源的翻译记忆服务器程序，提供常见的翻译记忆操作，支持mapdb、mysql、mariadb等数据库。它的算法不是很先进，索引占据很大的空间，检索效果还不准确。
+
+下面是它的一些API操作，使用curl演示。
+
+建立TM：
+
+```
+curl -X POST "http://localhost:8000/TMServer/create" -H 'Content-Type: application/json' -d'
+
+{
+  "name": "First Memory",
+  "type": "MapDbEngine"
+}'
+```
+
+导入翻译记忆：
+
+```
+curl -X POST "http://localhost:8000/TMServer/import" -H 'Content-Type: application/json' -d'
+{
+  "id": "1574061624814",
+  "file": "E:\\FileRecv\\通用领域记忆库10_英中.tmx",
+  "project": "Main TM"
+}'
+```
+
+查看导入结果或者查询结果：
+
+```
+curl -X POST "http://localhost:8000/TMServer/status" -H 'Content-Type: application/json' -d'
+{
+  "process": "1574061941890",
+}'
+{
+  "result": "Completed",
+  "data": {"matches": [{
+    "similarity": 61,
+    "origin": "1574061624814",
+    "source": "<tuv xml:lang=\"en-us\"><seg>Are you from Sandu?<\/seg><\/tuv>",
+    "properties": {
+      "creationdate": "20191118T152541Z",
+      "project": "Main TM",
+      "tuid": "1574061949773",
+      "creationid": "xulihang"
+    },
+    "target": "<tuv xml:lang=\"zh-cn\"><seg>你是来自三都吗？<\/seg><\/tuv>"
+  }]},
+  "status": "OK"
+}
+
+```
+
+模糊匹配：
+
+
+```
+curl -X POST "http://localhost:8000/TMServer/search" -H 'Content-Type: application/json' -d'
+{
+  "id": "1574061624814",
+  "text": "you are famous.",
+  "srcLang": "en-us",
+  "tgtLang": "zh-cn",
+  "similarity": 50,
+  "caseSensitive": false
+}
+'
+```
+
+片段搜索：
+
+```
+curl -X POST "http://localhost:8000/TMServer/concordance" -H 'Content-Type: application/json' -d'
+{
+  "id": "1574061624814",
+  "text": "computer",
+  "srcLang": "en-us",
+  "limit": 5,
+  "isRegexp": false,
+  "caseSensitive": false
+}
+'
+```
+
+
+
 参考资料：
 
 * [Translation Memory - Pootle](http://docs.translatehouse.org/projects/pootle/en/stable-2.7.3/features/translation_memory.html)

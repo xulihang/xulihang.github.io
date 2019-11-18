@@ -218,7 +218,7 @@ tags: CAT
 	End Sub
 	```
 
-	然后在把检索内容拆分为单字，并去掉单个英文字母的结果。
+	然后再把检索内容拆分为单字，并去掉单个英文字母的结果。
 
 	```vb
 	Sub removeCharacters(source As List)
