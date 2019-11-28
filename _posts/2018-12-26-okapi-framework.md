@@ -74,6 +74,7 @@ Checkmate需要导入双语格式的文件，比如xliff、tmx，然后可以检
 
 找到一篇采访Okapi开发者的文章，还挺有意思的：[The Okapi Framework: Q and A with Yves Savourel of ENLASO ](http://www.translationdirectory.com/article737.htm)。
 
+美国翻译协会的文章：[Okapi Tools: How Translators Can Take Advantage of Them](https://www.ata-chronicle.org/highlights/okapi-tools-how-translators-can-take-advantage-of-them/#sthash.T7Z2jo76.dpbs)
 
 
 

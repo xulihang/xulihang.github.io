@@ -36,6 +36,7 @@ tags: 就业
 
 * [北大CAT的他山之石](/reference-for-CAT-major/)
 * [吐血经验 大学生如何找到一份满意的工作？](https://mp.weixin.qq.com/s/SpU6yVAKbRwXnn4zmWzz7g)
+* [你的路很廣：語言產業 53 個相關職務一次看好看滿](https://termsoup.com/blog/article/ecosystem-for-language-professionals-by-winnie-heh-miis)
 * [LinkedIn for Students](https://university.linkedin.com/linkedin-for-students)
 * [What Can I Do with My Foreign Language Major?](https://careercenter.georgetown.edu/major-career-guides/what-can-i-do-with-my-major/georgetown-college/language/#)
 
