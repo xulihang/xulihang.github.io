@@ -47,7 +47,7 @@ zh: 你觉得我配不上布莱恩
 
 下面再说一下Trados和memoQ的语料检索功能。
 
-Trados有Concordance Search和Fulltext Search两种语料检索方式，前者类似于模糊匹配，会显示检索词和结果的匹配程度，后者是全文检索，可以分别设置原文和译文的检索词。
+Trados有Concordance Search和Fulltext Search两种语料检索方式，前者类似于模糊匹配，会显示检索词和结果的匹配程度，后者是全文检索，可以分别设置原文和译文的检索词。更多可以参考[Know How: Concordance Search in SDL Trados Studio](https://gateway.sdl.com/apex/communityknowledge?articleName=000002703#Con1)。
 
 memoQ的Concordance Search功能差不多，支持KWIC关键词在中间的形式呈现，并可以猜测检索短语对应的翻译。
 
