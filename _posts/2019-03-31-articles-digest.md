@@ -40,5 +40,30 @@ tags:
 我的理解是我们现在的社会并不缺乏创新，难点在于怎么把新的东西在社会中应用起来，这可能会遇到很大的阻力。
 
 
+### 职场
 
+每天在领英看到很多《哈佛商业评论》推送的职场文章。
 
+1. [Making Joy a Priority at Work](https://hbr.org/2019/07/making-joy-a-priority-at-work)
+
+	排球比赛中运动员分工明确，每次得分，每次获胜都是一次激励。职场中成就感、与他人的连接等带来的快乐也是可以和竞技比赛的相仿的。
+	
+2. [The Surprising Power of Simply Asking Coworkers How They’re Doing](https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing)
+
+    人都希望有归属感，被人关注。在工作中问问同事他在做什么，可以增进彼此的关系。
+	
+3. [How to Tell If a Company’s Culture Is Right for You](https://hbr.org/2017/11/how-to-tell-if-a-companys-culture-is-right-for-you)
+
+    如何知道公司的文化是不是适合自己？面试的时候，被面试人和面试官之间可能说了不少谎话，很难获得对公司的正确认识。这时可以采取咨询公司的员工，要求实习一段时间等方法来获得正确的认识。
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
