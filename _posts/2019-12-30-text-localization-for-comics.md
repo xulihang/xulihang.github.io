@@ -40,3 +40,4 @@ tags: 图像处理
 3. [【AI实战】手把手教你深度学习文字识别（文字检测篇：基于MSER, CTPN, SegLink, EAST等方法）](https://blog.csdn.net/weixin_34097242/article/details/92021581)
 4. [cbrTekStraktor - 漫画文字提取工具](https://github.com/cbrtekstraktor/cbrTekStraktor)
 5. [一种无监督的中文漫画对白自动定位方法](http://xbna.pku.edu.cn/CN/abstract/abstract791.shtml)
+6. [大话文本识别经典模型：CRNN](https://my.oschina.net/u/876354/blog/3047853)
