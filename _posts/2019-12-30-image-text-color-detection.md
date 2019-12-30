@@ -20,5 +20,8 @@ tags: 图像处理
 
 因为文字和背景过度区域有很多中间颜色的像素，所以需要进行去除，主要是判断和背景颜色是否相似。那如何判断和背景颜色相似？很多背景颜色和文字颜色都是蓝色，只是一个深一点，一个浅一点，这样将RGB转换到HSB比较色调是不行的。我还是采用了比较RGB值的差的方法。
 
+相关链接：
 
-
+1. [颜色空间转换](https://tool.lu/color/)
+2. [RGBtoHSB, java docs](https://docs.oracle.com/javase/1.5.0/docs/api/java/awt/Color.html#RGBtoHSB(int, int, int, float[]))
+3. [老铁！怎么识别一张图片上文字的颜色](https://www.v2ex.com/amp/t/354940/1)
