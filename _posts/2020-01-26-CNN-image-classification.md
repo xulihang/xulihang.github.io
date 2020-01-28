@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: 图像处理
 ---
 
-卷积神经网络（Convolutional Neural Networks, CNN）是深度学习的常见算法，具有强大的特征提取功能，不需要做特征工程工作就可以运用到图像分类这类操作中。
+卷积神经网络（Convolutional Neural Networks, CNN）是深度学习的常见算法，具有强大的特征提取功能，不需要做特征工程就可以运用到图像分类这类操作中。
 
 本文主要讲一下用CNN做图像分类的一些较为简单的实践。
 
@@ -14,7 +14,7 @@ tags: 图像处理
 
 1. 在线服务
 
-	微软的[Azure Custom Vision](/azure-custom-vision/)提供用户自行训练图像分类模型的功能，只需上传图片并标上分类即可，能够提供多种格式的模型。百度、谷歌等公司也有类似的服务。
+	微软的[Azure Custom Vision](/azure-custom-vision/)提供用户自行训练图像分类模型的功能，只需上传图片并标上分类即可，能够提供多种格式的模型供下载。百度、谷歌等公司也有类似的服务。
 	
 2. Tensorflow提供的图像分类工具
 
@@ -56,7 +56,7 @@ tags: 图像处理
 
 	`--tfhub_module`，指定使用的预训练模型，可以在[tfhub](https://tfhub.dev/s?module-type=image-feature-vector&q=tf2)上搜索到可以用的各种模型。
 		
-	`--image_size`，图像会被缩放以满足模型的输入要求。
+	`--image_size`，图像会被缩放以满足模型的输入要求，这个参数应该和预训练模型的吻合。
 
 	`--saved_model_dir`，将模型保存为Tensorflow Savedmodel格式，可以用于Tensorflow Serving服务器。
 
@@ -66,7 +66,7 @@ tags: 图像处理
 
 	下面是调用生成的Tensorflow Lite模型进行识别的Python脚本。
 
-	```
+	```python
 	"""label_image for tflite."""
 
 	from __future__ import absolute_import
