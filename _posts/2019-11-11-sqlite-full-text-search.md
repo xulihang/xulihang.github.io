@@ -75,6 +75,12 @@ WHERE和MATCH之间可以是表的名字，也可以是列的名字。如果要�
 SELECT key, rowid FROM idx WHERE source MATCH 'text'
 ```
 
+如果要多字段检索，可以改成这样：
+
+```
+SELECT key, rowid FROM idx WHERE idx MATCH 'source:text AND target:text'
+```
+
 可以用通配符修饰查询的文本，比如`lin*`匹配以lin开头的词，`^lin*`表示第一个词的开头是lin的内容。
 
 可以使用双引号进行短语查询，用NEAR/间隔字数限制两个词之间相隔的词数：
@@ -119,7 +125,7 @@ SELECT key, rowid, quote(matchinfo(idx)) as rank FROM idx WHERE source MATCH 'te
 * [SQLite FTS3/FTS4与一些使用心得 ](https://www.cnblogs.com/zyfd/p/9803303.html)
 * [sqlite3 FTS全文索引按照相关性排序](https://www.cnblogs.com/alpiny/p/11291703.html)
 * [Full Text Search (FTS) as it Applies to SQLite](https://www.b4x.com/android/forum/threads/full-text-search-fts-as-it-applies-to-sqlite.73578/#content)
-
+* [SQLite全文检索(1) ](https://www.cnblogs.com/percyboy/archive/2010/08/18/1802794.html)
 
 
 
