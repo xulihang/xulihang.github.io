@@ -236,3 +236,7 @@ tags: CAT
 		source.AddAll(newList)
 	End Sub
 	```
+	
+更新：
+
+基于SQLite的全文检索，开发了一个在线翻译记忆检索器：[地址](/online-translation-memory-search/)

@@ -30,6 +30,12 @@ tags: CAT
 
 ![](/album/basiccat/segment_search.png)
 
+另外，除了原文和译文，根据TMX标准，翻译记忆还需要存储翻译记忆创建者、创建时间、备注等额外信息。
+
+更新：
+
+使用全文检索提高翻译记忆的匹配效率：[BasicCAT开发笔记（十五）：全文检索 ](/basiccat-developing-notes-15-full-text-search/)
+
 相关文件：
 
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/TM.bas>
