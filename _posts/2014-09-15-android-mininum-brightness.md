@@ -48,6 +48,13 @@ C:\adb push framework-res.apk /system/framework-res.apk
 >，修改后将这个文件改为只读模式，防止锁屏后系统重新修改。只要不重启，他就一直是1。为了方便修改，我们可
 >以用re创建快捷方式到桌面，方便下次修改！
 
+root后使用adb shell命令行修改：
+
+```
+# cd /sys/class/leds/lcd-backlight
+# echo "25" > brightness
+```
+
 
 相关链接：
 [反编译+回编译教程，DIY美化你的手机【反编译framework-res.apk为例】](http://bbs.dospy.com/thread-14553818-1-435-1.html)
