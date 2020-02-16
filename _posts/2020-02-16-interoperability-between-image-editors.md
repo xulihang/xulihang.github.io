@@ -1,7 +1,7 @@
 ---
 date: 2020-02-16 10:30:50+08:00
 layout: post
-title: 图像软件的互操作性
+title: 图像处理软件的互操作性
 categories: 技术随笔
 tags: 图像处理
 ---
