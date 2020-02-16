@@ -16,6 +16,8 @@ tags: CAT
 根目录
 │  come_to_me_love.itp #ImageTrans项目文件
 │  come_to_me_love.itp-images.json #生成的图片列表，排好序的
+│  come_to_me_love.itp-doc.json #导出的文本部分
+│  come_to_me_love.itp-geometry.json #导出的坐标部分
 │  index.json #生成的索引
 │  viewer.html #浏览页面
 │  search.html #索引页面
@@ -107,7 +109,9 @@ tags: CAT
 		}
 	]
 	```
-	
+
+因为索引文件不存储文本，检索的内容只包含ref信息，不显示匹配的文本。所以我又把文本按项目文件导出，供前端调用。同时，我还把坐标信息导出了，这样浏览图片时可以高亮检索到的文本对应的文本框。
+
 我把上述代码封装为了一个检索页面：<http://comics.xulihang.me/search.html>
 
 用户获得匹配后，可以点击链接跳转到漫画浏览页面，浏览页面根据name属性跳转到对应的图片。
