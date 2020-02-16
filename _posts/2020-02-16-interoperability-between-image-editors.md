@@ -6,7 +6,7 @@ categories: 技术随笔
 tags: 图像处理
 ---
 
-此前的一篇[文章](http://blog.xulihang.me/interoperatability-of-CAT-tools/)提到了CAT工具的互操作性，今天再来说说图像软件的互操作性。
+此前的一篇[文章](http://blog.xulihang.me/interoperability-of-CAT-tools/)提到了CAT工具的互操作性，今天再来说说图像软件的互操作性。
 
 要实现图像软件的互操作性，首先一点是得有一个数据交换格式标准。
 
