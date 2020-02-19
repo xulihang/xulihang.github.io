@@ -161,7 +161,11 @@ background: #83BF73;
 
 @media screen and (max-device-width: 600px){
     #container{ width: auto; } 
-    .post{ width: auto; } 
+    .post iframe{
+        width:100%;
+        height:250px;
+    }
+	.post{ width: auto; } 
     nav { 
       width:auto;
       text-align:left;
