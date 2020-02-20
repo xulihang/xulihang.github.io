@@ -29,5 +29,11 @@ tags: 云
 
 azure官网还有更多的文档，默认的Python Web App是基于Flask的：[Create a Python web app in Azure](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-get-started-python)
 
+## 2020-02-20更新
+
+安装第三方的类库比较麻烦，一种较为简单的方法是使用kudo在线终端用pip安装，参见：[how to upgrade pip in microsoft azure](https://stackoverflow.com/questions/47481294/how-to-upgrade-pip-in-microsoft-azure-from-1-5-6-to-9-0-1?noredirect=1)
+
+折腾这类受限环境真是比较麻烦的事情。
+
 
 
