@@ -95,6 +95,8 @@ tags: 翻译
 
 项目仓库：<https://github.com/xulihang/WhichSound>
 
+试用地址：<http://www.xulihang.me:51041/search.html?id=oyBSYLKVUES9guNOtyPsig>
+
 关于拟声词检索系统的使用还提供了视频教程，可以参见漫画翻译工具ImageTrans的[官网](https://www.basiccat.org/zh/imagetrans/)。
 
 
