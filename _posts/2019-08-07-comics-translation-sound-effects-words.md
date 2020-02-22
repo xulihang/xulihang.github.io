@@ -89,6 +89,14 @@ tags: 翻译
 
 ![](/album/soundeffects/boom.jpg)
 
+### 2020-02-22更新
+
+针对拟声词翻译设计了一套在线检索工具，将声音根据音调、响度和持续时间，以及是否多个物体、是否是流体以及物体速度这六个属性进行分类。用户可以检索中英文释义或者根据分类进行检索。对于中译英的漫画很有帮助。
+
+项目仓库：<https://github.com/xulihang/WhichSound>
+
+关于拟声词检索系统的使用还提供了视频教程，可以参见漫画翻译工具ImageTrans的[官网](https://www.basiccat.org/zh/imagetrans/)。
+
 
 引用图片来源：
 
