@@ -54,3 +54,4 @@ r,g,b
 3. [老铁！怎么识别一张图片上文字的颜色](https://www.v2ex.com/amp/t/354940/1)
 4. [Dominant Colors for Lazy-Loading Images](https://manu.ninja/dominant-colors-for-lazy-loading-images)
 5. [Finding dominant colors in an image](https://aishack.in/tutorials/dominant-color/)
+6. [Using python and k-means to find the dominant colors in images](http://charlesleifer.com/blog/using-python-and-k-means-to-find-the-dominant-colors-in-images/)
