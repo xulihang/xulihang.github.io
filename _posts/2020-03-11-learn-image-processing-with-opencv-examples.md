@@ -1,7 +1,7 @@
 ---
 date: 2020-03-11 21:32:50+08:00
 layout: post
-title: OpenCV实例解析
+title: 图像处理学习——基于OpenCV实例
 categories: 技术随笔
 tags: 图像处理
 ---
