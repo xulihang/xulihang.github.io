@@ -38,6 +38,9 @@ TMX（Translation Memory eXchange）是可以用于在不同CAT软件之间交�
 
 header里列出的属性都是必须填写的。其中adminlang不太好理解，意思是header标签里说明性内容所用的语言。而o-tmf指转换为tmx前是以什么格式存储的。
 
+tu元素表示一个翻译单元(trans-unit)，里面可以包含多个语言的对应文本。如果文本有特殊格式，例如加粗和斜体，需要使用bpt和ept这类行内标签进行处理。每个tuv还可以设置创建或修改该条内容的人的名字、操作的时间等等。
+
+可以用note元素添加备注，另外也可以用prop标签自定义一些属性。
 
 ## TBX
 
@@ -175,9 +178,6 @@ next
 
 代码一个字符一个字符地读取文本，读取每一字符时，对每条规则进行匹配，如果匹配，则根据break属性决定是否进行断句，并跳到下一个字符上继续操作。
 
-但其实大多数时候，aferbreak都是可以没有的，参见Customizing Sentence Segmentation In SRX Rules <http://wiki.languagetool.org/customizing-sentence-segmentation-in-srx-rules>。另外设置afterbreak和beforebreak也增加了复杂性。
-
-
 以下是一个来自SRX标准文件的SRX文件的示例，包含了英、法、日三语的规则。
 
 ```xml
@@ -282,3 +282,5 @@ maprules里根据语言代码指定使用哪种语言的分割规则，比如en-
 上述标准都会用到如zh-cn这样的语言代码。
 
 一般语言代码有两种表示方法，一种是en、zh这样遵循[ISO 639标准](http://www.loc.gov/standards/iso639-2/php/code_list.php)的语言代码，另一种是在前者的基础上添加[ISO 3166标准](https://www.iso.org/obp/ui/#search/code/)定义的国家代码而构成的代码，如en-us，zh-cn。
+
+BasicCAT提供对上述三种标准的支持，可以参见我写的开发笔记了解其对这三种算法支持的实现。

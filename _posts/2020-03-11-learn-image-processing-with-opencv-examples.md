@@ -26,6 +26,6 @@ Gray=(R*299 + G*587 + B*114 + 500) / 1000
 
 用PS打开灰度图像，像素的灰度会用K值来表示，这是反映黑色程度的百分值，计算方式：1-灰度值/255。
 
-B4J项目：[threshold](https://github.com/xulihang/opencv_examples)
+B4J项目：[threshold](https://github.com/xulihang/opencv_examples/tree/master/threshold)
 
 
