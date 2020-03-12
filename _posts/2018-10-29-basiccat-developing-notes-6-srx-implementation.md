@@ -14,60 +14,69 @@ SRX提供的伪代码看起来很简单，但实现起来我感到有点难度�
 
 下面讲一下我参考OmegaT的源码得出的自己的SRX算法实现。
 
-先读取SRX文件，把分割规则和例外规则分开存放。然后依次遍历这些规则，将符合要求的断句位置存放进一个列表。有些规则可能没有beforebreak或者afterbreak，这时处理很简单，匹配到后直接将位置信息进行存储即可。而如果两个break齐全的话，先寻找所有的beforebreak匹配的内容，匹配到一条beforebreak，就开始寻找afterbreak的匹配，然后看看这两个匹配是不是接壤。如果是则记录位置信息。
+先读取SRX文件，然后依次遍历这些规则，将符合要求的断句位置存放进一个字典，并存储其在规则列表中的序号，断句情况和例外情况分开存放。有些规则可能没有beforebreak或者afterbreak，这时处理很简单，匹配到后直接将位置信息进行存储即可。而如果两个break齐全的话，先寻找所有的beforebreak匹配的内容，匹配到一条beforebreak，就开始寻找afterbreak的匹配，然后看看这两个匹配是不是接壤。如果是则记录位置信息。
 
-为了提高效率，每次匹配后，该条规则中需要匹配的文本要去除匹配位置前的内容，而循环到下一条规则的文本时还是要从原来的文本开始。
 
 ```vb
-For Each rule As Map In rulesList
-    textLeft=text
-    Dim beforeBreak,afterBreak As String
-    beforeBreak=rule.Get("beforebreak")
-    afterBreak=rule.Get("afterbreak")
+'break attribute: yes or no,
+Sub getPositions(break As String,text As String) As Map
+	Dim breakPositions As Map
+	breakPositions.Initialize
+	Dim index As Int=-1
+	For Each rule As Map In rules
+		index=index+1
+		If rule.Get("break")<>break Then
+			Continue
+		End If
+		Dim beforeBreak,afterBreak As String
+		beforeBreak=rule.Get("beforebreak")
+		afterBreak=rule.Get("afterbreak")
 
-    Dim bbm As Matcher
-    bbm=Regex.Matcher2(beforeBreak,32,textLeft)
+		Dim bbm As Matcher
+		bbm=Regex.Matcher2(beforeBreak,32,text)
 
-    If beforeBreak<>"null" Then
-        Do While bbm.Find
-            If afterBreak="null" Then
-                breakPositions.Add(bbm.GetEnd(0)+text.Length-textLeft.Length)
-                textLeft=textLeft.SubString2(bbm.GetEnd(0),textLeft.Length)
-                bbm=Regex.Matcher2(beforeBreak,32,textLeft)
-            End If
-        
-            Dim abm As Matcher
-            abm=Regex.Matcher2(afterBreak,32,textLeft)
-            Do While abm.Find
-                If bbm.GetEnd(0)=abm.GetStart(0) Then
-                    breakPositions.Add(abm.GetEnd(0)+text.Length-textLeft.Length)
-                    textLeft=textLeft.SubString2(abm.GetEnd(0),textLeft.Length)
-                    abm=Regex.Matcher2(afterBreak,32,textLeft)
-                    bbm=Regex.Matcher2(beforeBreak,32,textLeft)
-                    Exit
-                End If
-            Loop
-        Loop
-    Else if afterBreak<>"null" Then
-        Dim abm As Matcher
-        abm=Regex.Matcher2(afterBreak,32,textLeft)
-        Do While abm.Find
-            breakPositions.Add(abm.GetEnd(0)+text.Length-textLeft.Length)
-            textLeft=textLeft.SubString2(abm.GetEnd(0),textLeft.Length)
-            abm=Regex.Matcher2(afterBreak,32,textLeft)
-        Loop
-    End If
-Next
+		If beforeBreak<>"null" Then
+			Do While bbm.Find
+				If afterBreak="null" Then
+					addPosition(bbm.GetEnd(0),breakPositions,index)
+				End If
+			
+				Dim abm As Matcher
+				abm=Regex.Matcher2(afterBreak,32,text)
+				Do While abm.Find
+					If bbm.GetEnd(0)=abm.GetStart(0) Then
+						addPosition(bbm.GetEnd(0),breakPositions,index)
+						Exit
+					End If
+				Loop
+			Loop
+		Else if afterBreak<>"null" Then
+			Dim abm As Matcher
+			abm=Regex.Matcher2(afterBreak,32,text)
+			Do While abm.Find
+				addPosition(abm.GetStart(0),breakPositions,index)
+			Loop
+		End If
+	Next
+	
+	Return breakPositions
+End Sub
 ```
 
-得到需要断句和不需要断句的位置列表后，我们对两个列表进行比对，生成一个不包含例外位置的断句位置列表。然后就可以根据位置信息确定片段了。
+得到需要断句和不需要断句的位置的字典后，我们对两个字典进行比对，得到一个去除例外位置了的断句位置列表。如果cascade模式是False，那么比较时如果断句规则排在非断句规则之前，就不进行去除。这样就可以根据位置信息确定片段了。
 
 ```vb
 Dim finalBreakPositions As List
 finalBreakPositions.Initialize
-For Each index As Int In breakPositions
-	If nonbreakPositions.IndexOf(index)=-1 Then
-		finalBreakPositions.Add(index)
+For Each pos As Int In breakPositionsMap.Keys
+	If nonbreakPositionsMap.ContainsKey(pos) Then
+		If cascade=False Then
+			If breakPositionsMap.Get(pos)<nonbreakPositionsMap.Get(pos) Then
+				finalBreakPositions.Add(pos)
+			End If
+		End If
+	Else
+		finalBreakPositions.Add(pos)
 	End If
 Next
 ```
@@ -85,4 +94,8 @@ Next
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/SRX.bas>
 
 <https://github.com/xulihang/BasicCAT/blob/master/BasicCAT/segmentation.bas>
+
+#### 2020/03/12更新
+
+更新了SRX的算法。
 

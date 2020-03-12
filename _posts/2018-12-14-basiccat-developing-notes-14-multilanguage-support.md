@@ -16,7 +16,7 @@ BasicCAT最初仅支持中英互译，目的是针对两种语言做专门的适
 
 另外还有针对各大机器翻译API，使用的语言代码不尽相同，需要做一个表进行转换。当然也可以设置为自动检测，检查语法和拼写的Language Tool我便设成了自动检测，不过对于德语英语这样有很多词形式一样的语言，会出现判断错误的问题。而斯坦福corenlp支持的语言有限，不支持的语言就不进行句法分析了。
 
-还有对屈折语的词形还原的问题，因为opennlp提供的模型和词典有限，我也没有精力去做其它语言的适配，于是目前只对英文进行词形还原。
+还有屈折语的屈折变化问题，一种是提取词的原形(lemma)，一种是提取词干(stem)。我这里选择使用opennlp进行词形还原。因为opennlp提供的模型和词典有限，我也没有精力去做其它语言的适配，于是目前只对英文进行词形还原。
 
 下面我再具体讲一下BasicCAT中对于中英互译和韩文的处理。
 
@@ -54,11 +54,15 @@ End Sub
 ```vb
 Sub removeSpacesAtBothSides(path As String,targetLang As String,text As String,removeRedundantSpaces As Boolean) As String
 	readRules(targetLang,path)
-	Dim breakRules As List=rules.Get("breakRules")
+	Dim breakPositionsMap As Map=getPositions("yes",previousText&text)
 	Dim breakPositions As List
-	breakPositions=getPositions(breakRules,text)
+	breakPositions.Initialize
+	For Each pos As Int In breakPositionsMap.Keys
+		pos=pos-previousText.Length
+		breakPositions.Add(pos)
+	Next
 	breakPositions.Sort(False)
-	removeDuplicated(breakPositions)
+	
 	For Each position As Int In breakPositions
 		Try
 			Dim offsetToRight As Int=0
@@ -80,10 +84,12 @@ Sub removeSpacesAtBothSides(path As String,targetLang As String,text As String,r
 			Log(LastException)
 		End Try
 	Next
+	
 	If removeRedundantSpaces Then
 		text=Regex.Replace2("\b *\B",32,text,"")
 		text=Regex.Replace2("\B *\b",32,text,"")
 	End If
+	previousText=text
 	Return text
 End Sub
 ```
@@ -94,8 +100,11 @@ End Sub
 
 ![](/album/basiccat/arabic.png)
 
+# 2020/03/12更新
 
+我完善了SRX算法后，空格和换行等信息会包含在后一个句子中，所以去除多余空格这一步需要将前一片段和后一片段合并后进行处理。
 
+关于字数统计有一个标准[GMX-V](/GMX-V/)，但很多CAT软件都没有遵循。
 
 
 
