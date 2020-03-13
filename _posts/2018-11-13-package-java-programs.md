@@ -1,7 +1,7 @@
 ---
 date: 2018-11-13 14:13:50+08:00
 layout: post
-title: 制作java安装包
+title: 制作java软件安装包
 categories: 技术随笔
 tags: 
 ---
@@ -128,9 +128,11 @@ javapackager \
   -v
 ```
 
-通过以上命令，可以生成一个.app文件。.app就是个文件夹，我们可以把需要的文件再补充进去。
+通过以上命令，可以生成一个.app文件。.app就是个文件夹，我们可以把需要的文件再补充进去。比如动态库、icns图标等等。最后使用磁盘工具建立dmg文件即可。如果要在Windows上操作dmg，可以使用TransMAC。
 
 javapackager也可以生成deb和rpm等linux系统的安装包。
+
+
 
 
 
