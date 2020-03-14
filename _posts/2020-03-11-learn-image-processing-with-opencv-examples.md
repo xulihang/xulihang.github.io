@@ -28,7 +28,7 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 
 2. 轮廓检测
 
-	OpenCV使用[^suzuki]提出的改进的边界跟踪(border following)进行轮廓检测。
+	OpenCV使用[^suzuki]提出的改进版边界跟踪(border following)算法进行轮廓检测。
 
 	轮廓检测需要在二值化的图像上进行。什么是轮廓，可以看下面的示例。
 
@@ -44,7 +44,7 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 
 	外轮廓：
 
-	![](/album/opencv/cup_contours.jpg)
+	![](/album/opencv/cup_outer_border)
 
 	孔洞：
 
@@ -65,14 +65,11 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 
 	示例程序可以单独查看某个层级的轮廓，便于试验。
 
-
-参考文献：
-
-[^suzuki]: Suzuki, S. and Abe, K., Topological Structural Analysis of Digitized Binary Images by Border Following. CVGIP 30 1, pp 32-46 (1985)
-
-
 相关链接：
 
 1. [【数字图像处理】边界跟踪算法 ](https://www.cnblogs.com/-wenli/p/11719012.html)
 
+参考文献：
+
+[^suzuki]: Suzuki, S. and Abe, K., Topological Structural Analysis of Digitized Binary Images by Border Following. CVGIP 30 1, pp 32-46 (1985)
 
