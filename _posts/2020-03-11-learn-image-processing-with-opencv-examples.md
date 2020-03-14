@@ -63,8 +63,8 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 	
 	hiearchy，包含四种层级信息，分别是：
 	
-	1. 同一层级的前一轮廓
-	2. 同一层级的后一轮廓
+	1. 同一层级的下一轮廓
+	2. 同一层级的前一轮廓
 	3. 第一个子轮廓
 	4. 父轮廓
 	
@@ -84,6 +84,7 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 相关链接：
 
 1. [【数字图像处理】边界跟踪算法 ](https://www.cnblogs.com/-wenli/p/11719012.html)
+2. [Finding contours in your image](https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.html)
 
 参考文献：
 
