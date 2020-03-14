@@ -44,7 +44,7 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 
 	外轮廓：
 
-	![](/album/opencv/cup_outer_border)
+	![](/album/opencv/cup_outer_border.jpg)
 
 	孔洞：
 
