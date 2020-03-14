@@ -58,13 +58,29 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 
 	* RETR_EXTERNAL，提取所有外轮廓
 	* RETR_LIST，单纯列举出所有轮廓
-	* RETR_CCOMP，将轮廓分为外轮廓和孔洞轮廓两种
+	* RETR_CCOMP，将轮廓分为外轮廓和孔洞轮廓两种，最内部的轮廓会和最外面轮廓归到一级。
 	* RETR_TREE，计算完整的轮廓层级
+	
+	hiearchy，包含四种层级信息，分别是：
+	
+	1. 同一层级的前一轮廓
+	2. 同一层级的后一轮廓
+	3. 第一个子轮廓
+	4. 父轮廓
+	
+	我觉得比较有用的是父轮廓信息，可以据此对轮廓进行分类。
+	
 
 	B4J项目：[findContours](https://github.com/xulihang/opencv_examples/tree/master/findContours)
 
 	示例程序可以单独查看某个层级的轮廓，便于试验。
 
+3. 图像修复
+
+	图像修复原理是给出需要修复的图片区域，然后根据区域周边像素对该区域进行复原。一个用途是结合轮廓检测生成文字掩膜，抹除图片中的文字。
+	
+	OpenCV中对应inpaint方法。该方法包含在轮廓检测项目中。
+	
 相关链接：
 
 1. [【数字图像处理】边界跟踪算法 ](https://www.cnblogs.com/-wenli/p/11719012.html)
