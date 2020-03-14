@@ -26,7 +26,7 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 
 	B4J项目：[threshold](https://github.com/xulihang/opencv_examples/tree/master/threshold)
 
-2. 
+2. 轮廓检测
 
 	OpenCV使用[^suzuki]提出的改进的边界跟踪(border following)进行轮廓检测。
 
