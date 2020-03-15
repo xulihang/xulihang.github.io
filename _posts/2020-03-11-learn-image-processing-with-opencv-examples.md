@@ -81,10 +81,44 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 	
 	OpenCV中对应inpaint方法。该方法包含在轮廓检测项目中。
 	
+4. 形态学操作
+
+	这里主要指腐蚀和膨胀操作。
+
+	首先取一个核(kernel)，也叫形态元素(Structuring Element)，进行卷积操作。核的中心点的取值是所在核的所有像素值中最大或最小的那个值，如果取最大则为膨胀操作，最小则为腐蚀操作。
+
+5. 边缘检测
+
+	边缘和轮廓这两个概念比较接近。我理解轮廓提取的精度更高，边缘则是近似的，表示灰度变化明显的区域。边缘检测能处理彩色图片，可以保留更完整的边缘信息。具体可以看下面的例子，不过边缘检测的结果和阈值的设定有关。
+
+	原图：
+
+	![](/album/opencv/text.png)
+
+	轮廓：
+
+	![](/album/opencv/text_contours.jpg)
+
+	边缘：
+
+	![](/album/opencv/text_canny.jpg)
+
+	使用Canny算子检测物体的边缘，该操作有以下步骤：
+
+	1. 高斯平滑用于去除噪点
+	2. 计算梯度强度和方向
+	3. 非极大值抑制去除非边缘像素
+	4. hysteresis阈值处理，输出二值化的轮廓图像，该步骤需要两个阈值，如果像素的梯度高于较大的阈值，则判定为边缘。如果像素的梯度小于较小的阈值则去除。如果在两个阈值之间，那么需要存在相邻的梯度高于较大的阈值的像素。
+
+
+
+	
 相关链接：
 
 1. [【数字图像处理】边界跟踪算法 ](https://www.cnblogs.com/-wenli/p/11719012.html)
 2. [Finding contours in your image](https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.html)
+3. [Canny Edge Detector](https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html)
+4. [Eroding and Dilating](https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html)
 
 参考文献：
 
