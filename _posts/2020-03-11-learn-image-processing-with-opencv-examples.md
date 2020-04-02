@@ -110,7 +110,16 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 	3. 非极大值抑制去除非边缘像素
 	4. hysteresis阈值处理，输出二值化的轮廓图像，该步骤需要两个阈值，如果像素的梯度高于较大的阈值，则判定为边缘。如果像素的梯度小于较小的阈值则去除。如果在两个阈值之间，那么需要存在相邻的梯度高于较大的阈值的像素。
 
+6. 连通区域标记
 
+	如果一个像素和它周围的8个像素或者上下左右4个像素的颜色一致或相近，那这些像素就是彼此连通的。
+	
+	连通区域标记就是给每个区域的像素进行标记（赋值一个数字），从而知道图中有哪几个连通区域，每个区域对应哪些像素。
+	
+	连通区域和轮廓的区别在于，轮廓仅仅是图像的边缘部分。
+	连通区域标记的算法很多，比较简单的是递归的方法。具体见相关链接。
+	
+	项目：[connectedcomponents](https://github.com/xulihang/opencv_examples/tree/master/connectedcomponents)
 
 	
 相关链接：
@@ -119,6 +128,9 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 2. [Finding contours in your image](https://docs.opencv.org/2.4/doc/tutorials/imgproc/shapedescriptors/find_contours/find_contours.html)
 3. [Canny Edge Detector](https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html)
 4. [Eroding and Dilating](https://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html)
+5. [图像分析：二值图像连通域标记 ](https://www.cnblogs.com/ronny/p/img_aly_01.html)
+6. [Connected Component Labelling](https://www.aishack.in/tutorials/labelling-connected-components-example/)
+
 
 参考文献：
 
