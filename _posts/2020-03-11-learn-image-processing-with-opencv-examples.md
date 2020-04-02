@@ -119,6 +119,8 @@ OpenCV函数的具体用法见前文：[OpenCV使用笔记](/opencv/)
 	连通区域和轮廓的区别在于，轮廓仅仅是图像的边缘部分。
 	连通区域标记的算法很多，比较简单的是递归的方法。具体见相关链接。
 	
+	连通区域标记和[区域生长](http://blog.xulihang.me/region-growing/)十分相似，区别在于前者用于检测对象，而后者用于分割图像。
+	
 	项目：[connectedcomponents](https://github.com/xulihang/opencv_examples/tree/master/connectedcomponents)
 
 	
