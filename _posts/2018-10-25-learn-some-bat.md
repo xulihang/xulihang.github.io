@@ -43,7 +43,7 @@ sub zhuanhuan(filename)
 
     objWord.Visible = False
 
-    Const wdFormatText = 10  ' 10是保存时显示的列表项的序号
+    Const wdFormatText = 10  ' 10是保存的类型，详见https://docs.microsoft.com/en-us/office/vba/api/word.wdsaveformat
 
     filePath =   AllF & "\" & name & ".doc"
 
@@ -52,7 +52,8 @@ sub zhuanhuan(filename)
     objword.ActiveDocument.SaveAs AllF & "\" & name & ".html",wdFormatText
 
     objword.quit
-
+	
+	set objword=nothing
 end sub
 ```
 
