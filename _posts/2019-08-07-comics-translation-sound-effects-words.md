@@ -112,4 +112,9 @@ tags: 翻译
 8. 沉睡末日
 9. Breaking the Silence: How Comics Visualize Sound <http://sequart.org/magazine/53486/how-comics-visualize-sound/>
 
+相关链接：
+
+* [拟声词大全以及如何翻译拟声词（普通文本）](http://www.etymon.cn/cihuixitong/cigenyinyi/2170.html)
+* [看漫画时如何自带bgm？聊聊动漫中的那些“拟声词”](https://www.gamersky.com/zl/201811/1128684.shtml)
+
 
