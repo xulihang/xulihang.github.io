@@ -45,7 +45,7 @@ Java使用Resource Bundle实现这一功能，在B4X中则是Localizator。Local
 
 具体说明我发布在此处：[Localization Practices](https://www.b4x.com/android/forum/threads/localization-practices.119940/)
 
-
+本地化中还会有很多其它的问题，比如英文单词有单复数的形式；文本包含链接，需要添加占位符；翻译后的程序无法正常运行等等。更多可以看Mozilla的本地化最佳实践文章：[Localization content best practices](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_content_best_practices)
 
 
 
