@@ -33,7 +33,7 @@ End Sub
 用函数包裹文本后的代码：
 
 ```vb
-fx.MsgBox(MainForm,Localize("Message"),Localize("Title"))
+fx.MsgBox(MainForm,Localize("msgbox.message"),Localize("msgbox.title"))
 ```
 
 Java使用Resource Bundle实现这一功能，在B4X中则是Localizator。Localizator的示例中使用具体语言的文本作为键。
