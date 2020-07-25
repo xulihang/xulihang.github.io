@@ -1,7 +1,7 @@
 ---
 date: 2020-07-25 15:11:50+08:00
 layout: post
-title: 翻译漫画心得
+title: 漫画翻译心得
 categories: 随笔
 tags: 翻译
 ---
