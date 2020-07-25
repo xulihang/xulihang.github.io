@@ -111,7 +111,7 @@ tags: 翻译
 	
 4. 注意俚语、习语等表达
 
-	比如我最近帮忙校对的xkcd的这篇漫画：
+	比如我最近帮忙校对的xkcd的这篇漫画（<https://weibo.com/7321032418/JcNQ13tgM>）：
 
 	![](https://xkcd.in/resources/compiled_cn/54dae463a32d54035e9b990eab99c018.jpg)
 	
