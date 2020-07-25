@@ -81,6 +81,8 @@ tags: 翻译
 	```
 
 	整句可以翻译为：The woman dumped him and hooked up with his opponent.
+	
+	但有些表达在语料库里可能检索不到，最好还是平时多看剧，有条件就出国，熟悉英文的表达。
 
 
 2. 灵活翻译拟声词
