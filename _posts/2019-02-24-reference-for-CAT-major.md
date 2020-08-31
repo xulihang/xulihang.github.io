@@ -28,7 +28,9 @@ tags: CAT
 
 Cisco的本地化架构师[Gary Lefman](https://www.linkedin.com/in/lefman/)，Mozilla的本地化主管[Jeff Beatty](https://www.linkedin.com/in/jeff-beatty/)都毕业于这个项目。
 
-该项目原名为MSc in Multilingual Computing and Localisation，现在的项目叫MSc in Software Development: International Systems。这是一个偏技术的项目，毕业后可以从事软件开发、测试和本地化等工作。
+该项目原名为MSc in Multilingual Computing and Localisation，现在的项目叫MSc in Software Development: International Systems。这是一个偏技术的项目，但面向文科背景的学生，毕业后可以从事软件开发、测试和本地化等工作。
+
+该校也有软件本地化方向的计算机科学的PhD项目，硕士项目的负责老师[Tabea De Wille](https://www.linkedin.com/in/tabeadewille/)就是这个项目的PhD。
 
 官网地址：<https://www.ul.ie/gps/course/software-development-international-systems-msc>
 
