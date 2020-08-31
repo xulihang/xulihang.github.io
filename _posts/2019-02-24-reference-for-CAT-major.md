@@ -24,6 +24,14 @@ tags: CAT
 
 一位蒙特雷的学生，朱华，建了一个网站[revise4china](http://revise4china.com/)，介绍相关本地化的知识，挺实用的。
 
+### 利莫瑞克大学的国际软件开发项目
+
+Cisco的本地化架构师[Gary Lefman](https://www.linkedin.com/in/lefman/)，Mozilla的本地化主管[Jeff Beatty](https://www.linkedin.com/in/jeff-beatty/)都毕业于这个项目。
+
+该项目原名为MSc in Multilingual Computing and Localisation，现在的项目叫MSc in Software Development: International Systems。这是一个偏技术的项目，毕业后可以从事软件开发、测试和本地化等工作。
+
+官网地址：<https://www.ul.ie/gps/course/software-development-international-systems-msc>
+
 ### 得克萨斯理工大学的技术传播项目
 
 我们专业大多数同学是英语专业，语言文字能力，沟通能力是强项。然后我们又是在软件学院，可以接触很多技术课程。所以我们老师觉得技术写作是很好的一个就业方向，我们专业也归在了数字艺术与技术传播系。
