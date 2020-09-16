@@ -18,7 +18,7 @@ Gale & Church 算法[^Gale]假设文本已经做好了段落对齐，原文句�
 
 [hunalign](http://mokk.bme.hu/en/resources/hunalign/) 对齐工具使用了上述算法，并且结合了词典信息，它有一个桌面版的前端叫做[LF Aligner](http://sourceforge.net/projects/aligner/)。
 
-[Bleualign](https://github.com/rsennrich/Bleualign)借助机器翻译的结果进行对齐。使用机器翻译的目的是用目标语表示原文的大概意思，然后和译文进行比较（通过修改版的bleu得分）。
+[Bleualign](https://github.com/rsennrich/Bleualign)借助机器翻译的结果进行对齐。使用机器翻译的目的是用目标语表示原文的大概意思，然后和译文进行比较（通过修改版的bleu得分）。这类方法一般需要片段事先就拆分得较细，因为如何确定拆分句子的位置是比较难的，该方法主要是做句子对应关系的计算，而不会进一步拆分句子。
 
 其实有了机器翻译后，除了用bleu得分，还可以用很多其它方法判断原文和译文的对应关系，比如使用词向量计算语义相似度，有一个Python类库叫[synonyms](https://github.com/chatopera/Synonyms)。
 
