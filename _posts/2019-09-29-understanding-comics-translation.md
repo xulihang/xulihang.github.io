@@ -42,9 +42,11 @@ tags: 翻译
 
 文字提取和替换可以参见此文：[漫画翻译之文字提取与替换](https://blog.xulihang.me/comics-translation-text-extraction-and-substitution/)
 
-## 漫画翻译的特点
+## 漫画翻译的难点与心得总结
 
-[漫画翻译的难点](/comics-translation-the-difficulties/)
+* [漫画翻译的难点](/comics-translation-the-difficulties/)
+* [漫画翻译心得](/translating-comics/)
+
 
 ## 漫画制作工具
 
@@ -62,10 +64,12 @@ tags: 翻译
 
 ## 在线漫画平台
 
-* [腾讯动漫](https://ac.qq.com/Comic/)，腾讯是很多日本漫画的正版发布平台。
+* [腾讯动漫](https://ac.qq.com/Comic/)，国产漫画和很多正版日漫的发布平台。
 * [有妖气](http://www.u17.com/)，有妖气是做得比较早的国内原创漫画发布平台。
 * [mangarock](https://mrcomics.com/)，原先是扫译版漫画的集中平台，现在转型做正版漫画。
 * [tapread](https://www.tapread.com)，纵横文化的海外版，发布从中文翻译过来的网文和漫画。
+* [mangatoon](https://mangatoon.mobi/)，国产漫画出海阅读平台
+* [webtoon](https://www.webtoons.com/)，韩国Naver公司下属的漫画平台
 
 ## 相关链接
 
