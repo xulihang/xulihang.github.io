@@ -60,7 +60,8 @@ tags: 翻译
 * [mangaEditor](https://moeka.me/mangaEditor/)，能够自动识别气泡并擦除里面的文字，提供有限的嵌字功能。
 * [ImageTranslate](https://www.imagetranslate.com/)，图片翻译工具，能自动识别文字区域并遮盖原文，手动调整字体，支持OCR和机器翻译，翻译和排版紧密结合。
 * [秒翻picpaw](https://www.picpaw.com/)，功能和ImageTranslate类似，国人出品。
-* [ImageTrans](https://imagetrans.readthedocs.io/en/latest/)，自动识别文字区域和气泡，支持OCR和机器翻译，支持手动调整，使用文字识别、翻译和排版相分离的模式，可以导出PSD供后期修改。
+* [ImageTrans](https://www.basiccat.org/zh/imagetrans/)，自动识别文字区域和气泡，支持OCR和机器翻译，支持手动调整，使用文字识别、翻译和排版相分离的模式，可以导出PSD供后期修改。
+* [cbrTekStraktor](https://github.com/cbrtekstraktor/cbrTekStraktor)，使用连通区域标记法生成候选文字区域然后用TensorFlow训练用于区分文字区域和非文字区域的图像分类器进行文字区域检测
 
 ## 在线漫画平台
 
