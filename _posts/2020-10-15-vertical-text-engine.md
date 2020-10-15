@@ -78,7 +78,9 @@ End Sub
 一个完善的文字引擎还需要考虑斜体加粗等富文本格式、字间距、行距、对齐等内容，较为复杂，目前我还没有实现。
 
 
+相关文章：
 
+[VERTICAL LAYOUTS FOR CANVAS TEXT (CJK)](https://www.w3.org/blog/2008/05/canvas-text-and-cjk/)
 
 
 
