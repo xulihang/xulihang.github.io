@@ -80,6 +80,8 @@ End Sub
 
 相关文章：
 
+[writing-mode - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/writing-mode)
+
 [VERTICAL LAYOUTS FOR CANVAS TEXT (CJK)](https://www.w3.org/blog/2008/05/canvas-text-and-cjk/)
 
 
