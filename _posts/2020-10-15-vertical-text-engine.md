@@ -48,7 +48,7 @@ End Sub
 ！学和
 ```
 
-汉字和全角标点的宽度高度基本是一致的，所以效果还可以。但如果混入半角标点符号和拉丁字母以及空格，效果就不行了。此外，也不能也不能控制每行的字数。
+汉字和全角标点的宽度高度基本是一致的，所以效果还可以。但如果混入半角标点符号和拉丁字母以及空格，效果就不行了。此外，不能控制每行要显示哪几个字。
 
 我想到可以把文字先转换为图片，然后对图片进行调整，从而实现一个文字竖排引擎，可以供ImageTrans使用。
 
@@ -80,9 +80,8 @@ End Sub
 
 相关文章：
 
-[writing-mode - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/writing-mode)
-
-[VERTICAL LAYOUTS FOR CANVAS TEXT (CJK)](https://www.w3.org/blog/2008/05/canvas-text-and-cjk/)
+* [writing-mode - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/writing-mode)
+* [VERTICAL LAYOUTS FOR CANVAS TEXT (CJK)](https://www.w3.org/blog/2008/05/canvas-text-and-cjk/)
 
 
 
