@@ -64,9 +64,15 @@ PDF一般是由InDesign转换而来的，如果有InDesign的源文件，最好�
 
 一般漫画文字的排版是一倍行距，除非文字很长或者气泡很小，文字大小一致。
 
-如果文字实在放不下，需要把气泡调大。
+如果文字实在放不下，需要把气泡调大，而如果空的空间太多，则要把气泡调小。
 
 ![](/album/comics/balloons.JPG)
+
+翻译到日语的话，还需要将文字竖直排版（图片来自[lezhin](https://www.lezhin.com/en/comic/standup/1)）。
+
+![](/ablum/comics/brawling_go_en.jpg)
+
+![](/ablum/comics/brawling_go_jp.jpg)
 
 对于拟声词，有PSD的话一般直接隐藏就可以。但是有的漫画的拟声词是作者绘画时手动画上去的或者只有JPG，这时要p掉文字会比较麻烦。要p掉文字的话可以用PS的污点修复画笔工具，对背景的还原效果还可以。
 
