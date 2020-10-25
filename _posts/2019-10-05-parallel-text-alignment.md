@@ -47,6 +47,7 @@ target:
 
 [Vecalign](https://github.com/thompsonb/vecalign)则采用了多语言的句子嵌入来计算句子的相似度，不需要使用机器翻译或者双语词典就能完成自动对齐任务。
 
+句子对齐一般都要在对齐好的段落上进行，所以段落对齐是重要的一步。对于比较整齐的文本，段落对齐是很方便的，但有些文本存在插入或者漏译等问题，这些噪音给段落对齐带来了不少麻烦，有时候段落对齐才是句子对齐工作的重点。
 
 实际任务中使用得多的工具：
 
@@ -59,9 +60,9 @@ target:
 * OmegaT（内置了对齐工具，使用维特比算法和前向-后向算法）
 * BasicCAT Aligner
 
-TMXMall及后面几个软件都有自动对齐功能，TMXMall前面几个只提供了一般的断句和片段操作功能。
+ABBYY Aligner及后面几个软件都有自动对齐功能，它前面几个只提供了一般的断句和片段操作功能。综合下来我觉得ABBYY Aligner的最好，操作便利，能从有噪音的文本做自动对齐。
 
-我写的BasicCAT的对齐工具原理很简单，首先进行段落对齐，然后根据SRX断句规则进行断句，如果段落的句子数量不一致，就用空白片段填补。提供手动调整的功能。集成了bleualign用于自动对齐。
+我写的[BasicCAT配套的对齐工具的](https://www.basiccat.org/zh/new-tool-bitext-aligner/)原理很简单，首先进行段落对齐（手动），然后根据SRX断句规则进行断句，如果段落的句子数量不一致，就用空白片段填补。提供手动调整的功能。此外也集成了bleualign用于自动对齐。
 
 这有一篇句对齐的集合贴：[Getting started with sentence alignment
 ](https://textprocessing.org/getting-started-with-sentence-alignment
