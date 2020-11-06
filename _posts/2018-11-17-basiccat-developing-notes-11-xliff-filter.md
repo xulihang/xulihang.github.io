@@ -33,6 +33,9 @@ tags: CAT
 
 因为xliff的文本没有换行等信息，所以预览文本的功能不能直接显示分段。其实每个transunit的提取基本都是按段落来的。所以预览或者生成双语段落对照可以根据transunit来。
 
+xliff支持用seg-source和mrk等标签保存句子的切分信息。如果启用了句子分割，就需要处理seg-source以及target标签中的片段内容。
+
+
 # 2020-08-31更新
 
 BasicCAT 1.8.3开始使用XmlSax将XML解析为自定义的XmlNode类，可以较好地处理行内标签，并可以建立标签的对应关系以及简化XLIFF的标签。之前那样对标签代码进行转义的方法是不正确的。XML比JSON强的一点在于它表示混合性的内容（mixed content）的内容较好。
