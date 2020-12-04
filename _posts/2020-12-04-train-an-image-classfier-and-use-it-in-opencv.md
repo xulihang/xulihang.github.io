@@ -35,6 +35,8 @@ tags:
 	   f.write(graph_def.SerializeToString())
 	```
 	
+	代码来自：[Import SavedModel from TensorFlow](https://github.com/opencv/opencv/issues/16582#issuecomment-603819498)
+	
 3. 使用OpenCV的DNN模块进行调用
 
 	```python
