@@ -25,6 +25,13 @@ OpenCV的Java接口绑定主要有两种，一种是bytedeco提供的JavaCV，�
     BUILD_PERF_TESTS=OFF ..
 	```
 	
+	注意查看结果中Java的结果是不是YES，不是的话可能是JAVA和ANT的环境变量没有设置好，可以使用类似下方的命令添加：
+	
+	```shell
+	export JAVA_HOME="/usr/lib/jvm/bellsoft-java8-full-amd64/"
+	export ANT_HOME="/usr/share/ant"
+	```
+	
 4. 在build文件夹下执行make -j8，８个线程并行进行编译
 
 这里提供编译好的opencv4.1.1的java库的网盘下载：<https://pan.baidu.com/s/1D9EZMKqwgqQjdEjwYFkZQQ>
