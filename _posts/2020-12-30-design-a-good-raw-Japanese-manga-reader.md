@@ -76,3 +76,12 @@ tags: CAT
 
 <iframe src="//player.bilibili.com/player.html?aid=373454146&bvid=BV1Uo4y1Z7Wo&cid=274451193&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+### 最新研究
+
+日本的几位博士针对日语漫画设计了一整套翻译系统并发表了一篇论文：《Towards Fully Automated Manga Translation》（[链接](https://arxiv.org/abs/2012.14271)）
+
+他们针对漫画设计了考虑上下文与多模态的机器翻译，训练了能识别振假名的OCR、漫画分镜和文字检测目标器，采用EdgeConnecct图像修复法去除文字，根据文字区域面积自动调整排版译文，并制作了可用于评价检测和翻译的数据集以及一个在线翻译系统。
+
+不过实际使用的话，除了机器翻译考虑上下文与漫画中的图像信息，各方面和ImageTrans没有太大差距。 
+
+
