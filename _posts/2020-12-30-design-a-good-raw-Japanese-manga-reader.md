@@ -4,6 +4,7 @@ layout: post
 title: 设计一个日语漫画辅助阅读器
 categories: 技术随笔
 tags: CAT
+
 ---
 
 我稍微懂点日语，但直接看原版漫画还是比较吃力。于是我针对性地完善了[ImageTrans](https://www.basiccat.org/zh/imagetrans/)以更好地用于阅读日语漫画，可以准确识别文字并提供机器翻译结果便于了解大概意思。
