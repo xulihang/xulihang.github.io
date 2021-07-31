@@ -1,7 +1,7 @@
 ---
 date: 2021-07-31 21:37:50+08:00
 layout: post
-title: 旅游
+title: 旅行
 categories: 随笔
 tags: 
 ---
