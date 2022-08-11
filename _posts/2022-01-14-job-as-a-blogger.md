@@ -20,7 +20,7 @@ tags:
 
 Dynamsoft有两个扫描SDK，一个是.NET TWAIN，一个是Web TWAIN。TWAIN是扫描仪用的一个通讯协议，Windows有提供TWAIN相关的接口。.NET TWAIN是对这一接口的.NET封装，而Web TWAIN提供了通过网页调用扫描仪的接口。Web TWAIN早期使用ActiveX，现在是通过WebSocket和在客户机本地跑的服务通讯来进行扫描。它主要由本地服务和JS库组成。文档的获取、缓存、保存、后处理都通过本地服务操作，交互界面呈现在浏览器里。后来又基于WebAssembly将功能移植到手机上，不用扫描仪，改用摄像头，不需要本地服务，但会受到Web端的制约，比如存储、摄像头分辨率等问题。
 
-Web TWAIN基于Sane和ISA等项目实现了在Linux和macOS上运行。但不同操作系统上的Web API都是相同的。
+Web TWAIN基于Sane和ICA等项目实现了在Linux和macOS上运行。但不同操作系统上的Web API都是相同的。
 
 针对Web TWAIN，我写过下面这些内容。
 
