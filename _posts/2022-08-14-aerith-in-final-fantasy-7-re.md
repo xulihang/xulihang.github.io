@@ -6,7 +6,7 @@ categories: 随笔
 tags: 
 ---
 
-![](/album/aerith-theme.jpg)
+![](/album/final-fantasy/aerith-theme.jpg)
 
 升Fa，升Do，爱丽丝的主题曲似乎能带人进入一个神秘而美好的梦境。
 
