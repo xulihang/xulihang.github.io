@@ -29,5 +29,7 @@ Photoshop嵌字流程较为明了就不提了，主要讲下国外的这套。�
 
 《漫画镶字手册》对使用PS做日中翻译的嵌字方法有详细的介绍。
 
+漫画翻译工具推荐：[ImageTrans](https://www.basiccat.org/zh/imagetrans/)
+
 
 
