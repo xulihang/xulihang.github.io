@@ -2,7 +2,7 @@
 date: 2022-08-21 23:04:50+08:00
 layout: post
 title: 学点人际关系的处理
-categories: 随笔
+categories: 笔记
 tags: 
 ---
 
