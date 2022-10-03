@@ -4,6 +4,7 @@ layout: post
 title: 计算语言学概念整理
 categories: 技术随笔
 tags: CAT NLP
+loadmathjax: true
 ---
 
 语言出身的我还是更喜欢用计算语言学这个词。本文整理一些相关概念。
