@@ -41,7 +41,7 @@ tags: 工作
 
 ## 关心他人，学会合作
 
-人往往只关心自己的事情，在工作中只做好自己的工作。但人又希望自己的工作受到他人的关注。Harvard Business Review便提到，可以多问下同事在做什么。
+人往往只关心自己的事情，在工作中只做好自己的工作。但人又希望自己的工作受到他人的关注。Harvard Business Review便提到，可以多问下同事在做什么，做得怎么样了[^hbr]。
 
 如果同事存在合作关系，可能会存在很多交流，但也会造成冲突。所谓文人相轻，在其它行业也是存在这样的现象的。这时我们还是要求同存异，努力把工作做好。
 
@@ -57,3 +57,4 @@ tags: 工作
 ## 参考资料
 
 [^baidu]: [职业类型](https://baike.baidu.com/item/%E8%81%8C%E4%B8%9A%E7%B1%BB%E5%9E%8B)
+[^hbr]：[The Surprising Power of Simply Asking Coworkers How They’re Doing](https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing)
