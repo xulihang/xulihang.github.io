@@ -56,5 +56,5 @@ tags: 工作
 
 ## 参考资料
 
-[^baidu]: [职业类型](https://baike.baidu.com/item/%E8%81%8C%E4%B8%9A%E7%B1%BB%E5%9E%8B)
-[^hbr]：[The Surprising Power of Simply Asking Coworkers How They’re Doing](https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing)
+* [^baidu]: [职业类型](https://baike.baidu.com/item/%E8%81%8C%E4%B8%9A%E7%B1%BB%E5%9E%8B)
+* [^hbr]: [The Surprising Power of Simply Asking Coworkers How They’re Doing](https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing)
