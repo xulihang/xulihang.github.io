@@ -74,3 +74,8 @@ root@ip-172-31-35-138:/etc/letsencrypt/live/xulihang.me# curl -v xulihang.me
 * [certbot](https://certbot.eff.org/)
 
 
+其它服务器程序的配置方法：
+
+nginx: https://www.nginx.com/blog/creating-nginx-rewrite-rules/
+
+
