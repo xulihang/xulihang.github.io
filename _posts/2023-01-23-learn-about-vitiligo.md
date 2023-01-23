@@ -51,13 +51,13 @@ tags:
 
 ## 参考文献
 
-* [^wiki]: <https://en.wikipedia.org/wiki/Vitiligo>
-* [^guide]: [白癜风诊疗共识（2021版）](http://www.pifukezazhi.com/CN/10.35541/cjd.20200785)
-* [^hcp]: [Segmental vs Non-Segmental Vitiligo Treatment](https://www.hcplive.com/view/segmental-vs-non-segmental-vitiligo-treatment)
-* [^viral]: [Viral causes of Vitiligo: A New Perspective for Vitiligo Pathogenesis](https://medwinpublishers.com/VIJ/VIJ16000181.pdf)
-* [^family]: [Will my children/family get vitiligo?](https://www.umassmed.edu/vitiligo/blog/blog-posts1/2014/06/will-my-childrenfamily-get-vitiligo/)
-* [^covid19]: [Vitiligo following COVID-19: A case report and review of pathophysiology](https://www.jaadcasereports.org/article/S2352-5126(22)00076-5/fulltext)
-* [^covid19blog]: [Coronavirus and vitiligo](https://www.umassmed.edu/es/vitiligo/blog/blog-posts1/2020/03/coronavirus/)
+[^wiki]: <https://en.wikipedia.org/wiki/Vitiligo>
+[^guide]: [白癜风诊疗共识（2021版）](http://www.pifukezazhi.com/CN/10.35541/cjd.20200785)
+[^hcp]: [Segmental vs Non-Segmental Vitiligo Treatment](https://www.hcplive.com/view/segmental-vs-non-segmental-vitiligo-treatment)
+[^viral]: [Viral causes of Vitiligo: A New Perspective for Vitiligo Pathogenesis](https://medwinpublishers.com/VIJ/VIJ16000181.pdf)
+[^family]: [Will my children/family get vitiligo?](https://www.umassmed.edu/vitiligo/blog/blog-posts1/2014/06/will-my-childrenfamily-get-vitiligo/)
+[^covid19]: [Vitiligo following COVID-19: A case report and review of pathophysiology](https://www.jaadcasereports.org/article/S2352-5126(22)00076-5/fulltext)
+[^covid19blog]: [Coronavirus and vitiligo](https://www.umassmed.edu/es/vitiligo/blog/blog-posts1/2020/03/coronavirus/)
 
 
 
