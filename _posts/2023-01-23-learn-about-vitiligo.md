@@ -36,6 +36,12 @@ tags:
 
 白癜风在正常人中有大约1%的发病率。如果父母有白癜风，孩子得这个病的机率会提高，大约为5%。[^family]但其实其它疾病也会有遗传的影响，比如家族有癌症史的人有更高的患癌风险。后天的诱发因素对患上白癜风常常有更大的影响。
 
+## 新冠病毒与白癜风
+
+患新冠会影响免疫功能，有人在感染新冠后患上了白癜风[^covid19]。
+
+白癜风患者的免疫功能通常被认为存在问题，但它一般跟皮肤有关，并不影响免疫系统战胜新冠病毒。[^covid19blog]
+
 ## 相关资料
 
 * [Immediate treatment is necessary for Segmental Vitiligo](https://www.youtube.com/watch?v=afhMwyYxlsk)
@@ -50,8 +56,8 @@ tags:
 * [^hcp]: [Segmental vs Non-Segmental Vitiligo Treatment](https://www.hcplive.com/view/segmental-vs-non-segmental-vitiligo-treatment)
 * [^viral]: [Viral causes of Vitiligo: A New Perspective for Vitiligo Pathogenesis](https://medwinpublishers.com/VIJ/VIJ16000181.pdf)
 * [^family]: [Will my children/family get vitiligo?](https://www.umassmed.edu/vitiligo/blog/blog-posts1/2014/06/will-my-childrenfamily-get-vitiligo/)
-
-
+* [^covid19]: [Vitiligo following COVID-19: A case report and review of pathophysiology](https://www.jaadcasereports.org/article/S2352-5126(22)00076-5/fulltext)
+* [^covid19blog]: [Coronavirus and vitiligo](https://www.umassmed.edu/es/vitiligo/blog/blog-posts1/2020/03/coronavirus/)
 
 
 
