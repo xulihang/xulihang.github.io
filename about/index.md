@@ -9,7 +9,7 @@ comments: no
 
 侬好！
 
-一个碌碌无为的英语专业学生。。。
+一个碌碌无为的英语专业学生。
 
 喜欢随手拍，折腾电子。单身中。
 
@@ -40,16 +40,10 @@ Paypal:
 
 ### 联系方式：
 
-{% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
-{% endif %}
 网站：[http://blog.xulihang.me](http://blog.xulihang.me)
 
 邮箱：[{{ site.email }}](mailto:{{ site.email }})
 
-GitHub : [http://github.com/xulihang](http://github.com/xulihang)
+GitHub：[http://github.com/xulihang](http://github.com/xulihang)
 
-----
-
-
-[![新浪微博](http://service.t.sina.com.cn/widget/qmd/{{ site.weibo }}/f78fbcd2/1.png)](http://weibo.com/u/{{ site.weibo }})
+微博：<http://weibo.com/u/{{ site.weibo }}>
