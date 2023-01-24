@@ -14,7 +14,7 @@ tags:
 
 ## 分类
 
-主要分为节段型(segmental vitiligo)和非节段（寻常）型(non-segmental vitiligo)白癜风。节段型在单侧沿皮神经节段分布，不会过人体的中线。非节段型则可以发生在双侧，且往往对称分布。[^guide]
+主要分为节段型(segmental vitiligo)和非节段（寻常）型(non-segmental vitiligo)白癜风。节段型在单侧沿皮神经节段分布（也有沿Blaschko线[^blaschko]），不会过人体的中线。非节段型则可以发生在双侧，且往往对称分布。[^guide]
 
 如果面积小，且只有一块，不能确定是否为节段型，则分类为未定类型。如果同时存在节段型和非节段型，则分类为混合型，但这种类型的概率很低。
 
@@ -38,6 +38,8 @@ tags:
 
 白癜风在正常人中有大约1%的发病率。如果父母有白癜风，孩子得这个病的机率会提高，大约为5%。[^family]但其实其它疾病也会有遗传的影响，比如家族有癌症史的人有更高的患癌风险。后天的诱发因素对患上白癜风常常有更大的影响。
 
+节段型和非节段型白癜风的成因并不一致，也不会遗传给子代[^sv]。
+
 ## 新冠病毒与白癜风
 
 患新冠会影响免疫功能，有人在感染新冠后患上了白癜风[^covid19]。
@@ -55,9 +57,11 @@ tags:
 
 [^wiki]: <https://en.wikipedia.org/wiki/Vitiligo>
 [^guide]: [白癜风诊疗共识（2021版）](http://www.pifukezazhi.com/CN/10.35541/cjd.20200785)
+[^blaschko]: [A Case of Segmental Vitiligo Along Blaschko's Lines](https://pubmed.ncbi.nlm.nih.gov/33911526/)
 [^hcp]: [Segmental vs Non-Segmental Vitiligo Treatment](https://www.hcplive.com/view/segmental-vs-non-segmental-vitiligo-treatment)
 [^viral]: [Viral causes of Vitiligo: A New Perspective for Vitiligo Pathogenesis](https://medwinpublishers.com/VIJ/VIJ16000181.pdf)
 [^family]: [Will my children/family get vitiligo?](https://www.umassmed.edu/vitiligo/blog/blog-posts1/2014/06/will-my-childrenfamily-get-vitiligo/)
+[^sv]: [节段型白癜风的研究进展. 中国皮肤性病学杂志](http://61.175.198.136:8083/rwt/288/http/GEZC6MJZFZZUPLSSG63B/kcms/detail/detail.aspx?recid=&FileName=ZBFX201606034&DbName=CJFDLAST2016&DbCode=CJFQ&uid=WHZIMlhKL29SQzZoMzFKcFZ5cDFWSjBuYjA1VVFkN1ZmN3J5c0dtbzhIK1ExVlB3)
 [^covid19]: [Vitiligo following COVID-19: A case report and review of pathophysiology](https://www.jaadcasereports.org/article/S2352-5126(22)00076-5/fulltext)
 [^covid19blog]: [Coronavirus and vitiligo](https://www.umassmed.edu/es/vitiligo/blog/blog-posts1/2020/03/coronavirus/)
 
