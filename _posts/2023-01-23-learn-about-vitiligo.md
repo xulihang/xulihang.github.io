@@ -46,12 +46,19 @@ tags:
 
 白癜风患者的免疫功能通常被认为存在问题，但它一般跟皮肤有关，并不影响免疫系统战胜新冠病毒。[^covid19blog]
 
+## 白癜风的心理问题
+
+其实相比于癌症等其它疾病，白癜风是相当轻微的问题，仅仅是影响美观，虽然大面积的皮损亦会影响健康。
+
+患者患此病不必有太大的心理压力，心态的调节对白癜风的康复十分重要。
+
 ## 相关资料
 
 * [Immediate treatment is necessary for Segmental Vitiligo](https://www.youtube.com/watch?v=afhMwyYxlsk)
 * 健康密码白癜风系列节目：[20140701，张书元谈白癜风](http://www.le.com/ptv/vplay/20209407.html)、[20150622，科学治疗白癜风](https://v.qq.com/x/cover/mzc00200iig0a1u/m0016zsv04d.html)、[20150608，走出白癜风治疗的误区](https://www.iqiyi.com/v_19rroijqoc.html)
 * [求问在北京看白癜风的医院，谢谢各位了](https://bbs.pku.edu.cn/v2/post-read.php?bid=244&threadid=15143020)
 * [关于白癜风遗传问题](https://bbs.pku.edu.cn/v2/post-read.php?bid=244&threadid=15174195)
+* [浅谈“白癜风病”其实不是“病”，是“现象”！](https://www.bbsls.net/thread-2939049-1-1.html)
 
 ## 参考文献
 
