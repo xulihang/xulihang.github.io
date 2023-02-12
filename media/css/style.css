@@ -162,6 +162,10 @@ background: #83BF73;
   margin-left: 2em;
 }
 
+.post li .highlighter-rouge {
+  margin-left: 0;
+}
+
 
 @media screen and (max-device-width: 600px){
     #container{ width: auto; } 
