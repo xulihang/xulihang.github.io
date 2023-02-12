@@ -158,6 +158,10 @@ color: white;
 background: #83BF73;
 }
 
+.post .highlighter-rouge {
+  margin-left: 2em;
+}
+
 
 @media screen and (max-device-width: 600px){
     #container{ width: auto; } 
