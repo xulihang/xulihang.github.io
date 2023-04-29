@@ -33,3 +33,77 @@ addLayers.jsx，根据ImageTrans导出的数据文件，给图片添加文字层
 ```
 
 JavaScript不是我的主力语言，所以折腾起来还是比较费劲。有一款漫画翻译标号工具叫LabelPlus，对PS脚本的利用比较充分。脚本项目地址：[PS-Script](https://github.com/LabelPlus/PS-Script)
+
+## 2023-04-29 更新
+
+Photoshop文档里介绍的功能比较有限，很多功能，比如选中某段文字设置行内样式是没有讲怎么操作的。这个时候需要使用ActionDescriptor处理。
+
+比如下面这段代码，设置当前文本图层前5个字符为仿斜体仿粗体，颜色为红色，文字大小为36：
+
+```js
+var idtextLayer = stringIDToTypeID("textLayer");
+var idordinal = stringIDToTypeID("ordinal");
+var idtargetEnum = stringIDToTypeID("targetEnum");
+var idnull = charIDToTypeID( "null" );
+var idfrom = charIDToTypeID("From");
+var idto = stringIDToTypeID("to");
+var idtextStyle = stringIDToTypeID("textStyle");
+var idtextStyleRange = stringIDToTypeID("textStyleRange");
+var idset = stringIDToTypeID("set");
+var idsize = stringIDToTypeID("size");
+var idpixelsUnit = stringIDToTypeID("pixelsUnit");
+var idcolor = stringIDToTypeID("color");
+var idRd = stringIDToTypeID("red");
+var idGrn = stringIDToTypeID("grain");
+var idBl = stringIDToTypeID("blue");
+var idRGBColor = stringIDToTypeID("RGBColor");
+
+var activeLayer = activeDocument.activeLayer;
+var start = 0;
+var end = 5;
+var fontSize = 36;
+if (activeLayer.kind === LayerKind.TEXT) {
+    if ((activeLayer.textItem.contents !== "") && (start >= 0) && (end <= activeLayer.textItem.contents.length)) {
+
+        var reference = new ActionReference();
+        reference.putEnumerated(idtextLayer, idordinal, idtargetEnum);
+
+        var action = new ActionDescriptor();
+        action.putReference(idnull, reference);
+
+        var textAction = new ActionDescriptor();
+
+        var actionList = new ActionList();
+        var textRange = new ActionDescriptor();
+        textRange.putInteger(idfrom, start);
+        textRange.putInteger(idto, end);
+
+        var formatting = new ActionDescriptor();
+
+        formatting.putUnitDouble(idsize, idpixelsUnit, fontSize);
+        var idsyntheticItalic = stringIDToTypeID( "syntheticItalic" );
+        formatting.putBoolean(idsyntheticItalic, true);
+        var idsyntheticBold = stringIDToTypeID( "syntheticBold" );
+        formatting.putBoolean(idsyntheticBold, true);
+        
+        var colorAction = new ActionDescriptor();
+        colorAction.putDouble(idRd, 255);
+        colorAction.putDouble(idGrn, 0);
+        colorAction.putDouble(idBl, 0);
+        formatting.putObject(idcolor, idRGBColor, colorAction);
+
+        textRange.putObject(idtextStyle, idtextStyle, formatting);
+        actionList.putObject(idtextStyleRange, textRange);
+        textAction.putList(idtextStyleRange, actionList);
+        action.putObject(idto, idtextLayer, textAction);
+        executeAction(idset, action, DialogModes.NO);
+    }
+}
+```
+
+但我们要怎么知道如何写这些操作？Adobe官方有提供一个叫[ScriptingListener](https://helpx.adobe.com/photoshop/kb/downloadable-plugins-and-content.html#ScriptingListenerplugin)的插件，安装后可以在桌面输出在Photoshop中操作对应的动作脚本供开发参考。
+
+有一个系列博客专门讲Photoshop脚本的开发，其中有介绍ActionDescriptor的部分：[【CEP教程-8】Action Manager从好奇到劝退 - 上篇](https://blog.cutterman.cn/2021/12/12/action-manager-part1/)。
+
+
+
