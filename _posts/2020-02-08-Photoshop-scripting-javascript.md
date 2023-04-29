@@ -17,6 +17,7 @@ tags: CAT
 1. [Adobe ExtendScript API documentation](http://yearbook.github.io/esdocs/#/)。用在Adobe中的JavaScript叫做ExtendScript，补充了很多API接口，比如本地文件读写的接口。
 2. [Learn How to Script Adobe Photoshop CS2](http://www.adobepress.com/articles/article.asp?p=433750&seqNum=12)，较为全面的教程。
 3. [JSON在线工具](https://www.sojson.com/)，查看导出的json时可以使用。
+4. [Script Arsenal for Photoshop](http://video-books.net/script-arsenal/en/overview.htm) Photoshop脚本兵器库，提供一系列脚本示例
 
 下面是我觉得可以写一下的注意事项：
 
