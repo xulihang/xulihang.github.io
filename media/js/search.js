@@ -66,7 +66,7 @@ function getHrefByFilename(filename){
   filename = filename.substring(filename.indexOf("-")+1,filename.length);
   filename = filename.substring(filename.indexOf("-")+1,filename.length);
   const href = filename.substring(filename.indexOf("-")+1,filename.lastIndexOf("."));
-  return href;
+  return "/"+href+"/";
 }
 
 function getHighlights(content){
