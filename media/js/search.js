@@ -1,7 +1,7 @@
 let posts;
 let index = new FlexSearch.Index({
   tokenize: "forward",
-  encode: str => str.replace(/([\u4e00-\u9fa5])/g, "$1 ").split(" ")
+  encode: str => str.replace(/[:"“”：]/g, " ").replace(/\n/g, " ").replace(/([\u4e00-\u9fa5])/g, " $1 ").split(" ")
 });
 
 document.getElementsByClassName("search-button")[0].addEventListener("click",function(){
