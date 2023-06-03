@@ -16,4 +16,9 @@ tags:
 
 最后按战役顺序排列做了一个星际争霸双语剧情书，放在gitbook上，链接如下：[http://xulihang.gitbooks.io/starcraft-plot/content](http://xulihang.gitbooks.io/starcraft-plot/content)
  
+
+## 2023-06-03 更新
+
+因为文件名有空格的问题，Gitbook上的页面访问会有问题。我在GitHub上重新放了一份：<https://github.com/xulihang/StarCraft-Plot/>
+
   
