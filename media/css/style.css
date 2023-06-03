@@ -170,6 +170,10 @@ code.highlighter-rouge {
   margin-left: 0;
 }
 
+.hightlighted {
+  background: yellow;
+}
+
 @media screen and (max-device-width: 600px){
     #container{ width: auto; } 
     .post iframe{
