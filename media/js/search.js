@@ -53,6 +53,7 @@ function buildSearchResultItem(post){
   const link = document.createElement("a");
   link.href = getHrefByFilename(post.filename);
   link.innerText = getTitle(post.text);
+  link.style.color = "blue";
   const highlights = document.createElement("div");
   highlights.innerHTML = getHighlights(post.text)
   title.appendChild(link);
