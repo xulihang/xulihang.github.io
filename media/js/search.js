@@ -7,6 +7,12 @@ let index = new FlexSearch.Index({
 document.getElementsByClassName("search-button")[0].addEventListener("click",function(){
   search();
 });
+document.getElementsByClassName("keywords")[0].addEventListener("keydown",async function(event){
+  if (event.code === "Enter") {
+    search();
+  }
+});
+
 indexDocument();
 
 function search(){
