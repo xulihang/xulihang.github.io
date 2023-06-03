@@ -116,7 +116,7 @@ function downloadPosts(){
     }
     const req = new XMLHttpRequest();
     req.addEventListener("load", reqListener);
-    req.open("GET", "posts.json");
+    req.open("GET", "/posts.json");
     req.send();
   });
 }
