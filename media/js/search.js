@@ -42,6 +42,9 @@ function listSearchResults(results){
       container.appendChild(item);
     }
   }
+  const statistics = document.createElement("div");
+  statistics.innerText = "找到"+container.childNodes.length+"条结果：";
+  container.insertBefore(statistics, container.childNodes[0]);
 }
 
 function allMatched(post) {
