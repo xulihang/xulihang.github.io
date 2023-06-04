@@ -113,9 +113,14 @@ function checkURLParamAndSearch(){
 }
 
 async function indexDocument(){
+  let downloaded = await localforage.getItem("posts");
+  if (await needToDownload(downloaded)) {
+    console.log("需要重新下载");
+    downloaded = await downloadPosts();
+    await localforage.setItem("posts",downloaded);
+  }
   updateStatus("索引中……");
-  const jsonString = await downloadPosts();
-  const result = JSON.parse(jsonString);
+  const result = JSON.parse(downloaded.responseText);
   posts = result.posts;
   for (let i = 0; i < posts.length; i++) {
     const post = posts[i];
@@ -130,12 +135,37 @@ function downloadPosts(){
     updateStatus("下载博客内容中……");
     function reqListener() {
       updateStatus("");
-      resolve(this.responseText);
+      const lastModified = Date.parse(req.getResponseHeader("Last-Modified"));
+      resolve({responseText:this.responseText,lastModified:lastModified});
     }
     const req = new XMLHttpRequest();
     req.addEventListener("load", reqListener);
     req.open("GET", "/posts.json");
     req.send();
+  });
+}
+
+function needToDownload(downloaded){
+  return new Promise(function(resolve){
+    if (!downloaded) {
+      resolve(true);
+    }else{
+      function getHeaderTime() {
+        const lastModified = Date.parse(this.getResponseHeader("Last-Modified"));
+        if (lastModified > downloaded.lastModified) {
+          resolve(true);
+        }else{
+          resolve(false);
+        }
+      }
+      const req = new XMLHttpRequest();
+      req.open(
+        "HEAD", // use HEAD when you only need the headers
+        "/posts.json"
+      );
+      req.onload = getHeaderTime;
+      req.send();
+    }
   });
 }
 
