@@ -1,3 +1,7 @@
+---
+# Content for Full-Text Search
+layout: null
+---
 {
     "results":[
         {% assign index = 0 %}
