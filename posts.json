@@ -3,7 +3,7 @@
 layout: null
 ---
 {
-    "results":[
+    "posts":[
         {% assign index = 0 %}{% for post in site.posts %}{
                 "id": {% increment index %},
                 "title": {{ post.title | jsonify }},
