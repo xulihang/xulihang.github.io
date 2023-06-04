@@ -4,6 +4,7 @@
         {% for post in site.posts %}
             {
                 "id": {{ index }},
+                "title": {{ post.title }},
                 "text": {{ post.content | strip_html | normalize_whitespace | jsonify }},
                 "url": {{ post.url | relative_url | jsonify }}
             }{%- unless forloop.last -%},{%- endunless -%}
