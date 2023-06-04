@@ -73,10 +73,17 @@ function buildSearchResultItem(post){
   link.href = post.url;
   link.innerText = post.title
   link.style.color = "blue";
+  const postDateContainer = document.createElement("div");
+  const postDate = document.createElement("time");
+  postDate.setAttribute("datetime",post.date);
+  postDate.innerText = post.date;
+  postDate.style.color = "#999999";
+  postDateContainer.appendChild(postDate);
   const highlights = document.createElement("div");
   highlights.innerHTML = getHighlights(post.text)
   title.appendChild(link);
   container.appendChild(title);
+  container.appendChild(postDateContainer);
   container.appendChild(highlights);
   return container;
 }
