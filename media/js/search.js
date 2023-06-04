@@ -13,6 +13,11 @@ document.getElementsByClassName("keywords")[0].addEventListener("keydown",async 
   }
 });
 
+window.addEventListener("popstate", (event) => {
+  console.log(event);
+  checkURLParamAndSearch();
+});
+
 indexDocument();
 
 function search(){
@@ -21,6 +26,11 @@ function search(){
   const results = index.search(keywords);
   console.log(results);
   listSearchResults(results);
+  const newURL = window.location.origin + window.location.pathname + "?keywords=" + encodeURIComponent(keywords);
+  if (newURL != window.location.href) {
+    //window.location.replace(newURL);
+    history.pushState(null, null, newURL);
+  }
   updateStatus("");
 }
 
@@ -105,6 +115,13 @@ function getTitle(content){
   }
 }
 
+function checkURLParamAndSearch(){
+  if (getURLParameter("keywords")){
+    document.getElementsByClassName("keywords")[0].value = getURLParameter("keywords");
+    search();
+  }
+}
+
 async function indexDocument(){
   updateStatus("索引中……");
   const jsonString = await downloadPosts();
@@ -114,6 +131,7 @@ async function indexDocument(){
     const post = posts[i];
     index.add(post.id,post.text);
   }
+  checkURLParamAndSearch();
   updateStatus("");
 }
 
@@ -133,4 +151,15 @@ function downloadPosts(){
 
 function updateStatus(info){
   document.getElementsByClassName("status")[0].innerText = info;
+}
+
+function getURLParameter(key) {
+  let paramString = window.location.href.split('?')[1];
+  let queryString = new URLSearchParams(paramString);
+  for(let pair of queryString.entries()) {
+    if (pair[0] === key) {
+      return pair[1];
+    }
+  }
+  return undefined;
 }
