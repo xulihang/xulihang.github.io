@@ -70,8 +70,8 @@ function buildSearchResultItem(post){
   const container = document.createElement("div");
   const title = document.createElement("h3");
   const link = document.createElement("a");
-  link.href = getHrefByFilename(post.filename);
-  link.innerText = getTitle(post.text);
+  link.href = post.url;
+  link.innerText = post.title
   link.style.color = "blue";
   const highlights = document.createElement("div");
   highlights.innerHTML = getHighlights(post.text)
@@ -79,14 +79,6 @@ function buildSearchResultItem(post){
   container.appendChild(title);
   container.appendChild(highlights);
   return container;
-}
-
-//2014-01-20-hello.md -> hello
-function getHrefByFilename(filename){
-  filename = filename.substring(filename.indexOf("-")+1,filename.length);
-  filename = filename.substring(filename.indexOf("-")+1,filename.length);
-  const href = filename.substring(filename.indexOf("-")+1,filename.lastIndexOf("."));
-  return "/"+href+"/";
 }
 
 function getHighlights(content){
@@ -102,17 +94,6 @@ function getContext(content,keywords){
   const startIndex = Math.max(0,content.indexOf(keywords) - 50);
   const endIndex = Math.min(content.indexOf(keywords) + 50 + keywords.length, content.length);
   return content.substring(startIndex, endIndex);
-}
-
-function getTitle(content){
-  const lines = content.split("\n");
-  for (let i = 0; i < lines.length; i++) {
-    let line = lines[i];
-    if (line.startsWith("title: ")) {
-      line = line.substring("title: ".length,line.length);
-      return line.replace("\"","");
-    }
-  }
 }
 
 function checkURLParamAndSearch(){
