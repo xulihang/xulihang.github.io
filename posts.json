@@ -7,6 +7,7 @@ layout: null
         {% for post in site.posts %}{
                 "id": {% increment index %},
                 "title": {{ post.title | jsonify }},
+                "date": {{ post.date | date:"%Y-%m-%d" | jsonify }},
                 "text": {{ post.content | strip_html | normalize_whitespace | jsonify }},
                 "url": {{ post.url | relative_url | jsonify }}
             }{%- unless forloop.last -%},{%- endunless -%}
