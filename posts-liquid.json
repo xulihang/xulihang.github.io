@@ -1,0 +1,13 @@
+{
+    "results":[
+        {% assign index = 0 %}
+        {% for post in site.posts %}
+            {
+                "id": {{ index }},
+                "text": {{ post.content | strip_html | normalize_whitespace | jsonify }},
+                "url": {{ post.url | relative_url | jsonify }}
+            }{%- unless forloop.last -%},{%- endunless -%}
+            {% increment index %}
+        {%- endfor -%}
+    ]
+}
