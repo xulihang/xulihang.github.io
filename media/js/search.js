@@ -59,7 +59,7 @@ function listSearchResults(results){
 
 function allMatched(post) {
   const keywords = document.getElementsByClassName("keywords")[0].value;
-  if (post.text.indexOf(keywords) != -1) {
+  if (getContentToIndex(post).indexOf(keywords) != -1) {
     return true;
   }else{
     return false;
@@ -90,6 +90,10 @@ function getHighlights(content){
   return context;
 }
 
+function getContentToIndex(post){
+  return post.title + " " + post.text;
+}
+
 function getContext(content,keywords){
   const startIndex = Math.max(0,content.indexOf(keywords) - 50);
   const endIndex = Math.min(content.indexOf(keywords) + 50 + keywords.length, content.length);
@@ -110,7 +114,7 @@ async function indexDocument(){
   posts = result.posts;
   for (let i = 0; i < posts.length; i++) {
     const post = posts[i];
-    index.add(post.id,post.text);
+    index.add(post.id,getContentToIndex(post));
   }
   checkURLParamAndSearch();
   updateStatus("");
