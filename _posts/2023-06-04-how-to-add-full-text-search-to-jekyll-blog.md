@@ -72,6 +72,8 @@ let index = new FlexSearch.Index({
 
 ![gzipped json](/album/gzip.jpg)
 
+注意这里缓存时间只有10分钟，我们可以把这个JSON文件存到indexedDB里做持久存储，然后根据last-modified信息判断是不是要更新。
+
 ## 构建一个搜索页面
 
 1. 新建一个`search`目录，在里面放一个`index.html`文件。
