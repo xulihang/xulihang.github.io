@@ -53,8 +53,7 @@ let index = new FlexSearch.Index({
 3. 使用Jekyll的Liquid保存站点内容为JSON。这里需要使用一系列filter来使内容符合JSON规范。保存的内容包含博客标题、、正文、发布时间和URL。
 
    ```
-   {% raw %}
-   {
+   {% raw %}{
        "posts":[
            {% for post in site.posts %}{
                    "id": {% increment index %},
@@ -65,8 +64,7 @@ let index = new FlexSearch.Index({
                }{%- unless forloop.last -%},{%- endunless -%}
            {%- endfor -%}
        ]
-   }
-   {% endraw %}
+   }{% endraw %}
    ```
    
 最终在站点构建时会生成1MB多的一个JSON文件。gZip压缩后，实际传输的大小500KB不到。
@@ -99,9 +97,9 @@ let index = new FlexSearch.Index({
 
    ```html
    <head>
-   {% if page.enableSearch %}
+   {% raw %}{% if page.enableSearch %}
        <script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.7.31/dist/flexsearch.bundle.js"></script>
-       {% endif %}
+       {% endif %}{% endraw %}
    </head>
    ```
    
