@@ -93,7 +93,7 @@ function getHighlights(content){
 function getContext(content,keywords){
   const startIndex = Math.max(0,content.indexOf(keywords) - 50);
   const endIndex = Math.min(content.indexOf(keywords) + 50 + keywords.length, content.length);
-  return content.substring(startIndex, endIndex);
+  return content.substring(startIndex, endIndex)+"...";
 }
 
 function checkURLParamAndSearch(){
