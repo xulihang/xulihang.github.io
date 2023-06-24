@@ -119,8 +119,8 @@ tags: CAT
 JavaScript实现的纯前端全文检索还是有挺多的应用的，特别是做成静态页面的技术文档，比如Sphinx、mkdocs都提供全文检索功能。
 
 相关链接：
-	
-[mkdocs如何支持中文搜索](https://www.jianshu.com/p/d5308e4c8841)
 
-[使用lunr.js为Wiki系统增加全文搜索支持](https://zohead.com/archives/wiki-lunr-js/)
+* [mkdocs如何支持中文搜索](https://www.jianshu.com/p/d5308e4c8841)
+* [使用lunr.js为Wiki系统增加全文搜索支持](https://zohead.com/archives/wiki-lunr-js/)
+* [给Jekyll站点添加全文检索功能（基于FlexSearch）](/how-to-add-full-text-search-to-jekyll-blog/)
 
