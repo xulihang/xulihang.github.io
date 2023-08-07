@@ -3,7 +3,7 @@ date: 2023-02-15 21:12:50+08:00
 layout: post
 title: 恋爱需要学习吗
 categories: 随笔
-tags: 
+tags: 爱情
 ---
 
 恋爱需要学习吗？[有人](https://www.bilibili.com/video/BV1uY411L7QJ/)说不需要，喜欢一个人，自然而然地去接近，展现自己真实的一面最好。特别是不用学什么套路，会影响自己的行动。也[有人](https://www.bilibili.com/video/BV1KZ4y1C7Bk/)说需要，爱情是复杂的，要避免卷入爱情的漩涡。
