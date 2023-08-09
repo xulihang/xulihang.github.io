@@ -6,6 +6,10 @@ categories: 随笔
 tags: 爱情
 ---
 
+配乐：
+
+<iframe src="//player.bilibili.com/player.html?aid=201504264&bvid=BV17h411Z7Tf&cid=220942873&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 《爱的艺术》是由弗洛姆编写的一本关于爱的书籍。他认为爱是一门艺术，就像音乐、设计一样，需要我们通过学习去学会欣赏和演绎的方式。全书主要讨论了理论，并略微讨论了下如何实践。
 
 本文呢，我不具体讲这本书，我想基于自己的经历做一些讨论。
