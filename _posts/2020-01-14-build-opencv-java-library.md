@@ -30,6 +30,8 @@ OpenCV的Java接口绑定主要有两种，一种是bytedeco提供的JavaCV，�
 	```shell
 	export JAVA_HOME="/usr/lib/jvm/bellsoft-java8-full-amd64/"
 	export ANT_HOME="/usr/share/ant"
+	PATH=$PATH:$ANT_HOME/bin
+	export ANT_HOME PATH
 	```
 	
 4. 在build文件夹下执行make -j8，８个线程并行进行编译
