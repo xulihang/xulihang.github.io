@@ -1,7 +1,7 @@
 let posts;
 let index = new FlexSearch.Index({
   tokenize: "forward",
-  encode: str => str.replace(/[:"“”、：]/g, " ").replace(/\n/g, " ").replace(/([\u4e00-\u9fa5])/g, " $1 ").split(" ")
+  encode: str => str.toLowerCase().replace(/[:"“”、：]/g, " ").replace(/\n/g, " ").replace(/([\u4e00-\u9fa5])/g, " $1 ").split(" ")
 });
 
 document.getElementsByClassName("search-button")[0].addEventListener("click",function(){
@@ -22,7 +22,7 @@ indexDocument();
 
 function search(){
   updateStatus("搜索中……");
-  const keywords = document.getElementsByClassName("keywords")[0].value;
+  const keywords = document.getElementsByClassName("keywords")[0].value.toLowerCase();
   const results = index.search(keywords);
   console.log(results);
   listSearchResults(results);
