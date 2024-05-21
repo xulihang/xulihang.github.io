@@ -59,9 +59,14 @@ function listSearchResults(results){
 
 function allMatched(post) {
   const keywords = document.getElementsByClassName("keywords")[0].value;
-  if (getContentToIndex(post).indexOf(keywords) != -1) {
+  const keywordsLowerCase = keywords.toLowerCase();
+  const content = getContentToIndex(post);
+  if (content.indexOf(keywords) != -1) {
     return true;
   }else{
+    if (content.indexOf(keywordsLowerCase) != -1) { //match lower case
+      return true;
+    }
     return false;
   }
 }
