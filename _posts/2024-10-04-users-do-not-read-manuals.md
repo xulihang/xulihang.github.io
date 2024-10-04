@@ -16,7 +16,9 @@ tags:
 
 这也是专业人员存在的意义，他们对产品更加熟悉，不会犯我这样的错误，维修的效率也更高，客户愿意花费较多的人工费用。
 
+这里再引用1991年Marc Rettig的论文《Nobody Reads Documention》的一句话：
 
+> People are always already trying things out, thinking things through, trying to relate what they already know to what is going on, recovering from errors.
 
 
 
