@@ -2,7 +2,7 @@
 date: 2024-10-04 20:30:50+08:00
 layout: post
 title: 用户与说明书
-categories: 技术随笔
+categories: 随笔
 tags: 
 ---
 
