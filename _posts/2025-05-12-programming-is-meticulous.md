@@ -6,7 +6,7 @@ categories: 随笔
 tags: 
 ---
 
-浏览器URL参数有一个用来跳转到并高亮第一个匹配到的文本的参数`#:~:text`。
+浏览器URL参数中有一个用来跳转到并高亮第一个匹配到的文本的参数`#:~:text`。
 
 例：<https://blog.xulihang.me/the-essence-of-computer-programming/#:~:text=%E6%9D%A1%E7%A0%81>
 
