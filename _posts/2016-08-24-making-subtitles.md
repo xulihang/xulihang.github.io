@@ -6,7 +6,7 @@ categories: 随笔
 tags: CAT 翻译
 ---
 
-2025年更新：我开发了计算机辅助音视频翻译[Silhouette](https://www.basiccat.org/zh/silhouette/)，可以自动识别语音，生成带时间轴的字幕文件，并提供一体化的操作界面，可以提高翻译效率。
+2025年更新：我开发了计算机辅助音视频翻译软件[Silhouette](https://www.basiccat.org/zh/silhouette/)，可以自动识别语音，生成带时间轴的字幕文件，并提供一体化的操作界面，可以提高翻译效率。
 
 ----------
 
