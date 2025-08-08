@@ -204,3 +204,14 @@ let index = new FlexSearch.Index({
 ![Full-text search screenshot](/album/full-text-search.jpg)
 
 全文检索还有很多可以优化的地方，比如大小写匹配、词型还原、模糊匹配、条件检索等等。用于本站的话，目前的功能也足够了。
+
+## 其它方案
+
+这里再收录些其它前端全文检索方案。
+
+1. 事先建立索引，检索时获取内容页面提供上下文。这个是Sphinx文档的处理方式（[在线例子](https://docs.scandit.com/6.28/data-capture-sdk/web/index.html)）。
+
+……待补充
+
+
+
