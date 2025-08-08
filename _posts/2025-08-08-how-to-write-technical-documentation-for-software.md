@@ -54,7 +54,7 @@ API文档的内容安排上，除了单独的接口页面，还要有能显示�
 
 #### 命名空间
 
-
+```md
 ## Namespace XLH.OCR
 
 ### Methods
@@ -78,10 +78,11 @@ API文档的内容安排上，除了单独的接口页面，还要有能显示�
 * OCRSpaceOCR
 * GoogleOCR
 
+```
 
 #### 类
 
-
+```md
 ## Class GoogleOCR
 
 Extends `BaseOCR`
@@ -92,9 +93,9 @@ Creates a new Google OCR object.
 
 Syntax:
 
-```ts
+\```ts
 new GoogleOCR()
-```
+\```
 
 
 ## Methods
@@ -105,9 +106,9 @@ Detect text in a image.
 
 Syntax:
 
-```ts
+\```ts
 detect(source:HTMLCanvasElement|HTMLImageElement):OCRResult
-```
+\```
 
 Parameters:
 
@@ -118,40 +119,42 @@ source: the image to detect. It can be a canvas element or an image element.
 ### apiKey
 
 The API key for Google Cloud OCR API.
-
+```
 
 #### 接口
 
+```md
 ## OCRResult
 
 Syntax:
 
-```ts
+\```ts
 interface OCRResult{
   textLines:TextLineResult[];
 }
+\```
 ```
 
 
 #### 事件
 
+```md
 ## OCRProgressEvent
 
 Triggered when the OCR progress info is updated.
 
 Syntax:
 
-```ts
+\```ts
 XLH.OCR.on("OCRProgress",function(event:OCRProgressEvent) {
   console.log("progress: "+event.progress);
 })
-```
+\```
 
 Instance properties:
 
 progress: progress of the OCR action. The value is between 0 and 1.
-
-
+```
 
 
 
