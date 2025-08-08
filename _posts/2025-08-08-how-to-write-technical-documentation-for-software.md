@@ -54,8 +54,7 @@ API文档的内容安排上，除了单独的接口页面，还要有能显示�
 
 #### 命名空间
 
-```md
-{% raw %}
+
 ## Namespace XLH.OCR
 
 ### Methods
@@ -79,13 +78,10 @@ API文档的内容安排上，除了单独的接口页面，还要有能显示�
 * OCRSpaceOCR
 * GoogleOCR
 
-{% endraw %}
-```
 
 #### 类
 
-```md
-{% raw %}
+
 ## Class GoogleOCR
 
 Extends `BaseOCR`
@@ -122,13 +118,10 @@ source: the image to detect. It can be a canvas element or an image element.
 ### apiKey
 
 The API key for Google Cloud OCR API.
-{% endraw %}
-```
+
 
 #### 接口
 
-```md
-{% raw %}
 ## OCRResult
 
 Syntax:
@@ -139,14 +132,9 @@ interface OCRResult{
 }
 ```
 
-{% endraw %}
-```
-
 
 #### 事件
 
-```md
-{% raw %}
 ## OCRProgressEvent
 
 Triggered when the OCR progress info is updated.
@@ -157,13 +145,13 @@ Syntax:
 XLH.OCR.on("OCRProgress",function(event:OCRProgressEvent) {
   console.log("progress: "+event.progress);
 })
+```
 
 Instance properties:
 
 progress: progress of the OCR action. The value is between 0 and 1.
-```
-{% endraw %}
-```
+
+
 
 
 
