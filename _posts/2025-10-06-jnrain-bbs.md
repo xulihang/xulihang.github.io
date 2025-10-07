@@ -40,32 +40,32 @@ BBS一般需要用学校的内网访问，内网有速度快、不用流量等�
 
 进站：
 
-[进站](/album/jnrain/jinzhan.jpg)
+![进站](/album/jnrain/jinzhan.jpg)
 
 iOS客户端：
 
-[ios](/album/jnrain/ios.jpg)
+![ios](/album/jnrain/ios.jpg)
 
-[ios-app-store](/album/jnrain/ios-app-store.jpg)
+![ios-app-store](/album/jnrain/ios-app-store.jpg)
 
 听雨专属表情包：
 
-[](/album/jnrain/01big.gif)
-[](/album/jnrain/02big.gif)
-[](/album/jnrain/03big.gif)
-[](/album/jnrain/04big.gif)
-[](/album/jnrain/05big.gif)
-[](/album/jnrain/06big.gif)
-[](/album/jnrain/07big.gif)
-[](/album/jnrain/08big.gif)
-[](/album/jnrain/09big.gif)
-[](/album/jnrain/10big.gif)
-[](/album/jnrain/11big.gif)
-[](/album/jnrain/12big.gif)
-[](/album/jnrain/13big.gif)
-[](/album/jnrain/14big.gif)
-[](/album/jnrain/15big.gif)
-[](/album/jnrain/16big.gif)
-[](/album/jnrain/17big.gif)
-[](/album/jnrain/18big.gif)
+![](/album/jnrain/01big.gif)
+![](/album/jnrain/02big.gif)
+![](/album/jnrain/03big.gif)
+![](/album/jnrain/04big.gif)
+![](/album/jnrain/05big.gif)
+![](/album/jnrain/06big.gif)
+![](/album/jnrain/07big.gif)
+![](/album/jnrain/08big.gif)
+![](/album/jnrain/09big.gif)
+![](/album/jnrain/10big.gif)
+![](/album/jnrain/11big.gif)
+![](/album/jnrain/12big.gif)
+![](/album/jnrain/13big.gif)
+![](/album/jnrain/14big.gif)
+![](/album/jnrain/15big.gif)
+![](/album/jnrain/16big.gif)
+![](/album/jnrain/17big.gif)
+![](/album/jnrain/18big.gif)
 
