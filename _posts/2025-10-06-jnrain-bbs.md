@@ -22,7 +22,7 @@ BBS一般需要用学校的内网访问，内网有速度快、不用流量等�
 之前折腾智能手机时就习惯泡论坛的我，自然也开始在上面发帖了，不过那个时候人气已经一般了，我随便发个帖可能就上十大了。
 
 
-除了论坛，听雨还有一个BT站，可以自己做种，通过校园网分享资源，速度很快。
+除了论坛，听雨还有一个BT站（[网页快照](/album/jnrain/听雨bt.pdf)），可以自己做种，通过校园网分享资源，速度很快。
 
 听雨还有一个社团，但主要经营一些线下活动，不怎么参与线上的管理。社团有公关部、编辑部、美工部、技术部等部门设置。公关主要是拉赞助、编辑部是活动策划、美工部主要负责进站图、技术部则主要负责网页制作。听雨会组织真人图书馆、酒会等各种活动，有经营微博、微信公众号等各种账号。
 
@@ -34,8 +34,38 @@ BBS一般需要用学校的内网访问，内网有速度快、不用流量等�
 
 我在听雨的经历，其实和我现在在软件公司的经历类似。只是听雨的路子失败了，我们公司的路子还能继续走。
 
-我考上北京大学研究生后，也拥有了未名BBS的账号，但总归没有在听雨的那种感觉了。
+入学北京大学后，我也拥有了未名BBS的账号，但总归没有在听雨的那种感觉了。
 
+## 相关图片
 
+进站：
 
+[进站](/album/jnrain/jinzhan.jpg)
+
+iOS客户端：
+
+[ios](/album/jnrain/ios.jpg)
+
+[ios-app-store](/album/jnrain/ios-app-store.jpg)
+
+听雨专属表情包：
+
+[](/album/jnrain/01big.gif)
+[](/album/jnrain/02big.gif)
+[](/album/jnrain/03big.gif)
+[](/album/jnrain/04big.gif)
+[](/album/jnrain/05big.gif)
+[](/album/jnrain/06big.gif)
+[](/album/jnrain/07big.gif)
+[](/album/jnrain/08big.gif)
+[](/album/jnrain/09big.gif)
+[](/album/jnrain/10big.gif)
+[](/album/jnrain/11big.gif)
+[](/album/jnrain/12big.gif)
+[](/album/jnrain/13big.gif)
+[](/album/jnrain/14big.gif)
+[](/album/jnrain/15big.gif)
+[](/album/jnrain/16big.gif)
+[](/album/jnrain/17big.gif)
+[](/album/jnrain/18big.gif)
 
