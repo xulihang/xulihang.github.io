@@ -25,5 +25,5 @@ tags:
 
 ## 2026年更新
 
-专业OCR软件[ImageTrans](https://www.basiccat.org/zh/imagetrans/)支持使用超星阅读器导入PDZ文件，并且支持OCR、图像压缩、电子墨水漂白、双层可搜索PDF生成等功能，推荐使用它转换PDZ为PDF文件。
+专业OCR软件[ImageTrans](https://www.basiccat.org/zh/imagetrans/)支持使用超星阅读器导入PDZ文件，并且支持OCR、图像压缩、电子墨水漂白、纠偏、双层可搜索PDF生成等功能，推荐使用它转换PDZ为PDF文件。
 
