@@ -8,7 +8,7 @@ tags:
 
 最近突然很想买几台电脑，比如新的龙架构的龙芯电脑装Linux、Intel Haswell的电脑跑Windows 7、AMD 8745hs的电脑体验其强大的核显。但仔细一想，买来其实没什么实际用途。
 
-我这里就对曾今用过的电脑做个整理吧。
+我这里就对曾经用过的电脑做个整理吧。
 
 ## 联想天鹤640P
 
@@ -82,7 +82,7 @@ ST4121坏了后，我还是想有台反射屏的笔记本，于是400多买了�
 
 ## HP ZBook Studio G3
 
-有很多用户要英伟达的显卡，用CUDA加速PyTorch推理，但我手上没有n卡的设备，新的有独立显卡的设备都比较贵，我就2000元买了台2018年惠普的专业本HP ZBook Studio G3。它搭载6代i7 6820HQ CPU，4核8线程，2.7GHz-3.6GHz，双通道DDR4-2133 16GB内存，NVIDI AQuadro M1000M 4GB Maxwell架构的专业显卡，512MB NVEM SSD，15.6寸1080P触摸屏，仅重2KB，已经是我用过的最好的笔记本了。
+有很多用户要英伟达的显卡，用CUDA加速PyTorch推理，但我手上没有n卡的设备，新的有独立显卡的设备都比较贵，我就2000元买了台2018年惠普的专业本HP ZBook Studio G3。它搭载6代i7 6820HQ CPU，4核8线程，2.7GHz-3.6GHz，双通道DDR4-2133 16GB内存，NVIDIA Quadro M1000M 4GB Maxwell架构的专业显卡，512MB NVME SSD，15.6寸1080P触摸屏，仅重2KG，已经是我用过的最好的笔记本了。
 
 不过显卡还是差了点，和现在主流的设备不能比，Computer Capability是5，跑最新的深度学习很多都已经不支持了。Stable Difussion是512x512才0.2t/s，Whisper语音识别也很慢。
 
