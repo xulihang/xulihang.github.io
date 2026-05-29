@@ -70,7 +70,7 @@ End Sub
 
 竖排时需要遵循日语汉字的排版规则，例如：
 
-1. 感叹号、冒号居中，顿号、逗号和句号靠右排列
+1. 感叹号、冒号居中，拗音、促音、顿号、逗号和句号靠右排列
 2. 日语的延长音`—`需要进行旋转，类似的还有竖排引号『』。后者可以直接改用﹃﹄
 3. 英文单词向右旋转90度排列
 4. 位数较小的数字横向排列在一起
@@ -82,7 +82,7 @@ End Sub
 
 * [writing-mode - CSS: Cascading Style Sheets](https://developer.mozilla.org/zh-CN/docs/Web/CSS/writing-mode)
 * [VERTICAL LAYOUTS FOR CANVAS TEXT (CJK)](https://www.w3.org/blog/2008/05/canvas-text-and-cjk/)
-
+* 中华人民共和国国家标准 GB/T 15834-2011《标点符号用法》
 
 
 
