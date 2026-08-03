@@ -21,7 +21,114 @@ Power BI专注于数据导入、清洗、呈现这一整个流程，和Excel相�
 
 可以在Power BI中先建一个Semantic Model，通过Web获取这些数据，然后解析并保存。可以使用高级编辑器，使用以下命令进行存储：
 
-```
+```powerquery
+let
+    // 1. 定义基础域名和相对路径
+    // 使用 RelativePath 参数实现相对路径引用
+    BaseUrl = "https://blog.xulihang.me",
+    
+    // 2. 定义获取数据的日期范围（最近30天）
+    Days = 30,
+    EndDate = Date.AddDays(Date.From(DateTime.LocalNow()), -1),
+    StartDate = Date.AddDays(EndDate, -(Days - 1)),
+    
+    // 3. 生成日期列表
+    DateList = List.Dates(StartDate, Days, #duration(1,0,0,0)),
+    
+    // 4. 定义读取单个日志文件的函数
+    GetLog = (LogDate as date) as nullable table =>
+        let
+            // 将日期转为 YYYYMMDD 格式
+            DateStr = Date.ToText(LogDate, "yyyyMMdd"),
+            
+            // 使用 Web.Contents 和 RelativePath 获取文件
+            Response = try Web.Contents(
+                BaseUrl,
+                [
+                    RelativePath = "/" & DateStr & ".txt"
+                ]
+            ),
+            
+            // 如果文件不存在则返回 null
+            Result = if Response[HasError] then
+                null
+            else
+                let
+                    // 读取文件内容并按行分割
+                    Lines = Lines.FromBinary(Response[Value], null, null, 65001),
+                    
+                    // 解析每一行 CSV
+                    ParseLine = (line as text) =>
+                        let
+                            Parts = Text.Split(line, ","),
+                            Count = List.Count(Parts),
+                            
+                            // 假设至少有5列：时间, IP, 国家, UserAgent, 事件名称
+                            // 如果列数多于5，将中间多余列合并（处理 UserAgent 中可能包含逗号的情况）
+                            Result = if Count >= 5 then
+                                {
+                                    Parts{0},  // 事件时间
+                                    Parts{1},  // IP
+                                    Parts{2},  // 国家
+                                    Text.Combine(List.Range(Parts, 3, Count - 4), ","),  // UserAgent（可能包含逗号）
+                                    Parts{Count-1}  // 事件名称（最后一列）
+                                }
+                            else
+                                null
+                        in
+                            Result,
+                    
+                    // 过滤掉空行和解析失败的行
+                    Parsed = List.RemoveNulls(List.Transform(Lines, each ParseLine(_))),
+                    
+                    // 转换为表格
+                    TableData = Table.FromRows(
+                        Parsed,
+                        {"事件时间", "IP", "国家", "UserAgent", "事件名称"}
+                    ),
+                    
+                    // 添加日志日期列
+                    AddDate = Table.AddColumn(
+                        TableData,
+                        "日志日期",
+                        each LogDate,
+                        type date
+                    )
+                in
+                    AddDate
+        in
+            Result,
+    
+    // 5. 遍历所有日期，获取数据
+    Tables = List.RemoveNulls(List.Transform(DateList, each GetLog(_))),
+    
+    // 6. 统一所有表的结构（确保列一致）
+    CleanTables = List.Transform(
+        Tables,
+        each Table.SelectColumns(
+            _,
+            {"事件时间", "IP", "国家", "UserAgent", "事件名称", "日志日期"},
+            MissingField.UseNull
+        )
+    ),
+    
+    // 7. 合并所有表
+    Combined = Table.Combine(CleanTables),
+    
+    // 8. 设置正确的数据类型
+    ChangedType = Table.TransformColumnTypes(
+        Combined,
+        {
+            {"事件时间", type datetime},
+            {"IP", type text},
+            {"国家", type text},
+            {"UserAgent", type text},
+            {"事件名称", type text},
+            {"日志日期", type date}
+        }
+    )
+in
+    ChangedType
 ```
 
 
