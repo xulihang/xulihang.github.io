@@ -1,7 +1,7 @@
 ---
 date: 2026-08-03 15:39:50+08:00
 layout: post
-title: 学习PowerBI
+title: 学习Power BI
 categories: 笔记
 tags: 
 ---
