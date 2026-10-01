@@ -1,8 +1,13 @@
 markdown: kramdown
 plugins:
  - jekyll-paginate
+ - jekyll-relative-links
 permalink: /:title/
-url: blog.xulihang.me
+url: https://blog.xulihang.me
+baseurl: ""
+relative_links:
+  enabled: true
+  collections: true
 name: xulihang's blog
 author: xulihang
 qq: 110
